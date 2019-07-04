@@ -1,14 +1,11 @@
 {
   "title": "kjfkjsdhfkjh",
-  "pageContents": [
+  "contents": [
     {
-      "singleContent": "123"
+      "type": "textContentType"
     },
     {
-      "singleContent": "Hallo"
-    },
-    {
-      "singleContent": "123"
+      "type": "imageContentType"
     }
   ]
 }
