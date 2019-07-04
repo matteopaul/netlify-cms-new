@@ -1,0 +1,5 @@
+---
+type: textContentType
+title: Hallo
+---
+
