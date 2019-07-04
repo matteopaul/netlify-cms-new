@@ -3,6 +3,12 @@
   "pageContents": [
     {
       "singleContent": "123"
+    },
+    {
+      "singleContent": "Hallo"
+    },
+    {
+      "singleContent": "123"
     }
   ]
 }
