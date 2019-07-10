@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sentinel-Book";
+  src: url("/fonts/Sentinal-Book.otf");
+}
+
+@font-face {
+  font-family: "Sentinel-Book";
+  src: url("/fonts/Sentinal-BookItalic.otf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sentinel-Book";
+  src: url("/fonts/Sentinal-BoodItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sentinel-Book";
+  src: url("/fonts/Sentinal-Bold.otf");
+  font-weight: bold;
+}

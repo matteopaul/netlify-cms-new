@@ -47,4 +47,49 @@ body {
 .nav__link {
   margin-left: 20px;
 }
+@font-face {
+  font-family: "Gotham";
+  src: url("../assets/Gotham-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../assets/Gotham-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sentinel-Book";
+  src: url("../assets/Sentinel-Book.otf");
+}
+
+@font-face {
+  font-family: "Sentinel-Book";
+  src: url("../assets/Sentinel-BookItalic.otf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sentinel-Book";
+  src: url("../assets/Sentinel-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sentinel-Book";
+  src: url("../assets/Sentinel-Bold.otf");
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-family: "Gotham";
+  font-weight: bold;
+}
+
+h3, p {
+  font-family: "Sentiel-Book";
+}
 </style>

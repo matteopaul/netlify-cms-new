@@ -9,45 +9,60 @@ const fs = require('fs');
 //const textContentType = require('./dynamicContentTypes/textContentType');
 
 const pagesPath = path.join(__dirname, "pages");
+const contentPath = path.join(__dirname, "pageContents");
+const contentTypes = {};
 
 module.exports = function (api) {
   api.loadSource(store => {
 
-    const contentTypes = {};
-
     fs.readdirSync(path.join(__dirname, "dynamicContentTypes")).forEach(function(file) {
-      let currentName = file.split('.')[0];
+      let currentName = file.split('.')[0].toLowerCase();
       contentTypes[currentName] = store.addContentType({
         typeName: currentName
       })
-      contentTypes[currentName].addNode(JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file)));
+      //contentTypes[currentName].addNode(JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file)));
     })
+
+    fs.readdirSync(contentPath).forEach(function(file) {
+        let contenttype = file.split("-")[0];
+        let currentData = JSON.parse(fs.readFileSync(contentPath + "/" + file));
+        console.log(contenttype);
+        contentTypes[contenttype].addNode(currentData);
+    });
 
 
     const pages = store.addContentType({
       typeName: "PageStructure",
-      route: "/page/:id"
+      route: "/page/:slug"
     });
 
-
-    pages.addNode({
+    /*pages.addNode({
       id: "0",
       title: "erste Seite",
       contents: [store.createReference(contentTypes["imageContentType"].findNode()), store.createReference(contentTypes["textContentType"].findNode())]
-    })
+    })*/
 
 
     fs.readdirSync(pagesPath).forEach(function(file) {
 
-          let currentData = JSON.parse(fs.readFileSync(path.join(__dirname, "pages") + "/" + file));
+          let currentData = JSON.parse(fs.readFileSync(pagesPath + "/" + file));
           let items = [];
 
           currentData.contents.forEach(function(item) {
             for(let i = 0; i < Object.keys(contentTypes).length; i++) {
-              if(item.type === Object.keys(contentTypes)[i]) {
-                contentTypes[Object.keys(contentTypes)[i]].addNode(item);
+              let node = getNodeByTitle(Object.keys(contentTypes)[i], item.title);
+              if(node) {
+                items.push(node);
               }
+              /*if(item.type === Object.keys(contentTypes)[i]) {
+                const newItem = contentTypes[Object.keys(contentTypes)[i]].addNode(item);
+                items.push(store.createReference(newItem))
+              }*/
             }
+            /*var result = jsObjects.find(contentTypes => {
+              return contentTypes.title === "Hallo"
+            })*/
+
           });
 
           pages.addNode({
@@ -62,4 +77,14 @@ module.exports = function (api) {
   })
 
 
+}
+
+function getNodeByTitle(contentType, title) {
+  for(let i = 0; i < contentTypes[contentType].findNodes().length; i++) {
+    if(contentTypes[contentType].findNodes()[i].title === title) {
+      return contentTypes[contentType].findNodes()[i];
+    } else {
+      return null;
+    }
+  }
 }

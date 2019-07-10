@@ -8,9 +8,46 @@ public_folder: "/uploads"
 
 collections:
   - name: "pageStructure"
-    label: "PageStructure"
+    label: "Pages"
     folder: "pages"
     create: true
     slug: "{{slug}}"
+    extension: "json"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - label: "Contents"
+        allow_add: true
+        name: "contents"
+        widget: "list"
+        fields:
+          - name: "type"
+            widget: "relation"
+            collection: "pageContent"
+            searchFields: ["title", "type", "slug"]
+            valueField: "title"
+            displayFields: ["title", "type"]
+  - name: "pageContent"
+    label: "Page Content"
+    create: true
+    identifier_field: "title"
+    folder: "pageContents"
+    slug: "{{type}}-{{slug}}"
+    extension: "json"
+    fields:
+      - label: "Type:"
+        name: "type"
+        widget: "select"
+        options:
+          - {label: "Image", value: "imageContentType"}
+          - {label: "Text", value: "textContentType"}
+      - label: "Title:"
+        name: "title"
+        widget: "string"
+      - label: "Source:"
+        name: "src"
+        widget: "file"
+        required: false
+      - label: "Alternativtext:"
+        name: "alt"
+        widget: "string"
+        required: false

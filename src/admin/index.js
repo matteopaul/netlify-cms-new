@@ -1,1 +1,2 @@
-import CMS from 'netlify-cms'
+import React from 'react';
+import CMS from 'netlify-cms';

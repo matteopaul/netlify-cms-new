@@ -11,6 +11,10 @@
     "@gridsome/transformer-remark": "^0.3.2",
     "gridsome": "^0.6.0",
     "gridsome-plugin-netlify-cms": "^1.0.8",
-    "netlify-cms": "^2.9.5"
+    "immutable": "^4.0.0-rc.12",
+    "netlify-cms": "^2.9.5",
+    "react": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "styled-components": "^4.3.2"
   }
 }
