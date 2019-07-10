@@ -1,9 +1,7 @@
 <template>
   <Layout :title="$page.pageContents.title">
     <div v-for="content in $page.pageContents.contents">
-      <div class="">
-        hallo
-      </div>
+      {{content.title}}
     </div>
   </Layout>
 </template>

@@ -20,7 +20,7 @@ collections:
         name: "contents"
         widget: "list"
         fields:
-          - name: "type"
+          - name: "title"
             widget: "relation"
             collection: "pageContent"
             searchFields: ["title", "type", "slug"]

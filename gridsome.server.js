@@ -78,6 +78,7 @@ module.exports = function (api) {
 }
 
 function getNodeByTitle(contentType, title) {
+  console.log(contentTypes[contentType].findNodes());
   for(let i = 0; i < contentTypes[contentType].findNodes().length; i++) {
     console.log("Node:" + contentTypes[contentType].findNodes()[i].title);
     if(contentTypes[contentType].findNodes()[i].title === title) {
