@@ -2,10 +2,10 @@
   "title": "Hallo",
   "contents": [
     {
-      "title": "123"
+      "type": "Tetx neu"
     },
     {
-      "title": "Tetx neu"
+      "type": "Foto-1"
     }
   ]
 }
