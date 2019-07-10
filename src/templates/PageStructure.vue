@@ -1,22 +1,31 @@
 <template>
-  <Layout :title="$page.page.title">
-    <div v-for="content in $page.page.contents">
-      <span v-html="content.title"></span>
+  <Layout :title="$page.pageContents.title">
+    <div v-for="content in $page.pageContents.contents">
+      <div class="">
+        hallo
+      </div>
     </div>
   </Layout>
 </template>
 
 <page-query>
 query PageStructure ($id: String!) {
-  page: pageStructure (id: $id) {
+  pageContents: pageStructure (id: $id) {
     title
     contents {
-      ...content
+      ...text
+      ...image
     }
   }
 }
 
-fragment content on PageStructureContents {
+fragment text on textcontenttype {
+  type
+  title
+  content
+}
+
+fragment image on imagecontenttype {
   type
   title
   src
@@ -34,7 +43,7 @@ export default {
   },
   metaInfo () {
     return {
-      title: this.$page.post.title
+      title: this.$page.pageContents.title
     }
   }
 }

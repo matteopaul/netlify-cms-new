@@ -20,13 +20,13 @@ module.exports = function (api) {
       contentTypes[currentName] = store.addContentType({
         typeName: currentName
       })
-      //contentTypes[currentName].addNode(JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file)));
+      contentTypes[currentName].addNode(JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file)));
     })
 
     fs.readdirSync(contentPath).forEach(function(file) {
         let contenttype = file.split("-")[0];
         let currentData = JSON.parse(fs.readFileSync(contentPath + "/" + file));
-        console.log(contenttype);
+        console.log('added');
         contentTypes[contenttype].addNode(currentData);
     });
 
@@ -36,11 +36,11 @@ module.exports = function (api) {
       route: "/page/:slug"
     });
 
-    /*pages.addNode({
-      id: "0",
+
+    pages.addNode({
       title: "erste Seite",
-      contents: [store.createReference(contentTypes["imageContentType"].findNode()), store.createReference(contentTypes["textContentType"].findNode())]
-    })*/
+      contents: [store.createReference(contentTypes["imagecontenttype"].findNode()), store.createReference(contentTypes["textcontenttype"].findNode())]
+    })
 
 
     fs.readdirSync(pagesPath).forEach(function(file) {
@@ -51,6 +51,7 @@ module.exports = function (api) {
           currentData.contents.forEach(function(item) {
             for(let i = 0; i < Object.keys(contentTypes).length; i++) {
               let node = getNodeByTitle(Object.keys(contentTypes)[i], item.title);
+              console.log(item.title);
               if(node) {
                 items.push(node);
               }
@@ -59,9 +60,6 @@ module.exports = function (api) {
                 items.push(store.createReference(newItem))
               }*/
             }
-            /*var result = jsObjects.find(contentTypes => {
-              return contentTypes.title === "Hallo"
-            })*/
 
           });
 
@@ -81,7 +79,9 @@ module.exports = function (api) {
 
 function getNodeByTitle(contentType, title) {
   for(let i = 0; i < contentTypes[contentType].findNodes().length; i++) {
+    console.log("Node:" + contentTypes[contentType].findNodes()[i].title);
     if(contentTypes[contentType].findNodes()[i].title === title) {
+
       return contentTypes[contentType].findNodes()[i];
     } else {
       return null;
