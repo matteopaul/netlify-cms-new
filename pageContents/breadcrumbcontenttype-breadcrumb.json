@@ -1,0 +1,19 @@
+{
+  "type": "breadCrumbContentType",
+  "title": "breadcrumb",
+  "size": {
+    "width": 1,
+    "height": 1
+  },
+  "breadcrumbLinks": [
+    {
+      "breadcrumbLink": "Coding Meme"
+    },
+    {
+      "breadcrumbLink": "asdasdasda"
+    },
+    {
+      "breadcrumbLink": "KMT Seite"
+    }
+  ]
+}
