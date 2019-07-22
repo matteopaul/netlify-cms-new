@@ -1,16 +1,12 @@
 {
   "type": "categoryBannerContentType",
-  "title": "kategorienbanner",
+  "title": "CAT BANNER ",
+  "src": "/uploads/stage-asset_kosmonaut_startseite.jpg",
+  "text": "Text inhalt",
   "size": {
     "width": 1,
     "height": 1
   },
-  "breadcrumbLinks": [
-    {
-      "breadcrumbLink": "Hallo 123"
-    },
-    {
-      "breadcrumbLink": "Coding Meme"
-    }
-  ]
+  "pieces": "[{\"breadcrumbLink\":\"Hallo 123\"},{\"breadcrumbLink\":\"Coding Meme\"}]",
+  "breadcrumbLinks": []
 }
