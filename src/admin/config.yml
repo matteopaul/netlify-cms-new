@@ -61,12 +61,16 @@ collections:
         name: "src"
         widget: "file"
         required: false
+      - label: "Button Inhalt"
+        name: "buttonText"
+        widget: "string"
+        required: false
       - label: "Alternativtext:"
         name: "alt"
         widget: "string"
         required: false
       - label: "Textinhalt"
-        name: "content"
+        name: "text"
         widget: "markdown"
         required: false
       - label: "Größe"
@@ -84,9 +88,21 @@ collections:
             widget: "number"
             min: 1
             default: 1
-      - label: "Text With Icon(s)"
-        name: "textContents"
-        allow_add: true
+      - label: "Breadcrumb (for Category Banner)"
+        name: "breadcrumb"
+        widget: "relation"
+        collection: "pageContent"
+        searchFields: ["title", "breadcrumbLinks"]
+        valueField: "title"
+        required: false
+      - label: "Breadcrumb Links"
         widget: "list"
+        name: "breadcrumbLinks"
+        allow_add: true
+        required: false
         fields:
-          - name: title
+          - name: "breadcrumbLink"
+            widget: "relation"
+            collection: "pageStructure"
+            searchFields: ["title"]
+            valueField: "title"

@@ -23,6 +23,7 @@ query {
 
 <style>
 body {
+  --white: #ffffff;
   --midnight: #2D374B;
   --copper: #B08770;
   --dark: #4C4E56;

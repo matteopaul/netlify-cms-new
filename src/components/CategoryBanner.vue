@@ -1,22 +1,28 @@
 <template>
   <div class="category-banner-container">
-    <g-image :src="src" />
-    <button class="button" type="button" name="button">mehr erfahren</button>
+    <g-image :src="src" class="preview-image" />
+    <g-image src="~/assets/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="overlay-image"/>
+    <div class="category-banner-content">
+      <Breadcrumb v-bind:path="['Startseite', 'Projekte', 'Luckybike']"/>
+      <h1 v-html="headline" class="category-banner-headline" />
+      <p class="size--lg category-banner-text" v-html="text" />
+    </div>
   </div>
 </template>
 
 <script>
+import Breadcrumb from '~/components/Breadcrumb.vue'
+
 export default {
-  name: 'Card',
+  name: 'CategoryBanner',
   props: {
     src: String,
-    text: String,
-    buttonText: String
+    headline: String,
+    breadcrumb: String,
+    text: String
   },
-  methods: {
-    onClick () {
-      this.message = 'Here you go :)'
-    }
+  components: {
+    Breadcrumb
   }
 }
 </script>
@@ -28,21 +34,35 @@ export default {
     grid-column: 1 / 13;
   }
 
-  .stage-container img {
-    width: 1920px;
-    height: 904px;
+  .category-banner-text {
+    color: var(--white);
   }
 
-  .button {
-    position: relative;
-    left: 265px;
-    bottom: 168px;
-    width: 192px;
-    height: 48px;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    background: var(--copper);
+  .category-banner-headline {
+    margin: 0;
+    height: 64px;
+    color: var(--white);
+  }
+
+  .preview-image {
+    width: 1600px;
+    height: 720px;
+  }
+
+  .overlay-image {
+    position: absolute;
+    z-index: 2;
+    width: 606px;
+    height: 489px;
+    top: 149px;
+    left: 99px;
+  }
+
+  .category-banner-content {
+    position: absolute;
+    z-index: 3;
+    max-width: 340px;
+    top: calc(149px + 152px);
+    left: calc(99px + 117px);
   }
 </style>

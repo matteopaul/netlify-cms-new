@@ -29,6 +29,14 @@ module.exports = function (api) {
         contentTypes[contenttype].addNode(currentData);
     });
 
+    for(let i = 0; i < contentTypes["categorybannercontenttype"].findNodes().length; i++) {
+      let links = contentTypes["categorybannercontenttype"].findNodes()[i].breadcrumbLinks;
+      for(let x = 0; x < links.length; x++) {
+        linkPieces = [];
+        linkPieces.push()
+      }
+    }
+
 
     const pages = store.addContentType({
       typeName: "PageStructure",
@@ -38,7 +46,11 @@ module.exports = function (api) {
 
     pages.addNode({
       title: "erste Seite",
-      contents: [store.createReference(contentTypes["imagecontenttype"].findNode()), store.createReference(contentTypes["textcontenttype"].findNode())]
+      contents: [store.createReference(contentTypes["imagecontenttype"].findNode()),
+                  store.createReference(contentTypes["stagecontenttype"].findNode()),
+                  store.createReference(contentTypes["categorybannercontenttype"].findNode()),
+                  store.createReference(contentTypes["breadcrumbcontenttype"].findNode()),
+                  store.createReference(contentTypes["textcontenttype"].findNode())]
     })
 
 

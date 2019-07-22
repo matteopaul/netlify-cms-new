@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'Card',
+  name: 'Stage',
   props: {
     src: String,
     text: String,
@@ -20,10 +20,12 @@ export default {
 </script>
 
 <style>
+
   .stage-container {
     position: relative;
     place-self: center;
     grid-column: 1 / 13;
+    grid-row: 2;
     height: 904px;
   }
 

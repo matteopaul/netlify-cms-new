@@ -1,8 +1,9 @@
 <template>
   <Layout :title="$page.pageContents.title">
-    <div v-for="content in $page.pageContents.contents">
-      <Stage v-if="content.type == 'stageContentType'" :src="content.src" :text="content.content" :buttonText="content.buttonText"/>
-    </div>
+    <template v-for="content in $page.pageContents.contents" class="loop">
+      <Stage v-if="content.type == 'stageContentType'" :src="content.src" :text="content.text" :buttonText="content.buttonText"/>
+      <CategoryBanner v-if="content.type == 'categorybannercontenttype'" :src="content.src" :text="content.text" :headline="content.title" :breadcrumb="content.breadcrumb" />
+    </template>
   </Layout>
 </template>
 
@@ -41,6 +42,12 @@ fragment stage on stagecontenttype {
 
 </page-query>
 
+<style media="screen">
+  .loop {
+    grid-column-start: 1;
+  }
+</style>
+
 <script>
 import Layout from '~/layouts/Default.vue'
 import Stage from '~/components/Stage.vue'
@@ -48,7 +55,7 @@ import Stage from '~/components/Stage.vue'
 export default {
   components: {
     Layout,
-    Stage
+    Stage,
   },
   metaInfo () {
     return {
