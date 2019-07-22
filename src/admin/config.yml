@@ -25,7 +25,7 @@ collections:
             collection: "pageContent"
             searchFields: ["title", "type", "slug"]
             valueField: "title"
-            displayFields: ["slug"]
+            displayFields: ["title", "type"]
   - name: "pageContent"
     label: "Page Content"
     create: true
@@ -38,8 +38,22 @@ collections:
         name: "type"
         widget: "select"
         options:
+          - {label: "Main Stage", value: "stageContentType"}
+          - {label: "Promotion Banner", value: "promotionBannerContentType"}
+          - {label: "Stage Banner", value: "stageBannerContentType"}
+          - {label: "Quote", value: "quoteContentType"}
+          - {label: "Header", value: "headerContentType"}
+          - {label: "Rich Text", value: "textContentType"}
+          - {label: "Bullet List", value: "bulletListContentType"}
+          - {label: "Text with Icon", value: "textWithIconContentType"}
           - {label: "Image", value: "imageContentType"}
-          - {label: "Text", value: "textContentType"}
+          - {label: "Card", value: "cardContentType"}
+          - {label: "Content Teaser", value: "contentTeaserContentType"}
+          - {label: "Attribute Filter", value: "attributeFilterContentType"}
+          - {label: "Text with Card", value: "textWithCardContentType"}
+          - {label: "Category Banner", value: "categoryBannerContentType"}
+          - {label: "Text in Columns", value: "textInColumnsContentType"}
+          - {label: "Breadcrumb", value: "breadCrumbContentType"}
       - label: "Title:"
         name: "title"
         widget: "string"
@@ -51,3 +65,28 @@ collections:
         name: "alt"
         widget: "string"
         required: false
+      - label: "Textinhalt"
+        name: "content"
+        widget: "markdown"
+        required: false
+      - label: "Größe"
+        name: "size"
+        widget: "object"
+        fields:
+          - label: "Breite (in columns):"
+            name: "width"
+            widget: "number"
+            min: 1
+            max: 12
+            default: 1
+          - label: "Höhe (in rows):"
+            name: "height"
+            widget: "number"
+            min: 1
+            default: 1
+      - label: "Text With Icon(s)"
+        name: "textContents"
+        allow_add: true
+        widget: "list"
+        fields:
+          - name: title

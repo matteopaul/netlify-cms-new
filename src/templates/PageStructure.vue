@@ -1,7 +1,7 @@
 <template>
   <Layout :title="$page.pageContents.title">
     <div v-for="content in $page.pageContents.contents">
-      {{content.title}}
+      <Stage v-if="content.type == 'stageContentType'" :src="content.src" :text="content.content" :buttonText="content.buttonText"/>
     </div>
   </Layout>
 </template>
@@ -13,6 +13,7 @@ query PageStructure ($id: String!) {
     contents {
       ...text
       ...image
+      ...stage
     }
   }
 }
@@ -30,14 +31,24 @@ fragment image on imagecontenttype {
   alt
 }
 
+fragment stage on stagecontenttype {
+  type
+  title
+  src
+  buttonText
+  text
+}
+
 </page-query>
 
 <script>
 import Layout from '~/layouts/Default.vue'
+import Stage from '~/components/Stage.vue'
 
 export default {
   components: {
-    Layout
+    Layout,
+    Stage
   },
   metaInfo () {
     return {

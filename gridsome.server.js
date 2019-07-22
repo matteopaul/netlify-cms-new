@@ -26,7 +26,6 @@ module.exports = function (api) {
     fs.readdirSync(contentPath).forEach(function(file) {
         let contenttype = file.split("-")[0];
         let currentData = JSON.parse(fs.readFileSync(contentPath + "/" + file));
-        console.log('added');
         contentTypes[contenttype].addNode(currentData);
     });
 
@@ -51,10 +50,10 @@ module.exports = function (api) {
           currentData.contents.forEach(function(item) {
             for(let i = 0; i < Object.keys(contentTypes).length; i++) {
               let node = getNodeByTitle(Object.keys(contentTypes)[i], item.title);
-              console.log(item.title);
               if(node) {
-                items.push(node);
+                items.push(store.createReference(node));
               }
+
               /*if(item.type === Object.keys(contentTypes)[i]) {
                 const newItem = contentTypes[Object.keys(contentTypes)[i]].addNode(item);
                 items.push(store.createReference(newItem))
@@ -62,7 +61,6 @@ module.exports = function (api) {
             }
 
           });
-
           pages.addNode({
             id: currentData.id,
             title: currentData.title,
@@ -78,14 +76,11 @@ module.exports = function (api) {
 }
 
 function getNodeByTitle(contentType, title) {
-  console.log(contentTypes[contentType].findNodes());
   for(let i = 0; i < contentTypes[contentType].findNodes().length; i++) {
-    console.log("Node:" + contentTypes[contentType].findNodes()[i].title);
     if(contentTypes[contentType].findNodes()[i].title === title) {
 
       return contentTypes[contentType].findNodes()[i];
-    } else {
-      return null;
     }
   }
+  return null;
 }

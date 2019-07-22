@@ -1,5 +1,9 @@
 {
   "type": "textContentType",
   "title": "Titel",
-  "content": "Content"
+  "content": "Content",
+  "size": {
+    "width": 1,
+    "height": 1
+  }
 }

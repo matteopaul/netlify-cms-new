@@ -1,0 +1,7 @@
+{
+  "type": "stageContentType",
+  "title": "Stage",
+  "src": "/pfad/zum/bild.jpg",
+  "text": "Stage Text",
+  "buttonText": "Mehr erfahren"
+}
