@@ -1,0 +1,11 @@
+{
+  "type": "stageContentType",
+  "title": "KMT Stage",
+  "src": "/uploads/stage-asset_kosmonaut_startseite.jpg",
+  "buttonText": "mehr erfahren",
+  "text": "We're an e-commerce agency that builds shopping experiences that matter in culture.",
+  "size": {
+    "width": 1,
+    "height": 1
+  }
+}
