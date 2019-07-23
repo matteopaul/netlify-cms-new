@@ -3,7 +3,6 @@
     <g-image :src="src" class="preview-image" />
     <g-image src="~/assets/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="overlay-image"/>
     <div class="category-banner-content">
-      <Breadcrumb v-bind:path="['Startseite', 'Projekte', 'Luckybike']"/>
       <h1 v-html="headline" class="category-banner-headline" />
       <p class="size--lg category-banner-text" v-html="text" />
     </div>
@@ -11,7 +10,6 @@
 </template>
 
 <script>
-import Breadcrumb from '~/components/Breadcrumb.vue'
 
 export default {
   name: 'CategoryBanner',
@@ -20,9 +18,6 @@ export default {
     headline: String,
     breadcrumb: String,
     text: String
-  },
-  components: {
-    Breadcrumb
   }
 }
 </script>

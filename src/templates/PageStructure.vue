@@ -2,7 +2,7 @@
   <Layout :title="$page.pageContents.title">
     <template v-for="content in $page.pageContents.contents" class="loop">
       <Stage v-if="content.type == 'stageContentType'" :src="content.src" :text="content.text" :buttonText="content.buttonText"/>
-      <CategoryBanner v-if="content.type == 'categorybannercontenttype'" :src="content.src" :text="content.text" :headline="content.title" :breadcrumb="content.breadcrumb" />
+      <CategoryBanner v-if="content.type == 'categorybannercontenttype'" :src="content.src" :text="content.text" :headline="content.title"/>
     </template>
   </Layout>
 </template>
@@ -15,6 +15,7 @@ query PageStructure ($id: String!) {
       ...text
       ...image
       ...stage
+      ...category
     }
   }
 }
@@ -37,6 +38,13 @@ fragment stage on stagecontenttype {
   title
   src
   buttonText
+  text
+}
+
+fragment category on categorybannercontenttype {
+  type
+  title
+  src
   text
 }
 

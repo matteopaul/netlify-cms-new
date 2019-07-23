@@ -29,14 +29,6 @@ module.exports = function (api) {
         contentTypes[contenttype].addNode(currentData);
     });
 
-    for(let i = 0; i < contentTypes["categorybannercontenttype"].findNodes().length; i++) {
-      let links = contentTypes["categorybannercontenttype"].findNodes()[i].breadcrumbLinks;
-      for(let x = 0; x < links.length; x++) {
-        linkPieces = [];
-        linkPieces.push()
-      }
-    }
-
 
     const pages = store.addContentType({
       typeName: "PageStructure",
