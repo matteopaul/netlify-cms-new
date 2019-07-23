@@ -2,7 +2,7 @@
   <Layout :title="$page.pageContents.title">
     <template v-for="content in $page.pageContents.contents" class="loop">
       <Stage v-if="content.type == 'stageContentType'" :src="content.src" :text="content.text" :buttonText="content.buttonText"/>
-      <CategoryBanner v-if="content.type == 'categorybannercontenttype'" :src="content.imageSrc" :text="content.text" :headline="content.title"/>
+      <CategoryBanner v-if="content.type == 'categorybannercontenttype'" :src="content.src" :text="content.text" :headline="content.title"/>
     </template>
   </Layout>
 </template>
@@ -36,7 +36,7 @@ fragment stage on stagecontenttype {
 fragment category on categorybannercontenttype {
   type
   title
-  imageSrc
+  src
   text
 }
 
@@ -51,6 +51,7 @@ fragment category on categorybannercontenttype {
 <script>
 import Layout from '~/layouts/Default.vue'
 import Stage from '~/components/Stage.vue'
+import CategoryBanner from '~/components/CategoryBanner.vue'
 
 export default {
   components: {
