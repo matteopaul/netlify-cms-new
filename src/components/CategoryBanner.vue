@@ -16,13 +16,12 @@ export default {
   props: {
     src: String,
     headline: String,
-    breadcrumb: String,
     text: String
   }
 }
 </script>
 
-<style>
+<!---style>
   .category-banner-container {
     position: relative;
     place-self: center;
@@ -60,4 +59,4 @@ export default {
     top: calc(149px + 152px);
     left: calc(99px + 117px);
   }
-</style>
+</style--->
