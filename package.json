@@ -7,6 +7,7 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@contentful/rich-text-html-renderer": "^13.1.0",
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.2",
     "gridsome": "^0.6.0",
@@ -15,6 +16,7 @@
     "netlify-cms": "^2.9.5",
     "react": "^16.8.6",
     "react-redux": "^7.1.0",
+    "rtf2html": "^1.0.0",
     "styled-components": "^4.3.2"
   }
 }

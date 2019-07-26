@@ -25,7 +25,6 @@ export default {
     position: relative;
     place-self: center;
     grid-column: 1 / 13;
-    grid-row: 2;
     height: 904px;
   }
 
@@ -38,6 +37,7 @@ export default {
 
   .text {
     margin: 0 0 32px 0;
+    color: var(--white);
   }
 
   .stage-container img {
@@ -46,15 +46,13 @@ export default {
   }
 
   .button {
-
+    border: none;
     left: 265px;
     bottom: 168px;
     width: 192px;
     height: 48px;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
+    color: var(--white);
     text-transform: uppercase;
-    letter-spacing: 1px;
     background: var(--copper);
   }
 </style>
