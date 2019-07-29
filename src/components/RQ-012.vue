@@ -35,6 +35,7 @@ export default {
   .rq-012-container {
     grid-column: 1 / 13;
     --cols: 1;
+    grid-row: span 15;
   }
 
   .rq-012-content {

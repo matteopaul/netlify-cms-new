@@ -1,7 +1,7 @@
 <template>
   <Layout :title="$page.pageContents.title">
     <template v-for="content in $page.pageContents.contents" class="loop">
-      <Stage v-if="content.type == 'stageContentType'" :src="content.src" :text="content.text" :buttonText="content.buttonText"/>
+      <RQ_013 v-if="content.type == 'stageContentType'" :src="content.src" :text="content.text" :buttonText="content.buttonText"/>
       <CategoryBanner v-if="content.type == 'categoryBannerContentType'" :src="content.src" :text="content.text" :title="content.title"/>
     </template>
   </Layout>
@@ -50,13 +50,13 @@ fragment category on categorybannercontenttype {
 
 <script>
 import Layout from '~/layouts/Default.vue'
-import Stage from '~/components/Stage.vue'
+import RQ_013 from '~/components/RQ-015.vue'
 import CategoryBanner from '~/components/CategoryBanner.vue'
 
 export default {
   components: {
     Layout,
-    Stage,
+    RQ_013,
     CategoryBanner
   },
   metaInfo () {

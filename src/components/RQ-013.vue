@@ -1,16 +1,16 @@
 <template>
-  <div class="stage-container">
+  <div class="rq-013-container">
     <g-image :src="src" />
-    <div class="image-content">
-      <h1 class="text" v-html="text"/>
-      <button class="button" type="button" v-html="buttonText" name="button"/>
+    <div class="rq-013-image-content">
+      <h1 class="rq-013-text" v-html="text"/>
+      <button class="rq-013-button" type="button" v-html="buttonText" name="button"/>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Stage',
+  name: 'RQ-013',
   props: {
     src: String,
     text: String,
@@ -21,31 +21,32 @@ export default {
 
 <style>
 
-  .stage-container {
+  .rq-013-container {
     position: relative;
     place-self: center;
     grid-column: 1 / 13;
+    grid-row: span 57;
     height: 904px;
   }
 
-  .image-content {
+  .rq-013-image-content {
       max-width: 1048px;
       left: 265px;
       position: absolute;
       bottom: 168px;
   }
 
-  .text {
+  .rq-013-text {
     margin: 0 0 32px 0;
     color: var(--white);
   }
 
-  .stage-container img {
+  .rq-013-container img {
     width: 1920px;
     height: 100%;
   }
 
-  .button {
+  .rq-013-button {
     border: none;
     left: 265px;
     bottom: 168px;

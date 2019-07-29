@@ -36,6 +36,7 @@ export default {
 
   .rq-091-container {
     grid-column: span 7;
+    grid-row: span 17;
   }
 
   .rq-091-text {

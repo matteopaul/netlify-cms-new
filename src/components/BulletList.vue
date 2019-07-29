@@ -1,5 +1,5 @@
 <template>
-  <div class="list-container">
+  <div class="list-container" :style="style">
     <p class="label" v-html="title" v-if="!text" />
     <h3 class="rq-090-title" v-if="text" v-html="title" />
     <p v-if="text" v-html="text" class="rq-090-text size--md"/>
@@ -29,6 +29,12 @@ export default {
       type: String,
       required: false
     }
+  },
+  computed: {
+    style() {
+      let rows = (this.options.length * 2);
+      return '--rows: ' + rows;
+    }
   }
 }
 </script>
@@ -36,6 +42,8 @@ export default {
 <style>
   .list-container {
     grid-column: span 3;
+    grid-row: span var(--rows);
+    height: 300px;
   }
   ul {
     list-style-type: circle;
@@ -51,7 +59,9 @@ export default {
   }
   .list-container ul li {
       color: var(--dark);
+      font-family: "Sentinel-Book", sans-serif;
   }
+
   .list-container .rq-090-text[style*="display: none;"] + ul {
       margin-top: 16px;
   }

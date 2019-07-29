@@ -65,6 +65,7 @@ export default {
 
   .rq-095-container {
     grid-column: 1 / 13;
+    grid-row: span 49;
     height: 780px;
     position: relative;
     overflow: hidden;

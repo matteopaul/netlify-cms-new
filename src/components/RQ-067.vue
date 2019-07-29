@@ -36,6 +36,7 @@ export default {
     background: #f5f5f5;
     height: 256px;
     padding-left: 64px;
+    grid-row: span 16;
   }
 
   .rq-067-title {

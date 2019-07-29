@@ -32,11 +32,17 @@
 
     <slot/>
     <div class="footer">
-      <h3>Sie haben ein Projekt dollar sans de Sola connar?</h3>
-      <p class="label">Kontaktieren</p>
-      <BulletList title="office" v-bind:options="['Kosmonaut GmbH Co. KG', 'Nickelstraße Nr. 1a', '33378 Rheda-Wiedenbrück']" />
-      <BulletList title="sitemap" v-bind:options="['Leistungen', 'Cases', 'Kontakt', 'AGB', 'Datenschutz']" />
-      <p class="label">Kosmonaut im Netz</p>
+      <div class="footer-content">
+        <div class="footer-content-headline">
+          <h3>Sie haben ein Projekt dollar sans de Sola connar?</h3>
+          <p class="label">Kontaktieren</p>
+          <g-image src="~/assets/img/Kosmonaut-Logo-White.png" />
+        </div>
+
+        <BulletList title="office" v-bind:options="['Kosmonaut GmbH Co. KG', 'Nickelstraße Nr. 1a', '33378 Rheda-Wiedenbrück']" />
+        <BulletList title="sitemap" v-bind:options="['Leistungen', 'Cases', 'Kontakt', 'AGB', 'Datenschutz']" />
+        <p class="label">Kosmonaut im Netz</p>
+      </div>
     </div>
   </div>
 
@@ -57,6 +63,7 @@ import BulletList from '~/components/BulletList.vue'
         document.getElementsByClassName('menu')[0].style.width = "0px";
       });
       document.getElementsByClassName('header-nav')[0].addEventListener('click', () => {
+        console.log('click');
         document.getElementsByClassName('menu')[0].style.width = "680px";
       })
   }, 200);
@@ -92,7 +99,9 @@ body {
 .layout {
   display: grid;
   grid-template-columns: repeat(12, 88px);
-  grid-template-rows: 104px repeat(150, auto);
+  grid-auto-rows: minmax(8px, auto);
+  /* grid-template-rows: repeat(10000, 8px); */
+
   grid-column-gap: 32px;
   grid-row-gap: 8px;
   padding: 0;
@@ -111,10 +120,63 @@ body {
 /*################################################*/
 
 .footer {
+  position: relative;
   grid-column: 1 / 13;
-  
+  grid-row: span 34;
 }
 
+.footer-content {
+  width: 100%;
+  height: 100%;
+  background: var(--midnight);
+  left: -255px;
+  position: absolute;
+  padding-left: 255px;
+  padding-right: 255px;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: flex;
+}
+
+.footer-content-headline {
+  max-width: 327px;
+  margin-right: 275px;
+}
+
+.footer-content-headline h3 {
+  color: var(--white);
+}
+
+.footer-content-headline .label {
+  color: var(--copper);
+}
+
+.footer-content-headline img {
+  position: absolute;
+  bottom: 30px;
+}
+
+.footer-content .list-container ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.footer-content .list-container ul li {
+  color: var(--white);
+  opacity: 0.75;
+}
+
+.footer-content .list-container {
+  margin-right: 50px;
+}
+
+
+.footer-content-headline .label::after {
+  content: url('/uploads/svg/arrow-button_link.svg');
+  margin-left: 9px;
+
+}
 
 /*################################################*/
 /*###############------------#####################*/
@@ -127,12 +189,7 @@ body {
   width: 26px;
   height: 26px;
   margin-right: 96px;
-}
-
-.header-nav-span::after {
-  bottom: -10px;
-  right: 0;
-  width: 80%;
+  cursor: pointer;
 }
 
 .header {
@@ -167,7 +224,20 @@ body {
   display: block;
   width: 100%;
   height: 5px;
+  transition-duration: 0.2s;
 }
+
+.header-nav-span::after {
+  bottom: -10px;
+  right: 0;
+  width: 60%;
+}
+
+.header-nav .header-nav-span:hover::after {
+  width: 100%;
+
+}
+
 
 .header-nav-span::before {
   top: -10px;
@@ -221,7 +291,7 @@ body {
 }
 
 .menu {
-  width: 680px;
+  width: 0;
   height: 100%;
   position: fixed;
   right: 0;

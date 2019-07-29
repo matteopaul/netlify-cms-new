@@ -101,8 +101,8 @@ export default {
 <style>
 
   .rq-007-container {
-    grid-column-start: 2;
     grid-column: span 7;
+    grid-row: span 20;
     margin-left: calc(88px + 32px);
   }
 

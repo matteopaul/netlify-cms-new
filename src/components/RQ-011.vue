@@ -58,6 +58,7 @@ export default {
 
   .rq-011-container.vertical {
     grid-column: span 5;
+    grid-row: span 22;
   }
 
   .rq-011-link {
@@ -88,16 +89,15 @@ export default {
     margin: 0;
   }
 
+
+
   .rq-011-content .horizontal {
     margin: 0 0 22px 0;
   }
 
-
-
-
-
   .rq-011-container.horizontal {
     grid-column: span 4;
+    grid-row: span 10;
     position: relative;
     display: flex;
     margin-bottom: 73px;

@@ -38,6 +38,7 @@ export default {
     position: relative;
     place-self: center;
     grid-column: 1 / 13;
+    grid-row: span 45;
     width: 1600px;
     height: 720px;
   }

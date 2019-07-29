@@ -55,11 +55,13 @@ export default {
   }
   .rq-021-container.panorama {
     grid-column: span 12;
+    grid-row: span 45;
     height: 720px;
   }
 
   .rq-021-container.square {
     grid-column: span 6;
+    grid-row: span 2;
     height: 688px;
   }
 
@@ -86,6 +88,7 @@ export default {
 
   .rq-021-container.portrait.hasText {
     grid-column: span 5;
+    grid-row: span 54;
     height: auto;
     position: relative;
   }

@@ -39,6 +39,7 @@ export default {
     position: relative;
     place-self: center;
     grid-column: 1 / 13;
+    grid-row: span 28;
     height: 448px;
     width: 1920px;
     overflow: hidden;

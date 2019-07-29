@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <Stage src="/uploads/stage-asset_kosmonaut_startseite.jpg" buttonText="mehr erfahren" text="We're an e-commerce agency that builds shopping experiences that matter in culture."/>
+    <RQ_013 src="/uploads/stage-asset_kosmonaut_startseite.jpg" buttonText="mehr erfahren" text="We're an e-commerce agency that builds shopping experiences that matter in culture."/>
     <CategoryBanner src="/uploads/bildschirmfoto-2019-06-26-um-16.02.47.png" title="Lucky Bike" text="„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“"/>
     <CategoryBanner title="Lucky Bike" text="„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“"/>
     <BulletList title="Leistungen" v-bind:options="['1', '2', '3. Lösung']" />
@@ -8,7 +8,13 @@
     <RQ_014 src="/uploads/bildschirmfoto-2019-06-26-um-16.02.47.png" title="ajksdfdlksjflkj" v-bind:options="[{'title': 'Leistungen', 'options': ['1', '2', '3']}, {'title': 'Lösungen', 'options': ['4', '5', '6']}]" href="sjdkflksjflkj" linkText="Hier entlang"/>
     <RQ_011 icon="/uploads/svg/Information-Point-Chat.svg" title="Online Shops, Corporate, Websites, APIs, Apps" href="kjfslkjf" linkText="mehr details" hint="Leistungen"/>
     <RQ_011 icon="/uploads/svg/Information-Point-Creation.svg" title="Online Shops, Corporate, Websites, APIs, Apps" href="kjfslkjf" linkText="mehr details" hint="Leistungen"/>
+
+
+
+
     <RQ_011 icon="/uploads/svg/Information-Point-Hand.svg" title="Online Shops, Corporate, Websites, APIs, Apps" href="kjfslkjf" linkText="mehr details" hint="Leistungen"/>
+
+    <Divider />
       <RQ_011 icon="/uploads/svg/Information-Point-Hand.svg" title="Online Shops, Corporate, Websites, APIs, Apps" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." hint="Leistungen"/>
     <RQ_011 icon="/uploads/svg/Information-Point-Hand.svg" title="Online Shops, Corporate, Websites, APIs, Apps" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." hint="Leistungen"/>
 
@@ -50,6 +56,28 @@
 
     <RQ_093 cardColor="light-gray" v-bind:cardContents="[{'type': 'bulletList', 'options': ['wichtigste', 'Punkte', 'zusammengefasst'], 'title': 'Bullet List'}]" v-bind:mdContents="[{'md': '/////Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus./////\n\n/////Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet [lacus accumsan et ](/page/kmt-seite)viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus./////\n\n/////Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet [lacus accumsan et ](/page/kmt-seite)viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus./////\n\n/////Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet [lacus accumsan et ](/page/kmt-seite)viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus./////\n\n* ghfhgf\n* fhfhf\n* hfghfhfh\n* fghfhfh\n* fghgfhg\n* fghfh\n*'}, {'title': 'Olar se Connar', 'options': ['1', '2', 'options'], 'text': 'kdsfj'}]"/>
 
+    <Divider/>
+
+    <RQ_015 title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
+
+    <RQ_015 title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="square" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
+
+    <RQ_015 v-bind:attr="['lifestyle', 'b2b']" title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="portrait" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
+    <RQ_015 title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="portrait" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
+    <RQ_015 title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="portrait" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
+
+    <Divider />
+
+    <RQ_015 v-bind:attr="['lifestyle', 'interior']" position="horizontal" title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
+
+    <RQ_015 position="horizontal" title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" class="reverse"/>
+
+    <RQ_015 position="horizontal" title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" class="reverse" v-bind:options="['hallo', 'option', 'option2', 'hallo', 'option', 'option2', 'hallo', 'option']" label="Überschrift" />
+
+    <Divider />
+
+    <RQ_037 type="projects"/>
+
   </Layout>
 
 
@@ -59,7 +87,7 @@
 </template>
 
 <script>
-import Stage from '~/components/Stage.vue'
+import RQ_013 from '~/components/RQ-013.vue'
 import Breadcrumb from '~/components/Breadcrumb.vue'
 import CategoryBanner from '~/components/CategoryBanner.vue'
 import BulletList from '~/components/BulletList.vue'
@@ -73,8 +101,11 @@ import RQ_007 from '~/components/RQ-007.vue'
 import RQ_012 from '~/components/RQ-012.vue'
 import RQ_021 from '~/components/RQ-021.vue'
 import RQ_092 from '~/components/RQ-092.vue'
+import RQ_015 from '~/components/RQ-015.vue'
 import RQ_093 from '~/components/RQ-093.vue'
+import RQ_037 from '~/components/RQ-037.vue'
 import CardSlider from '~/components/CardSlider.vue'
+import Divider from '~/components/Divider.vue'
 
 
 export default {
@@ -82,7 +113,7 @@ export default {
     title: 'Module'
   },
   components: {
-    Stage,
+    RQ_013,
     Breadcrumb,
     CategoryBanner,
     BulletList,
@@ -97,7 +128,10 @@ export default {
     RQ_021,
     RQ_092,
     CardSlider,
-    RQ_093
+    RQ_093,
+    Divider,
+    RQ_015,
+    RQ_037
   }
 }
 </script>
