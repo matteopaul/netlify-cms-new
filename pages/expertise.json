@@ -2,10 +2,13 @@
   "title": "Expertise",
   "contents": [
     {
-      "type": "rq-016",
-      "title": "Magische Kunst",
-      "text": "TextTextText",
-      "src": "/uploads/asset-teaser-projects-luckybike.jpg"
+      "type": "rq_011",
+      "title": "Hallo",
+      "text": "text123321",
+      "src": "/uploads/Kosmonauten_Bazenov.png",
+      "category": "E. Bazenov",
+      "href": "http://www.google.de/",
+      "linkText": "google"
     }
   ]
 }
