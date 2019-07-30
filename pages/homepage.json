@@ -1,0 +1,11 @@
+{
+  "title": "Homepage",
+  "contents": [
+    {
+      "type": "rq-013",
+      "title": "h1",
+      "buttonText": "jetzt klicken",
+      "src": "/uploads/stage-asset_kosmonaut_startseite.jpg"
+    }
+  ]
+}
