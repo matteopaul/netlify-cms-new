@@ -9,6 +9,11 @@
       "path": "Startseite;Mission"
     },
     {
+      "type": "divider",
+      "title": "asdasd",
+      "size": -2
+    },
+    {
       "type": "rq_007",
       "title": "Text",
       "contents": [
