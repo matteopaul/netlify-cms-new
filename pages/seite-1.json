@@ -2,6 +2,12 @@
   "title": "Seite 1",
   "contents": [
     {
+      "type": "rq-013",
+      "title": "super duper stage",
+      "buttonText": "hier entlang",
+      "src": "/uploads/stage-asset_kosmonaut_startseite.jpg"
+    },
+    {
       "type": "rq-007",
       "contents": [
         {
