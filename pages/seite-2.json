@@ -1,0 +1,21 @@
+{
+  "title": "seite 2",
+  "contents": [
+    {
+      "type": "rq-007",
+      "title": "hallo",
+      "contents": [
+        {
+          "type": "bulletList",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "title": "Bullet",
+          "text": "List"
+        }
+      ]
+    }
+  ]
+}
