@@ -1,0 +1,14 @@
+{
+  "title": "Text mit Icon",
+  "contents": [
+    {
+      "type": "rq_011",
+      "title": "TWI = Text with Icon",
+      "text": "",
+      "src": "/uploads/asset_teaser-pic02@2x.jpg",
+      "category": "Label",
+      "href": "/modules",
+      "linkText": "Hier entlang"
+    }
+  ]
+}
