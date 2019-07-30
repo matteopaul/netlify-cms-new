@@ -3,16 +3,12 @@
   "contents": [
     {
       "type": "rq_011",
-      "title": "",
-      "text": "",
-      "count": 5,
-      "linkText": "",
-      "href": "",
-      "src": "",
-      "category": ""
-    },
-    {
-      "type": "divider"
+      "title": "Hallo",
+      "text": "text123321",
+      "src": "/uploads/Kosmonauten_Bazenov.png",
+      "category": "E. Bazenov",
+      "href": "http://www.google.de/",
+      "linkText": "google"
     }
   ]
 }

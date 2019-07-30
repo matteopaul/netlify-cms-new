@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import RQ_090 from '~/components/RQ-090.vue'
+import RQ_090 from '~/components/RQ-012.vue'
 export default {
   name: 'rq-012',
   props: {
@@ -19,7 +19,7 @@ export default {
       type: String
     },
     cols: {
-      type: String
+      type: Number
     }
   },
   computed: {

@@ -84,18 +84,18 @@ collections:
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Text, name: text, widget: string, required: false}
-              - {label: Icon, name: src, widget: image, required: false}
-              - {label: Category Label, name: category, widget: string, required: false}
-              - {label: Link Destination, name: href, widget: string, required: false}
-              - {label: Link Text, name: linkText, widget: string, required: false}
-          - label: "Category Banner"
-            name: "rq_016"
+              - {label: Text, name: text, widget: string}
+              - {label: Icon, name: src, widget: image}
+              - {label: Category Label, name: category, widget: string}
+              - {label: Link Destination, name: href, widget: string}
+              - {label: Link Text, name: linkText, widget: string}
+          - label: "Text In Columns"
+            name: "rq_012"
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Text, name: text, widget: string}
-              - {label: Image, name: src, widget: image, required: false}
+              - {label: Columns, name: cols, widget: number}
           - label: "Category Banner"
             name: "rq_016"
             widget: object

@@ -3,6 +3,7 @@
     <template v-for="content in $page.pageContents.contents">
       <RQ_007 v-if="content.type == 'rq_007'" v-bind:contents="content.contents" :background="content.background" />
       <RQ_011 v-if="content.type == 'rq_011'" :icon="content.src" :count="content.count" :title="content.title" :text="content.text" :hint="content.category" :href="content.href" :linkText="content.linkText" />
+      <RQ_012 v-if="content.type == 'rq_012'" :title="content.title" :text="content.text" :cols="content.cols" />
       <RQ_013 v-if="content.type == 'rq_013'" :src="content.src" :title="content.title" :buttonText="content.buttonText"/>
       <RQ_016 v-if="content.type == 'rq_016'" :path="content.path" :src="content.src" :text="content.text" :title="content.title"/>
       <Divider v-if="content.type == 'divider'"/>
@@ -21,6 +22,7 @@ query PageStructure ($id: String!) {
       ...richText
       ...divide
       ...textWithIcon
+      ...textInColumns
     }
   }
 }
@@ -37,7 +39,15 @@ fragment richText on rq_007 {
   }
 }
 
+fragment textInColumns on rq_012 {
+  type
+  cols
+  text
+  title
+}
+
 fragment textWithIcon on rq_011 {
+  type
   title
   text
   src
@@ -75,6 +85,7 @@ import RQ_013 from '~/components/RQ-013.vue';
 import RQ_016 from '~/components/RQ-016.vue';
 import RQ_090 from '~/components/RQ-090.vue';
 import RQ_011 from '~/components/RQ-011.vue';
+import RQ_012 from '~/components/RQ-012.vue';
 import Divider from '~/components/Divider.vue';
 
 export default {
@@ -85,7 +96,8 @@ export default {
     RQ_016,
     RQ_090,
     Divider,
-    RQ_011
+    RQ_011,
+    RQ_012
   },
   metaInfo () {
     return {

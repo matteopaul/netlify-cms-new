@@ -68,6 +68,11 @@ export default {
 
 <style>
 
+  .rq-011-icon img {
+    width: 100%;
+    height: 100%;
+  }
+
   .rq-011-container.vertical {
     grid-column: span 5;
     grid-row: span 22;
