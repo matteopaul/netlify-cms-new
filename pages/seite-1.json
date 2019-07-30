@@ -1,0 +1,27 @@
+{
+  "title": "Seite 1",
+  "contents": [
+    {
+      "type": "rq-007",
+      "contents": [
+        {
+          "type": "text",
+          "title": "Text",
+          "md": "## Text\n\nlustiger Markdown **test**"
+        },
+        {
+          "type": "bulletList",
+          "title": "Bullet List",
+          "text": "test",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "src": "/uploads/asset-teaser-team.jpg",
+      "title": "Markdown"
+    }
+  ]
+}
