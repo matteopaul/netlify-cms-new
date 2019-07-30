@@ -4,7 +4,7 @@
     <h2 class="rq-014-title" v-html="title"/>
     <div class="rq-014-bulletLists">
       <template v-for="list in options">
-        <BulletList v-bind:options="list.options" v-bind:title="list.title" />
+        <RQ_090 v-bind:options="list.options" v-bind:title="list.title" />
       </template>
     </div>
     <g-link :href="href" class="rq-014-link">{{linkText}}</g-link>
@@ -22,7 +22,7 @@
 </template>
 
 <script>
-  import BulletList from '~/components/BulletList.vue'
+  import RQ_090 from '~/components/RQ-090.vue'
   import RQ_011 from '~/components/RQ-011.vue'
 export default {
   name: 'rq-014',
@@ -51,7 +51,7 @@ export default {
     }
   },
   components: {
-    BulletList,
+    RQ_090,
     RQ_011
   }
 }

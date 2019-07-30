@@ -9,25 +9,21 @@ const fs = require('fs');
 //const textContentType = require('./dynamicContentTypes/textContentType');
 
 const pagesPath = path.join(__dirname, "pages");
-const contentPath = path.join(__dirname, "pageContents");
 const contentTypes = {};
 
 module.exports = function (api) {
   api.loadSource(store => {
 
     fs.readdirSync(path.join(__dirname, "dynamicContentTypes")).forEach(function(file) {
-      let currentName = file.split('.')[0].toLowerCase();
+      let currentName = file.split('.')[0];
+      console.log(currentName);
       contentTypes[currentName] = store.addContentType({
         typeName: currentName
       })
-      contentTypes[currentName].addNode(JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file)));
+       contentTypes[currentName].addNode(JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file)));
     })
 
-    fs.readdirSync(contentPath).forEach(function(file) {
-        let contenttype = file.split("-")[0];
-        let currentData = JSON.parse(fs.readFileSync(contentPath + "/" + file));
-        contentTypes[contenttype].addNode(currentData);
-    });
+    console.log(Object.keys(contentTypes));
 
 
     const pages = store.addContentType({
@@ -38,11 +34,13 @@ module.exports = function (api) {
 
     pages.addNode({
       title: "erste Seite",
-      contents: [store.createReference(contentTypes["imagecontenttype"].findNode()),
-                  store.createReference(contentTypes["stagecontenttype"].findNode()),
-                  store.createReference(contentTypes["categorybannercontenttype"].findNode()),
-                  store.createReference(contentTypes["breadcrumbcontenttype"].findNode()),
-                  store.createReference(contentTypes["textcontenttype"].findNode())]
+      contents: [
+        store.createReference(contentTypes["rq_013"].findNode()),
+        store.createReference(contentTypes["rq_016"].findNode()),
+        store.createReference(contentTypes["rq_007"].findNode()),
+        store.createReference(contentTypes["rq_090"].findNode())
+        //store.createReference(contentTypes["divider"].findNode())
+      ]
     })
 
 
@@ -50,20 +48,11 @@ module.exports = function (api) {
 
           let currentData = JSON.parse(fs.readFileSync(pagesPath + "/" + file));
           let items = [];
-
+          console.log(file);
           currentData.contents.forEach(function(item) {
-            for(let i = 0; i < Object.keys(contentTypes).length; i++) {
-              let node = getNodeByTitle(Object.keys(contentTypes)[i], item.title);
-              if(node) {
-                items.push(store.createReference(node));
-              }
-
-              /*if(item.type === Object.keys(contentTypes)[i]) {
-                const newItem = contentTypes[Object.keys(contentTypes)[i]].addNode(item);
-                items.push(store.createReference(newItem))
-              }*/
-            }
-
+          console.log(item.type);
+          let node = store.createReference(contentTypes[item.type].addNode(item));
+          items.push(node);
           });
           pages.addNode({
             id: currentData.id,
@@ -77,14 +66,4 @@ module.exports = function (api) {
   })
 
 
-}
-
-function getNodeByTitle(contentType, title) {
-  for(let i = 0; i < contentTypes[contentType].findNodes().length; i++) {
-    if(contentTypes[contentType].findNodes()[i].title === title) {
-
-      return contentTypes[contentType].findNodes()[i];
-    }
-  }
-  return null;
 }

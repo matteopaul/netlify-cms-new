@@ -5,7 +5,7 @@
     <div class="rq-094-content">
       <h1 class="rq-094-title" v-html="title" />
       <p class="size--lg" v-html="text" />
-      <g-link :href="href">{{linkText}}</g-link>
+      <g-link :href="href" class="rq-094-link">{{linkText}}</g-link>
     </div>
   </div>
 </template>
@@ -57,6 +57,17 @@ export default {
     width: 534px;
     height: 431px;
   }
+
+  .rq-094-link {
+    margin-top: 33px;
+    text-transform: uppercase;
+  }
+
+  .rq-094-link::after {
+    content: url('/uploads/svg/arrow-button_link.svg');
+    margin-left: 15px;
+  }
+
 
   .rq-094-content {
     position: absolute;

@@ -2,22 +2,7 @@
   "title": "adada",
   "contents": [
     {
-      "type": "divider",
-      "title": "lalala",
-      "size": 100
-    },
-    {
-      "type": "divider",
-      "title": "abc",
-      "size": 12
-    },
-    {
-      "type": "divider",
-      "title": "abc",
-      "size": 12
-    },
-    {
-      "type": "rq-007",
+      "type": "rq_007",
       "title": "sdsadad"
     }
   ]

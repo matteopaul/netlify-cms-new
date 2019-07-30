@@ -14,12 +14,14 @@
         </div>
         <div class="menu-list">
           <li class="menu-li">Expertise</li>
-          <li class="menu-li">Expertise</li>
-          <li class="menu-li">Expertise</li>
-          <li class="menu-li">Expertise</li>
-          <li class="menu-li">Expertise</li>
-          <li class="menu-li">Expertise</li>
-          <li class="menu-li">Expertise</li>
+          <li class="menu-li">Mission</li>
+          <li class="menu-li">Leistungen</li>
+          <li class="menu-li">Solutions</li>
+          <li class="menu-li">Insights</li>
+          <li class="menu-li">Agentur</li>
+          <li class="menu-li">Projekte</li>
+          <li class="menu-li">Partner</li>
+          <li class="menu-li">Kontakt</li>
         </div>
         <div class="menu-footer">
           <p class="size--sm">
@@ -39,8 +41,8 @@
           <g-image src="~/assets/img/Kosmonaut-Logo-White.png" />
         </div>
 
-        <BulletList title="office" v-bind:options="['Kosmonaut GmbH Co. KG', 'Nickelstraße Nr. 1a', '33378 Rheda-Wiedenbrück']" />
-        <BulletList title="sitemap" v-bind:options="['Leistungen', 'Cases', 'Kontakt', 'AGB', 'Datenschutz']" />
+        <RQ_090 title="office" v-bind:options="['Kosmonaut GmbH Co. KG', 'Nickelstraße Nr. 1a', '33378 Rheda-Wiedenbrück']" />
+        <RQ_090 title="sitemap" v-bind:options="['Leistungen', 'Cases', 'Kontakt', 'AGB', 'Datenschutz']" />
         <p class="label">Kosmonaut im Netz</p>
       </div>
     </div>
@@ -57,7 +59,7 @@ query {
 </static-query>
 
 <script type="text/javascript">
-import BulletList from '~/components/BulletList.vue'
+import RQ_090 from '~/components/RQ-090.vue'
     setTimeout(() => {
       document.getElementsByClassName('menu-nav-close')[0].addEventListener('click', function() {
         document.getElementsByClassName('menu')[0].style.width = "0px";
@@ -69,7 +71,7 @@ import BulletList from '~/components/BulletList.vue'
   }, 200);
   export default {
     components: {
-      BulletList
+      RQ_090
     }
   }
 </script>
@@ -86,6 +88,30 @@ body {
   margin:0;
   padding:0;
   line-height: 1.5;
+}
+
+/*################################################*/
+/*###############------------#####################*/
+/*###############----FORMS----####################*/
+/*###############------------#####################*/
+/*################################################*/
+/*################################################*/
+
+button {
+  width: 192px;
+  height: 48px;
+  grid-row: span 3;
+  grid-column: span 2;
+  background: var(--copper);
+  color: var(--white);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: none;
+}
+
+button:focus {
+  outline: none;
 }
 
 
@@ -109,7 +135,9 @@ body {
 
 .layout:first-child::before {
   content: '';
-  grid-row: 1;
+  height: 96px;
+  grid-column: 1 / 13;
+  grid-row: span 6;
 }
 
 /*################################################*/
@@ -123,9 +151,12 @@ body {
   position: relative;
   grid-column: 1 / 13;
   grid-row: span 34;
+  padding-left: 50%;
 }
 
 .footer-content {
+  box-sizing: content-box;
+  padding-left: 100%;
   width: 100%;
   height: 100%;
   background: var(--midnight);
@@ -190,6 +221,7 @@ body {
   height: 26px;
   margin-right: 96px;
   cursor: pointer;
+  position: relative;
 }
 
 .header {
@@ -213,8 +245,7 @@ body {
   width: 26px;
   height: 5px;
   background: var(--dark);
-  margin-top: 15px;
-  position: relative;
+
 }
 
 .header-nav-span::before, .header-nav-span::after {
@@ -228,19 +259,17 @@ body {
 }
 
 .header-nav-span::after {
-  bottom: -10px;
+  bottom: 0px;
   right: 0;
   width: 60%;
 }
 
-.header-nav .header-nav-span:hover::after {
+.header-nav:hover .header-nav-span::after {
   width: 100%;
-
 }
 
-
 .header-nav-span::before {
-  top: -10px;
+  top: 10px;
   left: 0;
 }
 
@@ -259,6 +288,7 @@ body {
   float: right;
   margin: 43px 83px 0 0;
   cursor: pointer;
+  padding: 10px;
 }
 
 .menu-li {
@@ -275,14 +305,16 @@ body {
 .menu-footer {
   position: absolute;
   bottom: 0;
-  padding: 24px;
+  padding: 24px 24px 24px 96px;
 }
 
 .menu-footer a {
   margin-right: 25px;
   color: var(--white);
   opacity: 0.75;
+  font-family: "Sentinel-Book", sans-serif;
 }
+
 
 .menu-list {
   list-style-type: none;

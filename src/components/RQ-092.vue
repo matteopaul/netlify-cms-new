@@ -7,7 +7,7 @@
         <p v-if="content.type == 'p large'" v-html="content.text" class="size--lg"/>
         <g-image v-if="content.type == 'icon'" :src="content.src"/>
         <g-link v-if="content.type == 'link'" :href="content.href">{{content.text}}</g-link>
-        <BulletList v-if="content.type == 'bulletList'" :title="content.title" :text="content.text" v-bind:options="content.options" checked="content.checked" />
+        <RQ_090 v-if="content.type == 'bulletList'" :title="content.title" :text="content.text" v-bind:options="content.options" checked="content.checked" />
         <RQ_091 v-if="content.type == 'quote'" :text="content.text" :src="content.src" :description="content.description" :name="content.name" />
         <RQ_021 v-if="content.type == 'image'" :src="content.src" class="rq-092-image" :size="content.size" :title="content.title" />
       </template>
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import BulletList from '~/components/BulletList.vue'
+import RQ_090 from '~/components/RQ-090.vue'
 import RQ_091 from '~/components/RQ-091.vue'
 import RQ_021 from '~/components/RQ-021.vue'
 export default {
@@ -49,7 +49,7 @@ export default {
     }
   },
   components: {
-    BulletList,
+    RQ_090,
     RQ_091,
     RQ_021
   }

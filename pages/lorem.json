@@ -2,7 +2,7 @@
   "title": "lorem",
   "contents": [
     {
-      "type": "rq-007",
+      "type": "rq_007",
       "title": "asdadads",
       "contents": [
         {
@@ -13,10 +13,7 @@
       ]
     },
     {
-      "type": "divider"
-    },
-    {
-      "type": "rq-013",
+      "type": "rq_013",
       "title": "stage",
       "buttonText": "hallo",
       "src": "/uploads/asset-teaser-team@2.jpg"

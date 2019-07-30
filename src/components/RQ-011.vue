@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <div class="rq-011-container vertical" v-else-if="!href && !linkText && text && icon">
+  <div class="rq-011-container vertical" v-else-if="!href && !linkText && text && icon" :style="style">
     <div class="rq-011-icon">
       <g-image :src="icon"/>
     </div>
@@ -31,6 +31,9 @@ export default {
       type: String,
       required: false
     },
+    count: {
+      type: String
+    },
     title: {
       type: String
     },
@@ -49,6 +52,15 @@ export default {
     linkText: {
       type: String,
       required: false
+    }
+  },
+  computed: {
+    style() {
+      if(parseInt(this.count)) {
+        return "grid-column: span " + 12 / parseInt(this.count) + ';';
+      } else {
+        return null;
+      }
     }
   }
 }
@@ -96,7 +108,9 @@ export default {
   }
 
   .rq-011-container.horizontal {
-    grid-column: span 4;
+    grid-column: span 6;
+    padding-left: 120px;
+    padding-right: 120px;
     grid-row: span 10;
     position: relative;
     display: flex;

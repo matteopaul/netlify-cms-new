@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import BulletList from '~/components/BulletList.vue'
+import RQ_090 from '~/components/RQ-090.vue'
 export default {
   name: 'rq-012',
   props: {

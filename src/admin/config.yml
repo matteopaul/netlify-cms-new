@@ -19,13 +19,91 @@ collections:
         allow_add: true
         name: "contents"
         widget: "list"
-        fields:
-          - name: "title"
-            widget: "relation"
-            collection: "pageContent"
-            searchFields: ["title", "type", "slug"]
-            valueField: "title"
-            displayFields: ["title", "type"]
+        types:
+          - label: "Rich Text"
+            name: "rq_007"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - label: "Contents"
+                name: "contents"
+                widget: "list"
+                types:
+                  - label: "Text"
+                    name: "text"
+                    widget: "object"
+                    fields:
+                      - label: "Title"
+                        name: "title"
+                        widget: "string"
+                      - label: "Markdown"
+                        name: "md"
+                        widget: "markdown"
+                  - label: "Bullet List"
+                    name: "bulletList"
+                    widget: "object"
+                    fields:
+                      - label: "Title"
+                        name: "title"
+                        widget: "string"
+                      - label: "Text"
+                        name: "text"
+                        widget: "string"
+                      - label: "Options"
+                        name: "options"
+                        widget: "list"
+                        allow_add: true
+                        field: {label: Option, name: option, widget: string}
+          - label: "Stage"
+            name: "rq_013"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Button Text, name: buttonText, widget: string}
+              - {label: Image, name: src, widget: image}
+          - label: "Category Banner"
+            name: "rq_016"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: string}
+              - {label: Image, name: src, widget: image, required: false}
+              - {label: Pfad (bitte mit einem semikolon trennen), name: path, widget: string}
+          - label: "Divider"
+            name: "divider"
+            widget: object
+            fields:
+              - label: Irrelevant
+                name: title
+                widget: string
+              - label: size
+                name: size
+                widget: number
+          - label: "Text With Icon"
+            name: "rq_011"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: string, required: false}
+              - {label: Icon, name: src, widget: image, required: false}
+              - {label: Category Label, name: category, widget: string, required: false}
+              - {label: Link Destination, name: href, widget: string, required: false}
+              - {label: Link Text, name: linkText, widget: string, required: false}
+          - label: "Category Banner"
+            name: "rq_016"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: string}
+              - {label: Image, name: src, widget: image, required: false}
+          - label: "Category Banner"
+            name: "rq_016"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: string}
+              - {label: Image, name: src, widget: image, required: false}
+
   - name: "pageContent"
     label: "Page Content"
     create: true

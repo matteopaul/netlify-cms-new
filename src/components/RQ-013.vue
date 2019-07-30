@@ -2,7 +2,7 @@
   <div class="rq-013-container">
     <g-image :src="src" />
     <div class="rq-013-image-content">
-      <h1 class="rq-013-text" v-html="text"/>
+      <h1 class="rq-013-text" v-html="title"/>
       <button class="rq-013-button" type="button" v-html="buttonText" name="button"/>
     </div>
   </div>
@@ -13,7 +13,7 @@ export default {
   name: 'RQ-013',
   props: {
     src: String,
-    text: String,
+    title: String,
     buttonText: String
   }
 }
@@ -52,7 +52,9 @@ export default {
     bottom: 168px;
     width: 192px;
     height: 48px;
+    font-size: 14px;
     color: var(--white);
+    letter-spacing: 1px;
     text-transform: uppercase;
     background: var(--copper);
   }

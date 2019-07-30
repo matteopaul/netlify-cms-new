@@ -1,5 +1,5 @@
 <template>
-  <div class="list-container" :style="style">
+  <div class="rq-090-container" :style="style">
     <p class="label" v-html="title" v-if="!text" />
     <h3 class="rq-090-title" v-if="text" v-html="title" />
     <p v-if="text" v-html="text" class="rq-090-text size--md"/>
@@ -13,7 +13,7 @@
 <script>
 
 export default {
-  name: 'BulletList',
+  name: 'RQ-090',
   props: {
     title: {
       type: String
@@ -40,10 +40,12 @@ export default {
 </script>
 
 <style>
-  .list-container {
+  .rq-090-container {
     grid-column: span 3;
     grid-row: span var(--rows);
     height: 300px;
+    display: inline-block;
+    margin-right: 30px;
   }
   ul {
     list-style-type: circle;
@@ -57,12 +59,12 @@ export default {
   .rq-090-text + ul {
     margin-top: 33px;
   }
-  .list-container ul li {
+  .rq-090-container ul li {
       color: var(--dark);
       font-family: "Sentinel-Book", sans-serif;
   }
 
-  .list-container .rq-090-text[style*="display: none;"] + ul {
+  .rq-090-container .rq-090-text[style*="display: none;"] + ul {
       margin-top: 16px;
   }
 

@@ -2,10 +2,11 @@
   "title": "Expertise",
   "contents": [
     {
-      "type": "rq-016",
+      "type": "rq_016",
       "title": "Magische Kunst",
       "text": "TextTextText",
-      "src": "/uploads/asset-teaser-projects-luckybike.jpg"
+      "src": "/uploads/asset-teaser-projects-luckybike.jpg",
+      "path": "Startseite;hallo;lol"
     }
   ]
 }

@@ -1,22 +1,28 @@
 <template>
   <Layout>
     <RQ_013 src="/uploads/stage-asset_kosmonaut_startseite.jpg" buttonText="mehr erfahren" text="We're an e-commerce agency that builds shopping experiences that matter in culture."/>
-    <CategoryBanner src="/uploads/bildschirmfoto-2019-06-26-um-16.02.47.png" title="Lucky Bike" text="„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“"/>
-    <CategoryBanner title="Lucky Bike" text="„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“"/>
-    <BulletList title="Leistungen" v-bind:options="['1', '2', '3. Lösung']" />
-    <BulletList title="Leistungen" text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore." v-bind:options="['1', '2', '3. Lösung']" />
+    <RQ_016 src="/uploads/bildschirmfoto-2019-06-26-um-16.02.47.png" title="Lucky Bike" text="„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“"/>
+    <RQ_016 title="Lucky Bike" text="„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“"/>
+    <RQ_090 title="Leistungen" v-bind:options="['1', '2', '3. Lösung']" />
+    <RQ_090 title="Leistungen" text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore." v-bind:options="['1', '2', '3. Lösung']" />
     <RQ_014 src="/uploads/bildschirmfoto-2019-06-26-um-16.02.47.png" title="ajksdfdlksjflkj" v-bind:options="[{'title': 'Leistungen', 'options': ['1', '2', '3']}, {'title': 'Lösungen', 'options': ['4', '5', '6']}]" href="sjdkflksjflkj" linkText="Hier entlang"/>
-    <RQ_011 icon="/uploads/svg/Information-Point-Chat.svg" title="Online Shops, Corporate, Websites, APIs, Apps" href="kjfslkjf" linkText="mehr details" hint="Leistungen"/>
-    <RQ_011 icon="/uploads/svg/Information-Point-Creation.svg" title="Online Shops, Corporate, Websites, APIs, Apps" href="kjfslkjf" linkText="mehr details" hint="Leistungen"/>
-
-
-
-
-    <RQ_011 icon="/uploads/svg/Information-Point-Hand.svg" title="Online Shops, Corporate, Websites, APIs, Apps" href="kjfslkjf" linkText="mehr details" hint="Leistungen"/>
+    <RQ_014 src="/uploads/bildschirmfoto-2019-06-26-um-16.02.47.png" title="Unsere Services" v-bind:options="[{'title': 'Leistungen', 'options': ['1', '2', '3']}, {'title': 'Lösungen', 'options': ['4', '5', '6']}]" href="sjdkflksjflkj" linkText="Hier entlang"/>
 
     <Divider />
-      <RQ_011 icon="/uploads/svg/Information-Point-Hand.svg" title="Online Shops, Corporate, Websites, APIs, Apps" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." hint="Leistungen"/>
-    <RQ_011 icon="/uploads/svg/Information-Point-Hand.svg" title="Online Shops, Corporate, Websites, APIs, Apps" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." hint="Leistungen"/>
+
+
+    <RQ_011 icon="/uploads/svg/Information-Point-Chat.svg" title="Online Shops, Corporate, Websites, APIs, Apps" href="kjfslkjf" linkText="mehr details" hint="Leistungen"/>
+    <RQ_011 icon="/uploads/svg/Information-Point-Creation.svg" title="Online Shops, Corporate, Websites, APIs, Apps" href="kjfslkjf" linkText="mehr details" hint="Leistungen"/>
+    <RQ_011 icon="/uploads/svg/Information-Point-Creation.svg" title="Online Shops, Corporate, Websites, APIs, Apps" href="kjfslkjf" linkText="mehr details" hint="Leistungen"/>
+    <RQ_011 icon="/uploads/svg/Information-Point-Hand.svg" title="Online Shops, Corporate, Websites, APIs, Apps" href="kjfslkjf" linkText="mehr details" hint="Leistungen"/>
+
+
+
+    <Divider />
+        <RQ_011 count=4 icon="/uploads/svg/Information-Point-Hand.svg" title="Online Shops, Corporate, Websites, APIs, Apps" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." hint="Leistungen"/>
+    <RQ_011 count=4 icon="/uploads/svg/Information-Point-Hand.svg" title="Online Shops, Corporate, Websites, APIs, Apps" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." hint="Leistungen"/>
+    <RQ_011 count=4 icon="/uploads/svg/Information-Point-Hand.svg" title="Online Shops, Corporate, Websites, APIs, Apps" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." hint="Leistungen"/>
+    <RQ_011 count=4 icon="/uploads/svg/Information-Point-Hand.svg" title="Online Shops, Corporate, Websites, APIs, Apps" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." hint="Leistungen"/>
 
 
     <RQ_014 src="/uploads/bildschirmfoto-2019-06-26-um-16.02.47.png" title="Unsere Expertise" v-bind:textWithIcon="[{'title': 'Branchen', 'text': 'Fashion Lifestyle Automotive Industrie B2B B2C Interior', 'icon': '/uploads/svg/Information-Point-Hand.svg', 'linkText': 'Hallo', 'href': 'sjfhksj'}, {'title': 'Systeme', 'icon': '/uploads/svg/Information-Point-Chat.svg', 'linkText': 'Hier', 'href': 'sjfhksj'}]"/>
@@ -57,26 +63,28 @@
     <RQ_093 cardColor="light-gray" v-bind:cardContents="[{'type': 'bulletList', 'options': ['wichtigste', 'Punkte', 'zusammengefasst'], 'title': 'Bullet List'}]" v-bind:mdContents="[{'md': '/////Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus./////\n\n/////Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet [lacus accumsan et ](/page/kmt-seite)viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus./////\n\n/////Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet [lacus accumsan et ](/page/kmt-seite)viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus./////\n\n/////Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet [lacus accumsan et ](/page/kmt-seite)viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus./////\n\n* ghfhgf\n* fhfhf\n* hfghfhfh\n* fghfhfh\n* fghgfhg\n* fghfh\n*'}, {'title': 'Olar se Connar', 'options': ['1', '2', 'options'], 'text': 'kdsfj'}]"/>
 
     <Divider/>
+      <RQ_037 type="projects"/>
+      <Divider />
 
-    <RQ_015 title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
+    <RQ_015 v-bind:attr="['lifestyle']" title="Lifestyle" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
 
-    <RQ_015 title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="square" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
+    <RQ_015 v-bind:attr="['fashion']" title="Fashion" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="square" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
 
-    <RQ_015 v-bind:attr="['lifestyle', 'b2b']" title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="portrait" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
-    <RQ_015 title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="portrait" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
-    <RQ_015 title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="portrait" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
-
-    <Divider />
-
-    <RQ_015 v-bind:attr="['lifestyle', 'interior']" position="horizontal" title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
-
-    <RQ_015 position="horizontal" title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" class="reverse"/>
-
-    <RQ_015 position="horizontal" title="Content Teaser" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" class="reverse" v-bind:options="['hallo', 'option', 'option2', 'hallo', 'option', 'option2', 'hallo', 'option']" label="Überschrift" />
+    <RQ_015 v-bind:attr="['lifestyle', 'automotive']" title="Lifestyle und Automotive" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="portrait" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
+    <RQ_015 v-bind:attr="['chemie']" title="Chemie" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="portrait" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
+    <RQ_015 v-bind:attr="['immobilien']" title="immobilien" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="portrait" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
 
     <Divider />
 
-    <RQ_037 type="projects"/>
+    <RQ_015 v-bind:attr="['lifestyle', 'interior']" position="horizontal" title="Lifestyle, Interior" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" />
+
+    <RQ_015 v-bind:attr="['b2c', 'b2b']" position="horizontal" title="B2C, B2B" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" class="reverse"/>
+
+    <RQ_015 v-bind:attr="['chemie', 'immobilien']" position="horizontal" title="Chemie u. Immobilien" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." size="landscape" src="/uploads/asset_teaser-pic01.jpg" link="/page/erste-seite" linkText="Hier Entlang" class="reverse" v-bind:options="['hallo', 'option', 'option2', 'hallo', 'option', 'option2', 'hallo', 'option']" label="Überschrift" />
+
+    <Divider />
+
+
 
   </Layout>
 
@@ -88,9 +96,9 @@
 
 <script>
 import RQ_013 from '~/components/RQ-013.vue'
-import Breadcrumb from '~/components/Breadcrumb.vue'
-import CategoryBanner from '~/components/CategoryBanner.vue'
-import BulletList from '~/components/BulletList.vue'
+import RQ_035 from '~/components/RQ-035.vue'
+import RQ_016 from '~/components/RQ-016.vue'
+import RQ_090 from '~/components/RQ-090.vue'
 import RQ_014 from '~/components/RQ-014.vue'
 import RQ_011 from '~/components/RQ-011.vue'
 import RQ_094 from '~/components/RQ-094.vue'
@@ -114,9 +122,9 @@ export default {
   },
   components: {
     RQ_013,
-    Breadcrumb,
-    CategoryBanner,
-    BulletList,
+    RQ_035,
+    RQ_016,
+    RQ_090,
     RQ_014,
     RQ_011,
     RQ_094,

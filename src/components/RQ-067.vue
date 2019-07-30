@@ -6,7 +6,7 @@
       <select class="rq-067-select" v-if="dropdown">
           <option v-for="option in dropdown" v-html="option" :value="option"/>
       </select>
-      <button type="button" v-if="!dropdown" class="rq-067-button telephone" onclick="window.open('tel:004952425880765765124');">+49 5242 588 0124 <g-image src="~/assets/svg/Information-Point-Rocket.svg" /> </button>
+      <button type="button" v-if="!dropdown" class="rq-067-button telephone" onclick="window.open('tel:004952425880765765124');">+49 5242 588 0124 <g-image src="~/assets/svg/Information-Point-Branchen.svg" /> </button>
       <button type="button" class="rq-067-button">E-MAIL</button>
   </div>
 </template>
@@ -52,6 +52,7 @@ export default {
       font-size: 14px;
       padding-left: 16px;
       padding-right: 16px;
+      letter-spacing: 1px;
   }
 
   .rq-067-container input[type=text], .rq-067-container select {

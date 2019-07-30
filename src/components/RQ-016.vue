@@ -1,27 +1,31 @@
 <template>
-  <div class="category-banner-container">
+  <div class="rq-016-container">
     <g-image v-if="src" :src="src" class="preview-image" />
     <g-image v-if="src" src="~/assets/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="overlay-image size--md"/>
     <g-image v-if="!src" src="~/assets/svg/Kosmonaut-Blob-Gray.svg" type="image/svg+xml" class="overlay-image size--lg"/>
-    <div class="category-banner-content no-image" v-if="!src">
-      <h1 v-html="title" class="category-banner-headline" />
-      <p class="size--lg category-banner-text" v-html="text" />
+    <div class="rq-016-content no-image" v-if="!src">
+      <RQ_035 :path="path" />
+      <h1 v-html="title" class="rq-016-headline" />
+      <p class="size--lg rq-016-text" v-html="text" />
     </div>
-    <div class="category-banner-content" v-if="src">
-      <h1 v-html="title" class="category-banner-headline" />
-      <p class="size--lg category-banner-text" v-html="text" />
+    <div class="rq-016-content" v-if="src">
+      <h1 v-html="title" class="rq-016-headline" />
+      <p class="size--lg rq-016-text" v-html="text" />
     </div>
   </div>
 </template>
 
 <script>
-
+import RQ_035 from '~/components/RQ-035.vue'
 export default {
-  name: 'CategoryBanner',
+  name: 'RQ-016',
   props: {
     src: {
       type: String,
       required: false
+    },
+    path: {
+      type: String
     },
     title: {
       type: String
@@ -29,12 +33,15 @@ export default {
     text: {
       type: String
     }
+  },
+  components: {
+    RQ_035
   }
 }
 </script>
 
 <style>
-  .category-banner-container {
+  .rq-016-container {
     position: relative;
     place-self: center;
     grid-column: 1 / 13;
@@ -43,12 +50,12 @@ export default {
     height: 720px;
   }
 
-  .category-banner-text {
+  .rq-016-text {
     color: var(--white);
     margin: 32 0 0 0;
   }
 
-  .category-banner-headline {
+  .rq-016-headline {
     margin: 8px 0 0 0;
     color: var(--white);
   }
@@ -77,7 +84,7 @@ export default {
     left: 0;
   }
 
-  .category-banner-content {
+  .rq-016-content {
     position: absolute;
     z-index: 3;
     max-width: 340px;
@@ -85,18 +92,18 @@ export default {
     left: calc(99px + 117px);
   }
 
-  .category-banner-content.no-image {
+  .rq-016-content.no-image {
     width: 928px;
     max-width: none;
     left: 50%;
     transform: translateX(-50%);
   }
 
-  .category-banner-content.no-image h1 {
+  .rq-016-content.no-image h1 {
       color: var(--midnight);
   }
 
-  .category-banner-content.no-image .category-banner-text {
+  .rq-016-content.no-image .rq-016-text {
       color: var(--dark);
   }
 </style>

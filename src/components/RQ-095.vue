@@ -4,7 +4,7 @@
       <div class="rq-095-stage" v-for="stage in content">
         <g-image :src="stage.src" class="rq-095-stage-image" />
         <div class="rq-095-stage-overlay">
-            <BulletList :title="stage.title" :text="stage.text" v-bind:options="stage.options" class="rq-095-stage-list"/>
+            <RQ_0990 :title="stage.title" :text="stage.text" v-bind:options="stage.options" class="rq-095-stage-list"/>
         </div>
       </div>
     </div>
@@ -17,7 +17,7 @@
 
 <script>
 //document.getElementsByClassName('rq-095-stage-container')[0].style.width = this.
-import BulletList from '~/components/BulletList.vue'
+import RQ_090 from '~/components/RQ-090.vue'
 
 let currentSlide = 1;
 
@@ -32,7 +32,7 @@ export default {
     }
   },
   components: {
-    BulletList
+    RQ_090
   },
   created () {
     setTimeout(() => {

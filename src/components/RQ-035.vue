@@ -1,6 +1,6 @@
 <template>
   <p class="label">
-    <span v-for="piece in path" class="breadcrumb-piece">
+    <span v-for="piece in path.split(';')" class="breadcrumb-piece">
       {{piece}}
     </span>
   </p>
@@ -8,19 +8,19 @@
 
 <script>
 export default {
-  name: 'Breadcrumb',
+  name: 'RQ-035',
   props: {
-    path: Array
+    path: String
   }
 }
 </script>
 
 <style>
-  .breadcrumb-piece:first-child {
+  .rq-035-piece:first-child {
     color: var(--copper);
   }
 
-  .breadcrumb-piece::after {
+  .rq-035-piece::after {
     content: '/'
   }
 </style>

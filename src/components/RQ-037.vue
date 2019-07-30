@@ -10,7 +10,7 @@
 </template>
 
 <script>
-let filter = [];
+var filter = [];
 
 export default {
   name: 'rq-037',
@@ -41,13 +41,12 @@ export default {
       let contentTeaser = document.getElementsByClassName('rq-015-container');
       for(let i = 0; i < contentTeaser.length; i++) {
         for(let f = 0; f < filter.length; f++) {
-          console.log(filter[f]);
+          console.log(contentTeaser[i].classList);
           if(contentTeaser[i].className.indexOf(filter[f]) == -1) {
             contentTeaser[i].classList.add('deactive');
             break;
           } else {
             contentTeaser[i].classList.remove('deactive');
-            continue;
           }
         }
         if(filter.length == 0) {
@@ -71,6 +70,7 @@ export default {
     margin: 10px;
     color: var(--gray);
     cursor: pointer;
+    font-family: "Sentinel-Book", sans-serif;
   }
 
   .rq-037-list li.active {

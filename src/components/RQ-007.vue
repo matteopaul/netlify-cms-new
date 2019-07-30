@@ -1,20 +1,20 @@
 <template>
   <div class="rq-007-container" v-if="!background">
     <div class="rq-007-content" v-for="content in contents">
-      <BulletList v-if="content.options && content.title && !content.md" class="rq-007-bulletlist" v-bind:options="content.options" :title="content.title" :text="content.text"/>
+      <RQ_090 v-if="content.options && content.title && !content.md" class="rq-007-bulletlist" v-bind:options="content.options" :title="content.title" :text="content.text"/>
       <p v-if="content.md" class="rq-007-md size--md rq-007-tic" v-html="parseMd(content.md)" />
     </div>
   </div>
   <div class="rq-007-container background" v-else-if="background">
     <div class="rq-007-content" v-for="content in contents">
-      <BulletList v-if="content.options && content.title && !content.md" class="rq-007-bulletlist" v-bind:options="content.options" :title="content.title" :text="content.text"/>
+      <RQ_090 v-if="content.options && content.title && !content.md" class="rq-007-bulletlist" v-bind:options="content.options" :title="content.title" :text="content.text"/>
       <p v-if="content.md" class="rq-007-md size--md" v-html="parseMd(content.md)" />
     </div>
   </div>
 </template>
 
 <script>
-import BulletList from '~/components/BulletList.vue'
+import RQ_090 from '~/components/RQ-090.vue'
 export default {
   name: 'rq-007',
   props: {
@@ -28,7 +28,7 @@ export default {
   },
 
   components: {
-      BulletList
+      RQ_090
   },
 
   methods: {

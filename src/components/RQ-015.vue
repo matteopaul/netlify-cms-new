@@ -10,14 +10,14 @@
     <div class="rq-015-content horizontal">
       <h2 v-html="title" class="rq-015-title" />
       <p class="size--md rq-015-text" v-html="text" />
-      <BulletList v-if="options && label" class="rq-015-bulletList" title="label" v-bind:options="options" />
+      <RQ_090 v-if="options && label" class="rq-015-bulletList" title="label" v-bind:options="options" />
       <g-link :href="link" class="rq-015-link">{{linkText}}</g-link>
     </div>
   </div>
 </template>
 
 <script>
-import BulletList from '~/components/BulletList.vue'
+import RQ_090 from '~/components/RQ-090.vue'
 import RQ_021 from '~/components/RQ-021.vue'
 
 export default {
@@ -60,7 +60,7 @@ export default {
   },
 
   components: {
-      BulletList,
+      RQ_090,
       RQ_021
   },
   computed: {
