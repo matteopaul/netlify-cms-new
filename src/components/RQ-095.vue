@@ -4,7 +4,7 @@
       <div class="rq-095-stage" v-for="stage in content">
         <g-image :src="stage.src" class="rq-095-stage-image" />
         <div class="rq-095-stage-overlay">
-            <RQ_0990 :title="stage.title" :text="stage.text" v-bind:options="stage.options" class="rq-095-stage-list"/>
+            <RQ_090 :title="stage.title" :text="stage.text" v-bind:options="stage.options" class="rq-095-stage-list"/>
         </div>
       </div>
     </div>

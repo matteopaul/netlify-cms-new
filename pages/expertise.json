@@ -14,13 +14,56 @@
       "text": "Zitat",
       "src": "/uploads/Kosmonauten_Bazenov.png",
       "category": "Zitat ",
-      "href": "Link",
-      "linkText": "/"
+      "href": "/",
+      "linkText": "LinkText"
     },
     {
       "type": "divider",
       "title": "ffff",
       "size": 2
+    },
+    {
+      "type": "rq_014",
+      "src": "sadsad",
+      "style": "list",
+      "options": [
+        {
+          "type": "bulletList",
+          "title": "Liste 1",
+          "text": "Text 1",
+          "options": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "type": "bulletList",
+          "title": "Liste 2",
+          "text": "Text 2",
+          "options": [
+            "3",
+            "4"
+          ]
+        }
+      ],
+      "textWithIcon": [],
+      "title": "Fahrräder",
+      "href": "/projects",
+      "linkText": "Ansehen"
+    },
+    {
+      "type": "rq_014",
+      "src": "ajhdaslkjdh",
+      "style": "twi",
+      "title": "lkdsjflkjf",
+      "textWithIcon": [
+        {
+          "title": "dslkjfsdlkjf",
+          "text": "lksdjflskdjf",
+          "icon": "öldspjfösljkf",
+          "href": "lkjsdlfkj"
+        }
+      ]
     }
   ]
 }

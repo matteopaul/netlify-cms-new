@@ -23,7 +23,6 @@ module.exports = function (api) {
        contentTypes[currentName].addNode(JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file)));
     })
 
-    console.log(Object.keys(contentTypes));
 
 
     const pages = store.addContentType({
@@ -38,10 +37,15 @@ module.exports = function (api) {
         store.createReference(contentTypes["rq_013"].findNode()),
         store.createReference(contentTypes["rq_016"].findNode()),
         store.createReference(contentTypes["rq_007"].findNode()),
-        store.createReference(contentTypes["rq_090"].findNode())
-        //store.createReference(contentTypes["divider"].findNode())
+        store.createReference(contentTypes["rq_090"].findNode()),
+        store.createReference(contentTypes["rq_011"].findNode()),
+        store.createReference(contentTypes["rq_012"].findNode()),
+        store.createReference(contentTypes["rq_014"].findNode()),
+        store.createReference(contentTypes["divider"].findNode())
       ]
     })
+    store.createReference(contentTypes["rq_014"].findNodes()[0].options.push(store.createReference(contentTypes["rq_090"].findNode())))
+    console.log(contentTypes["rq_014"].findNodes()[0].options);
 
 
     fs.readdirSync(pagesPath).forEach(function(file) {
