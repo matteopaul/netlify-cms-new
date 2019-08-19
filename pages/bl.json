@@ -13,6 +13,40 @@
       "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
       "src": "/uploads/asset-teaser-tprojects-luckybike.jpg",
       "path": "Startseite;Projekte;LuckyBike"
+    },
+    {
+      "type": "rq_016",
+      "title": "Lucky Bike",
+      "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
+      "path": "luck;y;bi;ke;"
+    },
+    {
+      "type": "rq_014",
+      "title": "Unsere Expertise",
+      "href": "link.html",
+      "linkText": "Hier entlang",
+      "src": "/uploads/asset-teaser-team_expertise.jpg",
+      "options": [
+        {
+          "title": "Leistungen",
+          "text": "1",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "title": "Lösungen",
+          "text": "2",
+          "options": [
+            "4",
+            "5",
+            "6"
+          ]
+        }
+      ],
+      "textWithIcon": []
     }
   ]
 }
