@@ -2,12 +2,30 @@
   "title": "bl",
   "contents": [
     {
-      "type": "rq_094",
-      "title": "plink",
-      "src": "/uploads/asset-teaser-b2b.jpg",
-      "text": "text",
-      "link": "link",
-      "linkText": "linktext"
+      "type": "rq_095",
+      "title": "Slider",
+      "contents": [
+        {
+          "src": "/uploads/asset_teaser-pic02@2x.jpg",
+          "title": "titel",
+          "text": "text optionaö",
+          "checked": true,
+          "options": [
+            {
+              "option": "2"
+            },
+            {
+              "option": "1"
+            },
+            {
+              "option": "3"
+            },
+            {
+              "option": "5"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
