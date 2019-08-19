@@ -219,6 +219,47 @@
           "text": "label 123"
         }
       ]
+    },
+    {
+      "type": "cardSlider",
+      "cards": [
+        {
+          "color": "copper",
+          "content": [
+            {
+              "type": "h3",
+              "text": "Headline"
+            }
+          ]
+        },
+        {
+          "color": "white",
+          "content": [
+            {
+              "type": "label",
+              "text": "Label"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "type": "p large",
+              "text": "Large Text"
+            }
+          ],
+          "color": "copper"
+        },
+        {
+          "color": "white",
+          "content": [
+            {
+              "type": "icon",
+              "src": "/uploads/Kosmonauten_Bazenov.png"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
