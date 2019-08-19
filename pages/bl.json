@@ -2,26 +2,23 @@
   "title": "bl",
   "contents": [
     {
-      "type": "rq_095",
-      "title": "Slider",
-      "contents": [
+      "type": "cardSlider",
+      "cards": [
         {
-          "src": "/uploads/asset_teaser-pic02@2x.jpg",
-          "title": "titel",
-          "text": "text optionaö",
-          "checked": true,
-          "options": [
+          "color": "copper",
+          "content": [
             {
-              "option": "2"
-            },
+              "type": "h3",
+              "text": "dsfgdgfsdg"
+            }
+          ]
+        },
+        {
+          "color": "copper",
+          "content": [
             {
-              "option": "1"
-            },
-            {
-              "option": "3"
-            },
-            {
-              "option": "5"
+              "type": "label",
+              "text": "label"
             }
           ]
         }
