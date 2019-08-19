@@ -2,27 +2,13 @@
   "title": "bl",
   "contents": [
     {
-      "type": "cardSlider",
-      "cards": [
-        {
-          "color": "copper",
-          "content": [
-            {
-              "type": "h3",
-              "text": "dsfgdgfsdg"
-            }
-          ]
-        },
-        {
-          "color": "copper",
-          "content": [
-            {
-              "type": "label",
-              "text": "label"
-            }
-          ]
-        }
-      ]
+      "type": "rq_015",
+      "title": "Content Teaser",
+      "src": "/uploads/asset-teaser-team_expertise@2x.jpg",
+      "size": "portrait",
+      "link": "www.youtube.com/",
+      "linkText": "Hier entlang",
+      "position": "vertical"
     }
   ]
 }
