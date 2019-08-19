@@ -82,6 +82,79 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "src": "/uploads/Kosmonauten_Bazenov.png",
       "category": "Leistungen"
+    },
+    {
+      "type": "rq_094",
+      "title": "Modepark",
+      "src": "/uploads/asset_teaser-pic03@2x.jpg",
+      "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
+      "link": "modepark.html",
+      "linkText": "mehr erfahren"
+    },
+    {
+      "type": "rq_067",
+      "title": "Dropdown",
+      "text": "ein Dropdown",
+      "dropdown": [
+        {
+          "option": "Fashion"
+        },
+        {
+          "option": "B2B"
+        },
+        {
+          "option": "E-Commerce"
+        }
+      ]
+    },
+    {
+      "type": "rq_067",
+      "title": "kein Dropdown",
+      "text": "kein Dropdown"
+    },
+    {
+      "type": "rq_095",
+      "title": "Team",
+      "contents": [
+        {
+          "src": "/uploads/asset-teaser-team.jpg",
+          "title": "Dollar Sans",
+          "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+          "options": [
+            {
+              "option": "1"
+            },
+            {
+              "option": "qweqeqwe"
+            },
+            {
+              "option": "option"
+            }
+          ],
+          "checked": false
+        },
+        {
+          "src": "/uploads/asset-teaser-tprojects-luckybike.jpg",
+          "title": "Lucky Bike",
+          "text": "Glückliche Fahrradfahrer",
+          "options": [
+            {
+              "option": "schnell und einfach"
+            }
+          ],
+          "checked": false
+        },
+        {
+          "src": "/uploads/asset-teaser-b2b.jpg",
+          "title": "B2B-Homer",
+          "checked": true,
+          "options": [
+            {
+              "option": "Tolles Foto"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
