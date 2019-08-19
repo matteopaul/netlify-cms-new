@@ -5,6 +5,11 @@
       "type": "rq_035",
       "title": "lalala",
       "path": "hallo;link;pfad;lol"
+    },
+    {
+      "type": "rq_037",
+      "title": "attr filter",
+      "attrType": "agency"
     }
   ]
 }
