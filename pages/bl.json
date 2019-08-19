@@ -177,15 +177,6 @@
           "title": "Olar se Conna",
           "text": "lalala",
           "listOptions": [
-            {
-              "listOption": "12opt"
-            },
-            {
-              "listOption": "2opt"
-            },
-            {
-              "listOption": "3opt"
-            }
           ]
         }
       ]
@@ -215,11 +206,6 @@
       "title": "hallo",
       "src": "/uploads/stage-asset_kosmonaut_startseite.jpg",
       "size": "square"
-    },
-    {
-      "type": "divider",
-      "size": 3,
-      "title": "ok"
     },
     {
       "type": "rq_092",

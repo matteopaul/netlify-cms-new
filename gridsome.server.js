@@ -52,7 +52,7 @@ module.exports = function (api) {
         store.createReference(contentTypes["rq_093"].findNode()),
         store.createReference(contentTypes["rq_094"].findNode()),
         store.createReference(contentTypes["rq_095"].findNode()),
-        store.createReference(contentTypes["cardslider"].findNode()),
+        store.createReference(contentTypes["cardSlider"].findNode()),
         store.createReference(contentTypes["divider"].findNode())
       ]
     })
