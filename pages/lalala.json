@@ -2,21 +2,11 @@
   "title": "image",
   "contents": [
     {
-      "type": "rq_090",
-      "title": "bulletlist",
-      "text": "text optional",
-      "checked": true,
-      "options": [
-        {
-          "option": "1"
-        },
-        {
-          "option": "2"
-        },
-        {
-          "option": "3"
-        }
-      ]
+      "type": "rq_091",
+      "text": "quote",
+      "src": "/uploads/Kosmonauten_Bazenov.png",
+      "name": "bazenov",
+      "description": "hallo"
     }
   ]
 }
