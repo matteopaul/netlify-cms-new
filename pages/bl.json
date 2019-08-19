@@ -258,6 +258,15 @@
               "src": "/uploads/Kosmonauten_Bazenov.png"
             }
           ]
+        },
+        {
+          "color": "gray",
+          "content": [
+            {
+              "type": "h3",
+              "text": "h3"
+            }
+          ]
         }
       ]
     }
