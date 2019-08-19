@@ -2,22 +2,21 @@
   "title": "image",
   "contents": [
     {
-      "type": "rq_067",
-      "title": "title<",
-      "text": "dksjfhskjhf",
-      "dropdown": [
+      "type": "rq_090",
+      "title": "bulletlist",
+      "text": "text optional",
+      "checked": true,
+      "options": [
         {
-          "option": "wqeqe"
+          "option": "1"
         },
         {
-          "option": "qweqe"
+          "option": "2"
+        },
+        {
+          "option": "3"
         }
       ]
-    },
-    {
-      "type": "rq_067",
-      "title": "qwewqe",
-      "text": "qweqwe"
     }
   ]
 }
