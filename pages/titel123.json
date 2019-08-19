@@ -5,27 +5,23 @@
       "type": "rq_014",
       "bulletLists": [
         {
-          "options": {
-            "title": "hallo1",
-            "text": "kein text",
-            "options": [
-              "1",
-              "2"
-            ]
-          }
+          "title": "123",
+          "text": "hallo",
+          "options": [
+            "1",
+            "12"
+          ]
         },
         {
-          "options": {
-            "title": "hallo2",
-            "text": "2. text",
-            "options": [
-              "3",
-              "4"
-            ]
-          }
+          "title": "bl12",
+          "text": "hallo",
+          "options": [
+            "3",
+            "4"
+          ]
         }
       ],
-      "src": "pfad/pfad.html"
+      "src": "link.html"
     }
   ]
 }
