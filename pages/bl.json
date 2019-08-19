@@ -1,14 +1,18 @@
 {
-  "title": "bl",
+  "title": "modules",
   "contents": [
     {
-      "type": "rq_015",
-      "title": "Content Teaser",
-      "src": "/uploads/asset-teaser-team_expertise@2x.jpg",
-      "size": "portrait",
-      "link": "www.youtube.com/",
-      "linkText": "Hier entlang",
-      "position": "vertical"
+      "type": "rq_013",
+      "title": "We're an e-commerce agency that builds shopping experiences that matter in culture.",
+      "buttonText": "mehr erfahren",
+      "src": "/uploads/stage-asset_kosmonaut_startseite.jpg"
+    },
+    {
+      "type": "rq_016",
+      "title": "Lucky Bike",
+      "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
+      "src": "/uploads/asset-teaser-tprojects-luckybike.jpg",
+      "path": "Startseite;Projekte;LuckyBike"
     }
   ]
 }
