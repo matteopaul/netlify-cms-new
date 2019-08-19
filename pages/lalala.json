@@ -2,25 +2,12 @@
   "title": "image",
   "contents": [
     {
-      "size": "portrait",
-      "src": "/uploads/Kosmonauten_Bazenov.png",
-      "linkText": "sadasd",
-      "position": "vertical",
-      "text": "adsad",
-      "attr": [
-        {
-          "option": "asdada"
-        }
-      ],
-      "label": "adsas",
-      "title": "titel",
-      "type": "rq_015",
-      "link": "sadsad",
-      "options": [
-        {
-          "title": "adasd"
-        }
-      ]
+      "type": "rq_021",
+      "title": "titeöl",
+      "text": "oijdlsdfj",
+      "src": "/uploads/asset-teaser-team.jpg",
+      "position": "left",
+      "size": "panorama"
     }
   ]
 }
