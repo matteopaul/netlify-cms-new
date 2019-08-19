@@ -296,6 +296,28 @@
           ]
         }
       ]
+    },
+    {
+      "type": "rq_037",
+      "title": "Attribute Filterr",
+      "attrType": "projects"
+    },
+    {
+      "type": "rq_015",
+      "attr": [
+        {
+          "option": "b2c"
+        },
+        {
+          "option": "b2b"
+        }
+      ],
+      "title": "B2B, B2C",
+      "src": "/uploads/asset-teaser-b2b.jpg",
+      "size": "landscape",
+      "link": "href.html",
+      "linkText": "mehr erfahren",
+      "position": "horizontal"
     }
   ]
 }
