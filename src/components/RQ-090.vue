@@ -4,8 +4,10 @@
     <h3 class="rq-090-title" v-if="text" v-html="title" />
     <p v-if="text" v-html="text" class="rq-090-text size--md"/>
     <ul>
-      <li v-for="option in options" v-html="option" v-if="!checked"/>
-      <li v-for="option in options" v-html="option" v-if="checked" class="rq-090-bulletlist-img"/>
+      <li v-for="option in options" v-html="option" v-if="!checked && !option.option"/>
+      <li v-for="option in options" v-html="option.option" v-if="!checked && option.option"/>
+      <li v-for="option in options" v-html="option.option" v-if="checked && option.option" class="rq-090-bulletlist-img"/>
+      <li v-for="option in options" v-html="option" v-if="checked && !option.option" class="rq-090-bulletlist-img"/>
     </ul>
   </div>
 </template>

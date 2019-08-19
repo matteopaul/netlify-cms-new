@@ -67,37 +67,33 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "title": "Online Shops, Corporate, Websites, APIs, Apps",
       "src": "/uploads/Kosmonauten_Bazenov.png",
-      "category": "Leistungen"
+      "category": "Leistungen",
+      "count": "4"
     },
     {
       "type": "rq_011",
       "title": "Online Shops, Corporate, Websites, APIs, Apps",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "src": "/uploads/Kosmonauten_Bazenov.png",
-      "category": "Leistungen"
+      "category": "Leistungen",
+      "count": "4"
     },
     {
       "type": "rq_011",
       "title": "Online Shops, Corporate, Websites, APIs, Apps",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "text": "Lorem ipsum dolor sit amet, consectetur  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "src": "/uploads/Kosmonauten_Bazenov.png",
-      "category": "Leistungen"
+      "category": "Leistungen",
+      "count": "4"
     },
     {
-<<<<<<< HEAD
       "type": "rq_011",
       "title": "Online Shops, Corporate, Websites, APIs, Apps",
       "text": "Lorem ipsum dolor  amet, consectetur  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "src": "/uploads/Kosmonauten_Bazenov.png",
-<<<<<<< HEAD
-      "category": "Leistungen",
-      "count": "4"
-=======
       "category": "Leistungen"
     },
     {
-=======
->>>>>>> d1b1026cfe29d3fe88e393ca525672cd430a4dd9
       "type": "rq_094",
       "title": "Modepark",
       "src": "/uploads/asset_teaser-pic03@2x.jpg",
@@ -150,11 +146,7 @@
         {
           "src": "/uploads/asset-teaser-tprojects-luckybike.jpg",
           "title": "Lucky Bike",
-<<<<<<< HEAD
           "text": "Glückliche Fahrradfahrer",
-=======
-          "text": "Glückliche Fahrradfahrer!",
->>>>>>> d1b1026cfe29d3fe88e393ca525672cd430a4dd9
           "options": [
             {
               "option": "schnell und einfach"
@@ -173,10 +165,6 @@
           ]
         }
       ]
-<<<<<<< HEAD
->>>>>>> 0fb17c7d5a10d59caa09b301c9ee1e00f7a15d28
-=======
->>>>>>> d1b1026cfe29d3fe88e393ca525672cd430a4dd9
     }
   ]
 }

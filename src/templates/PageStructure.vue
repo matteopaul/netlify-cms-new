@@ -19,7 +19,7 @@
       <RQ_092 v-if="content.type == 'rq_092'" v-bind:contents="content.contents" :color="content.color" />
       <RQ_093 v-if="content.type == 'rq_093'" v-bind:cardContents="content.cardContents" :cardColor="content.cardColor" :mdBackground="content.mdBackground" v-bind:mdContents="content.mdContents" />
       <RQ_094 v-if="content.type == 'rq_094'" :src="content.src" :title="content.title" :text="content.text" :href="content.href" :linkText="content.linkText" />
-      <RQ_095 v-if="content.type == 'rq_095'" :title="content.title" v-bind:content="content.content" />
+      <RQ_095 v-if="content.type == 'rq_095'" :title="content.title" v-bind:content="content.contents" />
       <CardSlider :title="content.title" v-bind:content="content.content" />
     </template>
   </Layout>

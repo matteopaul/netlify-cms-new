@@ -2,11 +2,11 @@
   <div class="rq-067-container horizontal">
       <h2 class="rq-067-title" v-html="title"/>
       <p class="size--lg" v-html="text" />
-      <input type="text" placeholder="E-MAIL ADRESSE" v-if="dropdown">
-      <select class="rq-067-select" v-if="dropdown">
-          <option v-for="option in dropdown" v-html="option" :value="option"/>
+      <input type="text" placeholder="E-MAIL ADRESSE" v-if="dropdown.length > 0">
+      <select class="rq-067-select" v-if="dropdown.length > 0">
+          <option v-for="option in dropdown" v-html="option" :value="option.dropOption"/>
       </select>
-      <button type="button" v-if="!dropdown" class="rq-067-button telephone" onclick="window.open('tel:004952425880765765124');">+49 5242 588 0124 <g-image src="~/assets/svg/Information-Point-Branchen.svg" /> </button>
+      <button type="button" v-if="dropdown.length == 0" class="rq-067-button telephone" onclick="window.open('tel:004952425880765765124');">+49 5242 588 0124 <g-image src="~/assets/svg/Information-Point-Branchen.svg" /> </button>
       <button type="button" class="rq-067-button">E-MAIL</button>
   </div>
 </template>
