@@ -1,32 +1,13 @@
 {
-  "title": "lalala",
+  "title": "image",
   "contents": [
     {
-      "type": "rq_016",
+      "type": "rq_021",
       "title": "titel",
-      "text": "text",
-      "path": "lalala"
-    },
-    {
-      "size": "landscape",
-      "src": "/uploads/asset-teaser-projects-luckybike.jpg",
-      "linkText": "linktext",
-      "position": "vertical",
-      "text": "text opt",
-      "attr": [
-        {
-          "option": "attr"
-        }
-      ],
-      "label": "label for bl",
-      "title": "content teaser",
-      "type": "rq_015",
-      "link": "link.html",
-      "options": [
-        {
-          "title": "opt1"
-        }
-      ]
+      "text": "text optional",
+      "src": "/uploads/asset_teaser-pic01@2x.jpg",
+      "position": "left",
+      "size": "portrait"
     }
   ]
 }
