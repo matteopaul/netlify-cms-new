@@ -177,16 +177,22 @@
           "title": "Olar se Conna",
           "text": "lalala",
           "listOptions": [
-            "Hallo",
-            "2",
-            "kshjfkfjhksj"
+            {
+              "listOption": "12opt"
+            },
+            {
+              "listOption": "2opt"
+            },
+            {
+              "listOption": "3opt"
+            }
           ]
         }
       ]
     },
     {
       "type": "rq_012",
-      "cols": 3,
+      "cols": 4,
       "title": "Text in Columns",
       "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
