@@ -220,6 +220,16 @@
       "type": "divider",
       "size": 3,
       "title": "ok"
+    },
+    {
+      "type": "rq_092",
+      "color": "gray",
+      "content": [
+        {
+          "type": "h3",
+          "text": "card"
+        }
+      ]
     }
   ]
 }
