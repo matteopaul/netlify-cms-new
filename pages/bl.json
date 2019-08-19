@@ -230,6 +230,20 @@
           "text": "card"
         }
       ]
+    },
+    {
+      "type": "cardSlider",
+      "cards": [
+        {
+          "color": "copper",
+          "content": [
+            {
+              "type": "icon",
+              "src": "/uploads/Kosmonauten_Bazenov.png"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
