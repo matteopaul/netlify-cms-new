@@ -176,8 +176,7 @@
           "type": "bulletList",
           "title": "Olar se Conna",
           "text": "lalala",
-          "listOptions": [
-          ]
+          "listOptions": []
         }
       ]
     },
@@ -213,21 +212,11 @@
       "content": [
         {
           "type": "h3",
-          "text": "card"
-        }
-      ]
-    },
-    {
-      "type": "cardSlider",
-      "cards": [
+          "text": "card lalala"
+        },
         {
-          "color": "copper",
-          "content": [
-            {
-              "type": "icon",
-              "src": "/uploads/Kosmonauten_Bazenov.png"
-            }
-          ]
+          "type": "label",
+          "text": "label 123"
         }
       ]
     }
