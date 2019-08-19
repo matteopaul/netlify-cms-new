@@ -47,6 +47,20 @@
         }
       ],
       "textWithIcon": []
+    },
+    {
+      "type": "rq_014",
+      "title": "Lorem Ipsum",
+      "src": "/uploads/asset-teaser-team.jpg",
+      "textWithIcon": [
+        {
+          "title": "Icon ",
+          "text": "Text zum Icon #nicenstein",
+          "icon": "/uploads/Kosmonauten_Bazenov.png",
+          "href": "pfad.html",
+          "linkText": "hier entlng"
+        }
+      ]
     }
   ]
 }
