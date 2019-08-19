@@ -176,7 +176,17 @@
           "type": "bulletList",
           "title": "Olar se Conna",
           "text": "lalala",
-          "listOptions": ["12opt","2opt","3opt"]
+          "listOptions": [
+            {
+              "listOption": "12opt"
+            },
+            {
+              "listOption": "2opt"
+            },
+            {
+              "listOption": "3opt"
+            }
+          ]
         }
       ]
     },
@@ -193,6 +203,23 @@
       "src": "/uploads/asset-teaser-b2b.jpg",
       "position": "left",
       "size": "portrait"
+    },
+    {
+      "type": "rq_021",
+      "title": "lalala",
+      "src": "/uploads/asset-teaser-tprojects-luckybike.jpg",
+      "size": "landscape"
+    },
+    {
+      "type": "rq_021",
+      "title": "hallo",
+      "src": "/uploads/stage-asset_kosmonaut_startseite.jpg",
+      "size": "square"
+    },
+    {
+      "type": "divider",
+      "size": 3,
+      "title": "ok"
     }
   ]
 }
