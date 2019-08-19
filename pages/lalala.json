@@ -2,14 +2,25 @@
   "title": "image",
   "contents": [
     {
-      "type": "rq_035",
-      "title": "lalala",
-      "path": "hallo;link;pfad;lol"
-    },
-    {
-      "type": "rq_037",
-      "title": "attr filter",
-      "attrType": "agency"
+      "size": "portrait",
+      "src": "/uploads/Kosmonauten_Bazenov.png",
+      "linkText": "sadasd",
+      "position": "vertical",
+      "text": "adsad",
+      "attr": [
+        {
+          "option": "asdada"
+        }
+      ],
+      "label": "adsas",
+      "title": "titel",
+      "type": "rq_015",
+      "link": "sadsad",
+      "options": [
+        {
+          "title": "adasd"
+        }
+      ]
     }
   ]
 }
