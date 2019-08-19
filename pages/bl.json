@@ -162,17 +162,15 @@
       "src": "/uploads/Kosmonauten_Bazenov.png",
       "name": "Sergey Kosyrev",
       "description": "Quoted person's job"
-<<<<<<< HEAD
-=======
     },
     {
       "type": "rq_007",
-      "title": "Text toll",
+      "title": "markdownlol",
       "contents": [
         {
           "type": "text",
-          "title": "Text MDdsfsdf",
-          "md": "**Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.**\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. **Proin gra**vida dolor sit ame[t lacus accumsan et viverr](http://www.google.de/)a justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. \\* ghfhgf \\* fhfhf \\* hfghfhfh \\* fghfhfh \\* fghgfhg \\* fghfh *"
+          "title": "lalala",
+          "md": "akdjfalfkjlskajfaskdjfölskjflskjdflöajk"
         },
         {
           "type": "bulletList",
@@ -191,7 +189,6 @@
           ]
         }
       ]
->>>>>>> b0a68afd63876b44d04a633ea7b927b3cecdd516
     }
   ]
 }
