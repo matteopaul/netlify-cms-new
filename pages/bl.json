@@ -61,6 +61,14 @@
           "linkText": "hier entlng"
         }
       ]
+    },
+    {
+      "type": "rq_011",
+      "title": "line Shops, Corporate, Websites, APIs, Apps",
+      "src": "/uploads/Kosmonauten_Bazenov.png",
+      "category": "Leistungen",
+      "href": "lala.html",
+      "linkText": "mehr details"
     }
   ]
 }
