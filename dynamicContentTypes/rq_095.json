@@ -1,0 +1,26 @@
+{
+  "type": "rq_095",
+  "title": "Slider",
+  "contents": [
+    {
+      "src": "/uploads/asset_teaser-pic02@2x.jpg",
+      "title": "titel",
+      "text": "",
+      "checked": true,
+      "options": [
+        {
+          "option": "2"
+        },
+        {
+          "option": "1"
+        },
+        {
+          "option": "3"
+        },
+        {
+          "option": "5"
+        }
+      ]
+    }
+  ]
+}

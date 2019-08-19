@@ -50,10 +50,28 @@ collections:
                         name: "text"
                         widget: "string"
                       - label: "Options"
-                        name: "options"
+                        name: "listOptions"
                         widget: "list"
                         allow_add: true
-                        field: {label: Option, name: option, widget: string}
+                        fields:
+                          - {label: Option, name: listOption, widget: string}
+          - label: "Text With Icon"
+            name: "rq_011"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: string, required: false}
+              - {label: Icon, name: src, widget: image}
+              - {label: Category Label, name: category, widget: string}
+              - {label: Link Destination, name: href, widget: string, required: false}
+              - {label: Link Text, name: linkText, widget: string, required: false}
+          - label: "Text In Columns"
+            name: "rq_012"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: string}
+              - {label: Columns, name: cols, widget: number}
           - label: "Stage"
             name: "rq_013"
             widget: object
@@ -61,6 +79,68 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: Button Text, name: buttonText, widget: string}
               - {label: Image, name: src, widget: image}
+          - label: "Promotion Banner"
+            name: "rq_014"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget:  string}
+              - {label: Link, name: href, widget: string, required: false}
+              - {label: Link Text, name: linkText, widget: string, required: false}
+              - {label: Image, name: src, widget: image}
+              - label: Bullet Lists
+                name: options
+                widget: list
+                allow_add: true
+                required: false
+                fields:
+                  - label: "Title"
+                    name: "title"
+                    widget: "string"
+                  - label: "Text"
+                    name: "text"
+                    widget: "string"
+                  - label: "Options"
+                    name: "options"
+                    widget: "list"
+                    allow_add: true
+                    field: {label: Option, name: option, widget: string}
+              - label: Text With Icon
+                widget: list
+                allow_add: true
+                required: false
+                name: "textWithIcon"
+                fields:
+                  - {label: Titel, name: title, widget: string}
+                  - {label: Text, name: text, widget: string, required: false}
+                  - {label: Icon, name: icon, widget: image}
+                  - {label: Link, name: href, widget: string}
+                  - {label: Link Text, name: linkText, widget: string}
+          - label: "Content Teaser"
+            name: "rq_015"
+            widget: object
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Image, name: src, widget: image}
+              - {label: Text, name: text, widget: string, required: false}
+              - {label: Size, name: size, widget: select, options: ["portrait", "landscape", "panorama", "square"]}
+              - {label: Link, name: link, widget: string}
+              - {label: Link Text, name: linkText, widget: string}
+              - label: "Attributes"
+                name: "attr"
+                widget: list
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Attribute, name: option, widget: string}
+              - label: Bullet Lists Options
+                name: options
+                widget: list
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Title, name: title, widget: string}
+              - {label: Bullet List Label, name: label, widget: string, required: false}
+              - {label: Position, name: position, widget: select, options: ["vertical", "horizontal"]}
           - label: "Category Banner"
             name: "rq_016"
             widget: object
@@ -68,7 +148,7 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: Text, name: text, widget: string}
               - {label: Image, name: src, widget: image, required: false}
-              - {label: Pfad (bitte mit einem semikolon trennen), name: path, widget: string}
+              - {label: "Pfad (bitte mit einem semikolon trennen)", name: path, widget: string}
           - label: "Divider"
             name: "divider"
             widget: object
@@ -79,31 +159,338 @@ collections:
               - label: size
                 name: size
                 widget: number
-          - label: "Text With Icon"
-            name: "rq_011"
+          - label: "Image"
+            name: "rq_021"
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: string, required: false}
+              - {label: Image, name: src, widget: image}
+              - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
+              - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
+          - label: "BreadCrumb"
+            name: "rq_035"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: "Pfad (bitte mit semikolon trennen)", name: path, widget: string}
+          - label: "Attribute Filter"
+            name: "rq_037"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Type, name: attrType, widget: select, options: ["agency", "projects"]}
+          - label: "Contact Form"
+            name: "rq_067"
+            widget: object
+            fields:
+              - {label: Titel, name: title, widget: string}
               - {label: Text, name: text, widget: string}
-              - {label: Icon, name: src, widget: image}
-              - {label: Category Label, name: category, widget: string}
-              - {label: Link Destination, name: href, widget: string}
+              - label: Dropdown Options
+                name: dropdown
+                widget: list
+                allow_add: true
+                required: false
+                fields:
+                  - {label: Option, name: option, widget: string}
+          - label: "Bullet List"
+            name: "rq_090"
+            widget: "object"
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Text, name: text, widget: string, required: false}
+              - {label: Checked, name: checked, widget: boolean}
+              - label: "Options"
+                name: "options"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: Option, name: option, widget: string}
+          - label: "Quote"
+            name: "rq_091"
+            widget: "object"
+            fields:
+              - {label: Text, name: text, widget: string}
+              - {label: Image, name: src, widget: image}
+              - {label: Name, name: name, widget: string}
+              - {label: Description, name: description, widget: string}
+          - label: "Card"
+            name: "rq_092"
+            widget: "object"
+            fields:
+              - {label: Color, name: color, widget: select, options: ["gray", "copper", "white"]}
+              - label: "Content"
+                name: "content"
+                widget: "list"
+                types:
+                  - label: "Headline"
+                    name: "h3"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: text, widget: string}
+                  - label: "Label"
+                    name: "label"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: text, widget: string}
+                  - label: "Regular Text"
+                    name: "p regular"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: text, widget: string}
+                  - label: "Large Text"
+                    name: "p large"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: text, widget: string}
+                  - label: "Icon"
+                    name: "icon"
+                    widget: "object"
+                    fields:
+                      - {label: Icon, name: src, widget: image}
+                  - label: "Link"
+                    name: "link"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: text, widget: string}
+                      - {label: Link Destination, name: href, widget: string}
+                  - label: "Bullet List"
+                    name: "bulletList"
+                    widget: "object"
+                    fields:
+                      - {label: Titel, name: title, widget: string}
+                      - {label: Text, name: text, widget: string, required: false}
+                      - {label: Checked, name: checked, widget: boolean}
+                      - label: "Options"
+                        name: "options"
+                        widget: "list"
+                        allow_add: true
+                        fields:
+                          - {label: Option, name: option, widget: string}
+                  - label: "Quote"
+                    name: "quote"
+                    widget: object
+                    fields:
+                      - {label: Text, name: text, widget: string}
+                      - {label: Image, name: src, widget: image}
+                      - {label: Name, name: name, widget: string}
+                      - {label: Description, name: description, widget: string}
+                  - label: "Image"
+                    name: "image"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: title, widget: string}
+                      - {label: Text, name: text, widget: string, required: false}
+                      - {label: Image, name: src, widget: image}
+                      - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
+                      - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
+          - label: "Text with Card"
+            name: "rq_093"
+            widget: "object"
+            fields:
+              - label: "Markdown Contents"
+                name: "mdContents"
+                widget: list
+                allow_add: true
+                types:
+                  - label: "Text"
+                    name: "text"
+                    widget: "object"
+                    fields:
+                      - label: "Title"
+                        name: "title"
+                        widget: "string"
+                      - label: "Markdown"
+                        name: "md"
+                        widget: "markdown"
+                  - label: "Bullet List"
+                    name: "bulletList"
+                    widget: "object"
+                    fields:
+                      - label: "Title"
+                        name: "title"
+                        widget: "string"
+                      - label: "Text"
+                        name: "text"
+                        widget: "string"
+                      - label: "Options"
+                        name: "listOptions"
+                        widget: "list"
+                        allow_add: true
+                        fields:
+                          - {label: Option, name: listOption, widget: string}
+              - {label: Card Color, name: cardColor, widget: select, options: ["copper", "white", "gray"]}
+              - {label: Text Background, name: mdBackground, widget: boolean}
+              - label: "Card Contents"
+                name: cardContents
+                widget: list
+                allow_add: true
+                types:
+                  - label: "Headline"
+                    name: "h3"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: text, widget: string}
+                  - label: "Label"
+                    name: "label"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: text, widget: string}
+                  - label: "Regular Text"
+                    name: "p regular"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: text, widget: string}
+                  - label: "Large Text"
+                    name: "p large"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: text, widget: string}
+                  - label: "Icon"
+                    name: "icon"
+                    widget: "object"
+                    fields:
+                      - {label: Icon, name: src, widget: image}
+                  - label: "Link"
+                    name: "link"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: text, widget: string}
+                      - {label: Link Destination, name: href, widget: string}
+                  - label: "Bullet List"
+                    name: "bulletList"
+                    widget: "object"
+                    fields:
+                      - {label: Titel, name: title, widget: string}
+                      - {label: Text, name: text, widget: string, required: false}
+                      - {label: Checked, name: checked, widget: boolean}
+                      - label: "Options"
+                        name: "options"
+                        widget: "list"
+                        allow_add: true
+                        fields:
+                          - {label: Option, name: option, widget: string}
+                  - label: "Quote"
+                    name: "quote"
+                    widget: object
+                    fields:
+                      - {label: Text, name: text, widget: string}
+                      - {label: Image, name: src, widget: image}
+                      - {label: Name, name: name, widget: string}
+                      - {label: Description, name: description, widget: string}
+                  - label: "Image"
+                    name: "image"
+                    widget: "object"
+                    fields:
+                      - {label: Title, name: title, widget: string}
+                      - {label: Text, name: text, widget: string, required: false}
+                      - {label: Image, name: src, widget: image}
+                      - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
+                      - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
+          - label: "Project Link"
+            name: "rq_094"
+            widget: "object"
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Image, name: src, widget: image}
+              - {label: Text, name: text, widget: string}
+              - {label: Link, name: link, widget: string}
               - {label: Link Text, name: linkText, widget: string}
-          - label: "Text In Columns"
-            name: "rq_012"
-            widget: object
+          - label: "Content Slider"
+            name: "rq_095"
+            widget: "object"
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Text, name: text, widget: string}
-              - {label: Columns, name: cols, widget: number}
-          - label: "Category Banner"
-            name: "rq_016"
-            widget: object
+              - {label: Titel, name: title, widget: string}
+              - label: "Contents"
+                name: "contents"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: Image, name: src, widget: image}
+                  - {label: Titel, name: title, widget: string}
+                  - {label: Text, name: text, widget: string, required: false}
+                  - {label: Checked, name: checked, widget: boolean}
+                  - label: "Options"
+                    name: "options"
+                    widget: "list"
+                    allow_add: true
+                    fields:
+                      - {label: Option, name: option, widget: string}
+          - label: "Card Slider"
+            name: "cardSlider"
+            widget: "object"
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Text, name: text, widget: string}
-              - {label: Image, name: src, widget: image, required: false}
-
+              - label: "Cards"
+                name: "cards"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: Color, name: color, widget: select, options: ["gray", "copper", "white"]}
+                  - label: "Content"
+                    name: "content"
+                    widget: "list"
+                    types:
+                      - label: "Headline"
+                        name: "h3"
+                        widget: "object"
+                        fields:
+                          - {label: Title, name: text, widget: string}
+                      - label: "Label"
+                        name: "label"
+                        widget: "object"
+                        fields:
+                          - {label: Title, name: text, widget: string}
+                      - label: "Regular Text"
+                        name: "p regular"
+                        widget: "object"
+                        fields:
+                          - {label: Title, name: text, widget: string}
+                      - label: "Large Text"
+                        name: "p large"
+                        widget: "object"
+                        fields:
+                          - {label: Title, name: text, widget: string}
+                      - label: "Icon"
+                        name: "icon"
+                        widget: "object"
+                        fields:
+                          - {label: Icon, name: src, widget: image}
+                      - label: "Link"
+                        name: "link"
+                        widget: "object"
+                        fields:
+                          - {label: Title, name: text, widget: string}
+                          - {label: Link Destination, name: href, widget: string}
+                      - label: "Bullet List"
+                        name: "bulletList"
+                        widget: "object"
+                        fields:
+                          - {label: Titel, name: title, widget: string}
+                          - {label: Text, name: text, widget: string, required: false}
+                          - {label: Checked, name: checked, widget: boolean}
+                          - label: "Options"
+                            name: "options"
+                            widget: "list"
+                            allow_add: true
+                            fields:
+                              - {label: Option, name: option, widget: string}
+                      - label: "Quote"
+                        name: "quote"
+                        widget: object
+                        fields:
+                          - {label: Text, name: text, widget: string}
+                          - {label: Image, name: src, widget: image}
+                          - {label: Name, name: name, widget: string}
+                          - {label: Description, name: description, widget: string}
+                      - label: "Image"
+                        name: "image"
+                        widget: "object"
+                        fields:
+                          - {label: Title, name: title, widget: string}
+                          - {label: Text, name: text, widget: string, required: false}
+                          - {label: Image, name: src, widget: image}
+                          - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
+                          - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
   - name: "pageContent"
     label: "Page Content"
     create: true

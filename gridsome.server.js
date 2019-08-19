@@ -41,6 +41,18 @@ module.exports = function (api) {
         store.createReference(contentTypes["rq_011"].findNode()),
         store.createReference(contentTypes["rq_012"].findNode()),
         store.createReference(contentTypes["rq_014"].findNode()),
+        store.createReference(contentTypes["rq_015"].findNode()),
+        store.createReference(contentTypes["rq_021"].findNode()),
+        store.createReference(contentTypes["rq_035"].findNode()),
+        store.createReference(contentTypes["rq_037"].findNode()),
+        store.createReference(contentTypes["rq_067"].findNode()),
+        store.createReference(contentTypes["rq_090"].findNode()),
+        store.createReference(contentTypes["rq_091"].findNode()),
+        store.createReference(contentTypes["rq_092"].findNode()),
+        store.createReference(contentTypes["rq_093"].findNode()),
+        store.createReference(contentTypes["rq_094"].findNode()),
+        store.createReference(contentTypes["rq_095"].findNode()),
+        store.createReference(contentTypes["cardslider"].findNode()),
         store.createReference(contentTypes["divider"].findNode())
       ]
     })

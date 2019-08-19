@@ -1,9 +1,8 @@
 {
   "type": "rq_014",
-  "src": "",
+  "src": "/uploads/Kosmonauten_Bazenov.png",
   "options": [
     {
-      "type": "bulletList",
       "title": "Liste 1",
       "text": "Text 1",
       "options": [
@@ -12,7 +11,6 @@
       ]
     },
     {
-      "type": "bulletList",
       "title": "Liste 2",
       "text": "Text 2",
       "options": [
@@ -28,13 +26,13 @@
     {
       "title": "",
       "text": "",
-      "icon": "",
+      "icon": "/uploads/Kosmonauten_Bazenov.png",
       "linkText": "",
       "href": ""
     },
     {
       "title": "",
-      "icon": "",
+      "icon": "/uploads/Kosmonauten_Bazenov.png",
       "linkText": "",
       "href": ""
     }

@@ -1,0 +1,34 @@
+{
+  "type": "rq_093",
+  "mdContents": [
+    {
+      "type": "bulletList",
+      "listOptions": [
+        {
+          "listOption": "1"
+        }
+      ],
+      "title": "",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "title": "",
+      "md": ""
+    }
+  ],
+  "cardContents": [
+    {
+      "type": "bulletList",
+      "options": [
+        {
+          "option": "short conclusion"
+        }
+      ],
+      "title": "bl",
+      "checked": true
+    }
+  ],
+  "cardColor": "copper",
+  "mdBackground": true
+}

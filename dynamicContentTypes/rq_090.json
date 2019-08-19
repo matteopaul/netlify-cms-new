@@ -1,8 +1,17 @@
 {
-  "type": "bulletList",
-  "title": "",
-  "text": "",
+  "type": "rq_090",
+  "title": "bulletlist",
+  "text": "text optional",
+  "checked": true,
   "options": [
-    ""
+    {
+      "option": "1"
+    },
+    {
+      "option": "2"
+    },
+    {
+      "option": "3"
+    }
   ]
 }

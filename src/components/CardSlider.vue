@@ -34,6 +34,7 @@ export default {
   },
   created () {
     setTimeout(() => {
+      console.log(this.content);
       let width = this.content.length * 448;
       console.log(width);
       document.getElementsByClassName('card-slider-stage-container')[0].style.width = width + "px";

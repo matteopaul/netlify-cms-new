@@ -12,7 +12,7 @@
       "type": "rq_090",
       "title": "Bullet List",
       "text": "test",
-      "options": [
+      "listOptions": [
         "1",
         "2",
         "3"

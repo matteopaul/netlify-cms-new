@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <RQ_013 src="/uploads/stage-asset_kosmonaut_startseite.jpg" buttonText="mehr erfahren" text="We're an e-commerce agency that builds shopping experiences that matter in culture."/>
+    <RQ_013 src="/uploads/stage-asset_kosmonaut_startseite.jpg" buttonText="mehr erfahren" title="We're an e-commerce agency that builds shopping experiences that matter in culture."/>
     <RQ_016 src="/uploads/bildschirmfoto-2019-06-26-um-16.02.47.png" title="Lucky Bike" text="„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“"/>
     <RQ_016 title="Lucky Bike" text="„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“"/>
     <RQ_090 title="Leistungen" v-bind:options="['1', '2', '3. Lösung']" />
