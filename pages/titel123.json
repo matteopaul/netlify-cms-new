@@ -1,0 +1,17 @@
+{
+  "title": "Titel123",
+  "contents": [
+    {
+      "type": "rq_014",
+      "src": "pfad/pfad.html",
+      "options": {
+        "title": "Titel",
+        "text": "Text",
+        "options": [
+          "1",
+          "2"
+        ]
+      }
+    }
+  ]
+}
