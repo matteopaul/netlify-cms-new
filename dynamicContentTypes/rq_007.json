@@ -9,7 +9,7 @@
       "md": "## Text\n\nlustiger Markdown **test**"
     },
     {
-      "type": "rq_090",
+      "type": "bulletList",
       "title": "Bullet List",
       "text": "test",
       "listOptions": [

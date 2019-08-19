@@ -53,8 +53,8 @@ collections:
                         name: "listOptions"
                         widget: "list"
                         allow_add: true
-                        fields:
-                          - {label: Option, name: listOption, widget: string}
+                        field:
+                          - {label: Option, name: option, widget: string}
           - label: "Text With Icon"
             name: "rq_011"
             widget: object
@@ -314,11 +314,10 @@ collections:
                         name: "text"
                         widget: "string"
                       - label: "Options"
-                        name: "listOptions"
+                        name: "options"
                         widget: "list"
                         allow_add: true
-                        fields:
-                          - {label: Option, name: listOption, widget: string}
+                        field: {label: Option, name: option, widget: string}
               - {label: Card Color, name: cardColor, widget: select, options: ["copper", "white", "gray"]}
               - {label: Text Background, name: mdBackground, widget: boolean}
               - label: "Card Contents"
