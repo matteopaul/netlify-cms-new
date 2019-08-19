@@ -2,38 +2,12 @@
   "title": "bl",
   "contents": [
     {
-      "type": "rq_093",
-      "mdContents": [
-        {
-          "type": "bulletList",
-          "listOptions": [
-            {
-              "listOption": "1"
-            }
-          ],
-          "title": "md bulletlist",
-          "text": "md bl text"
-        },
-        {
-          "type": "text",
-          "title": "lorem ipsum",
-          "md": "sfäskjfaoiuqfojmcuz0m8mzm 0dsdfgfsdgdsfgdsgsdfgdsfgdsfgsdfgsdg"
-        }
-      ],
-      "cradContents": [
-        {
-          "type": "bulletList",
-          "options": [
-            {
-              "option": "short conclusion"
-            }
-          ],
-          "title": "bl",
-          "checked": true
-        }
-      ],
-      "cardColor": "copper",
-      "mdBackground": true
+      "type": "rq_094",
+      "title": "plink",
+      "src": "/uploads/asset-teaser-b2b.jpg",
+      "text": "text",
+      "link": "link",
+      "linkText": "linktext"
     }
   ]
 }
