@@ -2,26 +2,27 @@
   "title": "Titel123",
   "contents": [
     {
-      "type": "rq_014",
-      "bulletLists": [
+      "type": "rq_092",
+      "content": [
         {
-          "title": "123",
-          "text": "hallo",
-          "options": [
-            "1",
-            "12"
-          ]
+          "type": "p regular",
+          "text": "wnewrkrkj"
         },
         {
-          "title": "bl12",
-          "text": "hallo",
-          "options": [
-            "3",
-            "4"
-          ]
+          "type": "label",
+          "text": "sdfsfdsf"
+        },
+        {
+          "type": "p large",
+          "text": "sdfdsf"
+        },
+        {
+          "type": "link",
+          "text": "sdfdsf",
+          "href": "sdfsdfsf"
         }
       ],
-      "src": "link.html"
+      "color": "copper"
     }
   ]
 }
