@@ -2,27 +2,82 @@
   "title": "Titel123",
   "contents": [
     {
-      "type": "rq_092",
-      "content": [
+      "type": "cardSlider",
+      "cards": [
         {
-          "type": "p regular",
-          "text": "wnewrkrkj"
+          "color": "copper"
         },
         {
-          "type": "label",
-          "text": "sdfsfdsf"
+          "color": "copper"
         },
         {
-          "type": "p large",
-          "text": "sdfdsf"
+          "color": "gray"
         },
         {
-          "type": "link",
-          "text": "sdfdsf",
-          "href": "sdfsdfsf"
+          "color": "white"
+        },
+        {
+          "color": "copper"
+        },
+        {
+          "color": "white"
+        },
+        {
+          "color": "copper"
+        },
+        {
+          "color": "gray"
+        },
+        {
+          "color": "gray"
+        },
+        {
+          "color": "white"
+        },
+        {
+          "color": "copper"
+        },
+        {
+          "color": "gray"
+        },
+        {
+          "content": [
+            {
+              "type": "p regular",
+              "text": "dfgdgdfg"
+            },
+            {
+              "type": "p regular",
+              "text": "dfgdfg"
+            },
+            {
+              "type": "link",
+              "text": "dfgdfg",
+              "href": "dfgdgf"
+            },
+            {
+              "type": "image",
+              "title": "dfgdfg",
+              "src": "/uploads/Kosmonauten_Bazenov.png",
+              "size": "panorama"
+            },
+            {
+              "type": "quote",
+              "text": "fdgdfg",
+              "src": "/uploads/asset-teaser-projects-luckybike.jpg",
+              "name": "fdgdfgfdg",
+              "description": "dgdfgdf"
+            }
+          ],
+          "color": "copper"
+        },
+        {
+          "color": "copper"
+        },
+        {
+          "color": "white"
         }
-      ],
-      "color": "copper"
+      ]
     }
   ]
 }
