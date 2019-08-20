@@ -265,6 +265,61 @@
       "src": "/uploads/Kosmonauten_Bazenov.png",
       "name": "Evgenij Bazenov",
       "description": "Kosmonaut"
+    },
+    {
+      "type": "rq_008",
+      "title": "Card (RQ-092)",
+      "size": "H3"
+    },
+    {
+      "type": "rq_092",
+      "color": "gray",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Headline"
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "copper",
+      "content": [
+        {
+          "type": "label",
+          "text": "Label"
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "p regular",
+          "text": "Regular Text"
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "p large",
+          "text": "Large Text"
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "copper",
+      "content": [
+        {
+          "type": "icon",
+          "src": "/uploads/information-point-rocket.svg"
+        }
+      ]
     }
   ]
 }
