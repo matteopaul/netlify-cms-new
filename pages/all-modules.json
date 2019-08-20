@@ -342,7 +342,9 @@
           "checked": true,
           "text": "small text",
           "options": [
-            "1", "2", "3"
+            "1",
+            "2",
+            "3"
           ]
         }
       ]
@@ -371,6 +373,50 @@
           "size": "square"
         }
       ]
+    },
+    {
+      "type": "rq_008",
+      "title": "Text with Card (RQ-093)",
+      "size": "H3"
+    },
+    {
+      "type": "rq_093",
+      "mdContents": [
+        {
+          "type": "text",
+          "md": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+          "title": "markdown1"
+        },
+        {
+          "type": "bulletList",
+          "title": "Wichtig:",
+          "text": "(zum merken)",
+          "options": [
+            "Lorem",
+            "ipsum"
+          ]
+        }
+      ],
+      "cardColor": "gray",
+      "cardContents": [
+        {
+          "type": "bulletList",
+          "title": "Most important Things",
+          "checked": true,
+          "options": [
+            {
+              "option": "1"
+            },
+            {
+              "option": "2"
+            },
+            {
+              "option": "3"
+            }
+          ]
+        }
+      ],
+      "mdBackground": false
     }
   ]
 }
