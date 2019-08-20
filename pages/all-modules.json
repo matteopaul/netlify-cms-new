@@ -85,7 +85,7 @@
       "href": "https:/www.google.de",
       "linkText": "mehr erfahren.",
       "src": "/uploads/asset-teaser-team@2.jpg",
-      "lists": [
+      "options": [
         {
           "title": "Anforderungen",
           "options": [
@@ -138,19 +138,16 @@
       "position": "vertical"
     },
     {
-      "type": "rq_015",
-      "title": "Content Teaser",
-      "src": "/uploads/asset-teaser-b2b.jpg",
       "size": "square",
-      "link": "https://www.google.de/",
+      "src": "/uploads/asset-teaser-tprojects-luckybike.jpg",
       "linkText": "projekt ansehen",
-      "attr": [],
+      "position": "horizontal",
+      "text": "Horizontal",
+      "label": "Informationen",
+      "title": "Category Banner",
+      "type": "rq_015",
+      "link": "https://www.google.de/",
       "options": [
-<<<<<<< HEAD
-        "Hallo"
-      ],
-      "position": "horizontal"
-=======
         {
           "title": "Bullet List"
         },
@@ -161,7 +158,18 @@
           "title": "*freu*"
         }
       ]
->>>>>>> 2899559e728607ce23272b9dc2dd9c70eff5158a
+    },
+    {
+      "type": "rq_008",
+      "title": "Category Banner (RQ-016)",
+      "size": "H3"
+    },
+    {
+      "type": "rq_016",
+      "title": "Category Banner",
+      "text": "Projekt welches beschrieben werden soll",
+      "src": "/uploads/asset_teaser-pic03@2x.jpg",
+      "path": "Startseite;Projekte;Bergsteigen"
     }
   ]
 }
