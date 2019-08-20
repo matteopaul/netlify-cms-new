@@ -130,7 +130,7 @@ collections:
                 widget: list
                 allow_add: true
                 required: false
-                fields:
+                field:
                   - {label: Attribute, name: option, widget: string}
               - label: Bullet Lists Options
                 name: options

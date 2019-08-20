@@ -306,10 +306,10 @@
       "type": "rq_015",
       "attr": [
         {
-          "option": "b2c"
+          "option": "#b2c"
         },
         {
-          "option": "b2b"
+          "option": "#b2b"
         }
       ],
       "title": "B2B, B2C",

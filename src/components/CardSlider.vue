@@ -2,7 +2,7 @@
   <div class="card-slider-container">
     <div class="card-slider-stage-container">
       <div class="card-slider-stage" v-for="card in content">
-        <RQ_092 :color="card.color" v-bind:contents="card.contents" />
+        <RQ_092 :color="card.color" v-bind:contents="card.content" />
       </div>
     </div>
           <!---#########-DOTS-########---->

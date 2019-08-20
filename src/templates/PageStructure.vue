@@ -20,10 +20,7 @@
       <RQ_093 v-if="content.type == 'rq_093'" v-bind:cardContents="content.cardContents" :cardColor="content.cardColor" :mdBackground="content.mdBackground" v-bind:mdContents="content.mdContents" />
       <RQ_094 v-if="content.type == 'rq_094'" :src="content.src" :title="content.title" :text="content.text" :href="content.href" :linkText="content.linkText" />
       <RQ_095 v-if="content.type == 'rq_095'" :title="content.title" v-bind:content="content.contents" />
-      <CardSlider v-if="content.type == 'cardSlider'" :title="content.title" v-bind:content="content.content" />
-      <div v-if="content.type == 'cardSlider'">
-        {{content.content}}
-      </div>
+      <CardSlider v-if="content.type == 'cardSlider'" :title="content.title" v-bind:content="content.cards" />
     </template>
   </Layout>
 </template>
@@ -51,7 +48,7 @@ query PageStructure ($id: String!) {
       ...cardWithText
       ...projectLink
       ...contentSlider
-      ...cardslider
+      ...slider
     }
   }
 }
@@ -254,7 +251,7 @@ fragment contentSlider on rq_095 {
   }
 }
 
-fragment cardslider on cardSlider {
+fragment slider on cardSlider {
   type
   cards {
     color
