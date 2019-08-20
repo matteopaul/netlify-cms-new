@@ -96,15 +96,9 @@
       "title": "Dropdown",
       "text": "ein Dropdown",
       "dropdown": [
-        {
-          "option": "Fashion"
-        },
-        {
-          "option": "B2B"
-        },
-        {
-          "option": "E-Commerce"
-        }
+        "Fashion",
+        "B2B",
+        "E-Commerce"
       ]
     },
     {
@@ -259,9 +253,7 @@
               "text": " in Card",
               "checked": true,
               "options": [
-                {
-                  "option": "klappt"
-                }
+                "Hallo"
               ]
             }
           ]
@@ -292,8 +284,8 @@
         {
           "type": "bulletList",
           "title": "Wichtigste Punkte",
-          "checked": false,
-          "options": []
+          "checked": true,
+          "options": ["Guter Service", "Freundliche Mitarbeiter", "Zufriedene Kunden"]
         }
       ]
     },
