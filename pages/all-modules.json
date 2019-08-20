@@ -404,7 +404,9 @@
           "title": "Most important Things",
           "checked": true,
           "options": [
-            "1", "2", "3"
+            "1",
+            "2",
+            "3"
           ],
           "text": "remember!"
         }
@@ -441,6 +443,17 @@
             "1",
             "2",
             "3"
+          ]
+        },
+        {
+          "src": "/uploads/asset_teaser-pic02@2x.jpg",
+          "title": "Wiese",
+          "text": "und Berge",
+          "checked": true,
+          "options": [
+            "rasen",
+            "hütte",
+            "tiere"
           ]
         }
       ]
