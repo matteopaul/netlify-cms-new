@@ -103,6 +103,39 @@
           "text": "-"
         }
       ]
+    },
+    {
+      "type": "rq_008",
+      "title": "Promotion Banner (RQ-014) Variante 2",
+      "size": "H3"
+    },
+    {
+      "type": "rq_014",
+      "title": "Promo Banner",
+      "src": "/uploads/asset-teaser-team_expertise.jpg",
+      "textWithIcon": [
+        {
+          "title": "Kosmonauten bei der Arbeit",
+          "icon": "/uploads/information-point-rocket.svg",
+          "href": "https://www.google.de/",
+          "linkText": "mehr sehen"
+        }
+      ]
+    },
+    {
+      "type": "rq_008",
+      "title": "Content Teaser (RQ-015)",
+      "size": "H3"
+    },
+    {
+      "type": "rq_015",
+      "title": "Content TEaser",
+      "src": "/uploads/asset-teaser-b2b.jpg",
+      "size": "square",
+      "link": "https://www.google.de/",
+      "linkText": "projekt ansehen",
+      "attr": [],
+      "position": "vertical"
     }
   ]
 }
