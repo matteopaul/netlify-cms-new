@@ -26,7 +26,7 @@ module.exports = function (api) {
 
     const pages = store.addContentType({
       typeName: "PageStructure",
-      route: "/page/:slug"
+      route: "/:slug"
     });
 
 
@@ -37,8 +37,10 @@ module.exports = function (api) {
         store.createReference(contentTypes["rq_007"].findNode()),
         store.createReference(contentTypes["rq_011"].findNode()),
         store.createReference(contentTypes["rq_012"].findNode()),
+        store.createReference(contentTypes["rq_013"].findNode()),
         store.createReference(contentTypes["rq_014"].findNode()),
         store.createReference(contentTypes["rq_015"].findNode()),
+        store.createReference(contentTypes["rq_016"].findNode()),
         store.createReference(contentTypes["rq_021"].findNode()),
         store.createReference(contentTypes["rq_035"].findNode()),
         store.createReference(contentTypes["rq_037"].findNode()),
@@ -60,9 +62,7 @@ module.exports = function (api) {
 
           let currentData = JSON.parse(fs.readFileSync(pagesPath + "/" + file));
           let items = [];
-          console.log(file);
           currentData.contents.forEach(function(item) {
-          console.log(item.type);
           let node = store.createReference(contentTypes[item.type].addNode(item));
           items.push(node);
           });

@@ -107,7 +107,7 @@ export default {
   .rq-014-container.bulletlist .rq-014-link {
     position: absolute;
     left: 935px;
-    top: calc(521px - 50px);
+    top: calc(521px);
     margin-top: 50px;
     font-size: 14px;
     text-transform: uppercase;
@@ -133,6 +133,10 @@ export default {
     top: calc(283px - 51px);
   }
 
+  .rq-014-bulletLists .rq-090-container {
+    vertical-align: top;
+  }
+
   .rq-014-link::after {
     content: url('/uploads/svg/arrow-button_link.svg');
     width: 22px;
@@ -146,6 +150,10 @@ export default {
     left: calc(935px - 31px);
     display: inline-block;
     margin-left: 31px;
+  }
+
+  .rq-014-container .rq-011-container.horizontal {
+    padding: 0;
   }
 
 </style>
