@@ -212,15 +212,9 @@
       "title": "Call to Action ",
       "text": "Formular ",
       "dropdown": [
-        {
-          "option": "fashion"
-        },
-        {
-          "option": "b2b"
-        },
-        {
-          "option": "b2c"
-        }
+        "fashion",
+        "b2b",
+        "b2c"
       ]
     },
     {
