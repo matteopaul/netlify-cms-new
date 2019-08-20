@@ -8,18 +8,9 @@
       "text": "",
       "checked": true,
       "options": [
-        {
-          "option": "2"
-        },
-        {
-          "option": "1"
-        },
-        {
-          "option": "3"
-        },
-        {
-          "option": "5"
-        }
+        "1",
+        "2",
+        "4"
       ]
     }
   ]

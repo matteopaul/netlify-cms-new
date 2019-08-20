@@ -85,7 +85,7 @@
       "href": "https:/www.google.de",
       "linkText": "mehr erfahren.",
       "src": "/uploads/asset-teaser-team@2.jpg",
-      "options": [
+      "lists": [
         {
           "title": "Anforderungen",
           "options": [
@@ -438,16 +438,8 @@
           "title": "B2BHomer",
           "checked": true,
           "options": [
-            "1", "2", "3"
+            
           ]
-        },
-        {
-          "src": "/uploads/asset_teaser-pic02@2x.jpg",
-          "title": "Wiese",
-          "options": [
-            "Rasen", "Haus", "Tiere"
-          ],
-          "checked": false
         }
       ]
     }
