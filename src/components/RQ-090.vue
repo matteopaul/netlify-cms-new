@@ -43,9 +43,8 @@ export default {
 
 <style>
   .rq-090-container {
-    grid-column: span 3;
+    grid-column: span 5;
     grid-row: span var(--rows);
-    height: 300px;
     display: inline-block;
     margin-right: 30px;
   }

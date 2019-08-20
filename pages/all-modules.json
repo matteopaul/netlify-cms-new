@@ -342,15 +342,7 @@
           "checked": true,
           "text": "small text",
           "options": [
-            {
-              "option": "1"
-            },
-            {
-              "option": "2"
-            },
-            {
-              "option": "3"
-            }
+            "1", "2", "3"
           ]
         }
       ]
