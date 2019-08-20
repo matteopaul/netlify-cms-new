@@ -24,7 +24,7 @@
           "type": "bulletList",
           "title": "Und eine",
           "text": "Bullet List dazu",
-          "listOptions": [
+          "options": [
             "Option 1",
             "Option 2"
           ]
