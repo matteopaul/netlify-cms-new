@@ -160,6 +160,27 @@
       "text": "Projekt welches beschrieben werden soll",
       "src": "/uploads/asset_teaser-pic03@2x.jpg",
       "path": "Startseite;Projekte;Bergsteigen"
+    },
+    {
+      "type": "rq_008",
+      "title": "Images (RQ-021)",
+      "size": "H3"
+    },
+    {
+      "type": "rq_021",
+      "title": "Kosmonauten-1",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "src": "/uploads/asset-teaser-team_expertise.jpg",
+      "position": "bottom",
+      "size": "portrait"
+    },
+    {
+      "type": "rq_021",
+      "title": "Kosmonauten-2",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "src": "/uploads/asset-teaser-team.jpg",
+      "position": "top",
+      "size": "portrait"
     }
   ]
 }
