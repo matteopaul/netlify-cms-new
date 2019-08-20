@@ -131,7 +131,7 @@ collections:
                 allow_add: true
                 required: false
                 field:
-                  - {label: Attribute, name: option, widget: string}
+                  - {label: Option, name: option, widget: string}
               - label: Bullet Lists Options
                 name: options
                 widget: list
