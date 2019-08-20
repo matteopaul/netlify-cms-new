@@ -413,8 +413,7 @@ collections:
                     name: "options"
                     widget: "list"
                     allow_add: true
-                    fields:
-                      - {label: Option, name: option, widget: string}
+                    field: {label: Option, name: option, widget: string}
           - label: "Card Slider"
             name: "cardSlider"
             widget: "object"
