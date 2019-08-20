@@ -85,7 +85,7 @@
       "href": "https:/www.google.de",
       "linkText": "mehr erfahren.",
       "src": "/uploads/asset-teaser-team@2.jpg",
-      "options": [
+      "lists": [
         {
           "title": "Anforderungen",
           "options": [
@@ -138,26 +138,17 @@
       "position": "vertical"
     },
     {
-      "size": "square",
-      "src": "/uploads/asset-teaser-tprojects-luckybike.jpg",
-      "linkText": "projekt ansehen",
-      "position": "horizontal",
-      "text": "Horizontal",
-      "label": "Informationen",
-      "title": "Category Banner",
       "type": "rq_015",
+      "title": "Content Teaser",
+      "src": "/uploads/asset-teaser-b2b.jpg",
+      "size": "square",
       "link": "https://www.google.de/",
+      "linkText": "projekt ansehen",
+      "attr": [],
       "options": [
-        {
-          "title": "Bullet List!"
-        },
-        {
-          "title": "Und viele andere Sachen"
-        },
-        {
-          "title": "*freu*"
-        }
-      ]
+        "Hallo"
+      ],
+      "position": "horizontal"
     }
   ]
 }
