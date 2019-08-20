@@ -232,6 +232,47 @@
       "type": "rq_067",
       "title": "Call to Action",
       "text": "Formular"
+    },
+    {
+      "type": "rq_008",
+      "title": "Bullet List (RQ-090)",
+      "size": "H3"
+    },
+    {
+      "type": "rq_090",
+      "title": "Bullet List",
+      "checked": true,
+      "options": [
+        {
+          "option": "Option 1"
+        },
+        {
+          "option": "Option 2"
+        },
+        {
+          "option": "Option 3"
+        },
+        {
+          "option": "Option 4"
+        },
+        {
+          "option": "Option 5 "
+        }
+      ]
+    },
+    {
+      "type": "rq_090",
+      "title": "Bullet List",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "checked": false,
+      "options": [
+        {
+          "option": "Lorem"
+        },
+        {
+          "option": "Ipsum"
+        }
+      ]
     }
   ]
 }
