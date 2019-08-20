@@ -6,6 +6,56 @@
       "title": "We're an e-commerce agency that builds shopping experiences that matter in culture.",
       "buttonText": "mehr erfahren",
       "src": "/uploads/fullsizeoutput_1.jpeg"
+    },
+    {
+      "type": "rq_014",
+      "title": "Unsere Services",
+      "href": "http://link",
+      "linkText": "mehr erfahren",
+      "src": "/uploads/kosmonauten0073-169.jpg",
+      "lists": [
+        {
+          "title": "Leistungen",
+          "options": [
+            "Online Shops",
+            "Corporate Websites",
+            "3D Renderings",
+            "APIs",
+            "Apps"
+          ]
+        },
+        {
+          "title": "Lösungen",
+          "options": [
+            "Rocket",
+            "Shuttle",
+            "One",
+            "Suit",
+            "Crawler/Satellies"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rq_014",
+      "title": "Unsere Expertise",
+      "src": "/uploads/kosmonauten0073-494.jpg",
+      "textWithIcon": [
+        {
+          "title": "Branchen",
+          "text": "#Fashion, #Lifestyle, #Automotive, #Industrie, #B2B, #B2C, #Interior",
+          "icon": "/uploads/information-point-system.svg",
+          "href": "https://link",
+          "linkText": "mehr erfahren"
+        },
+        {
+          "title": "Systeme",
+          "text": "#OXID, #Shopware, #Spryker, #Plenty, #Market, #FactFinder, #Typo3, #PayOne",
+          "icon": "/uploads/information-point-branchen.svg",
+          "href": "https://link",
+          "linkText": "mehr erfahren"
+        }
+      ]
     }
   ]
 }
