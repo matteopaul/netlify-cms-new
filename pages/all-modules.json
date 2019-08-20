@@ -1,0 +1,56 @@
+{
+  "title": "all modules",
+  "contents": [
+    {
+      "type": "rq_008",
+      "title": "ALL MODULES",
+      "size": "H2"
+    },
+    {
+      "type": "rq_008",
+      "title": "Rich Text (RQ-007)",
+      "size": "H3"
+    },
+    {
+      "type": "rq_007",
+      "title": "Rich Text",
+      "contents": [
+        {
+          "type": "text",
+          "title": "Rich Text Markdown",
+          "md": "**Rich** Text in [Markdown](https://www.google.com/) Format"
+        },
+        {
+          "type": "bulletList",
+          "title": "Und eine",
+          "text": "Bullet List dazu",
+          "listOptions": [
+            "Option 1",
+            "Option 2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rq_008",
+      "title": "Text with Icon",
+      "size": "H3"
+    },
+    {
+      "type": "rq_011",
+      "title": "Text with",
+      "text": "Icon",
+      "src": "/uploads/information-point-rocket.svg",
+      "category": "Rakete"
+    },
+    {
+      "type": "rq_011",
+      "title": "Text with Icon",
+      "text": "Horizontal",
+      "src": "/uploads/information-point-rocket.svg",
+      "category": "Rakete 2",
+      "href": "https://www.google.de/",
+      "linkText": "mehr erfahren"
+    }
+  ]
+}
