@@ -432,13 +432,15 @@
     {
       "type": "rq_095",
       "title": "slider1",
-      "contents": [
+      "stages": [
         {
           "src": "/uploads/asset-teaser-b2b.jpg",
           "title": "B2BHomer",
           "checked": true,
           "options": [
-            
+            "1",
+            "2",
+            "3"
           ]
         }
       ]

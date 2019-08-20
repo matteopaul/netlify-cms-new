@@ -239,9 +239,7 @@ fragment contentSlider on rq_095 {
     title
     text
     checked
-    options {
-      option
-    }
+    options
   }
 }
 

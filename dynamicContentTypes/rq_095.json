@@ -7,11 +7,7 @@
       "title": "titel",
       "text": "",
       "checked": true,
-      "options": [
-        "1",
-        "2",
-        "4"
-      ]
+      "options": ["1","2","4"]
     }
   ]
 }
