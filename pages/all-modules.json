@@ -136,6 +136,28 @@
       "linkText": "projekt ansehen",
       "attr": [],
       "position": "vertical"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/asset-teaser-tprojects-luckybike.jpg",
+      "linkText": "projekt ansehen",
+      "position": "horizontal",
+      "text": "Horizontal",
+      "label": "Informationen",
+      "title": "Category Banner",
+      "type": "rq_015",
+      "link": "https://www.google.de/",
+      "options": [
+        {
+          "title": "Bullet List"
+        },
+        {
+          "title": "Und viele andere Sachen"
+        },
+        {
+          "title": "*freu*"
+        }
+      ]
     }
   ]
 }
