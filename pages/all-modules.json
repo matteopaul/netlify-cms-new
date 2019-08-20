@@ -24,7 +24,7 @@
           "type": "bulletList",
           "title": "Und eine",
           "text": "Bullet List dazu",
-          "options": [
+          "listOptions": [
             "Option 1",
             "Option 2"
           ]
@@ -83,7 +83,7 @@
       "type": "rq_014",
       "title": "Promo Banner",
       "href": "https:/www.google.de",
-      "linkText": "mehr erfahren",
+      "linkText": "mehr erfahren.",
       "src": "/uploads/asset-teaser-team@2.jpg",
       "options": [
         {
@@ -138,7 +138,7 @@
       "position": "vertical"
     },
     {
-      "size": "landscape",
+      "size": "square",
       "src": "/uploads/asset-teaser-tprojects-luckybike.jpg",
       "linkText": "projekt ansehen",
       "position": "horizontal",
@@ -149,7 +149,7 @@
       "link": "https://www.google.de/",
       "options": [
         {
-          "title": "Bullet List"
+          "title": "Bullet List!"
         },
         {
           "title": "Und viele andere Sachen"
