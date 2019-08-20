@@ -1,0 +1,13 @@
+{
+  "title": "website",
+  "url": "/pfad/lol",
+  "contents": [
+    {
+      "type": "rq_011",
+      "title": "hallo",
+      "text": "text",
+      "src": "/uploads/information-point-rocket.svg",
+      "category": "Rakete"
+    }
+  ]
+}
