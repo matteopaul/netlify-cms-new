@@ -305,12 +305,8 @@
     {
       "type": "rq_015",
       "attr": [
-        {
-          "option": "#b2c"
-        },
-        {
-          "option": "#b2b"
-        }
+        "b2b",
+        "b2c"
       ],
       "title": "B2B, B2C",
       "src": "/uploads/asset-teaser-b2b.jpg",
