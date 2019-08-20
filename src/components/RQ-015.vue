@@ -3,7 +3,7 @@
     <RQ_021 :src="src" :size="size" :title="title" class="rq-015-image" />
     <h2 v-html="title" class="rq-015-title" />
     <p class="size--md rq-015-text" v-html="text" />
-    <g-link :href="link" class="rq-015-link">{{linkText}}</g-link>
+    <g-link :to="link" class="rq-015-link">{{linkText}}</g-link>
   </div>
   <div class="rq-015-container horizontal" v-else-if="position && position == 'horizontal' && size == 'landscape'" :class="classes">
     <RQ_021 :src="src" :size="size" :title="title" class="rq-015-image horizontal" />
@@ -11,7 +11,7 @@
       <h2 v-html="title" class="rq-015-title" />
       <p class="size--md rq-015-text" v-html="text" />
       <RQ_090 v-if="options && label" class="rq-015-bulletList" title="label" v-bind:options="options" />
-      <g-link :href="link" class="rq-015-link">{{linkText}}</g-link>
+      <g-link :to="link" class="rq-015-link">{{linkText}}</g-link>
     </div>
   </div>
 </template>

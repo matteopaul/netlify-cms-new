@@ -7,7 +7,7 @@
       <p class="label" v-html="hint" />
       <h3 v-html="title" class="rq-011-title" />
       <p v-html="text" class="size--sm"></p>
-      <g-link :href="href" class="rq-011-link">{{linkText}}</g-link>
+      <g-link :to="href" class="rq-011-link">{{linkText}}</g-link>
     </div>
   </div>
 

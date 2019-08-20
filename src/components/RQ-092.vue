@@ -5,8 +5,8 @@
         <p v-if="content.type == 'label'" v-html="content.text" class="label" />
         <p v-if="content.type == 'p regular'" v-html="content.text" class="size--md"/>
         <p v-if="content.type == 'p large'" v-html="content.text" class="size--lg"/>
-        <g-image v-if="content.type == 'icon'" :src="content.src"/>
-        <g-link v-if="content.type == 'link'" :href="content.href">{{content.text}}</g-link>
+        <g-image v-if="content.type == 'icon'" :src="content.src" class="img"/>
+        <g-link v-if="content.type == 'link'" :to="content.href" class="rq-092-link">{{content.text}}</g-link>
         <RQ_090 v-if="content.type == 'bulletList'" :title="content.title" :text="content.text" v-bind:options="content.options" checked="content.checked" />
         <RQ_091 v-if="content.type == 'quote'" :text="content.text" :src="content.src" :description="content.description" :name="content.name" />
         <RQ_021 v-if="content.type == 'image'" :src="content.src" class="rq-092-image" :size="content.size" :title="content.title" />
@@ -67,8 +67,12 @@ export default {
     background: var(--card-color);
     color: var(--font-color);
     position: relative;
-    padding: 24px;
     box-sizing: border-box;
+    padding-bottom: 24px;
+  }
+
+  .rq-092-container > *:not(.rq-092-image) {
+    padding: 24px;
   }
 
   .rq-092-container .label {
@@ -83,9 +87,20 @@ export default {
     text-decoration: underline;
   }
 
-  .rq-092-image {
-    position: absolute;
-    left: 0;
+  .rq-092-image.rq-021-container {
+    height: auto;
+  }
+
+  .rq-092-link {
+    color: var(--copper);
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .rq-092-link::after {
+    content: url('/uploads/svg/arrow-button_link.svg');
+    padding-left: 10px;
   }
 
 

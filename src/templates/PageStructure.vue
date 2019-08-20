@@ -102,7 +102,7 @@ fragment stage on rq_013 {
 fragment promoBanner on rq_014 {
   type
   src
-  style
+  type
   lists {
     title
     text

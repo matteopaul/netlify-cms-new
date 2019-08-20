@@ -5,7 +5,7 @@
     <div class="rq-094-content">
       <h1 class="rq-094-title" v-html="title" />
       <p class="size--lg" v-html="text" />
-      <g-link :href="href" class="rq-094-link">{{linkText}}</g-link>
+      <g-link :to="href" class="rq-094-link">{{linkText}}</g-link>
     </div>
   </div>
 </template>

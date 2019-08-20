@@ -7,7 +7,7 @@
         <RQ_090 v-bind:options="list.options" :title="list.title" :text="list.text"/>
       </template>
     </div>
-    <g-link :href="href" class="rq-014-link">{{linkText}}</g-link>
+    <g-link :to="href" class="rq-014-link">{{linkText}}</g-link>
   </div>
 
   <div class="rq-014-container twi" v-else-if="!options && !href && textWithIcon">

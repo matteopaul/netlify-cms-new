@@ -26,12 +26,13 @@ module.exports = function (api) {
 
     const pages = store.addContentType({
       typeName: "PageStructure",
-      route: "/:slug"
+      route: "/:url"
     });
 
 
     pages.addNode({
       title: "erste Seite",
+      url: "hallo",
       contents: [
         store.createReference(contentTypes["rq_008"].findNode()),
         store.createReference(contentTypes["rq_007"].findNode()),
@@ -66,10 +67,12 @@ module.exports = function (api) {
           let node = store.createReference(contentTypes[item.type].addNode(item));
           items.push(node);
           });
+          console.log(currentData.url);
           pages.addNode({
             id: currentData.id,
             title: currentData.title,
-            contents: items
+            contents: items,
+            url: currentData.url
           })
     })
   })
