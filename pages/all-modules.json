@@ -253,6 +253,18 @@
         "Lorem",
         "Ipsum"
       ]
+    },
+    {
+      "type": "rq_008",
+      "title": "Quote (RQ-091)",
+      "size": "H3"
+    },
+    {
+      "type": "rq_091",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
+      "src": "/uploads/Kosmonauten_Bazenov.png",
+      "name": "Evgenij Bazenov",
+      "description": "Kosmonaut"
     }
   ]
 }
