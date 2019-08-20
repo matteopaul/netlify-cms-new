@@ -293,14 +293,7 @@
           "type": "bulletList",
           "title": "Wichtigste Punkte",
           "checked": false,
-          "options": [
-            {
-              "option": "lorem"
-            },
-            {
-              "option": "ipsum"
-            }
-          ]
+          "options": []
         }
       ]
     },
@@ -311,7 +304,6 @@
     },
     {
       "type": "rq_015",
-<<<<<<< HEAD
       "attr": [
         {
           "option": "#b2c"
@@ -320,9 +312,6 @@
           "option": "#b2b"
         }
       ],
-=======
-      "attr": [],
->>>>>>> da659d5d3d1e9c8d518150c36184719dc3bca288
       "title": "B2B, B2C",
       "src": "/uploads/asset-teaser-b2b.jpg",
       "size": "landscape",
