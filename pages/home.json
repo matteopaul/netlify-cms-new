@@ -138,6 +138,11 @@
           "href": "/blog"
         }
       ]
+    },
+    {
+      "type": "divider",
+      "title": "asdsad",
+      "size": 1
     }
   ]
 }
