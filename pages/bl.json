@@ -254,8 +254,15 @@
           "color": "white",
           "content": [
             {
-              "type": "icon",
-              "src": "/uploads/Kosmonauten_Bazenov.png"
+              "type": "bulletList",
+              "title": "BulletList",
+              "text": " in Card",
+              "checked": true,
+              "options": [
+                {
+                  "option": "klappt"
+                }
+              ]
             }
           ]
         },
@@ -304,14 +311,7 @@
     },
     {
       "type": "rq_015",
-      "attr": [
-        {
-          "option": "b2c"
-        },
-        {
-          "option": "b2b"
-        }
-      ],
+      "attr": [],
       "title": "B2B, B2C",
       "src": "/uploads/asset-teaser-b2b.jpg",
       "size": "landscape",
