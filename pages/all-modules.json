@@ -181,6 +181,16 @@
       "src": "/uploads/asset-teaser-team.jpg",
       "position": "top",
       "size": "portrait"
+    },
+    {
+      "type": "rq_008",
+      "title": "BreadCrumb (RQ-035)",
+      "size": "H3"
+    },
+    {
+      "type": "rq_035",
+      "title": "Breadcrumb1",
+      "path": "Startseite;Beliebiger;Pfad"
     }
   ]
 }
