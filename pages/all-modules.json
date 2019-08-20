@@ -146,9 +146,22 @@
       "linkText": "projekt ansehen",
       "attr": [],
       "options": [
+<<<<<<< HEAD
         "Hallo"
       ],
       "position": "horizontal"
+=======
+        {
+          "title": "Bullet List"
+        },
+        {
+          "title": "Und viele andere Sachen"
+        },
+        {
+          "title": "*freu*"
+        }
+      ]
+>>>>>>> 2899559e728607ce23272b9dc2dd9c70eff5158a
     }
   ]
 }
