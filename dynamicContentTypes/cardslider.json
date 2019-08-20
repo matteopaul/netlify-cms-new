@@ -41,13 +41,10 @@
           "title": "ewrwr",
           "text": "werewr",
           "checked": true,
-          "listOptions": [
-            {
-              "option": "1"
-            },
-            {
-              "option": "2"
-            }
+          "options": [
+            "1",
+            "2",
+            "3"
           ]
         },
         {

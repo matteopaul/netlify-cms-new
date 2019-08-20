@@ -124,7 +124,7 @@ button:focus {
 
 .layout {
   display: grid;
-  grid-template-columns: repeat(12, 88px);
+  grid-template-columns: repeat(12, 88px) ;
   grid-auto-rows: minmax(8px, auto);
   /* grid-template-rows: repeat(10000, 8px); */
 

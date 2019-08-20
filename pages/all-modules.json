@@ -237,21 +237,11 @@
       "title": "Bullet List",
       "checked": true,
       "options": [
-        {
-          "option": "Option 1"
-        },
-        {
-          "option": "Option 2"
-        },
-        {
-          "option": "Option 3"
-        },
-        {
-          "option": "Option 4"
-        },
-        {
-          "option": "Option 5 "
-        }
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4",
+        "Option 5"
       ]
     },
     {

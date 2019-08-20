@@ -4,7 +4,7 @@
     <h2 class="rq-014-title" v-html="title"/>
     <div class="rq-014-bulletLists">
       <template v-for="list in options">
-        <RQ_090 v-bind:options="list.options" :title="list.title" />
+        <RQ_090 v-bind:options="list.options" :title="list.title" :text="list.text"/>
       </template>
     </div>
     <g-link :href="href" class="rq-014-link">{{linkText}}</g-link>

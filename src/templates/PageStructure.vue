@@ -2,11 +2,13 @@
   <Layout :title="$page.pageContents.title">
     <template v-for="content in $page.pageContents.contents">
       <RQ_007 v-if="content.type == 'rq_007'" v-bind:contents="content.contents" :background="content.background" />
+      <RQ_008 v-if="content.type == 'rq_008'" :title="content.title" :size="content.size"/>
       <RQ_011 v-if="content.type == 'rq_011'" :icon="content.src" :count="content.count" :title="content.title" :text="content.text" :hint="content.category" :href="content.href" :linkText="content.linkText" />
       <RQ_012 v-if="content.type == 'rq_012'" :title="content.title" :text="content.text" :cols="content.cols" />
       <RQ_013 v-if="content.type == 'rq_013'" :src="content.src" :title="content.title" :buttonText="content.buttonText"/>
-      <RQ_014 v-if="content.type == 'rq_014' && content.options.length == 0" :src="content.src" :title="content.title" v-bind:textWithIcon="content.textWithIcon"/>
-      <RQ_014 v-if="content.type == 'rq_014' && content.textWithIcon.length == 0" :src="content.src" :title="content.title" :linkText="content.linkText" :href="content.href" v-bind:options="content.options"/>
+      <RQ_014 v-if="content.type == 'rq_014' && content.lists.length == 0" :src="content.src" :title="content.title" v-bind:textWithIcon="content.textWithIcon"/>
+      <RQ_014 v-if="content.type == 'rq_014' && content.textWithIcon.length == 0" :src="content.src" :title="content.title" :linkText="content.linkText" :href="content.href" v-bind:options="content.lists"/>
+
       <RQ_015 v-if="content.type == 'rq_015'" :title="content.title" :src="content.src" :size="content.size" :link="content.link" :linkText="content.linkText" :text="content.text" v-bind:attr="content.attr" v-bind:options="content.options" :label="content.label" :position="content.position"/>
       <RQ_016 v-if="content.type == 'rq_016'" :path="content.path" :src="content.src" :text="content.text" :title="content.title"/>
       <RQ_021 v-if="content.type == 'rq_021'" :title="content.title" :src="content.src" :text="content.text" :position="content.position" :size="content.size" />
@@ -19,7 +21,7 @@
       <RQ_092 v-if="content.type == 'rq_092'" v-bind:contents="content.content" :color="content.color" />
       <RQ_093 v-if="content.type == 'rq_093'" v-bind:cardContents="content.cardContents" :cardColor="content.cardColor" :mdBackground="content.mdBackground" v-bind:mdContents="content.mdContents" />
       <RQ_094 v-if="content.type == 'rq_094'" :src="content.src" :title="content.title" :text="content.text" :href="content.href" :linkText="content.linkText" />
-      <RQ_095 v-if="content.type == 'rq_095'" :title="content.title" v-bind:content="content.contents" />
+      <RQ_095 v-if="content.type == 'rq_095'" :title="content.title" v-bind:content="content.stages" />
       <CardSlider v-if="content.type == 'cardSlider'" :title="content.title" v-bind:content="content.cards" />
     </template>
   </Layout>
@@ -30,6 +32,7 @@ query PageStructure ($id: String!) {
   pageContents: pageStructure (id: $id) {
     title
     contents {
+      ...header
       ...stage
       ...category
       ...richText
@@ -61,8 +64,14 @@ fragment richText on rq_007 {
     title
     md
     text
-    listOptions
+    options
   }
+}
+
+fragment header on rq_008 {
+  type
+  size
+  title
 }
 
 fragment textWithIcon on rq_011 {
@@ -94,8 +103,7 @@ fragment promoBanner on rq_014 {
   type
   src
   style
-  options {
-    type
+  lists {
     title
     text
     options
@@ -119,15 +127,11 @@ fragment contentTeaser on rq_015 {
   linkText
   position
   text
-  attr {
-    option
-  }
+  attr
   label
   title
   link
-  options {
-    title
-  }
+  options
 }
 
 fragment category on rq_016 {
@@ -163,9 +167,7 @@ fragment contactForm on rq_067 {
   type
   title
   text
-  dropdown {
-    option
-  }
+  dropdown
 }
 
 fragment bulletList on rq_090 {
@@ -173,9 +175,7 @@ fragment bulletList on rq_090 {
   title
   text
   checked
-  options {
-    option
-  }
+  options
 }
 
 fragment quote on rq_091 {
@@ -195,9 +195,7 @@ fragment card on rq_092 {
     src
     href
     checked
-    listOptions {
-      option
-    }
+    options
     name
     description
     position
@@ -209,18 +207,14 @@ fragment cardWithText on rq_093 {
   type
   mdContents {
     type
-    listOptions {
-      listOption
-    }
+    options
     title
     text
     md
   }
   cardContents {
     type
-    options {
-      option
-    }
+    options
     title
     checked
   }
@@ -240,7 +234,7 @@ fragment projectLink on rq_094 {
 fragment contentSlider on rq_095 {
   type
   title
-  contents {
+  stages {
     src
     title
     text
@@ -261,9 +255,7 @@ fragment slider on cardSlider {
       src
       href
       checked
-      listOptions {
-        option
-      }
+      options
       name
       description
       position
@@ -281,6 +273,7 @@ fragment divide on divider {
 <script>
 import Layout from '~/layouts/Default.vue';
 import RQ_007 from '~/components/RQ-007.vue';
+import RQ_008 from '~/components/RQ-008.vue';
 import RQ_011 from '~/components/RQ-011.vue';
 import RQ_012 from '~/components/RQ-012.vue';
 import RQ_013 from '~/components/RQ-013.vue';
@@ -304,6 +297,7 @@ export default {
   components: {
     Layout,
     RQ_007,
+    RQ_008,
     RQ_011,
     RQ_012,
     RQ_013,

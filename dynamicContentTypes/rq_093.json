@@ -3,10 +3,9 @@
   "mdContents": [
     {
       "type": "bulletList",
-      "listOptions": [
-        {
-          "listOption": "1"
-        }
+      "options": [
+        "1",
+        "2"
       ],
       "title": "",
       "text": ""
@@ -21,9 +20,7 @@
     {
       "type": "bulletList",
       "options": [
-        {
-          "option": "short conclusion"
-        }
+        "short conclusion"
       ],
       "title": "bl",
       "checked": true

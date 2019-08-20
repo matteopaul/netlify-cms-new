@@ -2,7 +2,7 @@
   <div class="rq-090-container" :style="style">
     <p class="label" v-html="title" v-if="!text" />
     <h3 class="rq-090-title" v-if="text" v-html="title" />
-    <p v-if="text" v-html="text" class="rq-090-text size--md"/>
+    <p v-html="text" class="rq-090-text size--md"/>
     <ul>
       <li v-for="option in options" v-html="option" v-if="!checked && !option.option"/>
       <li v-for="option in options" v-html="option.option" v-if="!checked && option.option"/>

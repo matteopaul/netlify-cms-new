@@ -148,6 +148,7 @@ export default {
 
   .rq-015-link {
     position: absolute;
+    text-transform: uppercase;
     right: 0;
     bottom: 5px;
   }

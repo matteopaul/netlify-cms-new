@@ -1,7 +1,7 @@
 <template>
   <div class="rq-007-container" v-if="!background">
     <div class="rq-007-content" v-for="content in contents">
-      <RQ_090 v-if="content.type == 'bulletList'" class="rq-007-bulletlist" v-bind:options="content.listOptions" :title="content.title" :text="content.text"/>
+      <RQ_090 v-if="content.type == 'bulletList'" class="rq-007-bulletlist" v-bind:options="content.options" :title="content.title" :text="content.text"/>
       <p v-if="content.type == 'text'" class="rq-007-md size--md" v-html="parseMd(content.md)" />
     </div>
   </div>
@@ -127,10 +127,6 @@ export default {
 
   .rq-007-bulletlist li {
     font-family: 'Sentinel-Book', sans-serif;
-  }
-
-  .rq-007-bulletlist .rq-090-text {
-    display: none;
   }
 
 </style>

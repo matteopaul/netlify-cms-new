@@ -46,6 +46,10 @@ export default {
 
   }
 
+  .rq-093-container .rq-007-container{
+    width: 1768px;
+  }
+
   .rq-093-markdown {
     display: inline-block;
     margin-left: 360px;

@@ -12,7 +12,7 @@
       "type": "bulletList",
       "title": "Bullet List",
       "text": "test",
-      "listOptions": [
+      "options": [
         "1",
         "2",
         "3"

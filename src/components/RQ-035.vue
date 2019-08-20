@@ -1,6 +1,6 @@
 <template>
-  <p class="label">
-    <span v-for="piece in path.split(';')" class="breadcrumb-piece">
+  <p class="label rq-035-container">
+    <span v-for="piece in path.split(';')" class="rq-035-piece">
       {{piece}}
     </span>
   </p>
@@ -22,5 +22,9 @@ export default {
 
   .rq-035-piece::after {
     content: '/'
+  }
+
+  .rq-035-container {
+    grid-column: span 3;
   }
 </style>

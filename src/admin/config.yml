@@ -49,12 +49,12 @@ collections:
                       - label: "Text"
                         name: "text"
                         widget: "string"
+                        required: false
                       - label: "Options"
-                        name: "listOptions"
+                        name: "options"
                         widget: "list"
                         allow_add: true
-                        field:
-                          - {label: Option, name: option, widget: string}
+                        field: {label: Option, name: option, widget: string}
           - label: "Text With Icon"
             name: "rq_011"
             widget: object
@@ -65,6 +65,12 @@ collections:
               - {label: Category Label, name: category, widget: string}
               - {label: Link Destination, name: href, widget: string, required: false}
               - {label: Link Text, name: linkText, widget: string, required: false}
+          - label: "Header"
+            name: "rq_008"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Size, name: size, widget: select, options: ["H2", "H3"]}
           - label: "Text In Columns"
             name: "rq_012"
             widget: object
@@ -88,7 +94,7 @@ collections:
               - {label: Link Text, name: linkText, widget: string, required: false}
               - {label: Image, name: src, widget: image}
               - label: Bullet Lists
-                name: options
+                name: lists
                 widget: list
                 allow_add: true
                 required: false
@@ -130,15 +136,13 @@ collections:
                 widget: list
                 allow_add: true
                 required: false
-                field:
-                  - {label: Option, name: option, widget: string}
+                field: {label: Option, name: option, widget: string}
               - label: Bullet Lists Options
                 name: options
                 widget: list
                 allow_add: true
                 required: false
-                fields:
-                  - {label: Title, name: title, widget: string}
+                field: {label: Option, name: option, widget: string}
               - {label: Bullet List Label, name: label, widget: string, required: false}
               - {label: Position, name: position, widget: select, options: ["vertical", "horizontal"]}
           - label: "Category Banner"
@@ -191,8 +195,7 @@ collections:
                 widget: list
                 allow_add: true
                 required: false
-                fields:
-                  - {label: Option, name: option, widget: string}
+                field: {label: Option, name: option, widget: string}
           - label: "Bullet List"
             name: "rq_090"
             widget: "object"
@@ -204,8 +207,7 @@ collections:
                 name: "options"
                 widget: "list"
                 allow_add: true
-                fields:
-                  - {label: Option, name: option, widget: string}
+                field: {label: Option, name: option, widget: string}
           - label: "Quote"
             name: "rq_091"
             widget: "object"
