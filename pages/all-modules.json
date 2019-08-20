@@ -191,6 +191,47 @@
       "type": "rq_035",
       "title": "Breadcrumb1",
       "path": "Startseite;Beliebiger;Pfad"
+    },
+    {
+      "type": "rq_008",
+      "title": "Attribute Filter (RQ-037)",
+      "size": "H3"
+    },
+    {
+      "type": "rq_037",
+      "title": "AttributeFilter1",
+      "attrType": "projects"
+    },
+    {
+      "type": "rq_008",
+      "title": "Contact Form (RQ-067)",
+      "size": "H3"
+    },
+    {
+      "type": "rq_067",
+      "title": "Call to Action ",
+      "text": "Formular ",
+      "dropdown": [
+        {
+          "option": "fashion"
+        },
+        {
+          "option": "b2b"
+        },
+        {
+          "option": "b2c"
+        }
+      ]
+    },
+    {
+      "type": "rq_008",
+      "title": "Contact Form (RQ-067) Variante 2",
+      "size": "H3"
+    },
+    {
+      "type": "rq_067",
+      "title": "Call to Action",
+      "text": "Formular"
     }
   ]
 }
