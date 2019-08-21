@@ -8,6 +8,19 @@
       "src": "/uploads/kosmonauten0073-94.jpg",
       "path": "Startseite;Leistungen",
       "text": "\"Unsere interdisziplinäre Kompetenz setzen wir in unserem Leistungsspektrum fokussiert ein.\""
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 141.jpg",
+      "linkText": "mehr erfahren",
+      "position": "horizontal",
+      "text": "Wir entwickeln moderne und performante Onlineshops, die die Grundlage für Wachstum und eine hohe Conversion im E-Commerce bilden. Skalierbare Systeme ermöglichen eine schnelle Reaktion auf zukünftige Entwicklungen.",
+      "attr": [
+        "Lifestyle"
+      ],
+      "title": "Online Shops",
+      "type": "rq_015",
+      "link": "/leistungen/online-shops"
     }
   ]
 }
