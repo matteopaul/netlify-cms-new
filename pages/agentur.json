@@ -70,6 +70,21 @@
       "title": "Technologiegetrieben",
       "text": "Selbst die beste Idee wird nicht funktionieren, wenn man nicht den Fokus auf die Technik der Umsetzung lenkt. Wir erweitern stets unseren Blickpunkt, ohne dabei alt bewährtes zu vergessen. So schaffen wir den Spagat zwischen neuen und alten Technologien und können Ideen bestmöglich umsetzen.",
       "count": 2
+    },
+    {
+      "type": "divider",
+      "title": "sada",
+      "size": 1
+    },
+    {
+      "type": "rq_008",
+      "title": "Das Team",
+      "size": "H2"
+    },
+    {
+      "type": "rq_037",
+      "title": "AttrFilter",
+      "attrType": "agency"
     }
   ]
 }
