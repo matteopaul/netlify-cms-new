@@ -54,7 +54,7 @@ export default {
     classes() {
       let name = "";
       for(let i in this.attr) {
-        name += ' ' + this.attr[i];
+        name += ' ' + this.attr[i].toLowerCase();
       }
       return name;
     }
@@ -82,6 +82,10 @@ export default {
     padding-bottom: 24px;
   }
 
+  .rq-092-container.deactive {
+    display: none;
+  }
+
   .rq-092-container[style!="background: #ffffff"] > *:not(.rq-092-image) {
     padding: 24px;
   }
@@ -92,6 +96,7 @@ export default {
 
   .rq-092-container .label {
     color: var(--label-color);
+    margin-top: 20px;
   }
 
   .rq-092-container * {

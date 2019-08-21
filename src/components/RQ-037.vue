@@ -21,7 +21,7 @@ export default {
   },
   computed: {
     getAgency() {
-      return ['kommandant', 'backend', 'frontend', 'konzept', 'text', 'projektmanagement', 'design'];
+      return ['kommandant', 'entwicklung', 'konzept', 'text', 'projektmanagement', 'design'];
     },
     getProjects() {
       return ['lifestyle', 'fashion', 'automotive', 'chemie', 'immobilien', 'interior', 'b2c', 'b2b'];

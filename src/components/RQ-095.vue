@@ -65,8 +65,8 @@ export default {
 
   .rq-095-container {
     grid-column: 1 / 13;
-    grid-row: span 49;
-    height: 780px;
+    grid-row: span 63;
+    height: 1008px;
     position: relative;
     overflow: hidden;
   }
@@ -79,7 +79,7 @@ export default {
 
   .rq-095-stage {
     width: 100%;
-    height: 720px;
+    height: 944px;
     position: relative;
     display: inline-block;
   }

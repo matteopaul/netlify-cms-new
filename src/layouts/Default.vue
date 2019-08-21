@@ -38,13 +38,21 @@
         <div class="footer-content-headline">
           <h3>Sie haben ein Projekt dollar sans de Sola connar?</h3>
           <p class="label">Kontaktieren</p>
-          <g-image src="~/assets/img/Kosmonaut-Logo-White.png" />
         </div>
 
         <RQ_090 title="office" v-bind:options="['Kosmonaut GmbH Co. KG', 'Nickelstraße Nr. 1a', '33378 Rheda-Wiedenbrück']" />
         <RQ_090 title="sitemap" v-bind:options="['Leistungen', 'Cases', 'Kontakt', 'AGB', 'Datenschutz']" />
         <p class="label">Kosmonaut im Netz</p>
+        <g-image src="~/assets/img/Kosmonaut-Logo-White.png" />
+        <div class="footer-nav">
+
+          <g-link to="/impressum">Impressum</g-link>
+          <g-link to="/datenschutz">Datenschutz</g-link>
+          <g-link to="/agb">AGB</g-link>
+          <g-link to="/dsgvo">DSGVO</g-link>
+        </div>
       </div>
+
     </div>
   </div>
 
@@ -154,9 +162,16 @@ button:focus {
   padding-left: 50%;
 }
 
+.footer-nav {
+  grid-column: 3 / 5;
+}
+
+.footer-nav a {
+  margin-left: 20px;
+}
+
 .footer-content {
   box-sizing: content-box;
-  padding-left: 100%;
   width: 100%;
   height: 100%;
   background: var(--midnight);
@@ -165,17 +180,19 @@ button:focus {
   padding-left: 255px;
   padding-right: 255px;
   padding-top: 100px;
-  display: -webkit-box;
-  display: flex;
-}
-
-.footer-content-headline {
-  max-width: 327px;
-  margin-right: 275px;
+  display: grid;
+  grid-template-columns: 327px  200px 200px 200px;
+  grid-template-rows: 450px 50px;
+  grid-row-gap: 10px;
+  justify-content: space-evenly;
 }
 
 .footer-content-headline h3 {
   color: var(--white);
+}
+
+.footer-content .rq-090-container {
+  grid-column: span 1;
 }
 
 .footer-content-headline .label {
@@ -187,19 +204,23 @@ button:focus {
   bottom: 30px;
 }
 
-.footer-content .list-container ul {
+.footer-content .rq-090-container ul {
   list-style-type: none;
   padding: 0;
+}
+
+
+.footer-content .rq-090-container ul {
 
 }
 
-.footer-content .list-container ul li {
-  color: var(--white);
-  opacity: 0.75;
+.footer-content .rq-090-container ul li {
+  font-size: 18px;
+  line-height: 24px;
 }
 
-.footer-content .list-container {
-  margin-right: 50px;
+.footer-content .rq-090-container {
+  grid-row: span 1;
 }
 
 
