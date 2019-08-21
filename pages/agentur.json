@@ -98,6 +98,14 @@
           "title": "Richard",
           "src": "/uploads/Kosmonauten_Anselm0073 21.png",
           "size": "landscape"
+        },
+        {
+          "type": "label",
+          "text": "Design"
+        },
+        {
+          "type": "h3",
+          "text": "Richard Anselm"
         }
       ]
     }
