@@ -499,6 +499,64 @@
           "text": "Olja Woromsbecher"
         }
       ]
+    },
+    {
+      "type": "divider",
+      "size": 1
+    },
+    {
+      "type": "rq_095",
+      "title": "Slider",
+      "stages": [
+        {
+          "src": "/uploads/Kosmonauten0073 598.jpg",
+          "title": "Dollar Sans",
+          "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+          "checked": true,
+          "options": [
+            "Lorem ipsum dolor sit amet",
+            "Lorem ipsum dolor sit amet",
+            "Lorem ipsum dolor sit amet"
+          ]
+        },
+        {
+          "options": [
+            "Lorem ipsum dolor sit amet",
+            "Lorem ipsum dolor sit amet",
+            "Lorem ipsum dolor sit amet"
+          ],
+          "src": "/uploads/Kosmonauten0073 474.jpg",
+          "title": "Dollar Sans",
+          "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+          "checked": true
+        },
+        {
+          "options": [
+            "Lorem ipsum dolor sit amet",
+            "Lorem ipsum dolor sit amet",
+            "Lorem ipsum dolor sit amet"
+          ],
+          "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+          "title": "Dollar Sans",
+          "checked": true,
+          "src": "/uploads/Kosmonauten0073 366.jpg"
+        },
+        {
+          "options": [
+            "Lorem ipsum dolor sit amet",
+            "Lorem ipsum dolor sit amet",
+            "Lorem ipsum dolor sit amet"
+          ],
+          "src": "/uploads/Kosmonauten0073 258.jpg",
+          "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+          "title": "Dollar Sans",
+          "checked": true
+        }
+      ]
+    },
+    {
+      "type": "divider",
+      "size": 1
     }
   ]
 }
