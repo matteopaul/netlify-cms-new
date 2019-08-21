@@ -9,6 +9,7 @@
       <p class="size--lg rq-016-text" v-html="text" />
     </div>
     <div class="rq-016-content" v-if="src">
+      <RQ_035 :path="path" />
       <h1 v-html="title" class="rq-016-headline" />
       <p class="size--lg rq-016-text" v-html="text" />
     </div>

@@ -1,6 +1,6 @@
 <template>
-  <div class="rq-011-container horizontal" v-if="href && linkText && icon">
-    <div class="rq-011-icon">
+  <div class="rq-011-container horizontal" v-if="href && linkText">
+    <div class="rq-011-icon" v-if="icon">
       <g-image :src="icon"/>
     </div>
     <div class="rq-011-content horizontal">
@@ -11,8 +11,8 @@
     </div>
   </div>
 
-  <div class="rq-011-container vertical" v-else-if="!href && !linkText && text && icon" :style="style">
-    <div class="rq-011-icon">
+  <div class="rq-011-container vertical" v-else-if="!href && !linkText && text" :style="style">
+    <div class="rq-011-icon" v-if="icon">
       <g-image :src="icon"/>
     </div>
     <div class="rq-011-content">
@@ -75,7 +75,12 @@ export default {
 
   .rq-011-container.vertical {
     grid-column: span 5;
-    grid-row: span 22;
+    grid-row: span 11;
+    text-align: left;
+  }
+
+  .rq-011-container.vertical .rq-011-icon > .rq-011-content {
+    text-align: center;
   }
 
   .rq-011-link {
@@ -91,10 +96,6 @@ export default {
 
   .rq-011-container.vertical .rq-011-icon {
     margin: 0 auto 42px auto;
-  }
-
-  .rq-011-container.vertical .rq-011-content {
-    text-align: center;
   }
 
   .rq-011-container.vertical .rq-011-content .rq-011-title {

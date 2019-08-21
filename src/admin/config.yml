@@ -63,10 +63,11 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Text, name: text, widget: string, required: false}
-              - {label: Icon, name: src, widget: image}
-              - {label: Category Label, name: category, widget: string}
+              - {label: Icon, name: src, widget: image, required: false}
+              - {label: Category Label, name: category, widget: string, required: false}
               - {label: Link Destination, name: href, widget: string, required: false}
               - {label: Link Text, name: linkText, widget: string, required: false}
+              - {label: Text with Icons in a row, name: count, widget: number, default: 2}
           - label: "Header"
             name: "rq_008"
             widget: "object"
@@ -121,7 +122,7 @@ collections:
                 fields:
                   - {label: Titel, name: title, widget: string}
                   - {label: Text, name: text, widget: string, required: false}
-                  - {label: Icon, name: icon, widget: image}
+                  - {label: Icon, name: icon, widget: image, required: false}
                   - {label: Link, name: href, widget: string}
                   - {label: Link Text, name: linkText, widget: string}
           - label: "Content Teaser"
