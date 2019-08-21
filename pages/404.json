@@ -1,0 +1,14 @@
+{
+  "title": "404",
+  "url": "/404",
+  "contents": [
+    {
+      "type": "rq_021",
+      "title": "404",
+      "src": "/uploads/lost-astronaut-roberta-ferreira.jpg",
+      "text": "404 - Page not found",
+      "position": "bottom",
+      "size": "panorama"
+    }
+  ]
+}
