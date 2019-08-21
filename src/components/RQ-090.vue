@@ -1,7 +1,8 @@
 <template>
   <div class="rq-090-container" :style="style">
-    <p class="label" v-html="title" v-if="!text" />
-    <h3 class="rq-090-title" v-if="text" v-html="title" />
+    <p class="label" v-html="title" v-if="!text && size !== 'H2'" />
+    <h3 class="rq-090-title" v-if="text && size !== 'H2'" v-html="title" />
+    <h2 class="rq-090-title" v-if="size == 'H2'" v-html="title" />
     <p v-html="text" class="rq-090-text size--md"/>
     <ul>
       <li v-for="option in options" v-html="option" v-if="!checked && !option.option"/>
@@ -28,6 +29,10 @@ export default {
       type: Array
     },
     checked: {
+      type: String,
+      required: false
+    },
+    size: {
       type: String,
       required: false
     }

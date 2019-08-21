@@ -69,6 +69,7 @@ export default {
       for(let i in this.attr) {
         name += ' ' + this.attr[i];
       }
+      name += " " + this.position;
       return name;
     }
   }
@@ -76,6 +77,30 @@ export default {
 </script>
 
 <style>
+
+.rq-015-container.square {
+  grid-row: span 12;
+}
+
+.rq-015-container {
+  margin-bottom: 40px;
+}
+
+.rq-015-container.portrait {
+  grid-row: span 15;
+}
+
+.rq-015-container.landscape {
+  grid-row: span 5;
+}
+
+.rq-015-container:not(.deactive):nth-of-type(2n) {
+  grid-column: 1 / span 6 !important;
+}
+
+.rq-015-container:not(.deactive):nth-of-type(2n-1) {
+  grid-column: span 6 / 13 !important;
+}
 
   .rq-015-container, .rq-015-content {
     position: relative;
@@ -150,7 +175,6 @@ export default {
     position: absolute;
     text-transform: uppercase;
     right: 0;
-    bottom: 5px;
   }
 
   .rq-015-link::after {

@@ -319,7 +319,6 @@ button:focus {
 .menu-list {
   list-style-type: none;
   padding-left: 96px;
-  padding-top: 65px;
 }
 
 .menu {

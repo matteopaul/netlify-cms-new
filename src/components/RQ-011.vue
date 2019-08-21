@@ -5,7 +5,8 @@
     </div>
     <div class="rq-011-content horizontal">
       <p class="label" v-html="hint" />
-      <h3 v-html="title" class="rq-011-title" />
+      <h3 v-html="title" class="rq-011-title" v-if="size !== 'H2'" />
+      <h2 v-html="title" class="rq-011-title" v-if="size == 'H2'" />
       <p v-html="text" class="size--sm"></p>
       <g-link :to="href" class="rq-011-link">{{linkText}}</g-link>
     </div>
@@ -17,7 +18,8 @@
     </div>
     <div class="rq-011-content">
       <p class="label" v-html="hint" />
-      <h3 v-html="title" class="rq-011-title" />
+      <h3 v-html="title" class="rq-011-title" v-if="size !== 'H2'" />
+      <h2 v-html="title" class="rq-011-title" v-if="size == 'H2'" />
       <p v-html="text" class="rq-011-text" />
     </div>
   </div>
@@ -36,6 +38,10 @@ export default {
     },
     title: {
       type: String
+    },
+    size: {
+      type: String,
+      required: false
     },
     text: {
       type: String,

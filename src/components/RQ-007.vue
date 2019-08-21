@@ -1,20 +1,31 @@
 <template>
-  <div class="rq-007-container" v-if="!background">
+  <div class="rq-007-container" v-if="!background" :style="style">
     <div class="rq-007-content" v-for="content in contents">
-      <RQ_090 v-if="content.type == 'bulletList'" class="rq-007-bulletlist" v-bind:options="content.options" :title="content.title" :text="content.text"/>
+      <RQ_090 v-if="content.type == 'bulletList'" class="rq-007-bulletlist" v-bind:options="content.options" size="H2" :title="content.title" :text="content.text"/>
+      <RQ_011 v-if="content.type == 'textWithIcon'" class="rq-007-textWithIcon" count="1" :title="content.title" :text="content.text"/>
+      <RQ_008 v-if="content.type == 'header'" class="rq-007-header" :title="content.title" size="H2"/>
+      <RQ_012 v-if="content.type == 'textInColumns'" class="rq-007-textInColumns" :cols="content.cols" :title="content.title" :text="content.text"/>
       <p v-if="content.type == 'text'" class="rq-007-md size--md" v-html="parseMd(content.md)" />
     </div>
   </div>
   <div class="rq-007-container background" v-else-if="background">
-    <div class="rq-007-content" v-for="content in contents">
-      <RQ_090 v-if="content.type == 'bulletList'" class="rq-007-bulletlist" v-bind:options="content.options" :title="content.title" :text="content.text"/>
-      <p v-if="content.type == 'text'" class="rq-007-md size--md" v-html="parseMd(content.md)" />
+    <div class="rq-007-content">
+      <template v-for="content in contents">
+        <RQ_090 v-if="content.type == 'bulletList'" class="rq-007-bulletlist" v-bind:options="content.options" :title="content.title" :text="content.text" size="H2"/>
+        <RQ_011 v-if="content.type == 'textWithIcon'" size="H2" class="rq-007-textWithIcon" count="1" :title="content.title" :text="content.text"/>
+        <RQ_008 v-if="content.type == 'header'" class="rq-007-header" :title="content.title" size="H2"/>
+        <RQ_012 v-if="content.type == 'textInColumns'" class="rq-007-textInColumns" :cols="content.cols" :title="content.title" :text="content.text"/>
+        <p v-if="content.type == 'text'" class="rq-007-md size--md" v-html="parseMd(content.md)" />
+      </template>
     </div>
   </div>
 </template>
 
 <script>
 import RQ_090 from '~/components/RQ-090.vue'
+import RQ_012 from '~/components/RQ-012.vue'
+import RQ_011 from '~/components/RQ-011.vue'
+import RQ_008 from '~/components/RQ-008.vue'
 export default {
   name: 'rq-007',
   props: {
@@ -28,7 +39,22 @@ export default {
   },
 
   components: {
-      RQ_090
+      RQ_090,
+      RQ_012,
+      RQ_011,
+      RQ_008
+  },
+
+  computed: {
+    style() {
+      for(let i = 0; i < this.content.length; i++) {
+        if(this.content[i].type == 'textWithIcon' && this.content[i + 1].type == 'header') {
+          setTimeout(() => {
+            document.getElementsByClassName('rq-007-content')[i+1].style.display = 'inline-block';
+          }, 400);
+        }
+      }
+    }
   },
 
   methods: {
@@ -106,6 +132,38 @@ export default {
     margin-left: calc(88px + 32px);
   }
 
+  .rq-007-container.background .rq-007-content{
+    display: flex;
+  }
+
+  .rq-007-container.background .rq-007-content .rq-007-textWithIcon {
+    width: 40%;
+  }
+
+  .rq-007-container.background .rq-007-content .rq-007-bulletlist {
+    column-count: 2;
+    column-gap: 32px;
+    margin-left: 88px;
+    width: 50%;
+  }
+
+  .rq-007-container.background .rq-007-content .rq-007-textWithIcon + .rq-007-bulletlist ul li {
+      font-size: 18px;
+      list-style-type: none;
+      padding: none;
+  }
+
+  .rq-007-container.background .rq-007-content .rq-007-textWithIcon + .rq-007-bulletlist ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .rq-007-container.background .rq-007-content .rq-007-textWithIcon + .rq-007-bulletlist h2 {
+    margin: 0;
+    column-span: all;
+    -webkit-column-span: all;
+  }
+
   .rq-007-container.background {
     grid-column: 1 / 13;
     background: #f5f5f5;
@@ -116,7 +174,7 @@ export default {
   }
 
   .rq-007-container.background .rq-007-content {
-    max-width: 928px;
+    max-width: 1440px;
     margin-left: 396px;
   }
 

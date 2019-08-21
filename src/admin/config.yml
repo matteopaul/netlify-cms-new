@@ -27,6 +27,7 @@ collections:
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
+              - {label: Background, name: background, widget: boolean, required: false}
               - label: "Contents"
                 name: "contents"
                 widget: "list"
@@ -41,6 +42,36 @@ collections:
                       - label: "Markdown"
                         name: "md"
                         widget: "markdown"
+                  - label: "Header"
+                    name: "header"
+                    widget: "object"
+                    fields:
+                      - label: "Title"
+                        name: "title"
+                        widget: "string"
+                  - label: "Text With Icon"
+                    name: "textWithIcon"
+                    widget: "object"
+                    fields:
+                      - label: "Title"
+                        name: "title"
+                        widget: "string"
+                      - label: "Text"
+                        name: "text"
+                        widget: "string"
+                  - label: "Text in Columns"
+                    name: "textInColumns"
+                    widget: "object"
+                    fields:
+                      - label: "Title"
+                        name: "title"
+                        widget: "string"
+                      - label: "Text"
+                        name: "text"
+                        widget: "string"
+                      - label: "Columns"
+                        name: "cols"
+                        widget: "number"
                   - label: "Bullet List"
                     name: "bulletList"
                     widget: "object"
