@@ -39,6 +39,32 @@
       "title": "Interior",
       "type": "rq_015",
       "link": "/interior"
+    },
+    {
+      "size": "portrait",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Kunden lieben Modehäuser mit einer gelungen Kombination aus stationärer und digitaler Präsenz – eine große Chance für Filialisten.",
+      "attr": [
+        "fashion"
+      ],
+      "title": "Fashion",
+      "type": "rq_015",
+      "link": "/fashion"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Der Immobilienmarkt befindet sich im Umbruch. Das Teilen und Handeln von Objekten hat sich durch neue Businessmodelle, Plattformen und Apps grundlegend verändert.",
+      "attr": [
+        "immobilien"
+      ],
+      "title": "Immobilien",
+      "type": "rq_015",
+      "link": "/immobilien"
     }
   ]
 }
