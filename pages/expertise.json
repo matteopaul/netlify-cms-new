@@ -45,12 +45,22 @@
       "count": 3
     },
     {
+      "type": "divider",
+      "title": "x",
+      "size": 1
+    },
+    {
       "type": "rq_094",
       "title": "Modepark",
       "src": "/uploads/Kosmonauten0073 625.jpg",
       "link": "/projects/modepark",
       "linkText": "mehr erfahren",
       "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore"
+    },
+    {
+      "type": "divider",
+      "title": "v",
+      "size": 1
     },
     {
       "type": "rq_008",
