@@ -59,8 +59,12 @@
           "text": "Neue Chancen erkennen, die digitale Landschaft verstehen und E-Commerce-Projekte auf eine solide Basis stellen – mit diesen Maßnahmen rüsten wir unsere Kunden für aktuelle und zukünftige Herausforderungen der digitalen Landschaft. "
         },
         {
+          "type": "header",
+          "title": "Fähigkeiten"
+        },
+        {
           "type": "bulletList",
-          "title": "Fähigkeiten",
+          "title": "-",
           "options": [
             "E-Commerce-Strategie",
             "Plattform-Strategie",
@@ -76,7 +80,8 @@
             "Shop-Entwicklung"
           ]
         }
-      ]
+      ],
+      "background": true
     },
     {
       "type": "rq_094",
