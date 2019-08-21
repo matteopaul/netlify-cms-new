@@ -50,6 +50,35 @@
       "size": 1
     },
     {
+      "type": "rq_007",
+      "title": "RichText2",
+      "contents": [
+        {
+          "type": "textWithIcon",
+          "title": "Wir bringen Sie voran!",
+          "text": "Neue Chancen erkennen, die digitale Landschaft verstehen und E-Commerce-Projekte auf eine solide Basis stellen – mit diesen Maßnahmen rüsten wir unsere Kunden für aktuelle und zukünftige Herausforderungen der digitalen Landschaft. "
+        },
+        {
+          "type": "bulletList",
+          "title": "Fähigkeiten",
+          "options": [
+            "E-Commerce-Strategie",
+            "Plattform-Strategie",
+            "Content- und Keyword-Strategie",
+            "Markt- & Onsite-Analysen",
+            "Persona-Definition",
+            "Customer-Journey-Mapping",
+            "Informationsarchitektur",
+            "UX-Prototyping",
+            "Responsives Webdesign",
+            "Usability-Labs",
+            "Frontend-Entwicklung",
+            "Shop-Entwicklung"
+          ]
+        }
+      ]
+    },
+    {
       "type": "rq_094",
       "title": "Modepark",
       "src": "/uploads/Kosmonauten0073 625.jpg",
@@ -90,35 +119,6 @@
       "title": "Payment",
       "text": "Durch die Digitalisierung sind viele neue Optionen für eine Bezahlung entstanden. Immer mehr Transaktionen sind ohne eine herkömmliche Bank möglich. Werden Retailer die Banken der Zukunft sein? Welchen Apps werden Verbraucher vertrauen? Wie lassen sich die Funktionen in Ihren Shop integrieren? Wir haben die Antworten und Lösungen. ",
       "count": 2
-    },
-    {
-      "type": "rq_007",
-      "title": "RichText2",
-      "contents": [
-        {
-          "type": "textWithIcon",
-          "title": "Wir bringen Sie voran!",
-          "text": "Neue Chancen erkennen, die digitale Landschaft verstehen und E-Commerce-Projekte auf eine solide Basis stellen – mit diesen Maßnahmen rüsten wir unsere Kunden für aktuelle und zukünftige Herausforderungen der digitalen Landschaft. "
-        },
-        {
-          "type": "bulletList",
-          "title": "Fähigkeiten",
-          "options": [
-            "E-Commerce-Strategie",
-            "Plattform-Strategie",
-            "Content- und Keyword-Strategie",
-            "Markt- & Onsite-Analysen",
-            "Persona-Definition",
-            "Customer-Journey-Mapping",
-            "Informationsarchitektur",
-            "UX-Prototyping",
-            "Responsives Webdesign",
-            "Usability-Labs",
-            "Frontend-Entwicklung",
-            "Shop-Entwicklung"
-          ]
-        }
-      ]
     }
   ]
 }
