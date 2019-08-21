@@ -10,7 +10,7 @@
     </header>
       <div class="menu">
         <div class="menu-nav">
-          <g-image src="/uploads/svg/arrow-button_link-white.svg" class="menu-nav-close" />
+          <g-image src="/uploads/arrow-button_link-white.svg" class="menu-nav-close" />
         </div>
         <div class="menu-list">
           <li class="menu-li">Expertise</li>
