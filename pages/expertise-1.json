@@ -65,6 +65,58 @@
       "title": "Immobilien",
       "type": "rq_015",
       "link": "/immobilien"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Die chemische Industrie gehört weltweit zu den wichtigsten Leitindustrien. Trotz der vorhandenen finanziellen Ressourcen, entwickelt sich die Branche in den Bereichen Digitalisierung und E-Commerce nur langsam.",
+      "attr": [
+        "chemie"
+      ],
+      "title": "Chemie",
+      "type": "rq_015",
+      "link": "/chemie"
+    },
+    {
+      "size": "square",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Die Automobilbranche muss sich nicht nur mit der Planung und Produktion von neuen Fahrzeugen beschäftigen. Das digitale Zeitalter hat auch die Erwartungshaltung der Kundschaft verändert. Individueller Service und prompte Kommunikation, zu jedem Zeitpunkt, sind der neue Standard.",
+      "attr": [
+        "automotive"
+      ],
+      "title": "Automotive",
+      "type": "rq_015",
+      "link": "/automotive"
+    },
+    {
+      "size": "portrait",
+      "src": "/uploads/asset-teaser-b2b.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Eine B2B Webseite muss den vielschichtigen Anliegen der User gerecht werden. Spezifisches Fachwissen wird durch die Option auf umfassende Kaufprozesse und -zyklen vervollständigt. So avanciert die Website zum Marktplatz und Begegnungsort für Händler und Kunden.",
+      "attr": [
+        "b2b"
+      ],
+      "title": "B2B",
+      "type": "rq_015",
+      "link": "/b2b"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "B2C klingt nach einer leichten Aufgabe. Die Präsenz im Netz beschert einem aber noch lange nicht den gewünschten Umsatz. Wie überzeugen Sie Suchmaschinen und Kunden von Ihrem Angebot und gelangen im Ranking immer weiter nach oben?",
+      "attr": [
+        "b2c"
+      ],
+      "title": "B2C",
+      "type": "rq_015",
+      "link": "/b2c"
     }
   ]
 }
