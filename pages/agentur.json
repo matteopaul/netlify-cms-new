@@ -10,11 +10,66 @@
       "path": "Startseite;Agentur"
     },
     {
+      "type": "rq_008",
+      "title": "Unsere Leistungen in diesem Projekt",
+      "size": "H2"
+    },
+    {
       "type": "rq_011",
       "title": "2016",
       "text": "Kosmonaut wurde 2016 von Stephan Engau und Anatolij Woromsbecher gegründet.",
+      "src": "/uploads/Information-Point-Creation.svg",
+      "count": 4
+    },
+    {
+      "type": "rq_011",
+      "title": "22",
+      "text": "Insgesamt 22 Mitarbeiter arbeiten bei Kosmonaut.",
       "src": "/uploads/information-point-system.svg",
       "count": 4
+    },
+    {
+      "type": "rq_011",
+      "title": "20+",
+      "text": "Wir betreuen über 20 Kunden aus den unterschiedlichsten Branchen.",
+      "src": "/uploads/Information-Point-Hand.svg",
+      "count": 4
+    },
+    {
+      "type": "rq_011",
+      "title": "123",
+      "text": "Insgesamt können wir auf mehr als 120 Jahre Erfahrung zurückgreifen.",
+      "src": "/uploads/information-point-rocket.svg",
+      "count": 4
+    },
+    {
+      "type": "rq_008",
+      "title": "Schlüssel zum Erfolg",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Zuhause in OWL",
+      "text": "An der Spitze NRWS und zentral in Deutschland liegt unser Zuhause. Ostwestfalen-Lippe, gekennzeichnet durch viel Natur und Unter-nehmergeist. Nicht umsonst gehört OWL zu den führenden Technologiestandorten in Europa. Und wir fühlen uns hier in Rheda- Wiedenbrück eigentlich auch ganz heimisch.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Moderne Ansätze",
+      "text": "Teil eines großen Ganzen, aber trotzdem seine Individualität behalten und stärken, das steht bei uns im Vordergrund. Gemeinsam arbeiten wir an einem großen Projekt, in dem jeder seine eigenen Vorstellungen einbringen kann. So schaffen wir es, dass unsere Ergebnisse aus jedem Blickwinkel optimal werden.",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "text": " Teamfoto  Die Kosmonauten  STRATEGIE  KOMMANDANTEN  DESIGN  KONZEPT  BACKEND  CONTENT  PROJEKTMANAGEMENT  Richard Anselm  DESIGN   Evgenij Bazenov  STRATEGIE  Alex Bondachukov  BACKEND  Dominik Ciercinski  CONTENT  Stephan Engau  KOMMANDANT  Marcel Frenz  FRONTEND  Ruben Jürgens  BACKEND  Eugen Lagunov  FRONTEND  Marc Lindner  PROJEKTMANAGEMENT  Katharina Zoe Nehrkorn  KONZEPT  Claudia Nölker  BACKEND  Christian Rajes  DESIGN  Michael Schumm  BACKEND  Pascal Wiesniewski  FRONTEND  Valentin Witt  BACKEND  Marc Wormsbächer  PROJEKTMANAGEMENT  FRONTEND   Wir sollten uns kennenlernen.  ahoi@kosmonaut.io  ANFUNKEN  WORKSPACE  Nickelstraße 1a  33378 Rheda - Wiedenbrück  Planet Erde - Sonnensystem -Galaxie Milchstraße  Impressum  |  Datenschutz | AGBs | Cookie Informationen  0815 - 12 34 56 78 90   © Kosmonaut GmbH & Co. KG   Logo   Anatolij Woromsbecher  KOMMANDANT   Unsere Arbeitsweise  Lorem ipsum dolor sit amet.  Olga Woromsbecher  CONTENT  KLEINE TEAMS  • Interdisziplinäre Teams    • Direkter Draht zwischen Entwickler, Design und Konzept  DER KUNDE ALS PARTNER  • Der Kunde kommt an Board und hilft uns so sein Geschäft bestens zu verstehen    • \"User First\" verändert auch auf der Kunden- und Agenturseite viel.  Die Kunden   Entwickler (m/w/d)  WIR SUCHEN DICH  2016  22  120 Jahre  20+  GRÜNDUNG  MITARBEITER  ERFAHRUNG  KUNDEN  Die Nutzer  SUB  HEADLINE  • Punkt Eins    • Punkt Zwei   15+  KONGRESSE  25+  WORKSHOPS  ONLINE UMSATZ 2018  ONLINE UMSATZ PROGNOSE  Die Entwicklung   Die Teams   Matteo Illing  FRONTEND  Thomas Stark  Projektmanagement  Unsere Story  Mehr als Kunden  Wir pflegen ein freundschaftliches Verhältnis mit unseren Kunden, denn wir sind der Überzeugung, dass sich Freunde oft mehr anvertrauen als Bekannte. Wir nehmen Freunde sehr gerne mit als Teil ins Team auf, um so am Ende zusammen ein zufrieden stellendes Ergebnis schaffen zu können.",
+      "title": "Mehr als Kunden",
+      "count": 1
+    },
+    {
+      "type": "rq_011",
+      "title": "Technologiegetrieben",
+      "text": "Selbst die beste Idee wird nicht funktionieren, wenn man nicht den Fokus auf die Technik der Umsetzung lenkt. Wir erweitern stets unseren Blickpunkt, ohne dabei alt bewährtes zu vergessen. So schaffen wir den Spagat zwischen neuen und alten Technologien und können Ideen bestmöglich umsetzen.",
+      "count": 2
     }
   ]
 }
