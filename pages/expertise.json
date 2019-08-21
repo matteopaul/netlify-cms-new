@@ -43,6 +43,43 @@
       "title": "Siloentwicklung",
       "text": "Amazon, Zalando und andere große Player setzen auf künstliche Intelligenz und datengetriebene   Individualisierung. Welche Practices können Unternehmen übernehmen? Und mit welchen Strategien kann die Anzahl von Retouren reduziert werden?",
       "count": 3
+    },
+    {
+      "type": "rq_094",
+      "title": "Modepark",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "link": "/projects/modepark",
+      "linkText": "mehr erfahren",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore"
+    },
+    {
+      "type": "rq_008",
+      "title": "Schlüssel zum Erfolg",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Customer Care",
+      "text": "Die Atmosphäre einer Filiale verstärkt das Einkaufserlebnis. Und ein guter Verkäufer hilft beim Finden der richtigen Größe, spricht Empfehlungen aus und bestätigt eine gute Wahl mit einer sympathischen und überzeugenden Miene. Mit uns können Sie die Vorteile des stationären Einkaufs in Ihren Onlineshop übertragen.",
+      "count": 16
+    },
+    {
+      "type": "rq_011",
+      "title": "Online & Offline ",
+      "text": "So bequem und kurzweilig der Einkaufsbummel via Smartphone auch sein mag – für Anprobe, Begutachtung und Kauf bevorzugt manch ein Kunde den Besuch in der nächstgelegene Filiale. Ein Verfügbarkeitscheck, mit Option auf Click & Collect oder Reservierung, ist die perfekte Motivation und bewahrt vor negativen Erfahrungen.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Branding",
+      "text": "Das Branding vieler Onlineshops beschränkt sich auf die Einbettung des Logos in der Menüzeile. Produkttexte und Bilder hingegen finden sich in unzähligen Shops. Sowohl Google, als auch potenzielle Kunden, finden das ziemlich öde. Mit individuellen Features, Designs und Texten entsteht ein einzigartiges und unvergessliches Shopping- und Marken- Erlebnis.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Payment",
+      "text": "Durch die Digitalisierung sind viele neue Optionen für eine Bezahlung entstanden. Immer mehr Transaktionen sind ohne eine herkömmliche Bank möglich. Werden Retailer die Banken der Zukunft sein? Welchen Apps werden Verbraucher vertrauen? Wie lassen sich die Funktionen in Ihren Shop integrieren? Wir haben die Antworten und Lösungen. ",
+      "count": 2
     }
   ]
 }
