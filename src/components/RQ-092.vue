@@ -71,10 +71,10 @@ export default {
   .rq-092-container {
     --label-color: var(--gray);
     --font-color: var(--dark);
-    width: 448px;
+    /* width: 448px; */
     margin-right: 32px;
     display: inline-block;
-    grid-column: span 4;
+    grid-column: span 3;
     background: var(--card-color);
     color: var(--font-color);
     position: relative;
@@ -82,8 +82,12 @@ export default {
     padding-bottom: 24px;
   }
 
-  .rq-092-container > *:not(.rq-092-image) {
+  .rq-092-container[style!="background: #ffffff"] > *:not(.rq-092-image) {
     padding: 24px;
+  }
+
+  .rq-092-container h3, .rq-092-container p  {
+    margin: 0;
   }
 
   .rq-092-container .label {
