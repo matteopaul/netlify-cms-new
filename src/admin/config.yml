@@ -192,9 +192,6 @@ collections:
             name: "divider"
             widget: object
             fields:
-              - label: Irrelevant
-                name: title
-                widget: string
               - label: size
                 name: size
                 widget: number
@@ -256,6 +253,12 @@ collections:
             widget: "object"
             fields:
               - {label: Color, name: color, widget: select, options: ["gray", "copper", "white", "light-gray"]}
+              - label: "Attributes"
+                name: "attr"
+                widget: list
+                allow_add: true
+                required: false
+                field: {label: Option, name: option, widget: string}
               - label: "Content"
                 name: "content"
                 widget: "list"

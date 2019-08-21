@@ -18,7 +18,7 @@
       <Divider v-if="content.type == 'divider'"/>
       <RQ_090 v-if="content.type == 'rq_090'" v-bind:options="content.options" :text="content.text" :title="content.title" :checked="content.checked"/>
       <RQ_091 v-if="content.type == 'rq_091'" :text="content.text" :src="content.src" :name="content.name" :description="content.description" />
-      <RQ_092 v-if="content.type == 'rq_092'" v-bind:contents="content.content" :color="content.color" />
+      <RQ_092 v-if="content.type == 'rq_092'" v-bind:attr="content.attr" v-bind:contents="content.content" :color="content.color" />
       <RQ_093 v-if="content.type == 'rq_093'" v-bind:cardContents="content.cardContents" :cardColor="content.cardColor" :mdBackground="content.mdBackground" v-bind:mdContents="content.mdContents" />
       <RQ_094 v-if="content.type == 'rq_094'" :src="content.src" :title="content.title" :text="content.text" :href="content.href" :linkText="content.linkText" />
       <RQ_095 v-if="content.type == 'rq_095'" :title="content.title" v-bind:content="content.stages" />
@@ -189,6 +189,7 @@ fragment quote on rq_091 {
 fragment card on rq_092 {
   type
   color
+  attr
   content {
     type
     text

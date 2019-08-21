@@ -1,6 +1,7 @@
 {
   "type": "rq_092",
   "color": "copper",
+  "attr": ["entwicklung"],
   "content": [
     {
       "type": "h3",

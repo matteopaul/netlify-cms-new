@@ -1,5 +1,5 @@
 <template>
-  <div class="rq-092-container" :style="this.style">
+  <div class="rq-092-container" :style="this.style" :class="classes">
       <template v-for="content in contents">
         <h3 v-if="content.type == 'h3'" v-html="content.text" />
         <p v-if="content.type == 'label'" v-html="content.text" class="label" />
@@ -24,6 +24,10 @@ export default {
     contents: {
       type: Array
     },
+    attr: {
+      type: Array,
+      required: false
+    },
     color: {
       type: String,
       default: "gray"
@@ -46,6 +50,13 @@ export default {
         style += '--font-color: var(--white); --label-color: var(--white);'
       }
       return style
+    },
+    classes() {
+      let name = "";
+      for(let i in this.attr) {
+        name += ' ' + this.attr[i];
+      }
+      return name;
     }
   },
   components: {

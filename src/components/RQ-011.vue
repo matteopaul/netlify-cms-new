@@ -63,7 +63,11 @@ export default {
   computed: {
     style() {
       if(parseInt(this.count)) {
-        return "grid-column: span " + 12 / parseInt(this.count) + ';';
+        if(this.count == 2) {
+          return "grid-column: span " + 12 / parseInt(this.count) + '; padding-right: 120px;';
+        } else {
+          return "grid-column: span " + 12 / parseInt(this.count);
+        }
       } else {
         return null;
       }
@@ -85,7 +89,7 @@ export default {
     text-align: left;
   }
 
-  .rq-011-container.vertical .rq-011-icon > .rq-011-content {
+  .rq-011-container.vertical .rq-011-icon + .rq-011-content {
     text-align: center;
   }
 
@@ -101,7 +105,7 @@ export default {
   }
 
   .rq-011-container.vertical .rq-011-icon {
-    margin: 0 auto 42px auto;
+    margin: 0 auto 10px auto;
   }
 
   .rq-011-container.vertical .rq-011-content .rq-011-title {

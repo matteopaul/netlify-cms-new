@@ -38,7 +38,7 @@ export default {
         this.$refs[obj][0].classList.add('active');
         console.log(filter);
       }
-      let contentTeaser = document.getElementsByClassName('rq-015-container');
+      let contentTeaser = document.getElementsByClassName('rq-015-container').concat(document.getElementsByClassName('rq-092-container'));
       for(let i = 0; i < contentTeaser.length; i++) {
         for(let f = 0; f < filter.length; f++) {
           console.log(contentTeaser[i].classList);
