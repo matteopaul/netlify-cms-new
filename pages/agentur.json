@@ -85,6 +85,21 @@
       "type": "rq_037",
       "title": "AttrFilter",
       "attrType": "agency"
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "attr": [
+        "Design"
+      ],
+      "content": [
+        {
+          "type": "image",
+          "title": "Richard",
+          "src": "/uploads/Kosmonauten_Anselm0073 21.png",
+          "size": "landscape"
+        }
+      ]
     }
   ]
 }
