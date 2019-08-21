@@ -1,0 +1,20 @@
+{
+  "title": "Agentur",
+  "url": "/agentur",
+  "contents": [
+    {
+      "type": "rq_016",
+      "text": "\"Wir denken in Business-Modellen und unterstützen mit tiefgreifender Branchenkompetenz aus über 200 Projekten.\"",
+      "title": "Agentur",
+      "src": "/uploads/_73b1921.jpg",
+      "path": "Startseite;Agentur"
+    },
+    {
+      "type": "rq_011",
+      "title": "2016",
+      "text": "Kosmonaut wurde 2016 von Stephan Engau und Anatolij Woromsbecher gegründet.",
+      "src": "/uploads/information-point-system.svg",
+      "count": 4
+    }
+  ]
+}
