@@ -10,6 +10,11 @@
       "text": "\"Unsere interdisziplinäre Kompetenz setzen wir in unserem Leistungsspektrum fokussiert ein.\""
     },
     {
+      "type": "rq_037",
+      "title": "AttrFilter1",
+      "attrType": "projects"
+    },
+    {
       "size": "landscape",
       "src": "/uploads/Kosmonauten0073 141.jpg",
       "linkText": "mehr erfahren",
@@ -21,6 +26,19 @@
       "title": "Online Shops",
       "type": "rq_015",
       "link": "/leistungen/online-shops"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 27.jpg",
+      "linkText": "mehr details",
+      "position": "horizontal",
+      "text": "Eine authentische und professionelle Corporate Website ist die Grundlage für einen gelungenen Unternehmensauftritt im Netz. Und über den ersten Eindruck hinaus erleichtern Sie Ihren Kunden und Geschäftspartnern den bequemen Zugang zu weiteren relevanten Inhalten und Funktionen.",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Corporate Websites",
+      "type": "rq_015",
+      "link": "/leistungen/corporate-websites"
     }
   ]
 }
