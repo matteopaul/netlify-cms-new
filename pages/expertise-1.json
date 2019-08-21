@@ -1,0 +1,44 @@
+{
+  "title": "Expertise",
+  "url": "/expertise",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Expertise",
+      "text": "\"Wir denken in Business-Modellen und unterstützen mit tiefgreifender Branchenkompetenz aus über 200 Projekten.\"",
+      "src": "/uploads/asset-teaser-team.jpg",
+      "path": "Startseite;Expertise"
+    },
+    {
+      "type": "rq_037",
+      "title": "AttrFilter",
+      "attrType": "projects"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Lifestyle",
+      "type": "rq_015",
+      "link": "/lifestyle"
+    },
+    {
+      "size": "square",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "interior"
+      ],
+      "title": "Interior",
+      "type": "rq_015",
+      "link": "/interior"
+    }
+  ]
+}
