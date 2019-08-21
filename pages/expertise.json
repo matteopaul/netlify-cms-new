@@ -8,6 +8,22 @@
       "title": "Leuchten von IP44",
       "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
       "src": "/uploads/Kosmonauten0073 625.jpg"
+    },
+    {
+      "type": "rq_007",
+      "title": "RichText1",
+      "contents": [
+        {
+          "type": "text",
+          "title": "RichTextMarkdown1",
+          "md": "### Kunden lieben Modehäuser mit einer gelungen Kombination aus stationärer und digitaler Präsenz – eine große Chance für Filialisten.\n\nWir ermöglichen die effiziente und profitable Gestaltung und Verknüpfung aller digitalen und physischen Prozesse. Im Onlineshop genießt der Kunde maximale Usability und personalisierte Angebote."
+        }
+      ]
+    },
+    {
+      "type": "rq_008",
+      "title": "Fühlen Sie den Puls des E-Commerce.",
+      "size": "H2"
     }
   ]
 }
