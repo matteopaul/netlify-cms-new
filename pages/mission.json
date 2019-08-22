@@ -10,6 +10,10 @@
       "path": "Startseite;Mission"
     },
     {
+      "type": "divider",
+      "size": 1
+    },
+    {
       "type": "rq_015",
       "title": "Connected Commerce",
       "src": "/uploads/Kosmonauten0073 598.jpg",
