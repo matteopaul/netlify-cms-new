@@ -1,6 +1,6 @@
 {
   "title": "Homepage",
-  "url": "home",
+  "url": "/",
   "contents": [
     {
       "type": "rq_013",
