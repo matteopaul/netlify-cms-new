@@ -88,7 +88,7 @@ export default {
   .rq-016-content {
     position: absolute;
     z-index: 3;
-    max-width: 340px;
+    max-width: 380px;
     top: calc(149px + 152px);
     left: calc(99px + 117px);
   }

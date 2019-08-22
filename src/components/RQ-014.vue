@@ -138,7 +138,7 @@ export default {
   }
 
   .rq-014-link::after {
-    content: url('/uploads/svg/arrow-button_link.svg');
+    content: url('/uploads/arrow-button_link.svg');
     width: 22px;
     height: 12px;
     margin-left: 12px;

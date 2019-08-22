@@ -119,7 +119,7 @@ export default {
   }
 
   .rq-092-link::after {
-    content: url('/uploads/svg/arrow-button_link.svg');
+    content: url('/uploads/arrow-button_link.svg');
     padding-left: 10px;
   }
 

@@ -19,7 +19,10 @@ module.exports = function (api) {
       contentTypes[currentName] = store.addContentType({
         typeName: currentName
       })
-       contentTypes[currentName].addNode(JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file)));
+      console.log(JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file))["id"] = "123");
+      let node = JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file));
+      node["id"] = "123";
+      contentTypes[currentName].addNode(node);
     })
 
 
@@ -32,7 +35,7 @@ module.exports = function (api) {
 
     pages.addNode({
       title: "erste Seite",
-      url: "hallo",
+      url: "",
       contents: [
         store.createReference(contentTypes["rq_008"].findNode()),
         store.createReference(contentTypes["rq_007"].findNode()),
@@ -64,17 +67,25 @@ module.exports = function (api) {
           let currentData = JSON.parse(fs.readFileSync(pagesPath + "/" + file));
           let items = [];
           currentData.contents.forEach(function(item) {
-          let node = store.createReference(contentTypes[item.type].addNode(item));
-          items.push(node);
+            item["id"] = random_id();
+            let node = store.createReference(contentTypes[item.type].addNode(item));
+            items.push(node);
           });
+          console.log(typeof currentData.url);
           console.log(currentData.url);
           pages.addNode({
             id: currentData.id,
             title: currentData.title,
             contents: items,
-            url: currentData.url
+            url: '/' + currentData.url
           })
-    })
+    });
+    function random_id() {
+      return '_' + (
+        Number(String(Math.random()).slice(2)) +
+        Date.now()
+      ).toString(36);
+    }
   })
   api.createPages(({ createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api

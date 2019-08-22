@@ -1,0 +1,63 @@
+{
+  "title": "Corporate Websites",
+  "url": "/leistungen/corporate-websites",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Corporate Websites",
+      "text": "\"Wir bauen Corporate Websites.\"",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "path": "Startseite;Leistungen;Corporate Websites"
+    },
+    {
+      "type": "rq_007",
+      "title": "Markdown1",
+      "contents": [
+        {
+          "type": "text",
+          "title": "MarkdownText",
+          "md": "Eine authentische und professionelle Corporate Website ist die Grundlage für einen gelungenen Unternehmensauftritt im Netz. Und über den ersten Eindruck hinaus erleichtern Sie Ihren Kunden und Geschäftspartnern den bequemen Zugang zu weiteren relevanten Inhalten und Funktionen. Gerne möchten wir Sie und Ihr Unternehmen besser kennenlernen, damit Sie mit einer neuen Corporate Website Ihre Unternehmensziele noch besser erreichen können."
+        }
+      ]
+    },
+    {
+      "type": "rq_012",
+      "title": "Unser Verständnis",
+      "text": "Bevor potenzielle Kunden und Partner Sie kontaktieren, wird nach Ihrem Business gegoogelt. Auf diese Weise entsteht der erste Eindruck des Unternehmens sowie den angebotenen Produkten und Dienstleistungen. Für einen gelungenen Auftritt braucht es es ein durchdachtes Konzept, welches in erster Linie die Ansprüche der Zielgruppen in den Vordergrund stellt. Und ein modernes und funktionales Design motiviert den User auf Entdeckungstour zu gehen. Die Besucher Ihrer Corporate Website haben unterschiedliche Anliegen. Neukunden möchten sich einen schnellen Überblick verschaffen und erhalten im besten Fall einen einfachen Zugang zu erklärungsbedürftigen Produkten und Leistungen. Für Bestandskunden können Services besonders bequem und zielführend zur Verfügung gestellt werden. Schnelle Ladezeiten und ein barrierefreies Surfen sorgen für ein rundum gelungenes Erlebnis. ",
+      "cols": 2
+    },
+    {
+      "type": "rq_008",
+      "title": "Unser Vorgehen",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Einzigartig",
+      "text": "Ihr Unternehmen verfügt über Alleinstellungsmerkmale und bietet Ihren Kunden und Partnern Vorzüge der besonderen Art. Die Corporate Website ist die perfekte Plattform, um eben diese Attribute zu kommunizieren. Es geht schon lange nicht mehr darum einfach nur präsent zu sein, sondern sich klar von der Konkurrenz abzuheben. ",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Joy of Use",
+      "text": "Anders als im direkten Kontakt sind die Besucher Ihrer Website auf sich gestellt. Wir setzen bereits bei der Konzeption die Kundenbrille auf und ermöglichen eine intuitive und kurzweilige Reise zu gesuchten und verwandten Inhalten. Die Verweildauer auf Ihrer Website wird steigen, während die Absprungrate deutlich sinken wird.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Kundenfokus",
+      "text": "Im Web unter den ersten Ergebnissen zu ranken ist nur ein Teilerfolg. Langfristig können Sie nur mit einzigartigen und relevanten Inhalten Aufmerksamkeit und Bindung erzielen. Und die unterschiedlichen Buyer Personas sind schon lange nicht mehr die alleinigen Adressaten. Auch Fachkräfte und die Stakeholder der Branche gilt es zu überzeugen.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Reputation",
+      "text": "Die Unternehmenswebsite ist das virtuelle Schaufenster in Ihr Business. Über diesen Kanal können Sie ebenfalls das Feedback Ihrer Kunden und Partner einbinden und auf diesem Weg mehr Transparenz und Vertrauen schaffen. Wie progressiv und authentisch möchten Sie Ihr Unternehmen präsentieren?",
+      "count": 2
+    },
+    {
+      "type": "divider",
+      "size": 1
+    }
+  ]
+}

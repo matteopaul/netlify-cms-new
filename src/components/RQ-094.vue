@@ -64,7 +64,7 @@ export default {
   }
 
   .rq-094-link::after {
-    content: url('/uploads/svg/arrow-button_link.svg');
+    content: url('/uploads/arrow-button_link.svg');
     margin-left: 15px;
   }
 

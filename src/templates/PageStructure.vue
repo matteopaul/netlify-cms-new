@@ -1,8 +1,6 @@
 <template>
   <Layout :title="$page.pageContents.title">
-    {{$page.pageContents.contents}}
     <template v-for="content in $page.pageContents.contents">
-      {{content.type}}
       <RQ_007 v-if="content.type == 'rq_007'" v-bind:contents="content.contents" :background="content.background" />
       <RQ_008 v-if="content.type == 'rq_008'" :title="content.title" :size="content.size"/>
       <RQ_011 v-if="content.type == 'rq_011'" :icon="content.src" :count="content.count" :title="content.title" :text="content.text" :hint="content.category" :href="content.href" :linkText="content.linkText" />
@@ -17,7 +15,7 @@
       <RQ_035 v-if="content.type == 'rq_035'" :path="content.path" />
       <RQ_037 v-if="content.type == 'rq_037'" :type="content.attrType" />
       <RQ_067 v-if="content.type == 'rq_067'" :title="content.title" :text="content.text" v-bind:dropdown="content.dropdown" />
-      <Divider v-if="content.type == 'divider'"/>
+      <Divider v-if="content.type == 'divider'" :size="content.height"/>
       <RQ_090 v-if="content.type == 'rq_090'" v-bind:options="content.options" :text="content.text" :title="content.title" :checked="content.checked"/>
       <RQ_091 v-if="content.type == 'rq_091'" :text="content.text" :src="content.src" :name="content.name" :description="content.description" />
       <RQ_092 v-if="content.type == 'rq_092'" v-bind:attr="content.attr" v-bind:contents="content.content" :color="content.color" />
@@ -267,6 +265,7 @@ fragment slider on cardSlider {
 
 fragment divide on divider {
   type
+  height
 }
 
 </page-query>

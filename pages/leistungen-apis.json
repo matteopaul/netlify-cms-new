@@ -1,0 +1,63 @@
+{
+  "title": "APIs",
+  "url": "/leistungen/apis",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Viele Unternehmen im E-Commerce blicken auf organisches Wachstum zurück. Die verschiedenen Wachstumsphasen haben die zusätzliche Einführung von Software erforderlich gemacht. ",
+      "text": "\"Damit die unterschiedlichen Systeme auch untereinander kommunizieren können, bieten wir Ihnen unsere bewährten Schnittstellen (APIs) oder entwickeln Individuallösungen.  \"",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "path": "Startseite;Leistungen;APIs"
+    },
+    {
+      "type": "rq_007",
+      "title": "Markdown1",
+      "contents": [
+        {
+          "type": "text",
+          "title": "MarkdownText",
+          "md": "Eine authentische und professionelle Corporate Website ist die Grundlage für einen gelungenen Unternehmensauftritt im Netz. Und über den ersten Eindruck hinaus erleichtern Sie Ihren Kunden und Geschäftspartnern den bequemen Zugang zu weiteren relevanten Inhalten und Funktionen. Gerne möchten wir Sie und Ihr Unternehmen besser kennenlernen, damit Sie mit einer neuen Corporate Website Ihre Unternehmensziele noch besser erreichen können."
+        }
+      ]
+    },
+    {
+      "type": "rq_012",
+      "title": "Unser Verständnis",
+      "text": "In sich geschlossene Systeme bilden in der heutigen Zeit eine Ausnahme. In den meisten Fällen bestehen Abhängigkeiten und Daten sollen möglichst einfach zwischen den unterschiedlichen Systemen ausgetauscht werden. Die Lösung ist ein entsprechendes Application Programming Interface (API). Durch diese Verbindung werden neue Daten in Echtzeit auf allen Portalen kommuniziert und stehen bei Bedarf an der entsprechenden Position zur Verfügung. Ein weiterer Trend in der Schnittstellenentwicklung ist die heterogene Entwicklung von APIs. Diese Erweiterung ermöglicht auch die Kommunikation zwischen lokalen und cloudbasierten Anwendungen. Gerade im Bereich E-Commerce Bereich ist diese Option sehr gefragt, um zum Beispiel Shopware mit einem Warenwirtschaftssystem zu verbinden und so den Warenfluss wesentlich zu erleichtern.",
+      "cols": 2
+    },
+    {
+      "type": "rq_008",
+      "title": "Unser Vorgehen",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Zuverlässig",
+      "text": "Dass die manuelle Übertragung von Daten fehleranfällig ist, liegt auf der Hand. Aber auch nicht jede Schnittstelle leistet einwandfreie Arbeit. Anders verhalten sich die eigenentwickelten APIs aus unserem Haus, die schon lange aus den Kinderschuhen herausgewachsen sind und sich bei vielen unserer Kunden über Jahre hinweg bewährt haben.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Zeitsparend",
+      "text": "Die manuelle Suche und Weitergabe von Daten kann sehr zeitintensiv sein. Sich wiederholende Vorgänge bieten zusätzliches Potenzial für Zeiteinsparungen. Wir verbinden die einzelnen Systeme und Funktionen und steigern die Effizienz und Zuverlässigkeit Ihres Business. Nutzen Sie eine unserer Schnittstellen oder Individuallösungen.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Progressiv",
+      "text": "Ihr Business wird sich weiterentwickeln und unsere hochwertigen Schnittstellen lassen sich mit wenig Aufwand an die veränderten Bedingungen anpassen. Dadurch können Sie den steigenden Umsatz anderweitig investieren, ohne sich Gedanken über eine ausreichende Funktion der APIs machen zu müssen.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Pragmatisch",
+      "text": "Falls in einem der Systeme ein Bug auftaucht, können die einzelnen Module an den Schnittstellen getrennt werden und der Fehler wesentlich schneller eingegrenzt und damit auch behoben werden. Auch im Rahmen der Wartung können nur ausgewählte Module überarbeitet oder ausgetauscht werden, wodurch der technische Aufwand auf ein Minimum reduziert wird.",
+      "count": 2
+    },
+    {
+      "type": "divider",
+      "size": 1
+    }
+  ]
+}
