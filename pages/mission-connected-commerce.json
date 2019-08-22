@@ -33,6 +33,26 @@
       "text": "Die Vernetzung aller relevanten Kanäle ermöglicht eine einzigartige Customer Journey und lässt die digitale Welt mit dem stationären Handel verschmelzen. Für den Unternehmer werden viele Prozesse durch die Verknüpfung und Automatisierung wesentlich zuverlässiger und effizienter gestaltet.",
       "src": "/uploads/Information-Point-Chat.svg",
       "count": 3
+    },
+    {
+      "type": "divider",
+      "size": 1
+    },
+    {
+      "type": "rq_021",
+      "text": "Im Ladenlokal geht man prompt und freundlich auf den Kunden zu. Warum sollte das in der digitalen Welt anders sein? Wir bereiten Sie auf die aktive Kommunikation mit Ihren Kunden vor und geben Ihnen wirkungsvolle Tools an die Hand. ",
+      "title": "Vertriebswege erschließen",
+      "src": "/uploads/asset-teaser-tprojects-luckybike.jpg",
+      "position": "top",
+      "size": "portrait"
+    },
+    {
+      "type": "rq_021",
+      "title": "Vernetztes Denken",
+      "text": "Bieten Sie Ihren Kunden ein barrierefreies Einkaufserlebnis. Wir ermöglichen den Datenabgleich in Echtzeit zwischen Onlineshop, Lagerstand und der ausgewählten Filiale. So können Sie via Click & Collect zum Besuch im Ladenlokal motivieren.",
+      "src": "/uploads/asset-teaser-b2b.jpg",
+      "position": "bottom",
+      "size": "portrait"
     }
   ]
 }
