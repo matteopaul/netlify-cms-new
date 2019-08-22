@@ -1,6 +1,8 @@
 <template>
   <Layout :title="$page.pageContents.title">
+    {{$page.pageContents.contents}}
     <template v-for="content in $page.pageContents.contents">
+      {{content.type}}
       <RQ_007 v-if="content.type == 'rq_007'" v-bind:contents="content.contents" :background="content.background" />
       <RQ_008 v-if="content.type == 'rq_008'" :title="content.title" :size="content.size"/>
       <RQ_011 v-if="content.type == 'rq_011'" :icon="content.src" :count="content.count" :title="content.title" :text="content.text" :hint="content.category" :href="content.href" :linkText="content.linkText" />
