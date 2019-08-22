@@ -1,0 +1,63 @@
+{
+  "title": "3D Rendering",
+  "url": "/leistungen/3d-rendering",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "3D Rendering",
+      "text": "\"Wir rendern in 3D.\"",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "path": "Startseite;Leistungen;3D Rendering"
+    },
+    {
+      "type": "rq_007",
+      "title": "Markdown1",
+      "contents": [
+        {
+          "type": "text",
+          "title": "MarkdownText",
+          "md": "Manche Shops möchten tausende von Produkten im Shop präsentieren und hinzu kommen zahlreiche Ansichten und Varianten. Wie kann man dieser Mammutaufgabe gerecht werden? Wir haben uns schon sehr früh auf die Erstellung von 3D-Renderings spezialisiert, damit Sie Ihren Kunden hochwertige und möglichst vielseitige Eindrücke von Ihren Produkten bieten können. "
+        }
+      ]
+    },
+    {
+      "type": "rq_012",
+      "title": "Unser Verständnis",
+      "text": "Die Visualisierung von Gegenständen mit Hilfe von Skizzen oder Rohdaten hat ein sehr hohes Niveau erreicht. Mittlerweile werden 3D-Renderings häufig in Prospekten, auf Verpackungen und natürlich im Web verwendet, wobei man den Unterschied zu einer professionellen Fotografie kaum mehr wahrnimmt. Umso schwerer wiegen Darstellungsfehler, weil sie das Vertrauen in das Produkt schwächen. Der Kunde möchte vor dem Kauf einen sehr realistischen Eindruck der Ware erhalten. Neben dem eigentlichen Produkt müssen auch Ansichten, Variationen und Texturen berücksichtigt werden. Die Visualisierung von Licht- und Schattenverhältnissen sowie Spiegelungen steigert den Realitätsgrad. Wir finden das Gleichgewicht zwischen Qualität und Effizienz und ermöglichen eine effiziente Pflege des Shops.",
+      "cols": 2
+    },
+    {
+      "type": "rq_008",
+      "title": "Unser Vorgehen",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Schnell",
+      "text": "Für gewöhnlich musste im Anschluss an die Produktion Zeit für ein Fotoshooting und die Inszenierung des Produktportfolios eingeplant werden, durch die der Verkauf weiter verzögert wurde. Durch die Entwicklung von 3D-Renderings können bereits während der Produktionsphase Abbildungen erstellt und unverzüglich im Shop angeboten werden.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Flexibel",
+      "text": "Möchten Sie weitere Ausstattungs- oder Farbvarianten eines Produkts anbieten? Wir erstellen gerne die benötigten Varianten und Ansichten von Ihrer Ware. Auf diesem Weg können Sie Ihr Angebot schnell und flexibel erweitern und Ihren Kunden die Kaufentscheidung wesentlich erleichtern.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Performant",
+      "text": "Unterschiedliche Ansichten eines Produkts erleichtern die Kaufentscheidung. Bei kleinen Produkten und wenig Artikeln können die Aufnahmen in einem herkömmlichen Shooting erstellt werden. Große Produkte oder eine hohe Anzahl machen ein Shooting allerdings sehr aufwendig. 3D-Renderings können einfach aus mehreren Perspektiven angezeigt werden und ermöglichen so einen Rundumblick.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Bedarfsgerecht",
+      "text": "Auch wenn immer mehr computergenerierte Bilder verwendet werden, besteht weiterhin ein hoher Bedarf an klassischer Produktfotografie. Mit der Kombination dieser Bildmaterialien erhält man das gewünschte Ergebnis und kann zum Beispiel hochwertige Produktbilder in eine computergenerierte Umgebung einbinden.",
+      "count": 2
+    },
+    {
+      "type": "divider",
+      "size": 1
+    }
+  ]
+}

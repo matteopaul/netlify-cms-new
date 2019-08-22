@@ -35,7 +35,7 @@ module.exports = function (api) {
 
     pages.addNode({
       title: "erste Seite",
-      url: "",
+      url: "hallo",
       contents: [
         store.createReference(contentTypes["rq_008"].findNode()),
         store.createReference(contentTypes["rq_007"].findNode()),

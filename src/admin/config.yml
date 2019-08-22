@@ -22,7 +22,7 @@ collections:
         name: "contents"
         widget: "list"
         types:
-          - label: "Rich Text"
+          - label: "RQ-007 Rich Text"
             name: "rq_007"
             widget: object
             fields:
@@ -88,7 +88,7 @@ collections:
                         widget: "list"
                         allow_add: true
                         field: {label: Option, name: option, widget: string}
-          - label: "Text With Icon"
+          - label: "RQ-011 Text With Icon"
             name: "rq_011"
             widget: object
             fields:
@@ -99,27 +99,27 @@ collections:
               - {label: Link Destination, name: href, widget: string, required: false}
               - {label: Link Text, name: linkText, widget: string, required: false}
               - {label: Text with Icons in a row, name: count, widget: number, default: 2}
-          - label: "Header"
+          - label: " RQ-008 Header"
             name: "rq_008"
             widget: "object"
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Size, name: size, widget: select, options: ["H2", "H3"]}
-          - label: "Text In Columns"
+          - label: "RQ-012 Text In Columns"
             name: "rq_012"
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Text, name: text, widget: string}
               - {label: Columns, name: cols, widget: number}
-          - label: "Stage"
+          - label: "RQ-013 Stage"
             name: "rq_013"
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Button Text, name: buttonText, widget: string}
               - {label: Image, name: src, widget: image}
-          - label: "Promotion Banner"
+          - label: "RQ-014 Promotion Banner"
             name: "rq_014"
             widget: object
             fields:
@@ -156,7 +156,7 @@ collections:
                   - {label: Icon, name: icon, widget: image, required: false}
                   - {label: Link, name: href, widget: string}
                   - {label: Link Text, name: linkText, widget: string}
-          - label: "Content Teaser"
+          - label: "RQ-015 Content Teaser"
             name: "rq_015"
             widget: object
             fields:
@@ -180,7 +180,7 @@ collections:
                 field: {label: Option, name: option, widget: string}
               - {label: Bullet List Label, name: label, widget: string, required: false}
               - {label: Position, name: position, widget: select, options: ["vertical", "horizontal"]}
-          - label: "Category Banner RQ-016"
+          - label: "RQ-016 Category Banner RQ-016"
             name: "rq_016"
             widget: object
             fields:
@@ -195,7 +195,7 @@ collections:
               - label: size
                 name: height
                 widget: number
-          - label: "Image"
+          - label: "RQ-021 Image"
             name: "rq_021"
             widget: object
             fields:
@@ -204,19 +204,19 @@ collections:
               - {label: Image, name: src, widget: image}
               - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
               - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
-          - label: "BreadCrumb"
+          - label: "RQ-035 BreadCrumb"
             name: "rq_035"
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
               - {label: "Pfad (bitte mit semikolon trennen)", name: path, widget: string}
-          - label: "Attribute Filter"
+          - label: "RQ-037 Attribute Filter"
             name: "rq_037"
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Type, name: attrType, widget: select, options: ["agency", "projects"]}
-          - label: "Contact Form"
+          - label: "RQ-067 Contact Form"
             name: "rq_067"
             widget: object
             fields:
@@ -228,7 +228,7 @@ collections:
                 allow_add: true
                 required: false
                 field: {label: Option, name: option, widget: string}
-          - label: "Bullet List"
+          - label: "RQ-090 Bullet List"
             name: "rq_090"
             widget: "object"
             fields:
@@ -240,7 +240,7 @@ collections:
                 widget: "list"
                 allow_add: true
                 field: {label: Option, name: option, widget: string}
-          - label: "Quote"
+          - label: "RQ-091 Quote"
             name: "rq_091"
             widget: "object"
             fields:
@@ -248,7 +248,7 @@ collections:
               - {label: Image, name: src, widget: image}
               - {label: Name, name: name, widget: string}
               - {label: Description, name: description, widget: string}
-          - label: "Card"
+          - label: "RQ-092 Card"
             name: "rq_092"
             widget: "object"
             fields:
@@ -323,7 +323,7 @@ collections:
                       - {label: Image, name: src, widget: image}
                       - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
                       - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
-          - label: "Text with Card"
+          - label: "RQ-093 Text with Card"
             name: "rq_093"
             widget: "object"
             fields:
@@ -424,7 +424,7 @@ collections:
                       - {label: Image, name: src, widget: image}
                       - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
                       - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
-          - label: "Project Link"
+          - label: "RQ-094 Project Link"
             name: "rq_094"
             widget: "object"
             fields:
@@ -433,7 +433,7 @@ collections:
               - {label: Text, name: text, widget: string}
               - {label: Link, name: link, widget: string}
               - {label: Link Text, name: linkText, widget: string}
-          - label: "Content Slider"
+          - label: "RQ-095 Content Slider"
             name: "rq_095"
             widget: "object"
             fields:

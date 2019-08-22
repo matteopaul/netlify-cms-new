@@ -1,0 +1,63 @@
+{
+  "title": "Apps",
+  "url": "/leistungen/apps",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Apps",
+      "text": "\"Wir basteln auch Apps.\"",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "path": "Startseite;Leistungen;Apps"
+    },
+    {
+      "type": "rq_007",
+      "title": "Markdown1",
+      "contents": [
+        {
+          "type": "text",
+          "title": "MarkdownText",
+          "md": "Inwieweit profitieren Ihre Kunden und Ihr Unternehmen von einer hauseigenen App? Welcher Zeitraum ist für den ROI zu erwarten? Wir beraten Sie gerne zu allen relevanten Fragen zum Thema Mobile Applikationen. Unser Team verfügt über das nötige Know-how und die Ressourcen, um einfach zu bedienende und stabile Apps für iOS, Android und Windows zu entwickeln und kontinuierlich aktuell zu halten."
+        }
+      ]
+    },
+    {
+      "type": "rq_012",
+      "title": "Unser Verständnis",
+      "text": "Das eigene Smartphone und eine ganze Reihe von Lieblings-Apps sind für nahezu jeden Menschen zum Teil des Lebens geworden. Wer möchte schon auf WhatsApp, Instagram und ähnliche Applikationen verzichten? In den Stores können wir aus Millionen von Apps wählen, de facto werden aber nur wenige hundert wirklich bekannt und bringen den Entwicklern und Unternehmen den gewünschten Erfolg. Eignet sich dieser Vertriebskanal auch für Ihr Business? Bevor man sich für die Entwicklung entscheidet, müssen grundlegende Fragen geklärt werden. Für welche Systeme soll entwickelt werden und in welchem Verhältnis stehen die Kosten für Entwicklung und Pflege mit den zu erwartenden Vorteilen? Hybrid, Web oder doch Native – welches Format trifft am ehesten die Ansprüche und Bedürfnisse von Unternehmer und Zielgruppe? Wir führen Sie sicher durch den Prozess der Lösungsfindung und darüber hinaus.",
+      "cols": 2
+    },
+    {
+      "type": "rq_008",
+      "title": "Unser Vorgehen",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Form folgt Funktion",
+      "text": "Was nützt das schönste Design, wenn die App dem Nutzer keinen echten Mehrwert bietet? Bevor es an die Gestaltung geht, müssen daher alle gewünschten Funktionen überdacht und anschließend klar definiert werden. Anschließend geht es an die Gestaltung des User Interface.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Usability",
+      "text": "Benutzerfreundlichkeit zeigt sich nicht nur in der Menüführung. Wenn alle Hauptfunktionen in Reichweite der Fingerspitzen liegen, lässt sich eine App besonders komfortabel bedienen. Und die richtige Wahl bei der Größe von Schrift und Bedienelementen sorgt für ermüdungsfreies Lesen und treffsicheres Handling.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Klare Linie",
+      "text": "Gutes Design sieht nicht nur schick aus, sondern erleichtert dem User auch die Bedienung und Orientierung. Diese beiden Faktoren werden mit den Begriffen UI- und UX-Design beschrieben. Wir achten auf ein harmonische Zusammenspiel aus beiden Disziplinen. Im Ergebnis präsentiert sich ein angenehmes Design für eine intuitive Bedienung.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Test in the Wild",
+      "text": "Die Entwicklung endet nicht mit dem Live-Gang im AppStore. Das Feedback der Nutzer sind die wertvollen Anregungen für eine kontinuierliche Verbesserung und Erweiterung. Diese kontinuierliche Entwicklung wird sich nicht nur positiv auf die Bekanntheit und Beliebtheit der Anwendung, sondern auch Ihres Unternehmens auswirken.",
+      "count": 2
+    },
+    {
+      "type": "divider",
+      "size": 1
+    }
+  ]
+}

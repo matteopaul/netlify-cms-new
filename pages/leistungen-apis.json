@@ -4,8 +4,8 @@
   "contents": [
     {
       "type": "rq_016",
-      "title": "Viele Unternehmen im E-Commerce blicken auf organisches Wachstum zurück. Die verschiedenen Wachstumsphasen haben die zusätzliche Einführung von Software erforderlich gemacht. ",
-      "text": "\"Damit die unterschiedlichen Systeme auch untereinander kommunizieren können, bieten wir Ihnen unsere bewährten Schnittstellen (APIs) oder entwickeln Individuallösungen.  \"",
+      "title": "APIs",
+      "text": "\"Wir bauen APIs.  \"",
       "src": "/uploads/Kosmonauten0073 625.jpg",
       "path": "Startseite;Leistungen;APIs"
     },
@@ -16,7 +16,7 @@
         {
           "type": "text",
           "title": "MarkdownText",
-          "md": "Eine authentische und professionelle Corporate Website ist die Grundlage für einen gelungenen Unternehmensauftritt im Netz. Und über den ersten Eindruck hinaus erleichtern Sie Ihren Kunden und Geschäftspartnern den bequemen Zugang zu weiteren relevanten Inhalten und Funktionen. Gerne möchten wir Sie und Ihr Unternehmen besser kennenlernen, damit Sie mit einer neuen Corporate Website Ihre Unternehmensziele noch besser erreichen können."
+          "md": "Viele Unternehmen im E-Commerce blicken auf organisches Wachstum zurück. Die verschiedenen Wachstumsphasen haben die zusätzliche Einführung von Software erforderlich gemacht. Damit die unterschiedlichen Systeme auch untereinander kommunizieren können, bieten wir Ihnen unsere bewährten Schnittstellen (APIs) oder entwickeln Individuallösungen."
         }
       ]
     },
