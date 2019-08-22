@@ -94,16 +94,20 @@ export default {
   grid-row: span 5;
 }
 
-.rq-015-container:not(.deactive):nth-of-type(2n) {
+.rq-015-container.vertical:not(.deactive):nth-of-type(2n) {
   grid-column: 1 / span 6 !important;
 }
 
-.rq-015-container:not(.deactive):nth-of-type(2n-1) {
+.rq-015-container.vertical:not(.deactive):nth-of-type(2n-1) {
   grid-column: span 6 / 13 !important;
 }
 
   .rq-015-container, .rq-015-content {
     position: relative;
+  }
+
+  .rq-015-container.horizontal .rq-015-image {
+    grid-column: span 1;
   }
 
   .rq-015-container.deactive {
@@ -112,13 +116,9 @@ export default {
 
   .rq-015-container.horizontal {
     grid-column: span 12;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .rq-015-container.horizontal .rq-015-image.horizontal {
-    flex-shrink: 0;
-    margin-right: 120px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 50px;
   }
 
   .rq-015-container.horizontal.reverse {
@@ -178,7 +178,7 @@ export default {
   }
 
   .rq-015-link::after {
-    content: url('/uploads/svg/arrow-button_link.svg');
+    content: url('/uploads/arrow-button_link.svg');
     margin-left: 15px;
   }
 
