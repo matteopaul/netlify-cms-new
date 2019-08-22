@@ -39,6 +39,40 @@
       "title": "Corporate Websites",
       "type": "rq_015",
       "link": "/leistungen/corporate-websites"
+    },
+    {
+      "type": "rq_015",
+      "title": "Apps",
+      "src": "/uploads/Kosmonauten0073 439.jpg",
+      "text": "Inwieweit profitieren Ihre Kunden und Ihr Unternehmen von einer hauseigenen App? Welcher Zeitraum ist für ROI zu erwarten? Wir beraten Sie gerne zu allen relevanten Fragen zum Thema mobile Applikationen.",
+      "size": "landscape",
+      "link": "/leistungen/apps",
+      "linkText": "mehr details",
+      "position": "horizontal"
+    },
+    {
+      "type": "rq_015",
+      "title": "APIs",
+      "src": "/uploads/Kosmonauten0073 112.jpg",
+      "text": "Viele Unternehmen im E-Commerce blicken auf organisches Wachstum zurück. Die verschiedenen Wachstumsphasen haben die zusätzliche Einführung von Software erforderlich gemacht.   Damit die unterschiedlichen Systeme auch untereinander kommunizieren können, bieten wir Ihnen unsere bewährten Schnittstellen (APIs) oder entwickeln Individuallösungen. ",
+      "size": "landscape",
+      "link": "/leistungen/apis",
+      "linkText": "mehr details",
+      "position": "horizontal"
+    },
+    {
+      "type": "rq_015",
+      "title": "3D Rendering",
+      "src": "/uploads/Kosmonauten0073 90.jpg",
+      "text": "Manche Shops möchten tausende von Produkten im Shop präsentieren und hinzu kommen zahlreiche Ansichten und Varianten. Wie kann man dieser Mammutaufgabe gerecht werden?  Wir haben uns schon sehr früh auf die Erstellung von 3D-Renderings spezialisiert, damit Sie Ihren Kunden hochwertige und möglichst vielseitige Eindrücke von Ihren Produkten bieten können. ",
+      "size": "landscape",
+      "link": "/leistungen/3d-renderings",
+      "linkText": "mehr details",
+      "position": "horizontal"
+    },
+    {
+      "type": "divider",
+      "size": 1
     }
   ]
 }
