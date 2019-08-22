@@ -1,0 +1,38 @@
+{
+  "title": "Connected Commerce",
+  "url": "/mission/connected-commerce",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Die nächste Etappe für ein Multi-Channel-Business ist Connected Commerce",
+      "text": "Die nächste Etappe für ein Multi-Channel-Business ist Connected Commerce. Dafür braucht es ganzheitliche und flexible Strategien und Prozesse, sowie eine nahtlose Vernetzung dieser. Wir liefern ein ausgereiftes Konzept und realisieren die Verbindung zwischen Website, Portalen, Onlineshops, CRM und PIM-Systemen. ",
+      "path": "Startseite;Mission;Connected Commerce"
+    },
+    {
+      "type": "rq_008",
+      "title": "Was ist Connected Commerce?",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "text": "Connected Commerce beschreibt die multidirektionale Verbindung zwischen dem Online- und Offlinehandel und erfasst und verknüpft jeden Schritt der Vertriebskette. Dabei spielen auch die Bereiche Logistik, Marketing und Warenwirtschaft eine große Rolle.",
+      "title": "Der Hintergrund",
+      "src": "/uploads/Information-Point-Creation.svg",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "title": "Der Antrieb",
+      "text": "Die großen Plattformen setzen den stationären Handel unter großen Druck. Im Wettbewerb um die Chancengleichheit ist eine strategische Verknüpfung zwischen den lokalen Filialen und innovativen digitalen Entwicklungen unerlässlich.",
+      "src": "/uploads/information-point-system.svg",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "title": "Die Vision",
+      "text": "Die Vernetzung aller relevanten Kanäle ermöglicht eine einzigartige Customer Journey und lässt die digitale Welt mit dem stationären Handel verschmelzen. Für den Unternehmer werden viele Prozesse durch die Verknüpfung und Automatisierung wesentlich zuverlässiger und effizienter gestaltet.",
+      "src": "/uploads/Information-Point-Chat.svg",
+      "count": 3
+    }
+  ]
+}
