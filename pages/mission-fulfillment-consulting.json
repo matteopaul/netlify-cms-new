@@ -1,0 +1,42 @@
+{
+  "title": "Fullfilment Consulting",
+  "url": "/mission/fulfillment-consulting",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Für Erfolg im E-Commerce braucht es eine ausgereifte Infrastruktur. ",
+      "text": "Diese besteht aus Onlineshop, Warenwirtschaft, Logistik sowie Folgeprozessen und der smarten Verbindung aller Komponenten.   Wir kennen die Herausforderungen und Lösungen im Fulfillment und beraten Sie gerne in diesem Bereich.",
+      "path": "Startseite;Mission;Fullfilment-Consulting"
+    },
+    {
+      "type": "rq_008",
+      "title": "Was ist Fulfillment Consulting?",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Der Hintergrund",
+      "text": "Die zunehmende Vernetzung und Digitalisierung verändert sämtliche Prozesse der Logistik. Kunden möchten den Sendungsstatus in Echtzeit tracken und erwarten flexiblen und bequemen Service bei der Zustellung. Für die Optimierung der Logistik braucht es Know How und leistungsstarke Systeme.",
+      "src": "/uploads/Information-Point-Creation.svg",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "title": "Der Antrieb",
+      "text": "Die Schwachstellen im System schaden der Reputation, mindern die Effizienz und verursachen zusätzlichen Aufwand und Kosten. Wir beraten und entwickeln für Sie hervorragende Lösungen in den Bereichen Supportvernetzung, internationale und nationale Transportstrategien und Auswahl der Marktplätze.",
+      "src": "/uploads/information-point-system.svg",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "title": "Die Vision",
+      "text": "Die fortlaufende Analyse und Optimierung der Auftragsabwicklung ermöglicht effiziente und größtenteils automatisierte Prozesse. Das wirkt sich nicht nur vorteilhaft auf die Bilanz aus, sondern hat auch direkten Einfluss auf die Zufriedenheit der Käufer und die Anzahl der positiven Bewertungen.",
+      "src": "/uploads/Information-Point-Chat.svg",
+      "count": 3
+    },
+    {
+      "type": "divider",
+      "size": 1
+    }
+  ]
+}
