@@ -1,0 +1,43 @@
+{
+  "title": "Mission",
+  "url": "/mission",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Mission",
+      "src": "/uploads/Kosmonauten0073 312.jpg",
+      "text": "\"Wir unterstützen bei einer zukunftsfähigen und nachhaltigen Ausrichtung der Geschäftsidee.\"",
+      "path": "Startseite;Mission"
+    },
+    {
+      "type": "rq_015",
+      "title": "Connected Commerce",
+      "src": "/uploads/Kosmonauten0073 598.jpg",
+      "text": "Die nächste Etappe für ein Multi-Channel-Business ist Connected Commerce. Dafür braucht es ganzheitliche und flexible Strategien und Prozesse, sowie eine nahtlose Vernetzung dieser. Wir liefern ein ausgereiftes Konzept und realisieren die Verbindung zwischen Website, Portalen, Onlineshops, CRM und PIM-Systemen. ",
+      "size": "landscape",
+      "link": "/mission/connected-commerce",
+      "linkText": "mehr details",
+      "position": "horizontal"
+    },
+    {
+      "type": "rq_015",
+      "title": "Fullfilment Consulting",
+      "src": "/uploads/Kosmonauten0073 215.jpg",
+      "text": "Für Erfolg im E-Commerce braucht es eine ausgereifte Infrastruktur. Diese besteht aus Onlineshop, Warenwirtschaft, Logistik sowie Folgeprozessen und der smarten Verbindung aller Komponenten.   Wir kennen die Herausforderungen und Lösungen im Fulfillment und beraten Sie gerne in diesem Bereich.",
+      "size": "landscape",
+      "link": "/mission/fullfilment-consulting",
+      "linkText": "mehr details",
+      "position": "horizontal"
+    },
+    {
+      "type": "rq_015",
+      "title": "Digitale Transformation",
+      "src": "/uploads/Kosmonauten0073 305.jpg",
+      "text": "Analoge Prozesse lassen sich nicht einfach auf die digitale Ebene übertragen. Eine erfolgreiche Digitalisierung erfordert neue Ansätze und Lösungen. Wir entwickeln für Sie intelligente und gewinnbringende Abläufe und Strategien und setzen diese für Sie um.",
+      "size": "landscape",
+      "link": "/mission/digitale-transformation",
+      "linkText": "mehr details",
+      "position": "horizontal"
+    }
+  ]
+}
