@@ -1,0 +1,63 @@
+{
+  "title": "Onlineshops",
+  "url": "/leistungen/online-shops",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Online Shops",
+      "text": "\"Wir bauen Online Shops.\"",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "path": "Startseite;Leistungen;Onlineshops"
+    },
+    {
+      "type": "rq_007",
+      "title": "Markdown1",
+      "contents": [
+        {
+          "type": "text",
+          "title": "MarkdownText",
+          "md": "Wir entwickeln moderne und performante Onlineshops, die die Grundlage für Wachstum und eine hohe Conversion im E-Commerce bilden. Skalierbare Systeme ermöglichen eine schnelle Reaktion auf zukünftige Entwicklungen.\n\n\n\nUnser Leistungsspektrum beinhaltet von der Beratung bis hin zur digitalen Vermarktung sämtliche Kompetenzen für ein erfolgreiches Business."
+        }
+      ]
+    },
+    {
+      "type": "rq_012",
+      "title": "Unser Verständnis",
+      "text": "Die technischen Möglichkeiten werden stetig weiterentwickelt und verändern auch unser Nutzer- und Kaufverhalten. Folgerichtig schließt auch die Entwicklung eines Onlineshops niemals ab, sondern muss kontinuierlich ausgebaut werden, um auf Erfolgskurs zu bleiben. Dafür braucht es einschlägiges Know How und die entsprechenden Ressourcen.  Unsere Shops überzeugen sowohl für den Kunden als auch für den Händler durch ein intuitives Handling. Der Käufer wird auf eine angenehme und barrierefreie Customer Journey geführt. Das Backend bietet dem Unternehmer einen schnellen und informativen Überblick aller relevanten Vorgänge. Die Custom Fields ermöglichen eine einfache Produkt- und Bestandspflege.",
+      "cols": 2
+    },
+    {
+      "type": "rq_008",
+      "title": "Schlüssel zum Erfolg",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Vorbereitet",
+      "text": "Wir möchten Sie in Ihrem unternehmerischen Erfolg unterstützen. Deswegen geht es zu Beginn ganz um Sie und Ihr Unternehmen. Welche Erfolge konnten Sie bisher verzeichnen und welchen Herausforderungen stehen Sie gegenüber? Wie möchten Sie sich strategisch positionieren? Mit Ihrem Input kann ein sinnvolles Konzept erstellt und technisch realisiert werden. ",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Orientiert",
+      "text": "Standardlösungen bringen nur mittelmäßigen Erfolg und entsprechen nicht oder nur teilweise den internen Anforderungen Ihres Unternehmens. Wir möchten Ihnen mit einer ausgefeilten Lösung zum langfristigen Erfolg im E-Commerce verhelfen. Anhand von funktionalen Prototypen werden Szenarien dargestellt und die sinnvollste Prozessabfolge ermittelt. ",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Maßgeschneidert",
+      "text": "In der Regel entwickelt sich ein Business zunächst organisch und eine digitale Landschaft wächst heran. Wir machen uns ein klares Bild von den vorhandenen Systemen und denken projektübergreifend. Ist eine Weiterentwicklung oder ein Upgrade zukunftsfähig unterm Strich rentabel? Oder fahren Sie mit einem anderen Shopsystem besser? Wir beraten Sie gerne. ",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Sicher",
+      "text": "Die Qualität unserer Arbeit macht sich auch durch zuverlässige Prozesse bemerkbar. Wir löschen nicht erst wenn es brennt, sondern sorgen durch eine regelmäßige und sorgfältige Systempflege für konstante Performance. Das macht sich in Ihrer Bilanz und der Zufriedenheit der Kunden bemerkbar.",
+      "count": 2
+    },
+    {
+      "type": "divider",
+      "size": 1
+    }
+  ]
+}
