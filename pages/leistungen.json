@@ -15,6 +15,10 @@
       "attrType": "projects"
     },
     {
+      "type": "divider",
+      "size": 1
+    },
+    {
       "size": "landscape",
       "src": "/uploads/Kosmonauten0073 141.jpg",
       "linkText": "mehr erfahren",
