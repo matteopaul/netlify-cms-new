@@ -98,6 +98,10 @@
       "title": "Agency",
       "src": "/uploads/_73B1921.jpg",
       "size": "square"
+    },
+    {
+      "type": "divider",
+      "height": 2
     }
   ]
 }
