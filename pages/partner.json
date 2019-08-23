@@ -37,6 +37,54 @@
       "title": "Plentymarkets",
       "type": "rq_015",
       "link": "/partner/plentymarkets"
+    },
+    {
+      "size": "square",
+      "src": "/uploads/lost-astronaut-roberta-ferreira.jpg",
+      "linkText": "mehr details",
+      "position": "horizontal",
+      "scale": "small",
+      "text": "Zu einem funktionierenden E-Commerce Business gehört mehr als nur ein Online Shop.Zu einem funktionierenden E-Commerce Business gehört mehr als nur ein Online Shop.",
+      "title": "Unbounce",
+      "type": "rq_015",
+      "link": "/partner/unbounce"
+    },
+    {
+      "size": "square",
+      "src": "/uploads/lost-astronaut-roberta-ferreira.jpg",
+      "linkText": "mehr details",
+      "position": "horizontal",
+      "scale": "small",
+      "text": "Zu einem funktionierenden E-Commerce Business gehört mehr als nur ein Online Shop.Zu einem funktionierenden E-Commerce Business gehört mehr als nur ein Online Shop.",
+      "title": "OXID eShop",
+      "type": "rq_015",
+      "link": "/partner/oxid"
+    },
+    {
+      "size": "square",
+      "src": "/uploads/lost-astronaut-roberta-ferreira.jpg",
+      "linkText": "mehr details",
+      "position": "horizontal",
+      "scale": "small",
+      "text": "Zu einem funktionierenden E-Commerce Business gehört mehr als nur ein Online Shop.",
+      "title": "Shopware",
+      "type": "rq_015",
+      "link": "/partner/shopware"
+    },
+    {
+      "size": "square",
+      "src": "/uploads/lost-astronaut-roberta-ferreira.jpg",
+      "linkText": "mehr details",
+      "position": "horizontal",
+      "scale": "small",
+      "text": "Zu einem funktionierenden E-Commerce Business gehört mehr als nur ein Online Shop.Zu einem funktionierenden E-Commerce Business gehört mehr als nur ein Online Shop.",
+      "title": "Makaira",
+      "type": "rq_015",
+      "link": "/partner/makaira"
+    },
+    {
+      "type": "divider",
+      "height": 1
     }
   ]
 }
