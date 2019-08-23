@@ -1,9 +1,10 @@
 <template>
-  <div class="x404-container">
-    <g-image src="/uploads/lost-astronaut-roberta-ferreira.jpg" class="x404-img"/>
-    <h1 class="x404-headline">ooops, Page not found :(</h1>
-  </div>
-
+  <Layout>
+    <div class="x404-container">
+      <g-image src="/uploads/lost-astronaut-roberta-ferreira.jpg" class="x404-img"/>
+      <h1 class="x404-headline">ooops, Page not found :(</h1>
+    </div>
+  </Layout>
 </template>
 
 <style>

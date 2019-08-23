@@ -45,18 +45,6 @@ export default {
       RQ_008
   },
 
-  computed: {
-    style() {
-      for(let i = 0; i < this.content.length; i++) {
-        if(this.content[i].type == 'textWithIcon' && this.content[i + 1].type == 'header') {
-          setTimeout(() => {
-            document.getElementsByClassName('rq-007-content')[i+1].style.display = 'inline-block';
-          }, 400);
-        }
-      }
-    }
-  },
-
   methods: {
     parseMd(md){
     //

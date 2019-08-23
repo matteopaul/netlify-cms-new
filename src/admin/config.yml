@@ -9,9 +9,10 @@ public_folder: "/uploads"
 collections:
   - name: "pageStructure"
     label: "Pages"
-    folder: "pages"
+    folder: "pages/{{url}}"
     create: true
     identifier_field: "title"
+    preview_path: "/{{url}}"
     slug: "{{url}}"
     extension: "json"
     fields:

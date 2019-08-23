@@ -1,13 +1,5 @@
-// Server API makes it possible to hook into various parts of Gridsome
-// on server-side and add custom data to the GraphQL data layer.
-// Learn more: https://gridsome.org/docs/server-api
-
-// Changes here require a server restart.
-// To restart press CTRL + C in terminal and run `gridsome develop`
 const path = require('path');
 const fs = require('fs');
-//const textContentType = require('./dynamicContentTypes/textContentType');
-
 const pagesPath = path.join(__dirname, "pages");
 const contentTypes = {};
 
@@ -19,19 +11,14 @@ module.exports = function (api) {
       contentTypes[currentName] = store.addContentType({
         typeName: currentName
       })
-      console.log(JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file))["id"] = "123");
       let node = JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file));
-      node["id"] = "123";
+      node["id"] = random_id();
       contentTypes[currentName].addNode(node);
     })
 
-
-
     const pages = store.addContentType({
-      typeName: "PageStructure",
-      route: "/:url"
+      typeName: "PageStructure"
     });
-
 
     pages.addNode({
       title: "erste Seite",
@@ -59,8 +46,7 @@ module.exports = function (api) {
         store.createReference(contentTypes["divider"].findNode())
       ]
     })
-    store.createReference(contentTypes["rq_014"].findNodes()[0].lists.push(store.createReference(contentTypes["rq_090"].findNode())))
-
+    store.createReference(contentTypes["rq_014"].findNodes()[0].lists.push(store.createReference(contentTypes["rq_090"].findNode())));
 
     fs.readdirSync(pagesPath).forEach(function(file) {
 
@@ -71,25 +57,279 @@ module.exports = function (api) {
             let node = store.createReference(contentTypes[item.type].addNode(item));
             items.push(node);
           });
-          console.log(typeof currentData.url);
-          console.log(currentData.url);
           pages.addNode({
+            path: currentData.url,
             id: currentData.id,
             title: currentData.title,
             contents: items,
-            url: '/' + currentData.url
+            url: currentData.url
           })
     });
     function random_id() {
-      return '_' + (
-        Number(String(Math.random()).slice(2)) +
-        Date.now()
-      ).toString(36);
+      return '_' + (Number(String(Math.random()).slice(2)) + Date.now()).toString(36);
     }
   })
-  api.createPages(({ createPage }) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api
+
+  api.createPages(async ({ graphql, createPage }) => {
+    const data = await graphql(`
+      query pages {
+        page: allPageStructure {
+          edges {
+            node {
+              title
+              url
+              id
+              contents {
+                ...header
+                ...stage
+                ...category
+                ...richText
+                ...divider
+                ...textWithIcon
+                ...textInColumns
+                ...promoBanner
+                ...contentTeaser
+                ...image
+                ...breadcrumb
+                ...attributeFilter
+                ...contactForm
+                ...bulletList
+                ...quote
+                ...card
+                ...cardWithText
+                ...projectLink
+                ...contentSlider
+                ...slider
+              }
+            }
+          }
+        }
+      }
+      fragment richText on rq_007 {
+        type
+        background
+        contents {
+          type
+          title
+          md
+          text
+          options
+        }
+      }
+
+      fragment header on rq_008 {
+        type
+        size
+        title
+      }
+
+      fragment textWithIcon on rq_011 {
+        type
+        title
+        text
+        src
+        category
+        href
+        linkText
+        count
+      }
+
+      fragment textInColumns on rq_012 {
+        type
+        cols
+        text
+        title
+      }
+
+      fragment stage on rq_013 {
+        type
+        title
+        src
+        buttonText
+      }
+
+      fragment promoBanner on rq_014 {
+        type
+        src
+        type
+        lists {
+          title
+          text
+          options
+        }
+        title
+        href
+        linkText
+        textWithIcon {
+          title
+          text
+          icon
+          linkText
+          href
+        }
+      }
+
+      fragment contentTeaser on rq_015 {
+        type
+        size
+        src
+        linkText
+        position
+        text
+        attr
+        label
+        title
+        link
+        options
+      }
+
+      fragment category on rq_016 {
+        type
+        title
+        src
+        text
+        path
+      }
+
+      fragment image on rq_021 {
+        type
+        title
+        text
+        src
+        position
+        size
+      }
+
+      fragment breadcrumb on rq_035 {
+        type
+        title
+        path
+      }
+
+      fragment attributeFilter on rq_037 {
+        type
+        title
+        attrType
+      }
+
+      fragment contactForm on rq_067 {
+        type
+        title
+        text
+        dropdown
+      }
+
+      fragment bulletList on rq_090 {
+        type
+        title
+        text
+        checked
+        options
+      }
+
+      fragment quote on rq_091 {
+        type
+        text
+        src
+        name
+        description
+      }
+
+      fragment card on rq_092 {
+        type
+        color
+        attr
+        content {
+          type
+          text
+          src
+          href
+          checked
+          options
+          name
+          description
+          position
+          size
+        }
+      }
+
+      fragment cardWithText on rq_093 {
+        type
+        mdContents {
+          type
+          options
+          title
+          text
+          md
+        }
+        cardContents {
+          type
+          options
+          title
+          checked
+        }
+        cardColor
+        mdBackground
+      }
+
+      fragment projectLink on rq_094 {
+        type
+        title
+        src
+        text
+        link
+        linkText
+      }
+
+      fragment contentSlider on rq_095 {
+        type
+        title
+        stages {
+          src
+          title
+          text
+          checked
+          options
+        }
+      }
+
+      fragment slider on cardSlider {
+        type
+        cards {
+          color
+          content {
+            type
+            text
+            src
+            href
+            checked
+            options
+            name
+            description
+            position
+            size
+          }
+        }
+      }
+
+
+      fragment divider on divider {
+        type
+        id
+      }
+    `);
+
+    data.data.page.edges.forEach(({node}) => {
+      createPage({
+        path: `/${node.url}`,
+        component: './src/templates/PageStructureNew.vue',
+        context: {
+          id: node.id,
+          title: node.title,
+          contents: node.contents,
+          url: ('/' + node.url).replace('//', '')
+        }
+      })
+    })
   })
-
-
 }

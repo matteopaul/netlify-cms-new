@@ -1,6 +1,6 @@
 <template>
-  <Layout :title="$page.pageContents.title">
-    <template v-for="content in $page.pageContents.contents">
+  <Layout :title="$context.title">
+    <template v-for="content in $context.contents">
       <RQ_007 v-if="content.type == 'rq_007'" v-bind:contents="content.contents" :background="content.background" />
       <RQ_008 v-if="content.type == 'rq_008'" :title="content.title" :size="content.size"/>
       <RQ_011 v-if="content.type == 'rq_011'" :icon="content.src" :count="content.count" :title="content.title" :text="content.text" :hint="content.category" :href="content.href" :linkText="content.linkText" />
@@ -10,7 +10,7 @@
       <RQ_014 v-if="content.type == 'rq_014' && content.textWithIcon.length == 0" :src="content.src" :title="content.title" :linkText="content.linkText" :href="content.href" v-bind:options="content.lists"/>
 
       <RQ_015 v-if="content.type == 'rq_015'" :title="content.title" :src="content.src" :size="content.size" :link="content.link" :linkText="content.linkText" :text="content.text" v-bind:attr="content.attr" v-bind:options="content.options" :label="content.label" :position="content.position"/>
-      <RQ_016 v-if="content.type == 'rq_016'" :path="content.path" :src="content.src" :text="content.text" :title="content.title"/>
+      <RQ_016 v-if="content.type == 'rq_016'" :path="$context.url" :src="content.src" :text="content.text" :title="content.title"/>
       <RQ_021 v-if="content.type == 'rq_021'" :title="content.title" :src="content.src" :text="content.text" :position="content.position" :size="content.size" />
       <RQ_035 v-if="content.type == 'rq_035'" :path="content.path" />
       <RQ_037 v-if="content.type == 'rq_037'" :type="content.attrType" />
@@ -26,249 +26,6 @@
     </template>
   </Layout>
 </template>
-
-<page-query>
-query PageStructure ($id: String!) {
-  pageContents: pageStructure (id: $id) {
-    title
-    contents {
-      ...header
-      ...stage
-      ...category
-      ...richText
-      ...divide
-      ...textWithIcon
-      ...textInColumns
-      ...promoBanner
-      ...contentTeaser
-      ...image
-      ...breadcrumb
-      ...attributeFilter
-      ...contactForm
-      ...bulletList
-      ...quote
-      ...card
-      ...cardWithText
-      ...projectLink
-      ...contentSlider
-      ...slider
-    }
-  }
-}
-
-fragment richText on rq_007 {
-  type
-  background
-  contents {
-    type
-    title
-    md
-    text
-    options
-  }
-}
-
-fragment header on rq_008 {
-  type
-  size
-  title
-}
-
-fragment textWithIcon on rq_011 {
-  type
-  title
-  text
-  src
-  category
-  href
-  linkText
-  count
-}
-
-fragment textInColumns on rq_012 {
-  type
-  cols
-  text
-  title
-}
-
-fragment stage on rq_013 {
-  type
-  title
-  src
-  buttonText
-}
-
-fragment promoBanner on rq_014 {
-  type
-  src
-  type
-  lists {
-    title
-    text
-    options
-  }
-  title
-  href
-  linkText
-  textWithIcon {
-    title
-    text
-    icon
-    linkText
-    href
-  }
-}
-
-fragment contentTeaser on rq_015 {
-  type
-  size
-  src
-  linkText
-  position
-  text
-  attr
-  label
-  title
-  link
-  options
-}
-
-fragment category on rq_016 {
-  type
-  title
-  src
-  text
-  path
-}
-
-fragment image on rq_021 {
-  type
-  title
-  text
-  src
-  position
-  size
-}
-
-fragment breadcrumb on rq_035 {
-  type
-  title
-  path
-}
-
-fragment attributeFilter on rq_037 {
-  type
-  title
-  attrType
-}
-
-fragment contactForm on rq_067 {
-  type
-  title
-  text
-  dropdown
-}
-
-fragment bulletList on rq_090 {
-  type
-  title
-  text
-  checked
-  options
-}
-
-fragment quote on rq_091 {
-  type
-  text
-  src
-  name
-  description
-}
-
-fragment card on rq_092 {
-  type
-  color
-  attr
-  content {
-    type
-    text
-    src
-    href
-    checked
-    options
-    name
-    description
-    position
-    size
-  }
-}
-
-fragment cardWithText on rq_093 {
-  type
-  mdContents {
-    type
-    options
-    title
-    text
-    md
-  }
-  cardContents {
-    type
-    options
-    title
-    checked
-  }
-  cardColor
-  mdBackground
-}
-
-fragment projectLink on rq_094 {
-  type
-  title
-  src
-  text
-  link
-  linkText
-}
-
-fragment contentSlider on rq_095 {
-  type
-  title
-  stages {
-    src
-    title
-    text
-    checked
-    options
-  }
-}
-
-fragment slider on cardSlider {
-  type
-  cards {
-    color
-    content {
-      type
-      text
-      src
-      href
-      checked
-      options
-      name
-      description
-      position
-      size
-    }
-  }
-}
-
-fragment divide on divider {
-  type
-  height
-}
-
-</page-query>
 
 <script>
 import Layout from '~/layouts/Default.vue';
@@ -319,7 +76,7 @@ export default {
   },
   metaInfo () {
     return {
-      title: this.$page.pageContents.title
+      title: this.$context.title
     }
   }
 }

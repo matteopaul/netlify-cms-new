@@ -94,11 +94,11 @@ export default {
   grid-row: span 5;
 }
 
-.rq-015-container.vertical:not(.deactive):nth-of-type(2n) {
+.rq-015-container.vertical:not(.deactive):nth-of-type(2n-1) {
   grid-column: 1 / span 6 !important;
 }
 
-.rq-015-container.vertical:not(.deactive):nth-of-type(2n-1) {
+.rq-015-container.vertical:not(.deactive):nth-of-type(2n) {
   grid-column: span 6 / 13 !important;
 }
 

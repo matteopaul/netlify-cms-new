@@ -13,21 +13,21 @@
           <g-image src="/uploads/arrow-button_link-white.svg" class="menu-nav-close" />
         </div>
         <div class="menu-list">
-          <li class="menu-li">Expertise</li>
-          <li class="menu-li">Mission</li>
-          <li class="menu-li">Leistungen</li>
-          <li class="menu-li">Solutions</li>
-          <li class="menu-li">Insights</li>
-          <li class="menu-li">Agentur</li>
-          <li class="menu-li">Projekte</li>
-          <li class="menu-li">Partner</li>
-          <li class="menu-li">Kontakt</li>
+          <li class="menu-li"><g-link to="/expertise">Expertise</g-link> </li>
+          <li class="menu-li"><g-link to="/mission">Mission</g-link> </li>
+          <li class="menu-li"><g-link to="/leistungen">Leistungen</g-link> </li>
+          <li class="menu-li"><g-link to="/solutions">Solutions</g-link> </li>
+          <li class="menu-li"><g-link to="/insights">Insights</g-link> </li>
+          <li class="menu-li"><g-link to="/agentur">Agentur</g-link> </li>
+          <li class="menu-li"><g-link to="/projekte">Projekte</g-link> </li>
+          <li class="menu-li"><g-link to="/partner">Partner</g-link> </li>
+          <li class="menu-li"><g-link to="/kontakt">Kontakt</g-link> </li>
         </div>
         <div class="menu-footer">
           <p class="size--sm">
-            <g-link href="/impressum">Impressum</g-link>
-            <g-link href="/impressum">Datenschutz</g-link>
-            <g-link href="/impressum">AGB</g-link>
+            <g-link to="/impressum">Impressum</g-link>
+            <g-link to="/impressum">Datenschutz</g-link>
+            <g-link to="/impressum">AGB</g-link>
           </p>
         </div>
     </div>
@@ -132,7 +132,7 @@ button:focus {
 
 .layout {
   display: grid;
-  grid-template-columns: repeat(12, 88px) ;
+
   grid-auto-rows: minmax(8px, auto);
   /* grid-template-rows: repeat(10000, 8px); */
 
@@ -225,7 +225,7 @@ button:focus {
 
 
 .footer-content-headline .label::after {
-  content: url('/uploads/svg/arrow-button_link.svg');
+  content: url('/uploads/arrow-button_link.svg');
   margin-left: 9px;
 
 }
@@ -312,14 +312,14 @@ button:focus {
   padding: 10px;
 }
 
-.menu-li {
+.menu-li a {
   color: var(--white);
   margin-bottom: 8px;
   cursor: pointer;
   transition-duration: 0.2s;
 }
 
-.menu-li:hover {
+.menu-li a:hover {
   color: var(--copper);
 }
 
@@ -382,9 +382,10 @@ button:focus {
   .layout {
     width: 328px;
     margin: 0 auto;
+    grid-template-columns: repeat(2, 88px) ;
   }
 }
-
+/*############---------MOBILE AND TABLET VIEW----------#################*/
 @media only screen and (max-width: 1024px;) {
   h1 {
     font-size: 44px;
@@ -440,6 +441,7 @@ button:focus {
   .layout {
     width: 1408px;
     margin: 0 auto;
+    grid-template-columns: repeat(12, 88px) ;
   }
 
   h1, li.menu-li {

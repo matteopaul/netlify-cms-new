@@ -78,6 +78,12 @@ export default {
 
 <style>
 
+@media only screen and (min-width: 1024px) {
+  .rq-011-container {
+    grid-column: span 12;
+  }
+}
+
   .rq-011-icon img {
     width: 100%;
     height: 100%;

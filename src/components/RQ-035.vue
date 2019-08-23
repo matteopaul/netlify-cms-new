@@ -1,6 +1,7 @@
 <template>
   <p class="label rq-035-container">
-    <span v-for="piece in path.split(';')" class="rq-035-piece">
+    <span class="rq-035-piece">Startseite</span>
+    <span v-for="piece in path.split('/')" class="rq-035-piece">
       {{piece}}
     </span>
   </p>

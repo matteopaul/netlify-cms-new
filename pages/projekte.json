@@ -30,6 +30,114 @@
       "title": "Lucky Bike",
       "type": "rq_015",
       "link": "/projekte/luckybike"
+    },
+    {
+      "size": "square",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "B2BHomer",
+      "type": "rq_015",
+      "link": "/projekte/b2bhomer"
+    },
+    {
+      "size": "portrait",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Mudju",
+      "type": "rq_015",
+      "link": "/projekte/mudju"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "IP44",
+      "type": "rq_015",
+      "link": "/projekte/ip44"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Röhm Plexiglas",
+      "type": "rq_015",
+      "link": "/projekte/roehm-plexiglas"
+    },
+    {
+      "size": "square",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Modepark Röther",
+      "type": "rq_015",
+      "link": "/projekte/modepark"
+    },
+    {
+      "size": "portrait",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Schüco",
+      "type": "rq_015",
+      "link": "/projekte/schueco"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Dspace",
+      "type": "rq_015",
+      "link": "/projekte/dspace"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "GDA",
+      "type": "rq_015",
+      "link": "/projekte/gda"
+    },
+    {
+      "type": "divider",
+      "height": 1
     }
   ]
 }
