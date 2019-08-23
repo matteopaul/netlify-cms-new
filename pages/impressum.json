@@ -1,0 +1,27 @@
+{
+  "title": "Impressum",
+  "url": "/impressum",
+  "contents": [
+    {
+      "type": "rq_008",
+      "title": "Impressum",
+      "size": "H2"
+    },
+    {
+      "type": "rq_007",
+      "title": "Impressum",
+      "contents": [
+        {
+          "type": "text",
+          "title": "Information",
+          "md": "## KOSMONAUT GMBH & CO. KG\n\nNickelstr. 1a \n\n33378 Rheda-Wiedenbrück \n\nTelefon: +49 5242 58 199 90 \n\nE-Mail: kontakt@kosmonaut.io\n\n\n\nHandelsregister: Amtsgericht Gütersloh, HRA 7261 \n\nvertreten durch die geschäftsführende Gesellschafterin: Kosmonaut Verwaltungs-GmbH \n\ndiese vertreten durch Ihren Geschäftsführer: Stephan Engau, Anatolij Woromsbecher\n\n\n\nHandelsregister: Amtsgericht Gütersloh, HRB 10294 \n\nDie Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit. Die Plattform finden Sie unter http://ec.europa.eu/consumers/odr/ .\n\n\n\nBildnachweis: unsplash.com/@crew"
+        },
+        {
+          "type": "text",
+          "title": "Haftung",
+          "md": "## Haftung für Inhalte\n\n### Haftung für Inhalte\n\nAls Dienstanbieter...\n\n### Haftung für Links\n\nUnser Angebot...\n\n### Urheberrecht\n\nDie durch die Seitenbetreiber..."
+        }
+      ]
+    }
+  ]
+}
