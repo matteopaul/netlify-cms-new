@@ -1,6 +1,6 @@
 {
-  "title": "Kontakt",
-  "url": "/kontakt",
+  "title": "Contact",
+  "url": "/contact",
   "contents": [
     {
       "type": "rq_016",
@@ -28,6 +28,38 @@
         {
           "type": "p large",
           "text": "05242 5454 012"
+        },
+        {
+          "type": "label",
+          "text": "e-mail"
+        },
+        {
+          "type": "p large",
+          "text": "hello@kosmonaut.io"
+        },
+        {
+          "type": "label",
+          "text": "adresse"
+        },
+        {
+          "type": "p large",
+          "text": "Nickelstraße 1a"
+        },
+        {
+          "type": "label",
+          "text": "collar"
+        },
+        {
+          "type": "p large",
+          "text": "lorem de sona"
+        },
+        {
+          "type": "h3",
+          "text": "Unser Support"
+        },
+        {
+          "type": "p regular",
+          "text": "Hast du Fragen oder Anmerkungen? Oder brauchst du evtl. Hilfe, dann kontaktier uns doch einfach und schreib uns an."
         }
       ],
       "attr": [
