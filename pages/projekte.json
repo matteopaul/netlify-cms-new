@@ -8,6 +8,28 @@
       "text": "\"Wir denken in Business-Modellen und unterstützen mit tiefgreifender Branchenkompetenz aus über 200 Projekten.\"",
       "src": "/uploads/asset-teaser-team.jpg",
       "path": "adsad"
+    },
+    {
+      "type": "divider",
+      "height": 1
+    },
+    {
+      "type": "rq_037",
+      "title": "attribute",
+      "attrType": "projects"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Lucky Bike",
+      "type": "rq_015",
+      "link": "/projekte/luckybike"
     }
   ]
 }
