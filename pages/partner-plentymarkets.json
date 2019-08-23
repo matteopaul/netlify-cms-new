@@ -1,0 +1,117 @@
+{
+  "title": "Plentymarkets",
+  "url": "/partner/plentymarkets",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Mit uns erhalten Sie nicht nur einen Online Shop, sondern eine optimale E-Commerce Lösung für Ihr Unternehmen.",
+      "text": "Dauzu bieten wir verschiedene Leistungen wie Beratung, Konzeption, Design, technische Umsetzung und Implementierung sowie weiterführende Services und digitale Vermarktung an.",
+      "path": "csdfsdfdf"
+    },
+    {
+      "type": "rq_012",
+      "title": "Dollar Sans de Connar Olar",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.     Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,",
+      "cols": 2
+    },
+    {
+      "type": "rq_007",
+      "title": "md1",
+      "background": true,
+      "contents": [
+        {
+          "type": "textWithIcon",
+          "title": "Was wir bieten",
+          "text": "Wir helfen unseren Kunden, neue Chancen zu erkennen, die digitale Landschaft zu verstehen, oder E-Commerce-Projekte auf eine solide Basis zu stellen, um aktuelle und zukünftige Kunden zu erreichen."
+        },
+        {
+          "type": "bulletList",
+          "title": "Vorteile von PlentyMarkets",
+          "text": "",
+          "options": [
+            "UX Design",
+            "Beratung",
+            "UX Konzeption"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rq_094",
+      "title": "Modepark",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua",
+      "link": "/projekte/modepark",
+      "linkText": "mehr erfahren"
+    },
+    {
+      "type": "rq_091",
+      "text": "Zitat Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut",
+      "src": "/uploads/Kosmonauten_Jürgens0073.png",
+      "name": "Ruben Jürgens",
+      "description": "Kosmonaut"
+    },
+    {
+      "type": "rq_067",
+      "title": "Ihr System? Dann melden Sie sich.",
+      "text": "Ich möchte gern Informationen zu...",
+      "dropdown": [
+        "Plentymarkets",
+        "oxid",
+        "shopware"
+      ]
+    },
+    {
+      "type": "divider",
+      "height": 1
+    },
+    {
+      "type": "rq_008",
+      "title": "New Horizons",
+      "size": "H2"
+    },
+    {
+      "type": "cardSlider",
+      "cards": [
+        {
+          "color": "white",
+          "content": [
+            {
+              "type": "image",
+              "title": "dsadad",
+              "text": "adsadad",
+              "src": "/uploads/Kosmonauten0073 112.jpg",
+              "size": "square"
+            }
+          ]
+        },
+        {
+          "color": "white",
+          "content": [
+            {
+              "type": "image",
+              "title": "asdasds",
+              "src": "/uploads/Kosmonauten0073 169.jpg",
+              "size": "square"
+            }
+          ]
+        },
+        {
+          "color": "white",
+          "content": [
+            {
+              "type": "image",
+              "title": "adssads",
+              "src": "/uploads/Kosmonauten0073 258.jpg",
+              "size": "square"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider",
+      "height": 1
+    }
+  ]
+}
