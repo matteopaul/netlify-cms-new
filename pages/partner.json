@@ -28,14 +28,15 @@
       "height": 1
     },
     {
-      "type": "rq_015",
-      "title": "Plentymarkets",
-      "src": "/uploads/lost-astronaut-roberta-ferreira.jpg",
-      "text": "Zu einem funktionierenden E-Commerce Business gehört mehr als nur ein Online Shop.",
       "size": "square",
-      "link": "/partner/plentymarkets",
+      "src": "/uploads/lost-astronaut-roberta-ferreira.jpg",
       "linkText": "mehr details",
-      "position": "horizontal"
+      "position": "horizontal",
+      "scale": "small",
+      "text": "Zu einem funktionierenden E-Commerce Business gehört mehr als nur ein Online Shop.",
+      "title": "Plentymarkets",
+      "type": "rq_015",
+      "link": "/partner/plentymarkets"
     }
   ]
 }
