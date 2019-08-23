@@ -22,36 +22,56 @@
       "color": "white",
       "content": [
         {
-          "type": "label",
-          "text": "Telefon"
+          "type": "info div",
+          "information_contents": [
+            {
+              "type": "label",
+              "text": "Telefon"
+            },
+            {
+              "type": "p large",
+              "text": "05242 5454 012"
+            }
+          ]
         },
         {
-          "type": "p large",
-          "text": "05242 5454 012"
+          "type": "info div",
+          "information_contents": [
+            {
+              "type": "label",
+              "text": "e-mail"
+            },
+            {
+              "type": "p large",
+              "text": "hello@kosmonaut.io"
+            }
+          ]
         },
         {
-          "type": "label",
-          "text": "e-mail"
+          "type": "info div",
+          "information_contents": [
+            {
+              "type": "label",
+              "text": "adresse"
+            },
+            {
+              "type": "p large",
+              "text": "Nickelstraße 1a"
+            }
+          ]
         },
         {
-          "type": "p large",
-          "text": "hello@kosmonaut.io"
-        },
-        {
-          "type": "label",
-          "text": "adresse"
-        },
-        {
-          "type": "p large",
-          "text": "Nickelstraße 1a"
-        },
-        {
-          "type": "label",
-          "text": "collar"
-        },
-        {
-          "type": "p large",
-          "text": "lorem de sona"
+          "type": "info div",
+          "information_contents": [
+            {
+              "type": "label",
+              "text": "collar"
+            },
+            {
+              "type": "p large",
+              "text": "Lorem de sona"
+            }
+          ]
         },
         {
           "type": "h3",
@@ -67,19 +87,6 @@
           "description": "Support & Office Manager",
           "contact": "05242 45 4501",
           "src": "/uploads/Kosmonauten_Wormsbächer0073 10.png"
-        },
-        {
-          "type": "info div",
-          "information_contents": [
-            {
-              "type": "label",
-              "text": "Telefon"
-            },
-            {
-              "type": "p large",
-              "text": "05242 5454 012"
-            }
-          ]
         }
       ],
       "attr": [
