@@ -92,6 +92,12 @@
       "attr": [
         "contact"
       ]
+    },
+    {
+      "type": "rq_021",
+      "title": "Agency",
+      "src": "/uploads/_73B1921.jpg",
+      "size": "square"
     }
   ]
 }
