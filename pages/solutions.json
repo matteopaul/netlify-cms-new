@@ -8,6 +8,46 @@
       "text": "\"Wir entwickeln lösungsorientierte Produkte um unseren Kunden Prozesse zu vereinfachen.\"",
       "src": "/uploads/Kosmonauten0073 625.jpg",
       "path": "Startseite;Solutions"
+    },
+    {
+      "type": "rq_015",
+      "title": "Rocket",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "text": "Jetzt wird's persönlich und emotional. Käufer sehnen sich nach Lifestyle-Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "size": "landscape",
+      "link": "/solutions/rocket",
+      "linkText": "mehr details",
+      "position": "vertical"
+    },
+    {
+      "type": "rq_015",
+      "title": "Shuttle",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "text": "Im Bereich Home & Living sind die Kunden auf der Suche nach dem Besonderen. Im besten Fall gestaltet sich bereits die Customer Journey als emotionales und stilvolles Erlebnis.",
+      "size": "square",
+      "link": "/solutions/shuttle",
+      "linkText": "mehr details",
+      "position": "vertical"
+    },
+    {
+      "type": "rq_015",
+      "title": "One",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "text": "Kunden lieben Modehäuser mit einer gelungenen Kombination aus stationärer und digitaler Präsenz - eine Chance für Filialisten.",
+      "size": "portrait",
+      "link": "/solutions/one",
+      "linkText": "mehr details",
+      "position": "vertical"
+    },
+    {
+      "type": "rq_015",
+      "title": "Suit",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "text": "Der Immobilienmarkt befindet sich im Umbruch. Das Teilen und Handeln von Objekten hat sich durch neue Businessmodelle, Plattformen und Apps grundlegend verändert.",
+      "size": "landscape",
+      "link": "/solutions/suit",
+      "linkText": "mehr details",
+      "position": "vertical"
     }
   ]
 }
