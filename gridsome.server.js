@@ -43,7 +43,9 @@ module.exports = function (api) {
         store.createReference(contentTypes["rq_094"].findNode()),
         store.createReference(contentTypes["rq_095"].findNode()),
         store.createReference(contentTypes["cardSlider"].findNode()),
-        store.createReference(contentTypes["divider"].findNode())
+        store.createReference(contentTypes["divider"].findNode()),
+        store.createReference(contentTypes["contact"].findNode()),
+        store.createReference(contentTypes["profile_card"].findNode())
       ]
     })
     store.createReference(contentTypes["rq_014"].findNodes()[0].lists.push(store.createReference(contentTypes["rq_090"].findNode())));
@@ -100,11 +102,22 @@ module.exports = function (api) {
                 ...projectLink
                 ...contentSlider
                 ...slider
+                ...contact
+                ...profilecard
               }
             }
           }
         }
       }
+
+      fragment profilecard on profile_card {
+        type
+        title
+        description
+        src
+        contact
+      }
+
       fragment richText on rq_007 {
         type
         background
@@ -249,6 +262,12 @@ module.exports = function (api) {
           options
           name
           description
+          title
+          contact
+          information_contents {
+            type
+            text
+          }
           position
           size
         }
@@ -311,6 +330,11 @@ module.exports = function (api) {
             size
           }
         }
+      }
+
+      fragment contact on contact {
+        type
+        title
       }
 
 

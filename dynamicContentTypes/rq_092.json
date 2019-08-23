@@ -37,6 +37,25 @@
       "src": "/uploads/asset-teaser-team_expertise.jpg",
       "position": "right",
       "size": "portrait"
+    },
+    {
+      "type": "profile-card",
+      "title": "asdsad",
+      "src": "/uploads/asset-teaser-team_expertise.jpg",
+      "description": "right",
+      "contact": "portrait"
+    },
+    {
+      "type": "info div",
+      "information_contents": [
+        {
+          "type": "p large",
+          "text": "123 headlinerei"
+        },{
+          "type": "label",
+          "text": "123 headlinerei"
+        }
+      ]
     }
   ]
 }

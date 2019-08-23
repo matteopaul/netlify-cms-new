@@ -132,10 +132,7 @@ button:focus {
 
 .layout {
   display: grid;
-
   grid-auto-rows: minmax(8px, auto);
-  /* grid-template-rows: repeat(10000, 8px); */
-
   grid-column-gap: 32px;
   grid-row-gap: 8px;
   padding: 0;

@@ -14,6 +14,15 @@
       <g-link :to="link" class="rq-015-link">{{linkText}}</g-link>
     </div>
   </div>
+  <div class="rq-015-container small" v-else-if="position == 'horizontal' && size == 'square' && scale == 'small'" :class="classes">
+    <RQ_021 :src="src" :size="size" :title="title" class="rq-015-image horizontal small" />
+    <div class="rq-015-content horizontal">
+      <h2 v-html="title" class="rq-015-title" />
+      <p class="size--md rq-015-text" v-html="text" />
+      <RQ_090 v-if="options && label" class="rq-015-bulletList" title="label" v-bind:options="options" />
+      <g-link :to="link" class="rq-015-link">{{linkText}}</g-link>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -74,9 +83,6 @@ export default {
         name += ' ' + this.attr[i];
       }
       name += " " + this.position;
-      if(this.scale == 'small') {
-        name += ' small'
-      }
       return name;
     }
   }
@@ -128,9 +134,17 @@ export default {
     grid-column-gap: 50px;
   }
 
-  .rq-015-container.horizontal.small.square {
+  .rq-015-container.horizontal.small {
     grid-column: span 6;
-    grid-template-columns: 33% 67%;
+    grid-template-columns: 208px 67%;
+    grid-template-rows: 208px;
+    grid-column-gap: 32px;
+  }
+
+  .rq-021-container.square.rq-015-image.horizontal.small {
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
   }
 
   .rq-015-container.horizontal.reverse {

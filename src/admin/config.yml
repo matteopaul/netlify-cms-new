@@ -275,6 +275,25 @@ collections:
                     widget: "object"
                     fields:
                       - {label: Title, name: text, widget: string}
+                  - label: "Information Row"
+                    name: "info div"
+                    widget: object
+                    fields:
+                      - label: "Content"
+                        name: "information_contents"
+                        widget: list
+                        allow_add: true
+                        types:
+                          - label: "Large Text"
+                            name: "p large"
+                            widget: "object"
+                            fields:
+                              - {label: Title, name: text, widget: string}
+                          - label: "Label"
+                            name: "label"
+                            widget: "object"
+                            fields:
+                              - {label: Title, name: text, widget: string}
                   - label: "Regular Text"
                     name: "p regular"
                     widget: "object"
@@ -316,6 +335,14 @@ collections:
                       - {label: Image, name: src, widget: image}
                       - {label: Name, name: name, widget: string}
                       - {label: Description, name: description, widget: string}
+                  - label: "Profile Card"
+                    name: "profile-card"
+                    widget: "object"
+                    fields:
+                      - {label: Name, name: title, widget: string}
+                      - {label: Description, name: description, widget: string}
+                      - {label: Kontakt, name: contact, widget: string, required: false}
+                      - {label: Image, name: src, widget: image}
                   - label: "Image"
                     name: "image"
                     widget: "object"
@@ -454,6 +481,11 @@ collections:
                     widget: "list"
                     allow_add: true
                     field: {label: Option, name: option, widget: string}
+          - label: "Contact Form"
+            name: "contact"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
           - label: "Card Slider"
             name: "cardSlider"
             widget: "object"

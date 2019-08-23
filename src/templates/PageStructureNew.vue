@@ -8,7 +8,6 @@
       <RQ_013 v-if="content.type == 'rq_013'" :src="content.src" :title="content.title" :buttonText="content.buttonText"/>
       <RQ_014 v-if="content.type == 'rq_014' && content.lists.length == 0" :src="content.src" :title="content.title" v-bind:textWithIcon="content.textWithIcon"/>
       <RQ_014 v-if="content.type == 'rq_014' && content.textWithIcon.length == 0" :src="content.src" :title="content.title" :linkText="content.linkText" :href="content.href" v-bind:options="content.lists"/>
-
       <RQ_015 v-if="content.type == 'rq_015'" :scale="content.scale" :title="content.title" :src="content.src" :size="content.size" :link="content.link" :linkText="content.linkText" :text="content.text" v-bind:attr="content.attr" v-bind:options="content.options" :label="content.label" :position="content.position"/>
       <RQ_016 v-if="content.type == 'rq_016'" :path="$context.url" :src="content.src" :text="content.text" :title="content.title"/>
       <RQ_021 v-if="content.type == 'rq_021'" :title="content.title" :src="content.src" :text="content.text" :position="content.position" :size="content.size" />
@@ -23,6 +22,7 @@
       <RQ_094 v-if="content.type == 'rq_094'" :src="content.src" :title="content.title" :text="content.text" :href="content.href" :linkText="content.linkText" />
       <RQ_095 v-if="content.type == 'rq_095'" :title="content.title" v-bind:content="content.stages" />
       <CardSlider v-if="content.type == 'cardSlider'" :title="content.title" v-bind:content="content.cards" />
+      <Contact v-if="content.type == 'contact'"/>
     </template>
   </Layout>
 </template>
@@ -49,6 +49,7 @@ import RQ_094 from '~/components/RQ-094.vue';
 import RQ_095 from '~/components/RQ-095.vue';
 import Divider from '~/components/Divider.vue';
 import CardSlider from '~/components/CardSlider.vue';
+import Contact from '~/components/Contact.vue';
 
 export default {
   components: {
@@ -72,7 +73,8 @@ export default {
     RQ_094,
     RQ_095,
     Divider,
-    CardSlider
+    CardSlider,
+    Contact
   },
   metaInfo () {
     return {
