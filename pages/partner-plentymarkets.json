@@ -33,6 +33,26 @@
             "Beratung",
             "UX Konzeption"
           ]
+        },
+        {
+          "type": "bulletListBlock",
+          "title": "Vorteile von PlentyMarkets",
+          "lists": [
+            {
+              "text": "Leistungen",
+              "options": [
+                "1",
+                "2"
+              ]
+            },
+            {
+              "text": "Lösungen",
+              "options": [
+                "4",
+                "3"
+              ]
+            }
+          ]
         }
       ]
     },
