@@ -60,6 +60,13 @@
         {
           "type": "p regular",
           "text": "Hast du Fragen oder Anmerkungen? Oder brauchst du evtl. Hilfe, dann kontaktier uns doch einfach und schreib uns an."
+        },
+        {
+          "type": "quote",
+          "text": "lalala",
+          "src": "/uploads/Kosmonauten_Wormsbächer0073 10.png",
+          "name": "Marc Wormsbächer",
+          "description": "Support & Office Manager"
         }
       ],
       "attr": [
