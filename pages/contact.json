@@ -11,6 +11,28 @@
     {
       "type": "contact",
       "title": "fsdfdsfs"
+    },
+    {
+      "type": "rq_008",
+      "title": "Kontaktier uns einfach",
+      "size": "H2"
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "label",
+          "text": "Telefon"
+        },
+        {
+          "type": "p large",
+          "text": "05242 5454 012"
+        }
+      ],
+      "attr": [
+        "contact"
+      ]
     }
   ]
 }
