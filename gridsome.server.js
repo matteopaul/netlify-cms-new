@@ -181,6 +181,7 @@ module.exports = function (api) {
         title
         link
         options
+        scale
       }
 
       fragment category on rq_016 {

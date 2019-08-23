@@ -47,13 +47,17 @@ export default {
       required: false
     },
     options: {
-      type: Object,
+      type: Array,
       required: false
     },
     label: {
       type: String
     },
     position: {
+      type: String,
+      required: false
+    },
+    scale: {
       type: String,
       required: false
     }
@@ -70,6 +74,9 @@ export default {
         name += ' ' + this.attr[i];
       }
       name += " " + this.position;
+      if(this.scale == 'small') {
+        name += ' small'
+      }
       return name;
     }
   }
@@ -119,6 +126,11 @@ export default {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column-gap: 50px;
+  }
+
+  .rq-015-container.horizontal.small.square {
+    grid-column: span 6;
+    grid-template-columns: 33% 67%;
   }
 
   .rq-015-container.horizontal.reverse {
