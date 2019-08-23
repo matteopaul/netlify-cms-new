@@ -67,6 +67,19 @@
           "description": "Support & Office Manager",
           "contact": "05242 45 4501",
           "src": "/uploads/Kosmonauten_Wormsbächer0073 10.png"
+        },
+        {
+          "type": "info div",
+          "information_contents": [
+            {
+              "type": "label",
+              "text": "Telefon"
+            },
+            {
+              "type": "p large",
+              "text": "05242 5454 012"
+            }
+          ]
         }
       ],
       "attr": [
