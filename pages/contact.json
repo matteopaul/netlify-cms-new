@@ -62,11 +62,11 @@
           "text": "Hast du Fragen oder Anmerkungen? Oder brauchst du evtl. Hilfe, dann kontaktier uns doch einfach und schreib uns an."
         },
         {
-          "type": "quote",
-          "text": "lalala",
-          "src": "/uploads/Kosmonauten_Wormsbächer0073 10.png",
-          "name": "Marc Wormsbächer",
-          "description": "Support & Office Manager"
+          "type": "profile-card",
+          "title": "Marc Wormsbächer",
+          "description": "Support & Office Manager",
+          "contact": "05242 45 4501",
+          "src": "/uploads/Kosmonauten_Wormsbächer0073 10.png"
         }
       ],
       "attr": [
