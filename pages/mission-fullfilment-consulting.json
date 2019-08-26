@@ -1,0 +1,58 @@
+{
+  "title": "Fullfilment Consulting",
+  "url": "/mission/fullfilment-consulting",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Fullfilment Consulting",
+      "text": "Für Erfolg im E-Commerce braucht es eine ausgereifte Infrastruktur. Diese besteht aus Onlineshop, Warenwirtschaft, Logistik sowie Folgeprozessen und der smarten Verbindung aller Komponenten.   Wir kennen die Herausforderungen und Lösungen im Fulfillment und beraten Sie gerne in diesem Bereich.",
+      "path": "hfgh"
+    },
+    {
+      "type": "rq_008",
+      "title": "Über Fullfilment Consulting",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Der Hintergrund",
+      "text": " Die zunehmende Vernetzung und Digitalisierung verändert sämtliche Prozesse der Logistik. Kunden möchten den Sendungsstatus in Echtzeit tracken und erwarten flexiblen und bequemen Service bei der Zustellung. Für die Optimierung der Logistik braucht es Know How und leistungsstarke Systeme.",
+      "src": "/uploads/Information-Point-Creation.svg",
+      "count": 0
+    },
+    {
+      "type": "rq_011",
+      "title": "Der Antrieb",
+      "text": "Die Schwachstellen im System schaden der Reputation, mindern die Effizienz und verursachen zusätzlichen Aufwand und Kosten. Wir beraten und entwickeln für Sie hervorragende Lösungen in den Bereichen Supportvernetzung, internationale und nationale Transportstrategien und Auswahl der Marktplätze.",
+      "src": "/uploads/information-point-system.svg",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "title": "Die Vision",
+      "text": " Die fortlaufende Analyse und Optimierung der Auftragsabwicklung ermöglicht effiziente und größtenteils automatisierte Prozesse. Das wirkt sich nicht nur vorteilhaft auf die Bilanz aus, sondern hat auch direkten Einfluss auf die Zufriedenheit der Käufer und die Anzahl der positiven Bewertungen.",
+      "src": "/uploads/Information-Point-Chat.svg",
+      "count": 3
+    },
+    {
+      "type": "divider",
+      "height": 1
+    },
+    {
+      "type": "rq_021",
+      "title": "Herausragender Service",
+      "text": "Unser Consulting beschränkt sich nicht auf firmeninterne Abläufe. Gemeinsam verschaffen wir uns den Überblick aus komplexen Abläufen und Zusammenhängen, setzen den Hebel an der richtigen Stelle an und sorgen auf allen Ebenen für bessere Ergebnisse.",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "position": "top",
+      "size": "portrait"
+    },
+    {
+      "type": "rq_021",
+      "text": "Die Servicequalität unabhängiger Dienstleister wird mit Ihrem Unternehmen in Verbindung gebracht. Sehen Sie Verbesserungsbedarf? Profitieren Sie von unseren Kontakten zu leistungsstarken und zuverlässigen Partnern. Wir bringen Sie zusammen und ebnen den Weg für eine ertragreiche Zusammenarbeit.",
+      "title": "Hochwertiges Netzwerk  ",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "position": "bottom",
+      "size": "portrait"
+    }
+  ]
+}
