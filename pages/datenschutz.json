@@ -17,6 +17,10 @@
           "title": "md1"
         }
       ]
+    },
+    {
+      "type": "divider",
+      "height": 1
     }
   ]
 }
