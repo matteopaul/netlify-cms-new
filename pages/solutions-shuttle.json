@@ -20,10 +20,67 @@
       "size": "H2"
     },
     {
-      "type": "rq_012",
-      "title": "Plenty-to-Shop",
-      "text": "• Verlagerung von Prozessen/Regeln, Absatzkanal, Steuerung und Produktdatenmanagement  • Mandanten-Shop Fähigkeit  • Shopspezifische Produktdaten-anpassung durch KI",
-      "cols": 4
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "bulletList",
+          "title": "Plenty-to-Shop",
+          "options": [
+            "Verlagerung von Prozessen/Regeln, Absatzkanal, Steuerung und Produktdatenmanagement",
+            "Mandanten-Shop Fähigkeit",
+            "Shopspezifische Produktdaten-anpassung durch KI"
+          ],
+          "checked": false
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "bulletList",
+          "title": "ERP-to-Plenty",
+          "options": [
+            "Datenabgleich Bestände",
+            "Datenabgleich Artikel",
+            "Datenabgleich Preise"
+          ],
+          "checked": false
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "bulletList",
+          "title": "Plenty-to-AMZ Vendor",
+          "options": [
+            " Beschleunigung von Reaktions-zeiten durch Automatisierung",
+            "Automatisierte Erstellung von Bestellvorgängen",
+            "Automatisierte Übermittlung des Shippingstatus"
+          ],
+          "checked": false
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "bulletList",
+          "title": "Plenty-to-AMZ Vendor",
+          "options": [
+            "Übergabe der Bestände inkl. Regeln",
+            "Marktplatzspezifische Produkt-datenanpassung durch KI auf Basis von Attributen"
+          ],
+          "checked": false
+        }
+      ]
     }
   ]
 }
