@@ -1,10 +1,10 @@
 {
-  "title": "Automotive",
-  "url": "/expertise/automotive",
+  "title": "B2B",
+  "url": "/expertise/b2b",
   "contents": [
     {
       "type": "rq_016",
-      "title": "Automotive",
+      "title": "B2B",
       "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
       "src": "/uploads/Kosmonauten0073 625.jpg",
       "path": "sdfdsfsf"
@@ -16,7 +16,7 @@
         {
           "type": "text",
           "title": "introtext",
-          "md": "### Die Automobilbranche muss sich nicht nur mit der Planung und Produktion von neuen Fahrzeugen beschäftigen. Das digitale Zeitalter hat auch die Erwartungshaltung der Kundschaft verändert. Individueller Service und prompte Kommunikation, zu jedem Zeitpunkt, sind der neue Standard.\n\nWir entwickeln nutz­er­zen­trier­te Lösun­gen und präsentieren Ihr Unternehmen sowie Service und Leistungen via Website, Neuwagen-Konfigurator und In-Car-Sys­tem.\n"
+          "md": "### Eine B2B Webseite muss den vielschichtigen Anliegen der User gerecht werden. Spezifisches Fachwissen wird durch die Option auf umfassende Kaufprozesse und -zyklen vervollständigt. So avanciert die Website zum Marktplatz und Begegnungsort für Händler und Kunden.\n\nWir entwickeln flexible und skalierbare B2B-Lösungen, die mit dem Geschäft wachsen und die Anforderungen Ihrer Partner treffen.\n\n"
         }
       ]
     },
@@ -32,19 +32,19 @@
     {
       "type": "rq_011",
       "title": "Marktentwicklung",
-      "text": "Strengere Umweltauflagen, neue Märkte und die Digitalisierung werden die Automotive-Branche grundlegend verändern. Die Kundschaft ist offen für neue Formen der Mobilität und zeichnet sich durch ein geschärftes Bewusstsein für Nachhaltigkeit aus.",
+      "text": "Die Erfahrung aus dem B2C prägt den B2B-Bereich. Auch wenn die Leistungen und Produkte im Business wesentlich komplexer und vielfältiger sind, möchte man mit der gleichen Leichtigkeit und Komfort Informationen einholen, kommunizieren und Prozesse in Bewegung setzen.",
       "count": 3
     },
     {
       "type": "rq_011",
       "title": "Systemkonvergenz",
-      "text": "Die Entwicklung in den Bereichen autonomes Fahren und Vernetzung von Fahrzeugen zeigen uns, wie wir uns schon in wenigen Jahren fortbewegen werden. Autos werden zu Bausteinen in komplexen digitalen Systemen.",
+      "text": "Die Softwareanbieter der einzelnen Bereiche überzeugen mit ausgereiften Lösungen. Jetzt braucht es nur noch zuverlässige Bindeglieder zwischen den einzelnen Systemen. Wir entwickeln zuverlässige Schnittstellen und sorgen für barrierefreie und effiziente Prozesse.",
       "count": 3
     },
     {
       "type": "rq_011",
       "title": "Siloentwicklung",
-      "text": "Die unkonventionellen Ansätze von Start-up-Unternehmen und App-Entwicklern erhalten viel Aufmerksamkeit und zwingen die großen Konzerne zum Umdenken. Diese Situation beschleunigt die Digitalisierung und stellt den Menschen mit seinen Anforderungen wieder in den Mittelpunkt.",
+      "text": "Amazon Business und andere Global Player lassen die Händler erahnen, wie B2B zukünftig ablaufen wird. Diese Entwicklung verstärkt den Handlungsdruck und für komplexe Prozesse müssen effiziente und sichere Lösungen entwickelt werden.",
       "count": 3
     },
     {
@@ -58,26 +58,26 @@
     },
     {
       "type": "rq_011",
-      "title": "Kits",
-      "text": "Customizing lautet das Zauberwort. Dadurch kann auf die verschiedensten Bedürfnisse der Kundschaft eingegangen werden. Das Angebot ermöglicht einen ganz pragmatischen Lösungsansatz, gibt aber auch die Freiheit auf weitere Individualisierung und Einzigartigkeit.",
+      "title": "Skalierbarkeit ",
+      "text": "Die Dynamik des Unternehmens sollte sich natürlich auch auf der Website widerspiegeln. Wir schaffen die technischen Voraussetzungen, damit Anpassungen und Aktualisierungen auch in Zukunft denkbar einfach umgesetzt werden können.",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Industrie 4.0",
-      "text": "Die digitale Transformation verbindet die einzelnen Module für Design, Herstellung, Produktion und Logistik zu einer barrierefreien Herstellungskette. Prozessoptimierungen ermöglichen eine effizientere und schnellere Produktion. Der Endkunde profitiert von schnellen Lieferzeiten, auch bei Produkten mit einem hohen Grad der Individualisierung.",
+      "title": "Sicherheit",
+      "text": "In Zeiten der DSGVO sowie zunehmenden Spam- und Bot-Attacken müssen sensible Kunden- und Unternehmensdaten zu jedem Zeitpunkt unter besonderem Schutz stehen. Mit unseren Systemen und Schnittstellen bleiben alle relevanten Informationen auf der sicheren Seite.",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Long Distance Orders",
-      "text": "Bisher beschränkte sich das Warenangebot auf den Bestand der Händler. Für erfolgreichen E-Commerce ist diese Option aber nicht ausreichend. Hier sind die Wünsche des Käufers die Vorgaben für ein individuelles Produkt und die Konfiguration erfolgt im Internet. ",
+      "title": "CMS-Lösungen",
+      "text": "Wir sind bestens mit den Funktionen von OXID, PlentyMarkets, Shopware und anderen Systemen vertraut. Das Wissen und die Erfahrung geben wir gerne an unsere Kunden weiter und entwickeln aus den einzelnen Komponenten ein individuelles und perfektes System.",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Checking Prices",
-      "text": "Die Käufer von heute sind Smart Shopper und bestens informiert. Der Check auf Vergleichsportalen liefert relevanten Daten zu Preis, Qualität und gewünschter Eignung. Kritische Bewertungen und gut überlegte Empfehlungen haben das Gespräch mit dem Fachverkäufer ersetzt.",
+      "title": "Custom Features",
+      "text": "Viele erfolgreiche B2B-Webseiten sind durch spezielle Features besonders bekannt und beliebt geworden. Wir entwickeln für Ihr Unternehmen Konfiguratoren, Preisrechner und andere Funktionen, damit Sie sich deutlich von der Konkurrenz abheben.",
       "count": 2
     }
   ]
