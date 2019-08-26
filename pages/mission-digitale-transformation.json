@@ -1,0 +1,66 @@
+{
+  "title": "Digitale Transformation",
+  "url": "/mission/digitale-transformation",
+  "contents": [
+    {
+      "type": "rq_016",
+      "text": "Analoge Prozesse lassen sich nicht einfach auf die digitale Ebene übertragen. Eine erfolgreiche Digitalisierung erfordert neue Ansätze und Lösungen. Wir entwickeln für Sie intelligente und gewinnbringende Abläufe und Strategien und setzen diese für Sie um.",
+      "title": "Digitale Transformation",
+      "path": "sdfsfsf"
+    },
+    {
+      "type": "rq_008",
+      "title": "Über Digitale Transformation",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Der Hintergrund",
+      "text": "Neue revolutionäre Technologien führen zu evolutionären Veränderungen in der Gesellschaft und Wirtschaft. Manche Unternehmen warten die Entwicklungen einfach ab und haben das Nachsehen. Mit Initiative und professioneller Unterstützung erzielt man Wettbewerbsvorteile.",
+      "src": "/uploads/Information-Point-Creation.svg",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "title": "Der Antrieb",
+      "text": "Unternehmen wie Rewe und Deichmann investieren zunehmend in die Onlinepräsenz. Die digitale Strategie versteht sich nicht als Alternative zum stationären Handel. Vielmehr werden mehr Berührungspunkte und Möglichkeiten geschaffen, um möglichst viele und unterschiedliche Kunden zu erreichen.",
+      "src": "/uploads/information-point-system.svg",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "title": "Die Vision",
+      "text": "Der Fokus liegt auf den Bedürfnissen und Vorlieben der Kunden und hybride Shopping-Modelle werden immer beliebter. Die Fülle von Angeboten und Vergleichsmöglichkeiten im Netz schwächt die Loyalität der Käufer, bringt aber auch viele Chancen für eine Neupositionierung.",
+      "src": "/uploads/Information-Point-Chat.svg",
+      "count": 3
+    },
+    {
+      "type": "divider",
+      "height": 1
+    },
+    {
+      "type": "rq_021",
+      "title": "Digitales Mindset",
+      "text": "Damit Strukturen und Prozesse verändert werden können, braucht es das passende Mindset. Nur wenn das Bewusstsein für die Notwendigkeit der digitalen Transformation in der Führungsebene und der Belegschaft vorhanden ist, kann diese auch wirklich Unternehmen etabliert werden.",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "position": "top",
+      "size": "portrait"
+    },
+    {
+      "type": "rq_021",
+      "title": "Neuer Wettbewerb",
+      "text": "Startups und Substitutionsanbieter sind die neue Konkurrenz, die mit ihren unkonventionellen Ideen und Geschäftsmodellen die Bedürfnisse der Käufer ansprechen und den Markt verändern. Auch diese Anbieter und deren Produkte müssen beobachtet werden, um vorausschauend reagieren zu können.",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "position": "bottom",
+      "size": "portrait"
+    },
+    {
+      "type": "rq_094",
+      "title": "Modepark",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "link": "/projekte/modepark",
+      "linkText": "mehr details"
+    }
+  ]
+}
