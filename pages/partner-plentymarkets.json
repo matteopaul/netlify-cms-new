@@ -4,14 +4,14 @@
   "contents": [
     {
       "type": "rq_016",
-      "title": "Mit uns erhalten Sie nicht nur einen Online Shop, sondern eine optimale E-Commerce Lösung für Ihr Unternehmen.",
-      "text": "Dauzu bieten wir verschiedene Leistungen wie Beratung, Konzeption, Design, technische Umsetzung und Implementierung sowie weiterführende Services und digitale Vermarktung an.",
+      "title": "PlentyMarkets",
+      "text": "Plentymarkets ist ein ERP-System mit klaren Fokus auf die Vernetzung und Automatisierung der E-Commerce Prozesse. Die stärke des Systems liegt in der Anbindung von Verkaufsplattformen und Marktplätzen. Dazu zählen cdiscount, OTTO, zalando, ebay und amazon. Klassische Preisvergleichsportale wie billiger.de oder idealo dürfen natürlich in einem Multi-Channel-Business nicht fehlen. ",
       "path": "csdfsdfdf"
     },
     {
       "type": "rq_012",
-      "title": "Dollar Sans de Connar Olar",
-      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.     Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,",
+      "title": "Warum Plentymarkets?",
+      "text": "E-Commerce Business entwickelt sich stetig weiter. Was heute noch eine hohe Reichweite vorweist, kann morgen nicht mehr up-to-date sein. Dieser Herausforderung muss ihr ERP-System meistern können. Ein erfolgreiches E-Commerce Business lebt von Stabilität und Agilität. Genau das zeichnet plentymarkets aus.  Ein weiterer wichtiger Faktor eines EPR-Systems ist, die Anbindung an Payment-Provider. Die richtige Zahlart spielt direkt eine Rolle auf die Conversion-Rate eines Online-Shops. In zahlreichen Projekten konnten wir BS PAYONE, PayPal, Klarna oder amazon pay erfolgreich anbinden.  Zahlreiche Plugins wie ODC-Fulfillment, Netstock - Bestandsoptimierung, PARCEL.ONE - Shipping Center oder PAQATO - Track & Trace Versandnachrichten ergänzen ihr E-Commerce Kosmus.",
       "cols": 2
     },
     {
@@ -21,38 +21,23 @@
       "contents": [
         {
           "type": "textWithIcon",
-          "title": "Was wir bieten",
-          "text": "Wir helfen unseren Kunden, neue Chancen zu erkennen, die digitale Landschaft zu verstehen, oder E-Commerce-Projekte auf eine solide Basis zu stellen, um aktuelle und zukünftige Kunden zu erreichen."
+          "title": "Für wen eignet sich PlentyMarkets?",
+          "text": "Aus unserem Fokus, steht ERP-System plentymarkets für Multi-Channel E-Commerce Business. Von Supply-Chain-Management bis After-Sales-Management - alle Prozesse sind in plentymarkets abgebildet. Man braucht gewisse E-Commerce Reife um das System zielorientiert einsetzen zu können. Team kosmonaut nimmt dich gerne an die Hand unter unterstütz dich bei der Einrichtung und Optimierung von E-Commerce Prozessen."
         },
         {
           "type": "bulletListBlock",
-          "title": "Vorteile von PlentyMarkets",
+          "title": "Kosmonaut Lösungen",
           "lists": [
             {
-              "text": "Leistungen",
+              "text": "_",
               "options": [
-                "1",
-                "2"
-              ]
-            },
-            {
-              "text": "Lösungen",
-              "options": [
-                "4",
-                "3"
+                "KMT Shuttle",
+                "KMT Crawler"
               ]
             }
           ]
         }
       ]
-    },
-    {
-      "type": "rq_094",
-      "title": "Modepark",
-      "src": "/uploads/Kosmonauten0073 625.jpg",
-      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua",
-      "link": "/projekte/modepark",
-      "linkText": "mehr erfahren"
     },
     {
       "type": "rq_091",
