@@ -1,0 +1,29 @@
+{
+  "title": "Shuttle",
+  "url": "/solutions/shuttle",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Shuttle",
+      "text": "Das KMT Shuttle verbinde verschiedene Systeme wie z.B. die Systeme Microsoft Dynamics NAV, plentymarkets und OXID eSales.    Daten wie Artikel, Preise, Bestände, Bestellungen, Kunden, Retouren oder Aktionen werden per API multidirektional ausgetauscht und so zwischen den Systemen geshuttlet.",
+      "path": "sfsdfsdf"
+    },
+    {
+      "type": "rq_012",
+      "title": "Über Shuttle",
+      "text": "Viele Unternehmen blicken auf ein organisches Wachstum zurück. In dieser Phase erfolgte nach und nach die Erweiterung durch einzelne Komponenten – zum Beispiel durch die Software für ERP und SCM, die Präsenz auf einem Marktplatz und den eigenen Onlineshop. Die nächste große Herausforderung besteht darin, den Handel im E-Commerce mit allen notwendigen innerbetrieblichen Prozessen zu synchronisieren und weitere Verkaufsportale zu erschließen. Und im Hintergrund gilt es nicht nur den Überblick zu allen Transaktionen zu behalten, sondern diese fortlaufend zu optimieren.  An dieser Stelle bringen wir uns mit KMT SHUTTLE ins Spiel. Diese leistungsfähige Schnittstelle ist eine Eigenentwicklung aus dem Haus KOSMONAUT und wurde mit direktem Blick auf die Bedürfnisse unserer Kunden entwickelt. Das API-basierte Data Hub macht die Eingabe von Kunden- und Artikelinformationen nur einmalig erfor-derlich. Im weiteren Verlauf werden alle Daten nahtlos und absolut zuverlässig in allen Systemen bidirektional kommuniziert. Außerdem bleiben Sie  dank Mandantenfähigkeit und shopspezifischer Produkt-anpassung flexibel.",
+      "cols": 2
+    },
+    {
+      "type": "rq_008",
+      "title": "Was kann das Shuttle?",
+      "size": "H2"
+    },
+    {
+      "type": "rq_012",
+      "title": "Plenty-to-Shop",
+      "text": "• Verlagerung von Prozessen/Regeln, Absatzkanal, Steuerung und Produktdatenmanagement  • Mandanten-Shop Fähigkeit  • Shopspezifische Produktdaten-anpassung durch KI",
+      "cols": 4
+    }
+  ]
+}
