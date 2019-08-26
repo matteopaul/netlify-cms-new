@@ -1,10 +1,10 @@
 {
-  "title": "Automotive",
-  "url": "/expertise/automotive",
+  "title": "Interior",
+  "url": "/expertise/interior",
   "contents": [
     {
       "type": "rq_016",
-      "title": "Automotive",
+      "title": "Interior",
       "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
       "src": "/uploads/Kosmonauten0073 625.jpg",
       "path": "sdfdsfsf"
@@ -16,7 +16,7 @@
         {
           "type": "text",
           "title": "introtext",
-          "md": "### Die Automobilbranche muss sich nicht nur mit der Planung und Produktion von neuen Fahrzeugen beschäftigen. Das digitale Zeitalter hat auch die Erwartungshaltung der Kundschaft verändert. Individueller Service und prompte Kommunikation, zu jedem Zeitpunkt, sind der neue Standard.\n\nWir entwickeln nutz­er­zen­trier­te Lösun­gen und präsentieren Ihr Unternehmen sowie Service und Leistungen via Website, Neuwagen-Konfigurator und In-Car-Sys­tem.\n"
+          "md": "### Im Bereich Home & Living sind die Kunden auf der Suche nach dem Besonderen. Im besten Fall gestaltet sich bereits die Customer Journey als emotionales und stilvolles Erlebnis.\n\nÜber welche Berührungspunkte gelangt die Kundschaft in Ihren Shop? Welche Informationen und Eindrücke geben nachhaltige Impulse für die Kaufentscheidung? Fakten sind die Grundlage für ein erfolgreiches Konzept.\n\n"
         }
       ]
     },
@@ -32,19 +32,19 @@
     {
       "type": "rq_011",
       "title": "Marktentwicklung",
-      "text": "Strengere Umweltauflagen, neue Märkte und die Digitalisierung werden die Automotive-Branche grundlegend verändern. Die Kundschaft ist offen für neue Formen der Mobilität und zeichnet sich durch ein geschärftes Bewusstsein für Nachhaltigkeit aus.",
+      "text": "Die Verbraucher sind sprunghaft, bequem und gerne flexibel. Die Fülle von Produkten, Channels, Bewertungen und Vergleichsmöglichkeiten sind die Herausforderungen der Händler. Hier braucht es wirksame Strategien.",
       "count": 3
     },
     {
       "type": "rq_011",
       "title": "Systemkonvergenz",
-      "text": "Die Entwicklung in den Bereichen autonomes Fahren und Vernetzung von Fahrzeugen zeigen uns, wie wir uns schon in wenigen Jahren fortbewegen werden. Autos werden zu Bausteinen in komplexen digitalen Systemen.",
+      "text": "Ein erfolgreiches Unternehmen kann nicht einfach nur die Marktentwicklung abwarten, um dann mit kleinen Anpassungen zu reagieren. Ein tiefes Verständnis der Zielgruppe und deren Kaufverhalten ermöglicht progressive Lösungen.",
       "count": 3
     },
     {
       "type": "rq_011",
       "title": "Siloentwicklung",
-      "text": "Die unkonventionellen Ansätze von Start-up-Unternehmen und App-Entwicklern erhalten viel Aufmerksamkeit und zwingen die großen Konzerne zum Umdenken. Diese Situation beschleunigt die Digitalisierung und stellt den Menschen mit seinen Anforderungen wieder in den Mittelpunkt.",
+      "text": "Anhand von aussagekräftigen Analysen werden Buyer Personas definiert. Mit den entsprechenden Systemen können Angebote käuferspezifisch individualisiert werden.  Ein weiteres heißes Thema bleibt Augmented Reality via Smartphone.",
       "count": 3
     },
     {
@@ -58,26 +58,26 @@
     },
     {
       "type": "rq_011",
-      "title": "Kits",
-      "text": "Customizing lautet das Zauberwort. Dadurch kann auf die verschiedensten Bedürfnisse der Kundschaft eingegangen werden. Das Angebot ermöglicht einen ganz pragmatischen Lösungsansatz, gibt aber auch die Freiheit auf weitere Individualisierung und Einzigartigkeit.",
+      "title": "Lieblingsprodukte",
+      "text": "Wir möchten mit dem Kauf von Produkten auch dem eigenen Lebensgefühl und Stil Ausdruck verleihen. Customizing lautet das Zauberwort! Dank ausgeklügelter Software wird ein Massenprodukt wandelbar und kann nach den eigenen Bedürfnissen und Vorlieben konfiguriert werden.",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Industrie 4.0",
-      "text": "Die digitale Transformation verbindet die einzelnen Module für Design, Herstellung, Produktion und Logistik zu einer barrierefreien Herstellungskette. Prozessoptimierungen ermöglichen eine effizientere und schnellere Produktion. Der Endkunde profitiert von schnellen Lieferzeiten, auch bei Produkten mit einem hohen Grad der Individualisierung.",
+      "title": "Brücken bauen",
+      "text": "Online oder Offline? Die Frage ist überflüssig. Wer online bereits überzeugt hat, sollte auch Lust auf den Weg in die nächste Filiale machen. Der Blick auf den Screen zeigt die Verfügbarkeit am Standort und ist die beste Motivation für einen spontanen Besuch.",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Long Distance Orders",
-      "text": "Bisher beschränkte sich das Warenangebot auf den Bestand der Händler. Für erfolgreichen E-Commerce ist diese Option aber nicht ausreichend. Hier sind die Wünsche des Käufers die Vorgaben für ein individuelles Produkt und die Konfiguration erfolgt im Internet. ",
+      "title": "Touchpoints",
+      "text": "Denken Sie bitte kurz an die Kundschaft in Ihrer Filiale. Jeder dritte Käufer hat zunächst via Google und Amazon recherchiert, bevor er sich auf den Weg machte. Ein weiteres gutes Argument für eine überzeugende Präsenz im Netz.",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Checking Prices",
-      "text": "Die Käufer von heute sind Smart Shopper und bestens informiert. Der Check auf Vergleichsportalen liefert relevanten Daten zu Preis, Qualität und gewünschter Eignung. Kritische Bewertungen und gut überlegte Empfehlungen haben das Gespräch mit dem Fachverkäufer ersetzt.",
+      "title": "Bild & Wort",
+      "text": "Pinterest, Instagram und Blogs sind unsere Muse und Informationsquelle. Mit hochwertigen Texten und raffinierten Storys in Ihrem Onlineshop bringen Sie mehr potenzielle Käufer in den stationären Handel.",
       "count": 2
     }
   ]
