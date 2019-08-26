@@ -1,8 +1,8 @@
 <template>
   <div class="rq-016-container">
     <g-image v-if="src" :src="src" class="preview-image" />
-    <g-image v-if="src" src="~/assets/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="overlay-image size--md"/>
-    <g-image v-if="!src" src="~/assets/svg/Kosmonaut-Blob-Gray.svg" type="image/svg+xml" class="overlay-image size--lg"/>
+    <g-image v-if="src" src="/uploads/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="overlay-image size--md"/>
+    <g-image v-if="!src" src="/uploads/svg/Kosmonaut-Blob-Gray.svg" type="image/svg+xml" class="overlay-image size--lg"/>
     <div class="rq-016-content no-image" v-if="!src">
       <RQ_035 :path="path" />
       <h1 v-html="title" class="rq-016-headline" />
@@ -26,7 +26,8 @@ export default {
       required: false
     },
     path: {
-      type: String
+      type: String,
+      required: false
     },
     title: {
       type: String

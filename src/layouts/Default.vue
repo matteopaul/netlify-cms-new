@@ -26,8 +26,8 @@
         <div class="menu-footer">
           <p class="size--sm">
             <g-link to="/impressum">Impressum</g-link>
-            <g-link to="/impressum">Datenschutz</g-link>
-            <g-link to="/impressum">AGB</g-link>
+            <g-link to="/datenschutz">Datenschutz</g-link>
+            <g-link to="/agb">AGB</g-link>
           </p>
         </div>
     </div>
@@ -37,7 +37,7 @@
       <div class="footer-content">
         <div class="footer-content-headline">
           <h3>Sie haben ein Projekt dollar sans de Sola connar?</h3>
-          <p class="label">Kontaktieren</p>
+          <g-link to="/kontakt" class="label">Kontaktieren</g-link>
         </div>
 
         <RQ_090 title="office" v-bind:options="['Kosmonaut GmbH Co. KG', 'Nickelstraße Nr. 1a', '33378 Rheda-Wiedenbrück']" />
@@ -49,7 +49,6 @@
           <g-link to="/impressum">Impressum</g-link>
           <g-link to="/datenschutz">Datenschutz</g-link>
           <g-link to="/agb">AGB</g-link>
-          <g-link to="/dsgvo">DSGVO</g-link>
         </div>
       </div>
 
@@ -70,12 +69,20 @@ query {
 import RQ_090 from '~/components/RQ-090.vue'
     setTimeout(() => {
       document.getElementsByClassName('menu-nav-close')[0].addEventListener('click', function() {
+        console.log("Click");
         document.getElementsByClassName('menu')[0].style.width = "0px";
       });
       document.getElementsByClassName('header-nav')[0].addEventListener('click', () => {
         console.log('click');
         document.getElementsByClassName('menu')[0].style.width = "680px";
+
       })
+      for(let i = 0; i < document.getElementsByClassName('menu-li').length; i++) {
+        document.getElementsByClassName('menu-li')[i].addEventListener('click', () => {
+          console.log('hi');
+          document.getElementsByClassName('menu')[0].style.width = "0px";
+        })
+      }
   }, 200);
   export default {
     components: {

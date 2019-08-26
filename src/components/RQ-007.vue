@@ -1,5 +1,5 @@
 <template>
-  <div class="rq-007-container" v-if="!background" :style="style">
+  <div class="rq-007-container" v-if="!background">
     <div class="rq-007-content" v-for="content in contents">
       <RQ_090 v-if="content.type == 'bulletList'" class="rq-007-bulletlist" v-bind:options="content.options" size="H2" :title="content.title" :text="content.text"/>
       <RQ_011 v-if="content.type == 'textWithIcon'" class="rq-007-textWithIcon" count="1" :title="content.title" :text="content.text"/>
@@ -122,9 +122,8 @@ export default {
 <style>
 
   .rq-007-container {
-    grid-column: span 7;
+    grid-column: 3 / 11;
     grid-row: span 20;
-    margin-left: calc(88px + 32px);
   }
 
   .rq-007-list-block h2 {

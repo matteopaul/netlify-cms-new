@@ -34,7 +34,7 @@ export default {
       required: false
     },
     count: {
-      type: String
+      type: Number
     },
     title: {
       type: String
@@ -64,9 +64,9 @@ export default {
     style() {
       if(parseInt(this.count)) {
         if(this.count == 2) {
-          return "grid-column: span " + 12 / parseInt(this.count) + '; padding-right: 120px;';
+          return "grid-column: span " + 12 / this.count + '; padding-right: 120px;';
         } else {
-          return "grid-column: span " + 12 / parseInt(this.count);
+          return "grid-column: span " + 12 / this.count;
         }
       } else {
         return null;

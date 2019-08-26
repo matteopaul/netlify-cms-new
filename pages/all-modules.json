@@ -1,6 +1,6 @@
 {
   "title": "all modules",
-  "url": "services",
+  "url": "all_modules",
   "contents": [
     {
       "type": "rq_008",
@@ -159,8 +159,8 @@
       "type": "rq_016",
       "title": "Category Banner",
       "text": "Projekt welches beschrieben werden soll",
-      "src": "/uploads/asset_teaser-pic03@2x.jpg",
-      "path": "Startseite;Projekte;Bergsteigen"
+      "src": "/uploads/asset_teaser-pic03@2x.jpg"
+
     },
     {
       "type": "rq_008",
@@ -190,8 +190,7 @@
     },
     {
       "type": "rq_035",
-      "title": "Breadcrumb1",
-      "path": "Startseite;Beliebiger;Pfad"
+      "title": "Breadcrumb1"
     },
     {
       "type": "rq_008",

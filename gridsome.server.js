@@ -22,7 +22,7 @@ module.exports = function (api) {
 
     pages.addNode({
       title: "erste Seite",
-      url: "hallo",
+      url: "/hallo",
       contents: [
         store.createReference(contentTypes["rq_008"].findNode()),
         store.createReference(contentTypes["rq_007"].findNode()),
@@ -59,6 +59,7 @@ module.exports = function (api) {
             let node = store.createReference(contentTypes[item.type].addNode(item));
             items.push(node);
           });
+          console.log(currentData.url);
           pages.addNode({
             path: currentData.url,
             id: currentData.id,
@@ -206,7 +207,6 @@ module.exports = function (api) {
         title
         src
         text
-        path
       }
 
       fragment image on rq_021 {
@@ -348,7 +348,10 @@ module.exports = function (api) {
       }
     `);
 
+
+
     data.data.page.edges.forEach(({node}) => {
+      console.log(node.url);
       createPage({
         path: `/${node.url}`,
         component: './src/templates/PageStructureNew.vue',

@@ -11,7 +11,7 @@
     {
       "type": "rq_014",
       "title": "Unsere Services",
-      "href": "/services",
+      "href": "/leistungen",
       "linkText": "mehr erfahren",
       "src": "/uploads/Kosmonauten0073 169.jpg",
       "lists": [
@@ -47,14 +47,14 @@
           "title": "Branchen",
           "text": "#Fashion, #Lifestyle, #Automotive, #Industrie, #B2B, #B2C, #Interior",
           "icon": "/uploads/information-point-system.svg",
-          "href": "/branchen",
+          "href": "/expertise",
           "linkText": "mehr erfahren"
         },
         {
           "title": "Systeme",
           "text": "#OXID, #Shopware, #Spryker, #Plenty, #Market, #FactFinder, #Typo3, #PayOne",
           "icon": "/uploads/information-point-branchen.svg",
-          "href": "/systeme",
+          "href": "/mission",
           "linkText": "mehr erfahren"
         }
       ]

@@ -109,11 +109,11 @@ export default {
     max-width: 500px;
   }
 
-  .rq-021-container:nth-child(2n) {
+  .rq-021-container:not(.small):nth-child(2n) {
     padding-left: 120px;
   }
 
-  .rq-021-container:nth-child(2n -1) {
+  .rq-021-container:not(.small):nth-child(2n -1) {
     padding-left: 120px;
   }
 

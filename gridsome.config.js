@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Matteo',
+  siteName: 'Kosmonaut: Connected Commerce.',
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
@@ -22,7 +22,7 @@ module.exports = {
       use: `gridsome-plugin-netlify-cms`,
       options: {
         publicPath: `/admin`,
-        modulePath: `src/admin/index.js` 
+        modulePath: `src/admin/index.js`
       }
     },
   ]
