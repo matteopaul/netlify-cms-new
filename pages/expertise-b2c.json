@@ -1,10 +1,10 @@
 {
-  "title": "Automotive",
-  "url": "/expertise/automotive",
+  "title": "B2C",
+  "url": "/expertise/b2c",
   "contents": [
     {
       "type": "rq_016",
-      "title": "Automotive",
+      "title": "B2C",
       "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
       "src": "/uploads/Kosmonauten0073 625.jpg",
       "path": "sdfdsfsf"
@@ -16,7 +16,7 @@
         {
           "type": "text",
           "title": "introtext",
-          "md": "### Die Automobilbranche muss sich nicht nur mit der Planung und Produktion von neuen Fahrzeugen beschäftigen. Das digitale Zeitalter hat auch die Erwartungshaltung der Kundschaft verändert. Individueller Service und prompte Kommunikation, zu jedem Zeitpunkt, sind der neue Standard.\n\nWir entwickeln nutz­er­zen­trier­te Lösun­gen und präsentieren Ihr Unternehmen sowie Service und Leistungen via Website, Neuwagen-Konfigurator und In-Car-Sys­tem.\n"
+          "md": "### B2C klingt nach einer leichten Aufgabe. Die Präsenz im Netz beschert einem aber noch lange nicht den gewünschten Umsatz. Wie überzeugen Sie Suchmaschinen und Kunden von Ihrem Angebot und gelangen im Ranking immer weiter nach oben?\n\nWir kennen die Herausforderungen des E-Commerce und ermöglichen eine angenehme und unvergessliche Customer Journey, neue Kundschaft und Weiterempfehlungen.\n\n"
         }
       ]
     },
@@ -32,19 +32,19 @@
     {
       "type": "rq_011",
       "title": "Marktentwicklung",
-      "text": "Strengere Umweltauflagen, neue Märkte und die Digitalisierung werden die Automotive-Branche grundlegend verändern. Die Kundschaft ist offen für neue Formen der Mobilität und zeichnet sich durch ein geschärftes Bewusstsein für Nachhaltigkeit aus.",
+      "text": "Der Markt wird von Alibaba, Amazon und anderen Giganten vereinnahmt und das Service- und Leistungsniveau setzt den Einzelhandel zusätzlich unter Druck. Händler können Ihre Kunden trotzdem mit individuellem Shop-Design und guter Performance überzeugen.",
       "count": 3
     },
     {
       "type": "rq_011",
       "title": "Systemkonvergenz",
-      "text": "Die Entwicklung in den Bereichen autonomes Fahren und Vernetzung von Fahrzeugen zeigen uns, wie wir uns schon in wenigen Jahren fortbewegen werden. Autos werden zu Bausteinen in komplexen digitalen Systemen.",
+      "text": "Online Shopping ist im Alltag jeder Generation angekommen. Im privaten Bereich wird am liebsten ein Tablet oder Smartphone verwendet und M-Commerce ist das neue Buzzword der Branche. Überzeugt Ihre Website auch mobil?",
       "count": 3
     },
     {
       "type": "rq_011",
       "title": "Siloentwicklung",
-      "text": "Die unkonventionellen Ansätze von Start-up-Unternehmen und App-Entwicklern erhalten viel Aufmerksamkeit und zwingen die großen Konzerne zum Umdenken. Diese Situation beschleunigt die Digitalisierung und stellt den Menschen mit seinen Anforderungen wieder in den Mittelpunkt.",
+      "text": "Erfolgreiche Betreiber von Onlineshops werden durch die Grenzen und Schwächen der Software ausgebremst. Für mehr Effizienz und Wirtschaftlichkeit braucht es nicht nur Investitionen, sondern auch eine Agentur mit der richtigen Portion an Performance und Know-how.",
       "count": 3
     },
     {
@@ -58,26 +58,26 @@
     },
     {
       "type": "rq_011",
-      "title": "Kits",
-      "text": "Customizing lautet das Zauberwort. Dadurch kann auf die verschiedensten Bedürfnisse der Kundschaft eingegangen werden. Das Angebot ermöglicht einen ganz pragmatischen Lösungsansatz, gibt aber auch die Freiheit auf weitere Individualisierung und Einzigartigkeit.",
+      "title": "High Performance",
+      "text": "Eine schnelle Ladezeit hat direkten Einfluss auf die Conversion Rate. Die gute Performance stimmt den Käufer positiv und ermutigt zum Kaufabschluss. Aus diesem Grund muss jeder Prozess sauber programmiert sein und geschmeidig zum nächsten Step führen. ",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Industrie 4.0",
-      "text": "Die digitale Transformation verbindet die einzelnen Module für Design, Herstellung, Produktion und Logistik zu einer barrierefreien Herstellungskette. Prozessoptimierungen ermöglichen eine effizientere und schnellere Produktion. Der Endkunde profitiert von schnellen Lieferzeiten, auch bei Produkten mit einem hohen Grad der Individualisierung.",
+      "title": "Content Commerce",
+      "text": "Im besten Fall wird der Kunde während der gesamten Customer Journey von relevanten und personalisierten Texten begleitet. Mit dieser Form der Aufmerksamkeit sorgen Sie für ein freudiges Einkaufserlebnis und bringen Ihre Kunden erneut in den Shop.",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Long Distance Orders",
-      "text": "Bisher beschränkte sich das Warenangebot auf den Bestand der Händler. Für erfolgreichen E-Commerce ist diese Option aber nicht ausreichend. Hier sind die Wünsche des Käufers die Vorgaben für ein individuelles Produkt und die Konfiguration erfolgt im Internet. ",
+      "title": "UI + UX",
+      "text": "Die Gestaltung der Oberfläche und die damit verbundene Benutzerfreundlichkeit werden immer wichtiger und entscheiden über den möglichen Erfolg im E-Commerce. Bei der Gestaltung von responsiven Designs überzeugen wir mit ansprechender Gestaltung und feinen Details.",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Checking Prices",
-      "text": "Die Käufer von heute sind Smart Shopper und bestens informiert. Der Check auf Vergleichsportalen liefert relevanten Daten zu Preis, Qualität und gewünschter Eignung. Kritische Bewertungen und gut überlegte Empfehlungen haben das Gespräch mit dem Fachverkäufer ersetzt.",
+      "title": "Navigationsarchitektur",
+      "text": "Eine klare und durchdachte Struktur der Navigation hilft sowohl dem Händler als auch dem Kunden. So kann neuer Content und weitere Produkte schnell und einfach vom Inhaber platziert und vom Kunden gefunden werden.",
       "count": 2
     }
   ]
