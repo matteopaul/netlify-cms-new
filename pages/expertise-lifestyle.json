@@ -1,10 +1,10 @@
 {
-  "title": "Automotive",
-  "url": "/expertise/automotive",
+  "title": "Lifestyle",
+  "url": "/expertise/lifestyle",
   "contents": [
     {
       "type": "rq_016",
-      "title": "Automotive",
+      "title": "Lifestyle",
       "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
       "src": "/uploads/Kosmonauten0073 625.jpg",
       "path": "sdfdsfsf"
@@ -16,7 +16,7 @@
         {
           "type": "text",
           "title": "introtext",
-          "md": "### Die Automobilbranche muss sich nicht nur mit der Planung und Produktion von neuen Fahrzeugen beschäftigen. Das digitale Zeitalter hat auch die Erwartungshaltung der Kundschaft verändert. Individueller Service und prompte Kommunikation, zu jedem Zeitpunkt, sind der neue Standard.\n\nWir entwickeln nutz­er­zen­trier­te Lösun­gen und präsentieren Ihr Unternehmen sowie Service und Leistungen via Website, Neuwagen-Konfigurator und In-Car-Sys­tem.\n"
+          "md": "### Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?\n\nMit uns können Sie trotz starkem Wettbewerb und zunehmender Globalisierung auffallend und erfolgreich werden.\n\n"
         }
       ]
     },
@@ -32,19 +32,19 @@
     {
       "type": "rq_011",
       "title": "Marktentwicklung",
-      "text": "Strengere Umweltauflagen, neue Märkte und die Digitalisierung werden die Automotive-Branche grundlegend verändern. Die Kundschaft ist offen für neue Formen der Mobilität und zeichnet sich durch ein geschärftes Bewusstsein für Nachhaltigkeit aus.",
+      "text": "Die zunehmende Globalisierung verstärkt den Wettbewerb unter Herstellern und Verkäufern. Kunden vergleichen nicht nur Preise und Qualität, sondern bevorzugen Onlineshops mit Charakter und individuellen Produkten.",
       "count": 3
     },
     {
       "type": "rq_011",
       "title": "Systemkonvergenz",
-      "text": "Die Entwicklung in den Bereichen autonomes Fahren und Vernetzung von Fahrzeugen zeigen uns, wie wir uns schon in wenigen Jahren fortbewegen werden. Autos werden zu Bausteinen in komplexen digitalen Systemen.",
+      "text": "Die wählerischen und sprunghaften Kunden entscheiden sich erst nach mehrfachen Berührungspunkten für einen Kauf. Die Gewinner der Branche überzeugen über alle Kanäle hinweg mit hochwertigen Fotos sowie Texten und Collagen mit einer Story.",
       "count": 3
     },
     {
       "type": "rq_011",
       "title": "Siloentwicklung",
-      "text": "Die unkonventionellen Ansätze von Start-up-Unternehmen und App-Entwicklern erhalten viel Aufmerksamkeit und zwingen die großen Konzerne zum Umdenken. Diese Situation beschleunigt die Digitalisierung und stellt den Menschen mit seinen Anforderungen wieder in den Mittelpunkt.",
+      "text": "Empfehlungen zu alternativen oder ergänzenden Produkten werden durch intelligente Datenverarbeitung immer weiter perfektioniert. Außerdem wird intensiv an neuen und flexibleren Möglichkeiten für die Zustellung gearbeitet.",
       "count": 3
     },
     {
@@ -58,26 +58,26 @@
     },
     {
       "type": "rq_011",
-      "title": "Kits",
-      "text": "Customizing lautet das Zauberwort. Dadurch kann auf die verschiedensten Bedürfnisse der Kundschaft eingegangen werden. Das Angebot ermöglicht einen ganz pragmatischen Lösungsansatz, gibt aber auch die Freiheit auf weitere Individualisierung und Einzigartigkeit.",
+      "title": "Customer Care",
+      "text": "Heute erfolgt die Weiterempfehlung in Form einer Bewertung oder Rezension auf Marktplätzen und Portalen. Als Händler können Sie nicht nur mitlesen, sondern direkt auf Ihre Kunden eingehen. Und via Chat werden die FAQs von einem Bot oder Mitarbeiter beantwortet. CRM war noch nie so direkt und werbewirksam.",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Industrie 4.0",
-      "text": "Die digitale Transformation verbindet die einzelnen Module für Design, Herstellung, Produktion und Logistik zu einer barrierefreien Herstellungskette. Prozessoptimierungen ermöglichen eine effizientere und schnellere Produktion. Der Endkunde profitiert von schnellen Lieferzeiten, auch bei Produkten mit einem hohen Grad der Individualisierung.",
+      "title": "Payment",
+      "text": "Die Zahlung mit Apple Pay und Google Pay lässt sich in Browser und Apps integrieren. Start-ups wie Revolut und N26 ermöglichen unkonventionelles Banking ganz ohne Bank. Welche Zahlmethoden erwarten Ihre Kunden und wie lassen sich diese sicher und komfortabel in Ihren Shop integrieren?",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Long Distance Orders",
-      "text": "Bisher beschränkte sich das Warenangebot auf den Bestand der Händler. Für erfolgreichen E-Commerce ist diese Option aber nicht ausreichend. Hier sind die Wünsche des Käufers die Vorgaben für ein individuelles Produkt und die Konfiguration erfolgt im Internet. ",
+      "title": "Digitaler Vorreiter",
+      "text": "Aus Trends werden Standards und so werden Augmented Reality, Sprachassistenten und künstliche Intelligenz das Kaufverhalten weiterhin verändern. Digitale Innovationen einzubinden ist nicht nur eine Frage des Könnens. Wir verfügen auch über einschlägige Erfahrung, um Sie mit Bezug auf Aufwand und ROI verlässlich zu beraten.",
       "count": 2
     },
     {
       "type": "rq_011",
-      "title": "Checking Prices",
-      "text": "Die Käufer von heute sind Smart Shopper und bestens informiert. Der Check auf Vergleichsportalen liefert relevanten Daten zu Preis, Qualität und gewünschter Eignung. Kritische Bewertungen und gut überlegte Empfehlungen haben das Gespräch mit dem Fachverkäufer ersetzt.",
+      "title": "Permanente Innovation",
+      "text": "Amazon befindet sich permanent im Innovationsmodus. 1-Click, Prime, Amazon Prime, Videos, Cloud-Services und die Lieferung per Drohne sind nur einige Beispiele. Aus diesen Ideen lassen sich wertvolle Learnings ableiten, die wertschöpfend für den eigenen Shop adaptiert werden können.",
       "count": 2
     }
   ]
