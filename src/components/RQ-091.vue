@@ -35,7 +35,7 @@ export default {
 <style>
 
   .rq-091-container {
-    grid-column: span 7;
+    grid-column: 3 / 11;
     grid-row: span 17;
   }
 

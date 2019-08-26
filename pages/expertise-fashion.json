@@ -1,0 +1,125 @@
+{
+  "title": "Fashion",
+  "url": "/expertise/fashion",
+  "contents": [
+    {
+      "type": "rq_016",
+      "path": "Startseite;Projekte;Luckybike",
+      "title": "Fashion",
+      "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
+      "src": "/uploads/Kosmonauten0073 625.jpg"
+    },
+    {
+      "type": "rq_007",
+      "title": "RichText1",
+      "contents": [
+        {
+          "type": "text",
+          "title": "RichTextMarkdown1",
+          "md": "### Kunden lieben Modehäuser mit einer gelungen Kombination aus stationärer und digitaler Präsenz – eine große Chance für Filialisten.\n\nWir ermöglichen die effiziente und profitable Gestaltung und Verknüpfung aller digitalen und physischen Prozesse. Im Onlineshop genießt der Kunde maximale Usability und personalisierte Angebote."
+        }
+      ]
+    },
+    {
+      "type": "rq_008",
+      "title": "Fühlen Sie den Puls des E-Commerce.",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Marktentwicklung",
+      "text": "Zukunftsweisenden Schlüsselbegriffe der Branche sind unter anderen M-Commerce und Click & Collect. Auch legen Verbraucher immer größeren Wert auf Nachhaltigkeit sowie ein emotionales und persönliches Shopping-Erlebnis.",
+      "category": "",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "title": "Systemkonvergenz",
+      "text": "Connected Commerce vereint die einzelnen Systeme für Warenwirtschaft, Logistik und Onlineshop zu einem intakten Ökosystem. Das ermöglicht bemerkenswerten Service und gewinnbringenden Handel.",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "title": "Siloentwicklung",
+      "text": "Amazon, Zalando und andere große Player setzen auf künstliche Intelligenz und datengetriebene   Individualisierung. Welche Practices können Unternehmen übernehmen? Und mit welchen Strategien kann die Anzahl von Retouren reduziert werden?",
+      "count": 3
+    },
+    {
+      "type": "divider",
+      "title": "x",
+      "size": 1
+    },
+    {
+      "type": "rq_007",
+      "title": "RichText2",
+      "contents": [
+        {
+          "type": "textWithIcon",
+          "title": "Wir bringen Sie voran!",
+          "text": "Neue Chancen erkennen, die digitale Landschaft verstehen und E-Commerce-Projekte auf eine solide Basis stellen – mit diesen Maßnahmen rüsten wir unsere Kunden für aktuelle und zukünftige Herausforderungen der digitalen Landschaft. "
+        },
+        {
+          "type": "bulletList",
+          "title": "Fähigkeiten",
+          "options": [
+            "E-Commerce-Strategie",
+            "Plattform-Strategie",
+            "Content- und Keyword-Strategie",
+            "Markt- & Onsite-Analysen",
+            "Persona-Definition",
+            "Customer-Journey-Mapping",
+            "Informationsarchitektur",
+            "UX-Prototyping",
+            "Responsives Webdesign",
+            "Usability-Labs",
+            "Frontend-Entwicklung",
+            "Shop-Entwicklung"
+          ]
+        }
+      ],
+      "background": true
+    },
+    {
+      "type": "rq_094",
+      "title": "Modepark",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "link": "/projects/modepark",
+      "linkText": "mehr erfahren",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore"
+    },
+    {
+      "type": "divider",
+      "title": "v",
+      "size": 1
+    },
+    {
+      "type": "rq_008",
+      "title": "Schlüssel zum Erfolg",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Customer Care",
+      "text": "Die Atmosphäre einer Filiale verstärkt das Einkaufserlebnis. Und ein guter Verkäufer hilft beim Finden der richtigen Größe, spricht Empfehlungen aus und bestätigt eine gute Wahl mit einer sympathischen und überzeugenden Miene. Mit uns können Sie die Vorteile des stationären Einkaufs in Ihren Onlineshop übertragen.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Online & Offline ",
+      "text": "So bequem und kurzweilig der Einkaufsbummel via Smartphone auch sein mag – für Anprobe, Begutachtung und Kauf bevorzugt manch ein Kunde den Besuch in der nächstgelegene Filiale. Ein Verfügbarkeitscheck, mit Option auf Click & Collect oder Reservierung, ist die perfekte Motivation und bewahrt vor negativen Erfahrungen.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Branding",
+      "text": "Das Branding vieler Onlineshops beschränkt sich auf die Einbettung des Logos in der Menüzeile. Produkttexte und Bilder hingegen finden sich in unzähligen Shops. Sowohl Google, als auch potenzielle Kunden, finden das ziemlich öde. Mit individuellen Features, Designs und Texten entsteht ein einzigartiges und unvergessliches Shopping- und Marken- Erlebnis.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Payment",
+      "text": "Durch die Digitalisierung sind viele neue Optionen für eine Bezahlung entstanden. Immer mehr Transaktionen sind ohne eine herkömmliche Bank möglich. Werden Retailer die Banken der Zukunft sein? Welchen Apps werden Verbraucher vertrauen? Wie lassen sich die Funktionen in Ihren Shop integrieren? Wir haben die Antworten und Lösungen. ",
+      "count": 2
+    }
+  ]
+}

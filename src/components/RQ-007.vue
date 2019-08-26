@@ -6,6 +6,7 @@
       <RQ_008 v-if="content.type == 'header'" class="rq-007-header" :title="content.title" size="H2"/>
       <RQ_012 v-if="content.type == 'textInColumns'" class="rq-007-textInColumns" :cols="content.cols" :title="content.title" :text="content.text"/>
       <p v-if="content.type == 'text'" class="rq-007-md size--md" v-html="parseMd(content.md)" />
+
     </div>
   </div>
   <div class="rq-007-container background" v-else-if="background">
@@ -16,6 +17,12 @@
         <RQ_008 v-if="content.type == 'header'" class="rq-007-header" :title="content.title" size="H2"/>
         <RQ_012 v-if="content.type == 'textInColumns'" class="rq-007-textInColumns" :cols="content.cols" :title="content.title" :text="content.text"/>
         <p v-if="content.type == 'text'" class="rq-007-md size--md" v-html="parseMd(content.md)" />
+        <div v-if="content.type == 'bulletListBlock'" class="rq-007-list-block">
+          <RQ_008 size="H2" :title="content.title" />
+          <template v-for="list in content.lists">
+            <RQ_090 :title="list.text" v-bind:options="list.options" />
+          </template>
+        </div>
       </template>
     </div>
   </div>
@@ -120,12 +127,25 @@ export default {
     margin-left: calc(88px + 32px);
   }
 
+  .rq-007-list-block h2 {
+    margin: 0;
+  }
+
+  .rq-007-list-block .rq-090-container {
+    width: 40%;
+  }
+
+  .rq-007-list-block .rq-090-container ul li {
+    color: var(--gray);
+  }
+
   .rq-007-container.background .rq-007-content{
     display: flex;
   }
 
   .rq-007-container.background .rq-007-content .rq-007-textWithIcon {
     width: 40%;
+    margin-right: 40px;
   }
 
   .rq-007-container.background .rq-007-content .rq-007-bulletlist {

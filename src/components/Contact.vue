@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-container">
+  <div class="contact-container" :style="style">
     <RQ_008 size="H3" title="Jetzt Kontaktieren" />
     <div class="contact-input">
       <p class="label">name *</p>
@@ -43,6 +43,17 @@ export default {
   components: {
     RQ_092,
     RQ_008
+  },
+  computed: {
+    style() {
+      setTimeout(() => {
+        let contactForm = document.getElementsByClassName('contact-container')[0];
+        let banner = document.getElementsByClassName('rq-016-container')[0];
+        if(contactForm && banner) {
+          banner.classList.add('contact');
+        }
+      }, 200);
+    }
   }
 }
 </script>
@@ -52,6 +63,7 @@ export default {
     border: 1px solid var(--gray);
     grid-column: span 6;
     padding: 24px;
+    grid-row: span 45;
   }
 
   .contact-input {

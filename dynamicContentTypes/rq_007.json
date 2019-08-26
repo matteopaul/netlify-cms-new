@@ -17,6 +17,20 @@
         "2",
         "3"
       ]
+    },
+    {
+        "type": "bulletListBlock",
+        "title": "headline",
+        "lists": [
+          {
+            "text": "hskjhf",
+            "options": [
+              "1",
+              "2",
+              "3"
+            ]
+          }
+        ]
     }
   ]
 }

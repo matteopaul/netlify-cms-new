@@ -7,7 +7,7 @@
           <option v-for="option in dropdown" v-html="option" :value="option.dropOption"/>
       </select>
       <button type="button" v-if="dropdown.length == 0" class="rq-067-button telephone" onclick="window.open('tel:004952425880765765124');">+49 5242 588 0124 <g-image src="~/assets/svg/Information-Point-Branchen.svg" /> </button>
-      <button type="button" class="rq-067-button">E-MAIL</button>
+      <button type="button" onclick="window.open('/kontakt', '_self')" class="rq-067-button">E-MAIL</button>
   </div>
 </template>
 

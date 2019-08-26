@@ -87,7 +87,7 @@ export default {
   }
 
   .rq-021-container.portrait.hasText {
-    grid-column: span 5;
+    grid-column: span 6;
     grid-row: span 54;
     height: auto;
     position: relative;
@@ -105,8 +105,16 @@ export default {
   }
 
   .rq-021-image-content {
-    margin-left: 32px;
     position: absolute;
+    max-width: 500px;
+  }
+
+  .rq-021-container:nth-child(2n) {
+    padding-left: 120px;
+  }
+
+  .rq-021-container:nth-child(2n -1) {
+    padding-left: 120px;
   }
 
   .rq-021-title {
@@ -114,12 +122,12 @@ export default {
   }
 
   .rq-021-image-content.top {
-    left: 112px;
+    right: -66px;
     position: relative;
   }
 
   .rq-021-image-content.bottom {
-    left: -112px;
+    left: 0;
   }
 
   .rq-021-image-content.right {

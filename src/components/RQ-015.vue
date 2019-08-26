@@ -91,28 +91,41 @@ export default {
 
 <style>
 
+.rq-015-container.vertical:nth-child(2n-1) {
+  grid-column: span 6;
+}
+
+.rq-015-container.vertical.portrait:nth-of-type(2n-1) {
+  padding-right: 240px;
+  grid-column: span 6;
+}
+
+.rq-015-container.vertical.portrait:nth-of-type(2n - 1) .rq-015-link {
+  right: 240px;
+}
+
+.rq-015-container.vertical.portrait:nth-child(2n-1) .rq-015-link{
+  right: 240px;
+}
+
 .rq-015-container.square {
-  grid-row: span 12;
+  grid-row: span 43;
 }
 
 .rq-015-container {
   margin-bottom: 40px;
 }
 
+.rq-015-container.vertical .rq-021-container.rq-015-image {
+  padding-left: 0;
+}
+
 .rq-015-container.portrait {
-  grid-row: span 15;
+  grid-row: span 38;
 }
 
 .rq-015-container.landscape {
-  grid-row: span 5;
-}
-
-.rq-015-container.vertical:not(.deactive):nth-of-type(2n-1) {
-  grid-column: 1 / span 6 !important;
-}
-
-.rq-015-container.vertical:not(.deactive):nth-of-type(2n) {
-  grid-column: span 6 / 13 !important;
+  grid-row: span 24;
 }
 
   .rq-015-container, .rq-015-content {

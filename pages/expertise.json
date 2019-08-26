@@ -1,125 +1,122 @@
 {
-  "title": "Fashion",
-  "url": "/fashion",
+  "title": "Expertise",
+  "url": "/expertise",
   "contents": [
     {
       "type": "rq_016",
-      "path": "Startseite;Projekte;Luckybike",
-      "title": "Fashion",
-      "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
-      "src": "/uploads/Kosmonauten0073 625.jpg"
+      "title": "Expertise",
+      "text": "\"Wir denken in Business-Modellen und unterstützen mit tiefgreifender Branchenkompetenz aus über 200 Projekten.\"",
+      "src": "/uploads/asset-teaser-team.jpg",
+      "path": "Startseite;Expertise"
     },
     {
-      "type": "rq_007",
-      "title": "RichText1",
-      "contents": [
-        {
-          "type": "text",
-          "title": "RichTextMarkdown1",
-          "md": "### Kunden lieben Modehäuser mit einer gelungen Kombination aus stationärer und digitaler Präsenz – eine große Chance für Filialisten.\n\nWir ermöglichen die effiziente und profitable Gestaltung und Verknüpfung aller digitalen und physischen Prozesse. Im Onlineshop genießt der Kunde maximale Usability und personalisierte Angebote."
-        }
-      ]
+      "type": "rq_037",
+      "title": "AttrFilter",
+      "attrType": "projects"
     },
     {
-      "type": "rq_008",
-      "title": "Fühlen Sie den Puls des E-Commerce.",
-      "size": "H2"
-    },
-    {
-      "type": "rq_011",
-      "title": "Marktentwicklung",
-      "text": "Zukunftsweisenden Schlüsselbegriffe der Branche sind unter anderen M-Commerce und Click & Collect. Auch legen Verbraucher immer größeren Wert auf Nachhaltigkeit sowie ein emotionales und persönliches Shopping-Erlebnis.",
-      "category": "",
-      "count": 3
-    },
-    {
-      "type": "rq_011",
-      "title": "Systemkonvergenz",
-      "text": "Connected Commerce vereint die einzelnen Systeme für Warenwirtschaft, Logistik und Onlineshop zu einem intakten Ökosystem. Das ermöglicht bemerkenswerten Service und gewinnbringenden Handel.",
-      "count": 3
-    },
-    {
-      "type": "rq_011",
-      "title": "Siloentwicklung",
-      "text": "Amazon, Zalando und andere große Player setzen auf künstliche Intelligenz und datengetriebene   Individualisierung. Welche Practices können Unternehmen übernehmen? Und mit welchen Strategien kann die Anzahl von Retouren reduziert werden?",
-      "count": 3
-    },
-    {
-      "type": "divider",
-      "title": "x",
-      "size": 1
-    },
-    {
-      "type": "rq_007",
-      "title": "RichText2",
-      "contents": [
-        {
-          "type": "textWithIcon",
-          "title": "Wir bringen Sie voran!",
-          "text": "Neue Chancen erkennen, die digitale Landschaft verstehen und E-Commerce-Projekte auf eine solide Basis stellen – mit diesen Maßnahmen rüsten wir unsere Kunden für aktuelle und zukünftige Herausforderungen der digitalen Landschaft. "
-        },
-        {
-          "type": "bulletList",
-          "title": "Fähigkeiten",
-          "options": [
-            "E-Commerce-Strategie",
-            "Plattform-Strategie",
-            "Content- und Keyword-Strategie",
-            "Markt- & Onsite-Analysen",
-            "Persona-Definition",
-            "Customer-Journey-Mapping",
-            "Informationsarchitektur",
-            "UX-Prototyping",
-            "Responsives Webdesign",
-            "Usability-Labs",
-            "Frontend-Entwicklung",
-            "Shop-Entwicklung"
-          ]
-        }
-      ],
-      "background": true
-    },
-    {
-      "type": "rq_094",
-      "title": "Modepark",
+      "size": "landscape",
       "src": "/uploads/Kosmonauten0073 625.jpg",
-      "link": "/projects/modepark",
       "linkText": "mehr erfahren",
-      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore"
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Lifestyle",
+      "type": "rq_015",
+      "link": "/lifestyle"
     },
     {
-      "type": "divider",
-      "title": "v",
-      "size": 1
+      "size": "square",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "interior"
+      ],
+      "title": "Interior",
+      "type": "rq_015",
+      "link": "/interior"
     },
     {
-      "type": "rq_008",
-      "title": "Schlüssel zum Erfolg",
-      "size": "H2"
+      "size": "portrait",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Kunden lieben Modehäuser mit einer gelungen Kombination aus stationärer und digitaler Präsenz – eine große Chance für Filialisten.",
+      "attr": [
+        "fashion"
+      ],
+      "title": "Fashion",
+      "type": "rq_015",
+      "link": "/fashion"
     },
     {
-      "type": "rq_011",
-      "title": "Customer Care",
-      "text": "Die Atmosphäre einer Filiale verstärkt das Einkaufserlebnis. Und ein guter Verkäufer hilft beim Finden der richtigen Größe, spricht Empfehlungen aus und bestätigt eine gute Wahl mit einer sympathischen und überzeugenden Miene. Mit uns können Sie die Vorteile des stationären Einkaufs in Ihren Onlineshop übertragen.",
-      "count": 2
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Der Immobilienmarkt befindet sich im Umbruch. Das Teilen und Handeln von Objekten hat sich durch neue Businessmodelle, Plattformen und Apps grundlegend verändert.",
+      "attr": [
+        "immobilien"
+      ],
+      "title": "Immobilien",
+      "type": "rq_015",
+      "link": "/immobilien"
     },
     {
-      "type": "rq_011",
-      "title": "Online & Offline ",
-      "text": "So bequem und kurzweilig der Einkaufsbummel via Smartphone auch sein mag – für Anprobe, Begutachtung und Kauf bevorzugt manch ein Kunde den Besuch in der nächstgelegene Filiale. Ein Verfügbarkeitscheck, mit Option auf Click & Collect oder Reservierung, ist die perfekte Motivation und bewahrt vor negativen Erfahrungen.",
-      "count": 2
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Die chemische Industrie gehört weltweit zu den wichtigsten Leitindustrien. Trotz der vorhandenen finanziellen Ressourcen, entwickelt sich die Branche in den Bereichen Digitalisierung und E-Commerce nur langsam.",
+      "attr": [
+        "chemie"
+      ],
+      "title": "Chemie",
+      "type": "rq_015",
+      "link": "/chemie"
     },
     {
-      "type": "rq_011",
-      "title": "Branding",
-      "text": "Das Branding vieler Onlineshops beschränkt sich auf die Einbettung des Logos in der Menüzeile. Produkttexte und Bilder hingegen finden sich in unzähligen Shops. Sowohl Google, als auch potenzielle Kunden, finden das ziemlich öde. Mit individuellen Features, Designs und Texten entsteht ein einzigartiges und unvergessliches Shopping- und Marken- Erlebnis.",
-      "count": 2
+      "size": "square",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Die Automobilbranche muss sich nicht nur mit der Planung und Produktion von neuen Fahrzeugen beschäftigen. Das digitale Zeitalter hat auch die Erwartungshaltung der Kundschaft verändert. Individueller Service und prompte Kommunikation, zu jedem Zeitpunkt, sind der neue Standard.",
+      "attr": [
+        "automotive"
+      ],
+      "title": "Automotive",
+      "type": "rq_015",
+      "link": "/automotive"
     },
     {
-      "type": "rq_011",
-      "title": "Payment",
-      "text": "Durch die Digitalisierung sind viele neue Optionen für eine Bezahlung entstanden. Immer mehr Transaktionen sind ohne eine herkömmliche Bank möglich. Werden Retailer die Banken der Zukunft sein? Welchen Apps werden Verbraucher vertrauen? Wie lassen sich die Funktionen in Ihren Shop integrieren? Wir haben die Antworten und Lösungen. ",
-      "count": 2
+      "size": "portrait",
+      "src": "/uploads/asset-teaser-b2b.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "Eine B2B Webseite muss den vielschichtigen Anliegen der User gerecht werden. Spezifisches Fachwissen wird durch die Option auf umfassende Kaufprozesse und -zyklen vervollständigt. So avanciert die Website zum Marktplatz und Begegnungsort für Händler und Kunden.",
+      "attr": [
+        "b2b"
+      ],
+      "title": "B2B",
+      "type": "rq_015",
+      "link": "/b2b"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr erfahren",
+      "position": "vertical",
+      "text": "B2C klingt nach einer leichten Aufgabe. Die Präsenz im Netz beschert einem aber noch lange nicht den gewünschten Umsatz. Wie überzeugen Sie Suchmaschinen und Kunden von Ihrem Angebot und gelangen im Ranking immer weiter nach oben?",
+      "attr": [
+        "b2c"
+      ],
+      "title": "B2C",
+      "type": "rq_015",
+      "link": "/b2c"
     }
   ]
 }

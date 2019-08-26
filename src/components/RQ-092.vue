@@ -122,6 +122,10 @@ export default {
     color: var(--gray);
   }
 
+  .rq-092-container.profile.card p.label {
+    color: var(--gray);
+  }
+
   .rq-092-container p.label {
     color: var(--dark);
   }

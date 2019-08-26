@@ -51,6 +51,14 @@ export default {
     height: 720px;
   }
 
+  /* .rq-016-container.contact {
+    grid-column: span 6;
+  }
+
+  .rq-016-container.contact .rq-016-content {
+    max-width: 700px;
+  } */
+
   .rq-016-text {
     color: var(--white);
     margin: 32 0 0 0;

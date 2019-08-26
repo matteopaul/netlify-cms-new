@@ -1,0 +1,84 @@
+{
+  "title": "Automotive",
+  "url": "/expertise/automotive",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Automotive",
+      "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "path": "sdfdsfsf"
+    },
+    {
+      "type": "rq_007",
+      "title": "RichText1",
+      "contents": [
+        {
+          "type": "text",
+          "title": "introtext",
+          "md": "### Die Automobilbranche muss sich nicht nur mit der Planung und Produktion von neuen Fahrzeugen beschäftigen. Das digitale Zeitalter hat auch die Erwartungshaltung der Kundschaft verändert. Individueller Service und prompte Kommunikation, zu jedem Zeitpunkt, sind der neue Standard.\n\nWir entwickeln nutz­er­zen­trier­te Lösun­gen und präsentieren Ihr Unternehmen sowie Service und Leistungen via Website, Neuwagen-Konfigurator und In-Car-Sys­tem.\n"
+        }
+      ]
+    },
+    {
+      "type": "divider",
+      "height": 1
+    },
+    {
+      "type": "rq_008",
+      "title": "Fühlen Sie den Puls des E-Commerce.",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Marktentwicklung",
+      "text": "Strengere Umweltauflagen, neue Märkte und die Digitalisierung werden die Automotive-Branche grundlegend verändern. Die Kundschaft ist offen für neue Formen der Mobilität und zeichnet sich durch ein geschärftes Bewusstsein für Nachhaltigkeit aus.",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "title": "Systemkonvergenz",
+      "text": "Die Entwicklung in den Bereichen autonomes Fahren und Vernetzung von Fahrzeugen zeigen uns, wie wir uns schon in wenigen Jahren fortbewegen werden. Autos werden zu Bausteinen in komplexen digitalen Systemen.",
+      "count": 3
+    },
+    {
+      "type": "rq_011",
+      "title": "Siloentwicklung",
+      "text": "Die unkonventionellen Ansätze von Start-up-Unternehmen und App-Entwicklern erhalten viel Aufmerksamkeit und zwingen die großen Konzerne zum Umdenken. Diese Situation beschleunigt die Digitalisierung und stellt den Menschen mit seinen Anforderungen wieder in den Mittelpunkt.",
+      "count": 3
+    },
+    {
+      "type": "divider",
+      "height": 1
+    },
+    {
+      "type": "rq_008",
+      "title": "Individualisierung zahlt sich aus.",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Kits",
+      "text": "Customizing lautet das Zauberwort. Dadurch kann auf die verschiedensten Bedürfnisse der Kundschaft eingegangen werden. Das Angebot ermöglicht einen ganz pragmatischen Lösungsansatz, gibt aber auch die Freiheit auf weitere Individualisierung und Einzigartigkeit.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Industrie 4.0",
+      "text": "Die digitale Transformation verbindet die einzelnen Module für Design, Herstellung, Produktion und Logistik zu einer barrierefreien Herstellungskette. Prozessoptimierungen ermöglichen eine effizientere und schnellere Produktion. Der Endkunde profitiert von schnellen Lieferzeiten, auch bei Produkten mit einem hohen Grad der Individualisierung.",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Long Distance Orders",
+      "text": "Bisher beschränkte sich das Warenangebot auf den Bestand der Händler. Für erfolgreichen E-Commerce ist diese Option aber nicht ausreichend. Hier sind die Wünsche des Käufers die Vorgaben für ein individuelles Produkt und die Konfiguration erfolgt im Internet. ",
+      "count": 2
+    },
+    {
+      "type": "rq_011",
+      "title": "Checking Prices",
+      "text": "Die Käufer von heute sind Smart Shopper und bestens informiert. Der Check auf Vergleichsportalen liefert relevanten Daten zu Preis, Qualität und gewünschter Eignung. Kritische Bewertungen und gut überlegte Empfehlungen haben das Gespräch mit dem Fachverkäufer ersetzt.",
+      "count": 2
+    }
+  ]
+}

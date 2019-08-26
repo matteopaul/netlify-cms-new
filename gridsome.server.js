@@ -127,6 +127,10 @@ module.exports = function (api) {
           md
           text
           options
+          lists {
+            text
+            options
+          }
         }
       }
 
