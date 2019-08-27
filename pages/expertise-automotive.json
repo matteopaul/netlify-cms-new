@@ -7,7 +7,6 @@
       "title": "Automotive",
       "text": "„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“",
       "src": "/uploads/Kosmonauten0073 625.jpg"
-
     },
     {
       "type": "rq_007",
@@ -46,6 +45,18 @@
       "title": "Siloentwicklung",
       "text": "Die unkonventionellen Ansätze von Start-up-Unternehmen und App-Entwicklern erhalten viel Aufmerksamkeit und zwingen die großen Konzerne zum Umdenken. Diese Situation beschleunigt die Digitalisierung und stellt den Menschen mit seinen Anforderungen wieder in den Mittelpunkt.",
       "count": 3
+    },
+    {
+      "type": "divider",
+      "height": 1
+    },
+    {
+      "type": "rq_094",
+      "title": "Bertelshofer",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore",
+      "link": "/projekte/bertelshofer",
+      "linkText": "mehr erfahren"
     },
     {
       "type": "divider",
