@@ -1,4 +1,6 @@
 # How To:
 
 - navigate into this project
-- run ```javascript var s = 0; ```
+- run ```javascript
+          var s = 0;
+      ```
