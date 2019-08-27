@@ -182,7 +182,7 @@ collections:
               - {label: Titel, name: title, widget: string}
               - {label: Image, name: src, widget: image}
               - {label: Text, name: text, widget: string, required: false}
-              - {label: Size, name: size, widget: select, options: ["portrait", "landscape", "panorama", "square"]}
+              - {label: Size, name: size, widget: select, options: ["portrait", "landscape", "panorama", "square", "small-square"]}
               - {label: Link, name: link, widget: string}
               - {label: Link Text, name: linkText, widget: string}
               - {label: Scale, name: scale, widget: select, options: ["normal", "small"], default: "normal", required: false}
@@ -222,7 +222,7 @@ collections:
               - {label: Text, name: text, widget: string, required: false}
               - {label: Image, name: src, widget: image}
               - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
-              - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
+              - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square", "small-square"]}
           - label: "RQ-035 BreadCrumb"
             name: "rq_035"
             widget: object
@@ -368,7 +368,7 @@ collections:
                       - {label: Text, name: text, widget: string, required: false}
                       - {label: Image, name: src, widget: image}
                       - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
-                      - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
+                      - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square", "small-square"]}
           - label: "RQ-093 Text with Card"
             name: "rq_093"
             widget: "object"
@@ -469,7 +469,7 @@ collections:
                       - {label: Text, name: text, widget: string, required: false}
                       - {label: Image, name: src, widget: image}
                       - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
-                      - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
+                      - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square", "small-square"]}
           - label: "RQ-094 Project Link"
             name: "rq_094"
             widget: "object"
@@ -577,4 +577,4 @@ collections:
                           - {label: Text, name: text, widget: string, required: false}
                           - {label: Image, name: src, widget: image}
                           - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
-                          - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
+                          - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square", "small-square"]}

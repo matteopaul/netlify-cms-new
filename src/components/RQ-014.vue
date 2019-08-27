@@ -28,7 +28,7 @@ export default {
   name: 'rq-014',
   props: {
     src: {
-      type: String
+      type: Object
     },
     options: {
       type: Array,

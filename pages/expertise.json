@@ -28,7 +28,7 @@
       "link": "/expertise/lifestyle"
     },
     {
-      "size": "square",
+      "size": "small-square",
       "src": "/uploads/Kosmonauten0073 625.jpg",
       "linkText": "mehr erfahren",
       "position": "vertical",
@@ -80,7 +80,7 @@
       "link": "/expertise/chemie"
     },
     {
-      "size": "square",
+      "size": "small-square",
       "src": "/uploads/Kosmonauten0073 625.jpg",
       "linkText": "mehr erfahren",
       "position": "vertical",

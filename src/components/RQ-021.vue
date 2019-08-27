@@ -24,7 +24,7 @@ export default {
       type: String
     },
     src: {
-      type: String
+      type: Object
     },
     text: {
       type: String,
@@ -64,6 +64,13 @@ export default {
     grid-column: span 12;
     grid-row: span 45;
     height: 720px;
+  }
+
+  .rq-021-container.small-square {
+    grid-column: span 5;
+    grid-row: span 35;
+    height: 560px;
+    width: 568px;
   }
 
   .rq-021-container.square {

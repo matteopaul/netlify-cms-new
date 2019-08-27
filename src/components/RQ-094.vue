@@ -15,7 +15,7 @@ export default {
   name: 'rq-094',
   props: {
     src: {
-      type: String
+      type: Object
     },
     title: {
       type: String

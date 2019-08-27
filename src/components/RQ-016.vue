@@ -22,7 +22,7 @@ export default {
   name: 'RQ-016',
   props: {
     src: {
-      type: String,
+      type: Object,
       required: false
     },
     path: {

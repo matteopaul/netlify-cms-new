@@ -67,26 +67,27 @@ query {
 
 <script type="text/javascript">
 import RQ_090 from '~/components/RQ-090.vue'
-    setTimeout(() => {
-      document.getElementsByClassName('menu-nav-close')[0].addEventListener('click', function() {
-        console.log("Click");
-        document.getElementsByClassName('menu')[0].style.width = "0px";
-      });
-      document.getElementsByClassName('header-nav')[0].addEventListener('click', () => {
-        console.log('click');
-        document.getElementsByClassName('menu')[0].style.width = "680px";
 
-      })
-      for(let i = 0; i < document.getElementsByClassName('menu-li').length; i++) {
-        document.getElementsByClassName('menu-li')[i].addEventListener('click', () => {
-          console.log('hi');
-          document.getElementsByClassName('menu')[0].style.width = "0px";
-        })
-      }
-  }, 200);
   export default {
     components: {
       RQ_090
+    },
+    mounted() {
+        document.getElementsByClassName('menu-nav-close')[0].addEventListener('click', function() {
+          console.log("Click");
+          document.getElementsByClassName('menu')[0].style.width = "0px";
+        });
+        document.getElementsByClassName('header-nav')[0].addEventListener('click', () => {
+          console.log('click');
+          document.getElementsByClassName('menu')[0].style.width = "680px";
+
+        })
+        for(let i = 0; i < document.getElementsByClassName('menu-li').length; i++) {
+          document.getElementsByClassName('menu-li')[i].addEventListener('click', () => {
+            console.log('hi');
+            document.getElementsByClassName('menu')[0].style.width = "0px";
+          })
+        }
     }
   }
 </script>

@@ -20,7 +20,7 @@ export default {
       type: String
     },
     src: {
-      type: String
+      type: Object
     },
     name: {
       type: String

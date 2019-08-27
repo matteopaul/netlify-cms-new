@@ -12,7 +12,7 @@
 export default {
   name: 'RQ-013',
   props: {
-    src: String,
+    src: Object,
     title: String,
     buttonText: String
   }
