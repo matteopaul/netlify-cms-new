@@ -136,6 +136,19 @@
       "link": "/projekte/gda"
     },
     {
+      "size": "portrait",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Jetzt wird's persönlich und emotional! Käufer sehnen sich nach Lifestyle- Produkten mit genau diesen Attributen. Und welche Assoziationen weckt der Onlineshop?",
+      "attr": [
+        "automotive"
+      ],
+      "title": "Bertelshofer",
+      "type": "rq_015",
+      "link": "/projekte/bertelshofer"
+    },
+    {
       "type": "divider",
       "height": 1
     }

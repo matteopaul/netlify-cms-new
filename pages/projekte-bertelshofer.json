@@ -1,0 +1,169 @@
+{
+  "title": "Bertelshofer",
+  "url": "/projekte/bertelshofer",
+  "contents": [
+    {
+      "type": "rq_016",
+      "title": "Lucky Bike",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt",
+      "src": "/uploads/Kosmonauten0073 625.jpg"
+    },
+    {
+      "type": "rq_008",
+      "title": "Über das Projekt",
+      "size": "H2"
+    },
+    {
+      "type": "rq_011",
+      "title": "Fakten",
+      "text": "Lucky Bike mit Sitz in Bielefeld verkauft Fahrräder. Neben den 27 Filialen in ganz Fahrräder günstig.",
+      "count": 4
+    },
+    {
+      "type": "rq_011",
+      "title": "Aufgabe",
+      "text": "Lucky Bike mit Sitz in Bielefeld verkauft Fahrräder. Neben den 27 Filialen in ganz Fahrräder günstig.",
+      "count": 4
+    },
+    {
+      "type": "rq_011",
+      "title": "Lösung",
+      "text": "Lucky Bike mit Sitz in Bielefeld verkauft Fahrräder. Neben den 27 Filialen in ganz Fahrräder günstig.",
+      "count": 4
+    },
+    {
+      "type": "rq_011",
+      "title": "Ergebnis",
+      "text": "Lucky Bike mit Sitz in Bielefeld verkauft Fahrräder. Neben den 27 Filialen in ganz Fahrräder günstig.",
+      "count": 4
+    },
+    {
+      "type": "rq_021",
+      "title": "STage img",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "size": "panorama"
+    },
+    {
+      "type": "rq_091",
+      "text": "\"Lucky Bike mit Sitz in Bielefeld verkauft Fahrräder. Neben den 27 Filialen in ganz Fahrräder günstig.\"",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "name": "Sergey Kosyrev",
+      "description": "Head of E-Commerce - Lucky Bike GmbH"
+    },
+    {
+      "type": "rq_007",
+      "title": "about",
+      "contents": [
+        {
+          "type": "header",
+          "title": "Über das Projekt"
+        },
+        {
+          "type": "text",
+          "title": "desc",
+          "md": "Lucky Bike mit Sitz in Bielefeld verkauft Fahrräder. Neben den 27 Filialen in ganz Fahrräder günstig."
+        }
+      ]
+    },
+    {
+      "type": "rq_021",
+      "title": "screens",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "size": "panorama"
+    },
+    {
+      "type": "rq_008",
+      "title": "Unsere Leistungen in diesem Projekt",
+      "size": "H2"
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "icon",
+          "src": "/uploads/Information-Point-Creation.svg"
+        },
+        {
+          "type": "bulletList",
+          "options": [
+            "Fachkonzept",
+            "Multichannel-Strategie",
+            "Content-Konzept",
+            "E-Commerce-Strategie",
+            "Plattform-Strategie",
+            "Informationsarchitektur"
+          ],
+          "checked": false,
+          "title": "Define"
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "icon",
+          "src": "/uploads/information-point-system.svg"
+        },
+        {
+          "type": "bulletList",
+          "title": "Design",
+          "checked": false,
+          "options": [
+            "UI Prototyping",
+            "UX / UI Design",
+            "3D Rendering",
+            "Interaktiver Styleguide"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "icon",
+          "src": "/uploads/information-point-branchen.svg"
+        },
+        {
+          "type": "bulletList",
+          "title": "Develop",
+          "checked": false,
+          "options": [
+            "Setup Hostsystem",
+            "Setup Shopsystem",
+            "Frontend-Entwicklung",
+            "Modul-Entwicklung",
+            "Backend-Entwicklung",
+            "Schnittstellen-Entwicklung"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "icon",
+          "src": "/uploads/information-point-rocket.svg"
+        },
+        {
+          "type": "bulletList",
+          "title": "Drive",
+          "checked": false,
+          "options": [
+            "Testplan",
+            "DevOps",
+            "Inhilfe-Management",
+            "SEO / SEM",
+            "Consulting"
+          ]
+        }
+      ]
+    }
+  ]
+}

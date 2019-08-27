@@ -29,6 +29,101 @@
       "title": "Artikel 1",
       "type": "rq_015",
       "link": "/insights/artikel-1"
+    },
+    {
+      "size": "small-square",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Artikel 2",
+      "type": "rq_015",
+      "link": "/insights/artikel-2"
+    },
+    {
+      "size": "portrait",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Artikel 3",
+      "type": "rq_015",
+      "link": "/insights/artikel-3"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Artikel 4",
+      "type": "rq_015",
+      "link": "/insights/artikel-4"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Artikel 5",
+      "type": "rq_015",
+      "link": "/insights/artikel-5"
+    },
+    {
+      "size": "small-square",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Artikel 6",
+      "type": "rq_015",
+      "link": "/insights/artikel-6"
+    },
+    {
+      "size": "portrait",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Artikel 7",
+      "type": "rq_015",
+      "link": "/insights/artikel-7"
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Artikel 8",
+      "type": "rq_015",
+      "link": "/insights/artikel-8"
+    },
+    {
+      "type": "divider",
+      "height": 1
     }
   ]
 }
