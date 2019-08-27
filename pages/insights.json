@@ -7,7 +7,28 @@
       "title": "New Horizons",
       "text": "\"Wir denken in Business-Modellen und unterstützen mit tiefgreifender Branchenkompetenz aus über 200 Projekten.\"",
       "src": "/uploads/asset-teaser-team.jpg"
-
+    },
+    {
+      "type": "rq_037",
+      "title": "attr1",
+      "attrType": "projects"
+    },
+    {
+      "type": "divider",
+      "height": 1
+    },
+    {
+      "size": "landscape",
+      "src": "/uploads/Kosmonauten0073 625.jpg",
+      "linkText": "mehr details",
+      "position": "vertical",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+      "attr": [
+        "lifestyle"
+      ],
+      "title": "Artikel 1",
+      "type": "rq_015",
+      "link": "/insights/artikel-1"
     }
   ]
 }
