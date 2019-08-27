@@ -93,18 +93,12 @@
       ]
     },
     {
-      "type": "rq_021",
-      "title": "Agency",
-      "src": "/uploads/_73B1921.jpg",
-      "size": "square"
+      "type": "map",
+      "size": "large"
     },
     {
       "type": "divider",
       "height": 2
-    },
-    {
-      "type": "map",
-      "size": "large"
     }
   ]
 }
