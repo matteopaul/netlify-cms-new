@@ -13,6 +13,11 @@ module.exports = function (api) {
       })
       let node = JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file));
       node["id"] = random_id();
+
+      if(node.hasOwnProperty('src')){
+        console.log(typeof path.join(__dirname, 'static/' + node.src));
+        node.src = path.join(__dirname, 'static/' + node.src);
+      }
       contentTypes[currentName].addNode(node);
     })
 
@@ -56,6 +61,10 @@ module.exports = function (api) {
           let items = [];
           currentData.contents.forEach(function(item) {
             item["id"] = random_id();
+            if(item.hasOwnProperty('src')){
+              console.log(typeof path.join(__dirname, 'static/' + item.src));
+              item.src = path.join(__dirname, 'static/' + item.src);
+            }
             let node = store.createReference(contentTypes[item.type].addNode(item));
             items.push(node);
           });

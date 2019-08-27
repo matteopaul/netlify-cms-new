@@ -8,7 +8,7 @@ public_folder: "/uploads"
 
 collections:
   - name: "pageStructure"
-    label: "Pages"
+    label: "Page"
     folder: "pages"
     create: true
     identifier_field: "title"
@@ -578,49 +578,3 @@ collections:
                           - {label: Image, name: src, widget: image}
                           - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
                           - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square"]}
-  - name: "pageContent"
-    label: "Page Content"
-    create: true
-    identifier_field: "title"
-    folder: "pageContents"
-    slug: "{{type}}-{{slug}}"
-    extension: "json"
-    fields:
-      - label: "Type:"
-        name: "type"
-        widget: "select"
-        options:
-          - {label: "Main Stage", value: "stageContentType"}
-          - {label: "Promotion Banner", value: "promotionBannerContentType"}
-          - {label: "Stage Banner", value: "stageBannerContentType"}
-          - {label: "Quote", value: "quoteContentType"}
-          - {label: "Header", value: "headerContentType"}
-          - {label: "Rich Text", value: "textContentType"}
-          - {label: "Bullet List", value: "bulletListContentType"}
-          - {label: "Text with Icon", value: "textWithIconContentType"}
-          - {label: "Image", value: "imageContentType"}
-          - {label: "Card", value: "cardContentType"}
-          - {label: "Content Teaser", value: "contentTeaserContentType"}
-          - {label: "Attribute Filter", value: "attributeFilterContentType"}
-          - {label: "Text with Card", value: "textWithCardContentType"}
-          - {label: "Category Banner", value: "categoryBannerContentType"}
-          - {label: "Text in Columns", value: "textInColumnsContentType"}
-      - label: "Title:"
-        name: "title"
-        widget: "string"
-      - label: "Source:"
-        name: "src"
-        widget: "file"
-        required: false
-      - label: "Button Inhalt"
-        name: "buttonText"
-        widget: "string"
-        required: false
-      - label: "Alternativtext:"
-        name: "alt"
-        widget: "string"
-        required: false
-      - label: "Textinhalt"
-        name: "text"
-        widget: "markdown"
-        required: false

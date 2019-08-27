@@ -52,7 +52,14 @@ export default {
 
 <style>
   .rq-021-container {
+
   }
+
+  .rq-021-image {
+    object-fit: cover;
+
+  }
+
   .rq-021-container.panorama {
     grid-column: span 12;
     grid-row: span 45;
@@ -109,11 +116,11 @@ export default {
     max-width: 500px;
   }
 
-  .rq-021-container:not(.small):nth-child(2n) {
+  .rq-015-container .rq-021-container:not(.small.horizontal):nth-child(2n) {
     padding-left: 120px;
   }
 
-  .rq-021-container:not(.small):nth-child(2n -1) {
+  .rq-015-container .rq-021-container:not(.small.horizontal):nth-child(2n -1) {
     padding-left: 120px;
   }
 

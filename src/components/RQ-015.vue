@@ -91,8 +91,14 @@ export default {
 
 <style>
 
-.rq-015-container.vertical:nth-child(2n-1) {
+.rq-015-container.vertical.portrait:nth-child(2n-1) {
   grid-column: span 6;
+  padding-right: 240px;
+}
+
+.rq-015-container.vertical.portrait:nth-child(2n) {
+  grid-column: span 6;
+  padding-left: 240px;
 }
 
 .rq-015-container.vertical.portrait:nth-of-type(2n-1) {
