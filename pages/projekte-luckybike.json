@@ -98,6 +98,72 @@
           "title": "Define"
         }
       ]
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "icon",
+          "src": "/uploads/information-point-system.svg"
+        },
+        {
+          "type": "bulletList",
+          "title": "Design",
+          "checked": false,
+          "options": [
+            "UI Prototyping",
+            "UX / UI Design",
+            "3D Rendering",
+            "Interaktiver Styleguide"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "icon",
+          "src": "/uploads/information-point-branchen.svg"
+        },
+        {
+          "type": "bulletList",
+          "title": "Develop",
+          "checked": false,
+          "options": [
+            "Setup Hostsystem",
+            "Setup Shopsystem",
+            "Frontend-Entwicklung",
+            "Modul-Entwicklung",
+            "Backend-Entwicklung",
+            "Schnittstellen-Entwicklung"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rq_092",
+      "color": "white",
+      "content": [
+        {
+          "type": "icon",
+          "src": "/uploads/information-point-rocket.svg"
+        },
+        {
+          "type": "bulletList",
+          "title": "Drive",
+          "checked": false,
+          "options": [
+            "Testplan",
+            "DevOps",
+            "Inhilfe-Management",
+            "SEO / SEM",
+            "Consulting"
+          ]
+        }
+      ]
     }
   ]
 }
