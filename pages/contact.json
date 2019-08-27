@@ -6,7 +6,6 @@
       "type": "rq_016",
       "title": "Bist du bereit für die Ultimative Beratung deines Lebens?",
       "text": "\"Wir denken in Business-Modellen und unterstützen mit tiefgreifender Branchenkompetenz aus über 200 Projekten.\""
-
     },
     {
       "type": "contact",
@@ -102,6 +101,10 @@
     {
       "type": "divider",
       "height": 2
+    },
+    {
+      "type": "map",
+      "size": "large"
     }
   ]
 }
