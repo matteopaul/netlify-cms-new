@@ -1,7 +1,8 @@
 # How To:
 
 - navigate into this project
-- run ```javascript
+- run
+```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
