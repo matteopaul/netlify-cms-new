@@ -82,9 +82,6 @@ module.exports = function (api) {
             if(item.hasOwnProperty('src')){
               item.src = path.join(__dirname, 'static/' + item.src);
             }
-            if(item.hasOwnProperty('overlayImage')){
-              item.overlayImage = path.join(__dirname, 'static/' + item.overlayImage);
-            }
             if(item.hasOwnProperty('textWithIcon')) {
               for(i in item.textWithIcon) {
                 item.textWithIcon[i].icon = path.join(__dirname, 'static/' + item.textWithIcon[i].icon);
@@ -255,7 +252,6 @@ module.exports = function (api) {
         src
         text
         width
-        overlayImage
       }
 
       fragment image on rq_021 {
