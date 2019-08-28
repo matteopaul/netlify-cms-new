@@ -70,7 +70,7 @@
       "cards": [
         {
           "color": "white",
-          "content": [
+          "contents": [
             {
               "type": "image",
               "title": "dsadad",
@@ -82,7 +82,7 @@
         },
         {
           "color": "white",
-          "content": [
+          "contents": [
             {
               "type": "image",
               "title": "asdasds",
@@ -93,7 +93,7 @@
         },
         {
           "color": "white",
-          "content": [
+          "contents": [
             {
               "type": "image",
               "title": "adssads",

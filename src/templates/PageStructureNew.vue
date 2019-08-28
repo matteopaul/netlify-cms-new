@@ -17,12 +17,13 @@
       <Divider v-if="content.type == 'divider'" :size="content.height"/>
       <RQ_090 v-if="content.type == 'rq_090'" v-bind:options="content.options" :text="content.text" :title="content.title" :checked="content.checked"/>
       <RQ_091 v-if="content.type == 'rq_091'" :text="content.text" :src="content.src" :name="content.name" :description="content.description" />
-      <RQ_092 v-if="content.type == 'rq_092'" v-bind:attr="content.attr" v-bind:contents="content.content" :color="content.color" />
+      <RQ_092 v-if="content.type == 'rq_092'" v-bind:attr="content.attr" v-bind:contents="content.contents" :color="content.color" />
       <RQ_093 v-if="content.type == 'rq_093'" v-bind:cardContents="content.cardContents" :cardColor="content.cardColor" :mdBackground="content.mdBackground" v-bind:mdContents="content.mdContents" />
       <RQ_094 v-if="content.type == 'rq_094'" :src="content.src" :title="content.title" :text="content.text" :href="content.href" :linkText="content.linkText" />
       <RQ_095 v-if="content.type == 'rq_095'" :title="content.title" v-bind:content="content.stages" />
       <CardSlider v-if="content.type == 'cardSlider'" :title="content.title" v-bind:content="content.cards" />
       <Contact v-if="content.type == 'contact'"/>
+      <Map v-if="content.type == 'map'" :size="content.size"/>
     </template>
   </Layout>
 </template>
@@ -50,6 +51,7 @@ import RQ_095 from '~/components/RQ-095.vue';
 import Divider from '~/components/Divider.vue';
 import CardSlider from '~/components/CardSlider.vue';
 import Contact from '~/components/Contact.vue';
+import Map from '~/components/Map.vue';
 
 export default {
   components: {
@@ -74,7 +76,8 @@ export default {
     RQ_095,
     Divider,
     CardSlider,
-    Contact
+    Contact,
+    Map
   },
   metaInfo () {
     return {

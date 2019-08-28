@@ -2,9 +2,11 @@ const path = require('path');
 const fs = require('fs');
 const pagesPath = path.join(__dirname, "pages");
 const contentTypes = {};
+const axios = require('axios');
 
 module.exports = function (api) {
-  api.loadSource(store => {
+  api.loadSource(async store => {
+    const { data } = await axios.get('https://maps.googleapis.com/maps/api/js?key=AIzaSyB9AJZxIbEEe8FL1VZtb0Zxly7k1s8rGqQ&callback=initMap');
 
     fs.readdirSync(path.join(__dirname, "dynamicContentTypes")).forEach(function(file) {
       let currentName = file.split('.')[0];
@@ -15,9 +17,21 @@ module.exports = function (api) {
       node["id"] = random_id();
 
       if(node.hasOwnProperty('src')){
-        console.log(typeof path.join(__dirname, 'static/' + node.src));
         node.src = path.join(__dirname, 'static/' + node.src);
       }
+      if(node.hasOwnProperty('textWithIcon')) {
+        for(i in node.textWithIcon) {
+          node.textWithIcon[i].icon = path.join(__dirname, 'static/' + node.textWithIcon[i].icon);
+        }
+      }
+      if(node.hasOwnProperty('contents')){
+        for(let i = 0; i < Object.values(node.contents).length; i++) {
+          if(Object.keys(Object.values(node.contents)[i]).includes("src")) {
+            node.contents[i].src = path.join(__dirname, 'static/' + node.contents[i].src);
+          }
+        }
+      }
+
       contentTypes[currentName].addNode(node);
     })
 
@@ -50,7 +64,8 @@ module.exports = function (api) {
         store.createReference(contentTypes["cardSlider"].findNode()),
         store.createReference(contentTypes["divider"].findNode()),
         store.createReference(contentTypes["contact"].findNode()),
-        store.createReference(contentTypes["profile_card"].findNode())
+        store.createReference(contentTypes["profile_card"].findNode()),
+        store.createReference(contentTypes["map"].findNode())
       ]
     })
     store.createReference(contentTypes["rq_014"].findNodes()[0].lists.push(store.createReference(contentTypes["rq_090"].findNode())));
@@ -62,19 +77,30 @@ module.exports = function (api) {
           currentData.contents.forEach(function(item) {
             item["id"] = random_id();
             if(item.hasOwnProperty('src')){
-              console.log(typeof path.join(__dirname, 'static/' + item.src));
               item.src = path.join(__dirname, 'static/' + item.src);
+            }
+            if(item.hasOwnProperty('textWithIcon')) {
+              for(i in item.textWithIcon) {
+                item.textWithIcon[i].icon = path.join(__dirname, 'static/' + item.textWithIcon[i].icon);
+              }
+            }
+            if(item.hasOwnProperty('contents')){
+              for(let i = 0; i < Object.values(item.contents).length; i++) {
+                if(Object.keys(Object.values(item.contents)[i]).includes("src")) {
+                  item.contents[i].src = path.join(__dirname, 'static/' + item.contents[i].src);
+                }
+              }
             }
             let node = store.createReference(contentTypes[item.type].addNode(item));
             items.push(node);
           });
-          console.log(currentData.url);
           pages.addNode({
             path: currentData.url,
             id: currentData.id,
             title: currentData.title,
             contents: items,
-            url: currentData.url
+            url: currentData.url,
+            map: data
           })
     });
     function random_id() {
@@ -114,10 +140,16 @@ module.exports = function (api) {
                 ...slider
                 ...contact
                 ...profilecard
+                ...map
               }
             }
           }
         }
+      }
+
+      fragment map on map {
+        type
+        size
       }
 
       fragment profilecard on profile_card {
@@ -266,7 +298,7 @@ module.exports = function (api) {
         type
         color
         attr
-        content {
+        contents {
           type
           text
           src
@@ -330,7 +362,7 @@ module.exports = function (api) {
         type
         cards {
           color
-          content {
+          contents {
             type
             text
             src
@@ -360,7 +392,6 @@ module.exports = function (api) {
 
 
     data.data.page.edges.forEach(({node}) => {
-      console.log(node.url);
       createPage({
         path: `/${node.url}`,
         component: './src/templates/PageStructureNew.vue',

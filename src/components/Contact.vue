@@ -43,17 +43,6 @@ export default {
   components: {
     RQ_092,
     RQ_008
-  },
-  computed: {
-    style() {
-      setTimeout(() => {
-        let contactForm = document.getElementsByClassName('contact-container')[0];
-        let banner = document.getElementsByClassName('rq-016-container')[0];
-        if(contactForm && banner) {
-          banner.classList.add('contact');
-        }
-      }, 200);
-    }
   }
 }
 </script>

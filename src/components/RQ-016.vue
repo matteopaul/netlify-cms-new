@@ -52,13 +52,29 @@ export default {
     height: 720px;
   }
 
-  /* .rq-016-container.contact {
+  .rq-016-container.contact {
     grid-column: span 6;
+    width: 688px;
+  }
+
+  .rq-016-container:not(.contact) .overlay-image.size--lg {
+    top: 0;
+    left: 0;
+    transform: scale(1) rotateZ(0deg);
+    transition-duration: 0.25s;
+  }
+
+  .rq-016-container.contact .overlay-image.size--lg {
+    transition-duration: 1.2s;
+    transform: scale(1.5) rotateZ(200deg);
+    left: -70%;
+    top: -40%;
   }
 
   .rq-016-container.contact .rq-016-content {
-    max-width: 700px;
-  } */
+    top: 200px;
+    width: 700px;
+  }
 
   .rq-016-text {
     color: var(--white);
@@ -92,6 +108,7 @@ export default {
     height: 734px;
     top: 0;
     left: 0;
+    transform: scale(1) rotateZ(0deg);
   }
 
   .rq-016-content {

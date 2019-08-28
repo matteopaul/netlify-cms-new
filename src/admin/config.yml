@@ -279,7 +279,7 @@ collections:
                 required: false
                 field: {label: Option, name: option, widget: string}
               - label: "Content"
-                name: "content"
+                name: "contents"
                 widget: "list"
                 types:
                   - label: "Headline"
@@ -514,7 +514,7 @@ collections:
                 fields:
                   - {label: Color, name: color, widget: select, options: ["gray", "copper", "white", "light-gray"]}
                   - label: "Content"
-                    name: "content"
+                    name: "contents"
                     widget: "list"
                     types:
                       - label: "Headline"
@@ -578,3 +578,11 @@ collections:
                           - {label: Image, name: src, widget: image}
                           - {label: Position, name: position, widget: select, options: ["left", "right", "top", "bottom"], required: false}
                           - {label: Size, name: size, widget: select, options: ["portrait", "panorama", "landscape", "square", "small-square"]}
+          - label: "Map"
+            name: "map"
+            widget: "object"
+            fields:
+              - label: "Size"
+                name: "size"
+                widget: "select"
+                options: ["small", "large"]

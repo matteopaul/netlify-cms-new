@@ -3,7 +3,7 @@
       <h2 class="rq-067-title" v-html="title"/>
       <p class="size--lg" v-html="text" />
       <input type="text" placeholder="E-MAIL ADRESSE" v-if="dropdown.length > 0">
-      <select class="rq-067-select" v-if="dropdown.length > 0">
+      <select class="rq-067-select" v-if="dropdown.length > 0" @change="updateSelection">
           <option v-for="option in dropdown" v-html="option" :value="option.dropOption"/>
       </select>
       <button type="button" v-if="dropdown.length == 0" class="rq-067-button telephone" onclick="window.open('tel:004952425880765765124');">+49 5242 588 0124 <g-image src="~/assets/svg/Information-Point-Branchen.svg" /> </button>
@@ -12,6 +12,16 @@
 </template>
 
 <script>
+let currentOption = "fashion";
+
+function getSelectedOption(object) {
+  for(let i = 0; i < object.getElementsByTagName('option').length; i++) {
+    if(object.getElementsByTagName('option')[i].selected == true) {
+      return object.getElementsByTagName('option')[i];
+    }
+  }
+}
+
 export default {
   name: 'rq-067',
   props: {
@@ -24,6 +34,22 @@ export default {
     dropdown: {
       type: Array,
       required: false
+    }
+  },
+  methods: {
+    updateSelection(api) {
+        api.createManagedPages(async ({ findPages, graphql }) => {
+          const page = findPages(await graphql(`
+              query page(url: "/kontakt") {
+                title
+                context
+              }
+          `))
+          console.log(page);
+        })
+      currentOption = getSelectedOption(document.getElementsByClassName('rq-067-select')[0]).innerHTML;
+      console.log(api);
+      console.log(currentOption);
     }
   }
 }

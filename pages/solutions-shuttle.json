@@ -22,7 +22,7 @@
     {
       "type": "rq_092",
       "color": "white",
-      "content": [
+      "contents": [
         {
           "type": "bulletList",
           "title": "Plenty-to-Shop",
@@ -38,7 +38,7 @@
     {
       "type": "rq_092",
       "color": "white",
-      "content": [
+      "contents": [
         {
           "type": "bulletList",
           "title": "ERP-to-Plenty",
@@ -54,7 +54,7 @@
     {
       "type": "rq_092",
       "color": "white",
-      "content": [
+      "contents": [
         {
           "type": "bulletList",
           "title": "Plenty-to-AMZ Vendor",
@@ -70,7 +70,7 @@
     {
       "type": "rq_092",
       "color": "white",
-      "content": [
+      "contents": [
         {
           "type": "bulletList",
           "title": "Plenty-to-AMZ Vendor",

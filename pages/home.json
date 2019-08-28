@@ -67,7 +67,7 @@
     {
       "type": "rq_092",
       "color": "light-gray",
-      "content": [
+      "contents": [
         {
           "type": "image",
           "size": "landscape",
@@ -92,7 +92,7 @@
     {
       "type": "rq_092",
       "color": "light-gray",
-      "content": [
+      "contents": [
         {
           "type": "image",
           "title": "bild2",
@@ -117,7 +117,7 @@
     {
       "type": "rq_092",
       "color": "light-gray",
-      "content": [
+      "contents": [
         {
           "type": "image",
           "title": "bild3",
