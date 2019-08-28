@@ -19,6 +19,9 @@ module.exports = function (api) {
       if(node.hasOwnProperty('src')){
         node.src = path.join(__dirname, 'static/' + node.src);
       }
+      if(node.hasOwnProperty('overlayImage')){
+        node.overlayImage = path.join(__dirname, 'static/' + node.overlayImage);
+      }
       if(node.hasOwnProperty('textWithIcon')) {
         for(i in node.textWithIcon) {
           node.textWithIcon[i].icon = path.join(__dirname, 'static/' + node.textWithIcon[i].icon);
@@ -78,6 +81,9 @@ module.exports = function (api) {
             item["id"] = random_id();
             if(item.hasOwnProperty('src')){
               item.src = path.join(__dirname, 'static/' + item.src);
+            }
+            if(item.hasOwnProperty('overlayImage')){
+              item.overlayImage = path.join(__dirname, 'static/' + item.overlayImage);
             }
             if(item.hasOwnProperty('textWithIcon')) {
               for(i in item.textWithIcon) {
@@ -248,6 +254,8 @@ module.exports = function (api) {
         title
         src
         text
+        width
+        overlayImage
       }
 
       fragment image on rq_021 {

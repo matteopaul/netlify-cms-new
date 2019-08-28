@@ -1,5 +1,5 @@
 <template>
-  <div class="rq-016-container">
+  <div class="rq-016-container" :class="classes">
     <g-image v-if="src" :src="src" class="preview-image" />
     <g-image v-if="src" src="/uploads/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="overlay-image size--md"/>
     <g-image v-if="!src" src="/uploads/svg/Kosmonaut-Blob-Gray.svg" type="image/svg+xml" class="overlay-image size--lg"/>
@@ -25,6 +25,13 @@ export default {
       type: Object,
       required: false
     },
+    overlayImage: {
+      type: Object,
+    },
+    width: {
+      type: String,
+      required: false
+    },
     path: {
       type: String,
       required: false
@@ -38,6 +45,15 @@ export default {
   },
   components: {
     RQ_035
+  },
+  computed: {
+    classes() {
+      if(this.width && this.width == "small") {
+        return "contact"
+      } else {
+        return false;
+      }
+    }
   }
 }
 </script>
