@@ -1,8 +1,8 @@
 <template>
   <div class="rq-016-container" :class="classes">
     <g-image v-if="src" :src="src" class="preview-image" />
-    <g-image v-if="src" src="/uploads/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="overlay-image size--md"/>
-    <g-image v-if="!src" src="/uploads/svg/Kosmonaut-Blob-Gray.svg" type="image/svg+xml" class="overlay-image size--lg"/>
+    <g-image v-if="src" src="~/assets/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="overlay-image size--md"/>
+    <g-image v-if="!src" src="~/assets/svg/Kosmonaut-Blob-Gray.svg" type="image/svg+xml" class="overlay-image size--lg"/>
     <div class="rq-016-content no-image" v-if="!src">
       <RQ_035 :path="path" />
       <h1 v-html="title" class="rq-016-headline" />
@@ -58,14 +58,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
   .rq-016-container {
     position: relative;
-    place-self: center;
+    // place-self: center; -> Working Draft ... nicht nutzen
     grid-column: 1 / 13;
     grid-row: span 45;
-    width: 1600px;
-    height: 720px;
+    xwidth: 1600px;
+    xheight: 720px;
   }
 
   .rq-016-container.contact {

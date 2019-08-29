@@ -1,0 +1,11 @@
+%typo-h1-heading {
+  @include media-breakpoint-down(xs) {
+    font-size: 36px;
+  }
+  @include media-breakpoint-between(s, m) {
+    font-size: 54px;
+  }
+  @include media-breakpoint-up(l) {
+    font-size: 72px;
+  }
+}

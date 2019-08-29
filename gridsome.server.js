@@ -97,6 +97,9 @@ module.exports = function (api) {
             if (Object.keys(Object.values(item.contents)[i]).includes('src')) {
               item.contents[i].src = path.join(__dirname, 'static/' + item.contents[i].src);
             }
+            if (Object.keys(Object.values(item.contents)[i]).includes('overlayImage')) {
+              item.contents[i].overlayImage = path.join(__dirname, 'static/' + item.contents[i].src);
+            }
           }
         }
 
