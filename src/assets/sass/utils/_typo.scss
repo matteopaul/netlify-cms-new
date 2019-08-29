@@ -1,11 +1,159 @@
-%typo-h1-heading {
+@font-face {
+  font-family: 'Gotham-Medium';
+  font-style: normal;
+  src: url('~@/assets/Gotham-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  font-style: italic;
+  src: url('~@/assets/Gotham-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Sentinel-Book';
+  src: url('~@/assets/Sentinel-Book.otf'); // TODO: use ttf
+  font-weight: normal;
+}
+
+%typo-h1 {
+  font-family: 'Gotham-Medium';
+  font-weight: normal;
+  font-style: normal;
+  color: $color--midnight;
+
   @include media-breakpoint-down(xs) {
-    font-size: 36px;
+    font-size: 48px;
+    line-height: 48px;
   }
   @include media-breakpoint-between(s, m) {
-    font-size: 54px;
+    font-size: 48px;
+    line-height: 48px;
   }
   @include media-breakpoint-up(l) {
-    font-size: 72px;
+    font-size: 56px;
+    line-height: 56px;
+  }
+}
+
+%typo-h2 {
+  font-family: 'Gotham-Medium';
+  font-weight: normal;
+  font-style: normal;
+  color: $color--midnight;
+
+  @include media-breakpoint-down(xs) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  @include media-breakpoint-between(s, m) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  @include media-breakpoint-up(l) {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+
+%typo-h3 {
+  font-family: 'Sentinel-Book';
+  font-weight: normal;
+  font-style: normal;
+  color: $color--dark;
+
+  @include media-breakpoint-down(xs) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  @include media-breakpoint-between(s, m) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  @include media-breakpoint-up(l) {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+%typo-p--large {
+  font-family: 'Sentinel-Book';
+  font-weight: normal;
+  font-style: normal;
+  color: $color--dark;
+
+  @include media-breakpoint-down(xs) {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  @include media-breakpoint-between(s, m) {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  @include media-breakpoint-up(l) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+%typo-p--regular {
+  font-family: 'Sentinel-Book';
+  font-weight: normal;
+  font-style: normal;
+  color: $color--dark;
+
+  @include media-breakpoint-down(xs) {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  @include media-breakpoint-between(s, m) {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  @include media-breakpoint-up(l) {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+%typo-p--small {
+  font-family: 'Sentinel-Book';
+  font-weight: normal;
+  font-style: normal;
+  color: $color--dark;
+
+  @include media-breakpoint-down(xs) {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  @include media-breakpoint-between(s, m) {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  @include media-breakpoint-up(l) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+%typo-label {
+  font-family: 'Gotham-Medium';
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 1px;
+  color: $color--gray;
+  text-transform: uppercase;
+
+  @include media-breakpoint-down(xs) {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  @include media-breakpoint-between(s, m) {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  @include media-breakpoint-up(l) {
+    font-size: 14px;
+    line-height: 14px;
   }
 }

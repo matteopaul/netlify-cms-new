@@ -28,7 +28,8 @@
     "style-resources-loader": "^1.2.1"
   },
   "devDependencies": {
-    "normalize.css": "^8.0.0"
+    "normalize.css": "^8.0.0",
+    "body-scroll-lock": "^2.6.4"
   },
   "browserslist": [
     "last 4 versions",

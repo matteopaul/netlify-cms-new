@@ -1,81 +1,11 @@
 <template>
     <div class="layout">
-        <header class="header">
-            <g-link to="/">
-                <g-image src="~/assets/img/Kosmonaut-Logo-Color@2x.png" class="header-logo"/>
-            </g-link>
-            <nav class="nav">
-                <div class="header-nav">
-                    <div class="header-nav-span"/>
-                </div>
-            </nav>
-        </header>
-        <div class="menu">
-            <div class="menu-nav">
-                <g-image src="/uploads/arrow-button_link-white.svg" class="menu-nav-close"/>
-            </div>
-            <div class="menu-list">
-                <li class="menu-li">
-                    <g-link to="/expertise">Expertise</g-link>
-                </li>
-                <li class="menu-li">
-                    <g-link to="/mission">Mission</g-link>
-                </li>
-                <li class="menu-li">
-                    <g-link to="/leistungen">Leistungen</g-link>
-                </li>
-                <li class="menu-li">
-                    <g-link to="/solutions">Solutions</g-link>
-                </li>
-                <li class="menu-li">
-                    <g-link to="/insights">Insights</g-link>
-                </li>
-                <li class="menu-li">
-                    <g-link to="/agentur">Agentur</g-link>
-                </li>
-                <li class="menu-li">
-                    <g-link to="/projekte">Projekte</g-link>
-                </li>
-                <li class="menu-li">
-                    <g-link to="/partner">Partner</g-link>
-                </li>
-                <li class="menu-li">
-                    <g-link to="/kontakt">Kontakt</g-link>
-                </li>
-            </div>
-            <div class="menu-footer">
-                <p class="size--sm">
-                    <g-link to="/impressum">Impressum</g-link>
-                    <g-link to="/datenschutz">Datenschutz</g-link>
-                    <g-link to="/agb">AGB</g-link>
-                </p>
-            </div>
-        </div>
-
-        <slot id="main-content"/>
-        <div class="footer">
-            <div class="footer-content">
-                <div class="footer-content-headline">
-                    <h3>Sie haben ein Projekt dollar sans de Sola connar?</h3>
-                    <g-link to="/kontakt" class="label">Kontaktieren</g-link>
-                </div>
-
-                <RQ_090 title="office"
-                        v-bind:options="['Kosmonaut GmbH Co. KG', 'Nickelstraße Nr. 1a', '33378 Rheda-Wiedenbrück']"/>
-                <RQ_090 title="sitemap" v-bind:options="['Leistungen', 'Cases', 'Kontakt', 'AGB', 'Datenschutz']"/>
-                <p class="label">Kosmonaut im Netz</p>
-                <g-image src="~/assets/img/Kosmonaut-Logo-White.png"/>
-                <div class="footer-nav">
-
-                    <g-link to="/impressum">Impressum</g-link>
-                    <g-link to="/datenschutz">Datenschutz</g-link>
-                    <g-link to="/agb">AGB</g-link>
-                </div>
-            </div>
-
-        </div>
+        <Header></Header>
+        <main>
+            <slot id="main-content"/>
+        </main>
+        <Footer></Footer>
     </div>
-
 </template>
 
 <static-query>
@@ -87,25 +17,15 @@
 </static-query>
 
 <script type="text/javascript">
-import RQ_090 from '~/components/RQ-090.vue';
+import Header from '~/components/layout/Header.vue';
+import Footer from '~/components/layout/Footer.vue';
 
 export default {
   components: {
-    RQ_090
+    Header,
+    Footer
   },
   mounted () {
-    document.getElementsByClassName('menu-nav-close')[0].addEventListener('click', function () {
-      document.getElementsByClassName('menu')[0].style.width = '0px';
-    });
-    document.getElementsByClassName('header-nav')[0].addEventListener('click', () => {
-      document.getElementsByClassName('menu')[0].style.width = '680px';
-
-    });
-    for (let i = 0; i < document.getElementsByClassName('menu-li').length; i++) {
-      document.getElementsByClassName('menu-li')[i].addEventListener('click', () => {
-        document.getElementsByClassName('menu')[0].style.width = '0px';
-      });
-    }
   }
 };
 </script>
@@ -159,224 +79,19 @@ export default {
     /*################################################*/
     /*################################################*/
 
-    .layout {
+    .layout > main {
         display: grid;
         grid-auto-rows: minmax(8px, auto);
         grid-column-gap: 32px;
         grid-row-gap: 8px;
         padding: 0;
-    }
 
-    .layout:first-child::before {
-        content: '';
-        height: 96px;
-        grid-column: 1 / 13;
-        grid-row: span 6;
-    }
-
-    /*################################################*/
-    /*###############------------#####################*/
-    /*###############---FOOTER---#####################*/
-    /*###############------------#####################*/
-    /*################################################*/
-    /*################################################*/
-
-    .footer {
-        position: relative;
-        grid-column: 1 / 13;
-        grid-row: span 34;
-        padding-left: 50%;
-    }
-
-    .footer-nav {
-        grid-column: 3 / 5;
-    }
-
-    .footer-nav a {
-        margin-left: 20px;
-    }
-
-    .footer-content {
-        box-sizing: content-box;
-        width: 100%;
-        height: 100%;
-        background: var(--midnight);
-        left: -255px;
-        position: absolute;
-        padding-left: 255px;
-        padding-right: 255px;
-        padding-top: 100px;
-        display: grid;
-        grid-template-columns: 327px 200px 200px 200px;
-        grid-template-rows: 450px 50px;
-        grid-row-gap: 10px;
-        justify-content: space-evenly;
-    }
-
-    .footer-content-headline h3 {
-        color: var(--white);
-    }
-
-    .footer-content .rq-090-container {
-        grid-column: span 1;
-    }
-
-    .footer-content-headline .label {
-        color: var(--copper);
-    }
-
-    .footer-content-headline img {
-        position: absolute;
-        bottom: 30px;
-    }
-
-    .footer-content .rq-090-container ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-
-    .footer-content .rq-090-container ul {
-
-    }
-
-    .footer-content .rq-090-container ul li {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-    .footer-content .rq-090-container {
-        grid-row: span 1;
-    }
-
-
-    .footer-content-headline .label::after {
-        content: url('/uploads/arrow-button_link.svg');
-        margin-left: 9px;
-
-    }
-
-    /*################################################*/
-    /*###############------------#####################*/
-    /*###############---HEADER---#####################*/
-    /*###############------------#####################*/
-    /*################################################*/
-    /*################################################*/
-
-    .header-nav {
-        width: 26px;
-        height: 26px;
-        margin-right: 96px;
-        cursor: pointer;
-        position: relative;
-    }
-
-    .header {
-        display: flex;
-        left: 0;
-        top: 0;
-        justify-content: space-between;
-        position: fixed;
-        align-items: center;
-        z-index: 5;
-        width: 100%;
-        background: var(--white);
-        height: 104px;
-    }
-
-    .header a {
-        margin-left: 96px;
-    }
-
-    .header-nav-span {
-        width: 26px;
-        height: 5px;
-        background: var(--dark);
-
-    }
-
-    .header-nav-span::before, .header-nav-span::after {
-        position: absolute;
-        background: var(--dark);
-        content: '';
-        display: block;
-        width: 100%;
-        height: 5px;
-        transition-duration: 0.2s;
-    }
-
-    .header-nav-span::after {
-        bottom: 0px;
-        right: 0;
-        width: 60%;
-    }
-
-    .header-nav:hover .header-nav-span::after {
-        width: 100%;
-    }
-
-    .header-nav-span::before {
-        top: 10px;
-        left: 0;
-    }
-
-    /*################################################*/
-    /*###############------------#####################*/
-    /*###############----MENU----#####################*/
-    /*###############------------#####################*/
-    /*################################################*/
-    /*################################################*/
-
-    .menu-nav {
-        height: 104px;
-    }
-
-    .menu-nav-close {
-        float: right;
-        margin: 43px 83px 0 0;
-        cursor: pointer;
-        padding: 10px;
-    }
-
-    .menu-li a {
-        color: var(--white);
-        margin-bottom: 8px;
-        cursor: pointer;
-        transition-duration: 0.2s;
-    }
-
-    .menu-li a:hover {
-        color: var(--copper);
-    }
-
-    .menu-footer {
-        position: absolute;
-        bottom: 0;
-        padding: 24px 24px 24px 96px;
-    }
-
-    .menu-footer a {
-        margin-right: 25px;
-        color: var(--white);
-        opacity: 0.75;
-        font-family: "Sentinel-Book", sans-serif;
-    }
-
-
-    .menu-list {
-        list-style-type: none;
-        padding-left: 96px;
-    }
-
-    .menu {
-        width: 0;
-        height: 100%;
-        position: fixed;
-        right: 0;
-        z-index: 100;
-        background: var(--midnight);
-        transition-duration: 0.5s;
-        overflow: hidden;
+        &:first-child::before {
+            content: '';
+            height: 96px;
+            grid-column: 1 / 13;
+            grid-row: span 6;
+        }
     }
 
     /*################################################*/
