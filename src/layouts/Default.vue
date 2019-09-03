@@ -68,6 +68,30 @@ query {
 <script type="text/javascript">
 import RQ_090 from '~/components/RQ-090.vue'
 
+window.onscroll = function(e) {
+  updateViewport();
+}
+
+function updateViewport() {
+  const elements = document.querySelectorAll('[data-srcset]');
+  console.log(elements);
+  for(let i in elements) {
+    let bounding = elements[i].getBoundingClientRect();
+    console.log(bounding);
+    console.log();
+    console.log(window.scrollY + document.documentElement.clientHeight);
+    if(bounding.y >= window.scrollY && bounding.y < (window.scrollY + document.documentElement.clientHeight)) {
+      console.log("inside");
+    } else {
+      console.log("not inside");
+    }
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyImages = document.querySelectorAll("[data-src]");
+});
+
   export default {
     components: {
       RQ_090
@@ -84,6 +108,7 @@ import RQ_090 from '~/components/RQ-090.vue'
         for(let i = 0; i < document.getElementsByClassName('menu-li').length; i++) {
           document.getElementsByClassName('menu-li')[i].addEventListener('click', () => {
             document.getElementsByClassName('menu')[0].style.width = "0px";
+            updateViewport();
           })
         }
     }

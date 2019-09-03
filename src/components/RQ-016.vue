@@ -1,8 +1,11 @@
 <template>
   <div class="rq-016-container" :class="classes">
-    <g-image v-if="src" :src="src" class="preview-image" />
-    <g-image v-if="src" src="/uploads/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="overlay-image size--md"/>
-    <g-image v-if="!src" src="/uploads/svg/Kosmonaut-Blob-Gray.svg" type="image/svg+xml" class="overlay-image size--lg"/>
+    <!-- <g-image v-if="src" :src="src" class="preview-image" />
+    <g-image v-if="src" src="/uploads/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="overlay-image size--md"/> -->
+    <img v-if="src" :src="src.dataUri" alt="" :data-srcset="src.srcset" class="preview-image lazy">
+    <img v-if="src" src="/uploads/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="overlay-image size--md">
+    <img v-if="!src" src="/uploads/svg/Kosmonaut-Blob-Gray.svg" type="image/svg+xml" class="overlay-image size--lg">
+    <!-- <g-image v-if="!src" src="/uploads/svg/Kosmonaut-Blob-Gray.svg" type="image/svg+xml" class="overlay-image size--lg"/> -->
     <div class="rq-016-content no-image" v-if="!src">
       <RQ_035 :path="path" />
       <h1 v-html="title" class="rq-016-headline" />
@@ -81,7 +84,7 @@ export default {
   }
 
   .rq-016-container.contact .overlay-image.size--lg {
-    transition-duration: 1.2s;
+    transition: all ease 0.5s;
     transform: scale(1.5) rotateZ(200deg);
     left: -70%;
     top: -40%;
