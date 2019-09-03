@@ -2,7 +2,7 @@
     <header class="kmt-header">
         <div class="kmt-header__inner">
             <g-link to="/" class="kmt-header__logo">
-                <g-image src="~/assets/svg/Kosmonaut-Logo-White.svg"/>
+                <g-image src="~/assets/svg/Kosmonaut-Logo-Dark.svg"/>
             </g-link>
 
             <Navibar></Navibar>
@@ -35,7 +35,8 @@ export default {
             align-items: center;
             height: 100%;
 
-            @include center-outer();
+            @include center-inner();
+            @extend %padding;
         }
 
         &__logo {

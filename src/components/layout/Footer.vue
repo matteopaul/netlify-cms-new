@@ -1,22 +1,65 @@
 <template>
     <footer class="kmt-footer">
-        <div class="kmt-footer-content">
-            <div class="footer-content-headline">
-                <h3>Sie haben ein Projekt dollar sans de Sola connar?</h3>
-                <g-link to="/kontakt" class="label">Kontaktieren</g-link>
+        <div class="kmt-footer__inner kmt-footer__inner--top">
+            <div class="kmt-footer__group">
+                <h2>Sie haben ein Projekt?</h2>
+                <p>...</p>
             </div>
-
-            <RQ_090 title="office"
-                    v-bind:options="['Kosmonaut GmbH Co. KG', 'Nickelstraße Nr. 1a', '33378 Rheda-Wiedenbrück']"/>
-            <RQ_090 title="sitemap" v-bind:options="['Leistungen', 'Cases', 'Kontakt', 'AGB', 'Datenschutz']"/>
-            <p class="label">Kosmonaut im Netz</p>
-            <g-image src="~/assets/img/Kosmonaut-Logo-White.png"/>
-            <div class="footer-nav">
-
-                <g-link to="/impressum">Impressum</g-link>
-                <g-link to="/datenschutz">Datenschutz</g-link>
-                <g-link to="/agb">AGB</g-link>
+            <div class="kmt-footer__group">
+                <h3>Office</h3>
+                <p>Kosmonaut GmbH & Co. KG<br/>Nickelstraße Nr. 1a<br/>33378 Rheda-Wiedenbrück</p>
             </div>
+            <div class="kmt-footer__group">
+                <h3>Sitemap</h3>
+                <ul>
+                    <li>
+                        <g-link to="/">Leistungen</g-link>
+                    </li>
+                    <li>
+                        <g-link to="/">Cases</g-link>
+                    </li>
+                    <li>
+                        <g-link to="/">Kontakt</g-link>
+                    </li>
+                    <li>
+                        <g-link to="/">AGB</g-link>
+                    </li>
+                </ul>
+            </div>
+            <div class="kmt-footer__group">
+                <h3>Kosmonaut im Netz</h3>
+                <ul class="kmt-socialaccountlist">
+                    <li class="kmt-socialaccountlist__item--snapchat">
+                        <g-link to="/"></g-link>
+                    </li>
+                    <li class="kmt-socialaccountlist__item--facebook">
+                        <g-link to="/"></g-link>
+                    </li>
+                    <li class="kmt-socialaccountlist__item--instagram">
+                        <g-link to="/"></g-link>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="kmt-footer__inner kmt-footer__inner--bottom">
+            <g-link to="/" class="kmt-header__logo">
+                <g-image src="~/assets/svg/Kosmonaut-Logo-Light.svg"/>
+            </g-link>
+
+            <ul>
+                <li>
+                    <g-link to="/">Impressum</g-link>
+                </li>
+                <li>
+                    <g-link to="/">Datenschutz</g-link>
+                </li>
+                <li>
+                    <g-link to="/">AGB</g-link>
+                </li>
+                <li>
+                    <g-link to="/">DSGVO</g-link>
+                </li>
+            </ul>
         </div>
     </footer>
 </template>
@@ -34,79 +77,134 @@ export default {
 
 <style lang="scss">
     .kmt-footer {
-    }
-    .footer {
-        position: relative;
-        grid-column: 1 / 13;
-        grid-row: span 34;
-        padding-left: 50%;
-    }
+        background: $color--midnight;
+        @extend %padding;
 
-    .footer-nav {
-        grid-column: 3 / 5;
-    }
+        ul {
+            list-style: none;
 
-    .footer-nav a {
-        margin-left: 20px;
-    }
+            a {
+                text-decoration: none;
+            }
+        }
 
-    .footer-content {
-        box-sizing: content-box;
-        width: 100%;
-        height: 100%;
-        background: var(--midnight);
-        left: -255px;
-        position: absolute;
-        padding-left: 255px;
-        padding-right: 255px;
-        padding-top: 100px;
-        display: grid;
-        grid-template-columns: 327px 200px 200px 200px;
-        grid-template-rows: 450px 50px;
-        grid-row-gap: 10px;
-        justify-content: space-evenly;
-    }
+        &__inner {
+            @include center-inner();
+            display: flex;
 
-    .footer-content-headline h3 {
-        color: var(--white);
-    }
+            &--top {
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
 
-    .footer-content .rq-090-container {
-        grid-column: span 1;
-    }
+            &--bottom {
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
 
-    .footer-content-headline .label {
-        color: var(--copper);
-    }
+                ul {
+                    display: flex;
 
-    .footer-content-headline img {
-        position: absolute;
-        bottom: 30px;
-    }
+                    li {
+                        flex: 0 0 auto;
+                        // TODO: make responsive
+                        margin-right: 20px;
 
-    .footer-content .rq-090-container ul {
-        list-style-type: none;
-        padding: 0;
-    }
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
 
+                    a {
+                        @extend %typo-p--small;
+                        color: $color--white;
+                    }
+                }
+            }
+        }
 
-    .footer-content .rq-090-container ul {
+        &__group {
+            width: -width(2, 20px);
+            margin-right: 20px;
 
-    }
+            &:first-child {
+                width: -width(4, 20px);
+            }
 
-    .footer-content .rq-090-container ul li {
-        font-size: 18px;
-        line-height: 24px;
-    }
+            &:nth-child(2) {
+                width: -width(3, 20px);
+            }
 
-    .footer-content .rq-090-container {
-        grid-row: span 1;
-    }
+            &:last-child {
+                margin-right: 0;
+                width: -width(3, 20px);
+            }
 
+            > h2 {
+                @extend %typo-h3;
+                color: $color--white;
+            }
 
-    .footer-content-headline .label::after {
-        content: url('/uploads/arrow-button_link.svg');
-        margin-left: 9px;
+            > h3 {
+                @extend %typo-label;
+                color: $color--white;
 
+                + * {
+                    margin-top: 20px;
+                }
+            }
+
+            p {
+                @extend %typo-p--small;
+                color: $color--white;
+            }
+
+            ul {
+                li {
+                    a {
+                        @extend %typo-p--small;
+                        color: $color--white;
+                    }
+                }
+            }
+        }
+
+        .kmt-socialaccountlist {
+            display: flex;
+
+            li {
+                flex: 0 0 auto;
+                margin-right: 20px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                a {
+                    display: block;
+
+                    &:before {
+                        width: 30px;
+                        height: 30px;
+                        display: block;
+                        background-size: contain;
+                        content: '';
+                    }
+                }
+            }
+
+            &__item {
+                &--snapchat a:before {
+                    background: url(~@/assets/svg/snapchat.svg);
+                }
+                &--facebook a:before {
+                    background: url(~@/assets/svg/facebook.svg);
+                }
+                &--instagram a:before {
+                    background: url(~@/assets/svg/instagram.svg);
+                }
+            }
+        }
     }
 </style>

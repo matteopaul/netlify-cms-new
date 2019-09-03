@@ -2,20 +2,7 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  max-width: map_get($content-breakpoints, l);
-
-  @include media-breakpoint-down(xs) {
-    padding-left: map_get($gutter, small);
-    padding-right: map_get($gutter, small);
-  }
-  @include media-breakpoint-between(s, m) {
-    padding-left: map_get($gutter, medium);
-    padding-right: map_get($gutter, medium);
-  }
-  @include media-breakpoint-up(l) {
-    padding-left: map_get($gutter, large);
-    padding-right: map_get($gutter, large);
-  }
+  max-width: map_get($content-breakpoints, xl);
 }
 
 @mixin center-inner($responsive: true) {
@@ -25,17 +12,17 @@
 
   @if ($responsive == true) {
     @include media-breakpoint-down(xs) {
-      max-width: map_get($content-breakpoints, xs);
+      //max-width: map_get($content-breakpoints, xs);
     }
     @include media-breakpoint-only(s) {
-      max-width: map_get($content-breakpoints, mmm);
+      //max-width: map_get($content-breakpoints, mmm);
     }
     @include media-breakpoint-only(m) {
-      max-width: map_get($content-breakpoints, mm);
+      //max-width: map_get($content-breakpoints, mm);
     }
   }
   @include media-breakpoint-up(l) {
-    max-width: map_get($content-breakpoints, m);
+    max-width: map_get($content-breakpoints, l);
   }
 }
 
