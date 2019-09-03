@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 100vw;
+
+  > .layout {
+    width: 100%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}

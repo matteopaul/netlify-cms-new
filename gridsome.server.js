@@ -1,117 +1,132 @@
 const path = require('path');
 const fs = require('fs');
-const pagesPath = path.join(__dirname, "pages");
+const pagesPath = path.join(__dirname, 'pages');
 const contentTypes = {};
 const axios = require('axios');
 
 module.exports = function (api) {
   api.loadSource(async store => {
-    const { data } = await axios.get('https://maps.googleapis.com/maps/api/js?key=AIzaSyB9AJZxIbEEe8FL1VZtb0Zxly7k1s8rGqQ&callback=initMap');
+    const {data} = await axios.get('https://maps.googleapis.com/maps/api/js?key=AIzaSyB9AJZxIbEEe8FL1VZtb0Zxly7k1s8rGqQ&callback=initMap');
 
-    fs.readdirSync(path.join(__dirname, "dynamicContentTypes")).forEach(function(file) {
-      let currentName = file.split('.')[0];
+    fs.readdirSync(path.join(__dirname, 'dynamicContentTypes')).forEach(function (file) {
+      const currentName = file.split('.')[0];
+      const node = JSON.parse(fs.readFileSync(path.join(__dirname, 'dynamicContentTypes') + '/' + file));
+
       contentTypes[currentName] = store.addContentType({
         typeName: currentName
-      })
-      let node = JSON.parse(fs.readFileSync(path.join(__dirname, "dynamicContentTypes") + "/" + file));
-      node["id"] = random_id();
+      });
 
-      if(node.hasOwnProperty('src')){
+      node['id'] = random_id();
+
+      if (node.hasOwnProperty('src')) {
         node.src = path.join(__dirname, 'static/' + node.src);
       }
-      if(node.hasOwnProperty('overlayImage')){
+      if (node.hasOwnProperty('overlayImage')) {
         node.overlayImage = path.join(__dirname, 'static/' + node.overlayImage);
       }
-      if(node.hasOwnProperty('textWithIcon')) {
-        for(i in node.textWithIcon) {
+      if (node.hasOwnProperty('textWithIcon')) {
+        for (i in node.textWithIcon) {
           node.textWithIcon[i].icon = path.join(__dirname, 'static/' + node.textWithIcon[i].icon);
         }
       }
-      if(node.hasOwnProperty('contents')){
-        for(let i = 0; i < Object.values(node.contents).length; i++) {
-          if(Object.keys(Object.values(node.contents)[i]).includes("src")) {
+      if (node.hasOwnProperty('contents')) {
+        for (let i = 0; i < Object.values(node.contents).length; i++) {
+          if (Object.keys(Object.values(node.contents)[i]).includes('src')) {
             node.contents[i].src = path.join(__dirname, 'static/' + node.contents[i].src);
           }
         }
       }
 
       contentTypes[currentName].addNode(node);
-    })
+    });
 
     const pages = store.addContentType({
-      typeName: "PageStructure"
+      typeName: 'PageStructure'
     });
 
     pages.addNode({
-      title: "erste Seite",
-      url: "/hallo",
+      title: 'erste Seite',
+      url: '/hallo',
       contents: [
-        store.createReference(contentTypes["rq_008"].findNode()),
-        store.createReference(contentTypes["rq_007"].findNode()),
-        store.createReference(contentTypes["rq_011"].findNode()),
-        store.createReference(contentTypes["rq_012"].findNode()),
-        store.createReference(contentTypes["rq_013"].findNode()),
-        store.createReference(contentTypes["rq_014"].findNode()),
-        store.createReference(contentTypes["rq_015"].findNode()),
-        store.createReference(contentTypes["rq_016"].findNode()),
-        store.createReference(contentTypes["rq_021"].findNode()),
-        store.createReference(contentTypes["rq_035"].findNode()),
-        store.createReference(contentTypes["rq_037"].findNode()),
-        store.createReference(contentTypes["rq_067"].findNode()),
-        store.createReference(contentTypes["rq_090"].findNode()),
-        store.createReference(contentTypes["rq_091"].findNode()),
-        store.createReference(contentTypes["rq_092"].findNode()),
-        store.createReference(contentTypes["rq_093"].findNode()),
-        store.createReference(contentTypes["rq_094"].findNode()),
-        store.createReference(contentTypes["rq_095"].findNode()),
-        store.createReference(contentTypes["cardSlider"].findNode()),
-        store.createReference(contentTypes["divider"].findNode()),
-        store.createReference(contentTypes["contact"].findNode()),
-        store.createReference(contentTypes["profile_card"].findNode()),
-        store.createReference(contentTypes["map"].findNode())
+        store.createReference(contentTypes['rq_007'].findNode()),
+        store.createReference(contentTypes['rq_008'].findNode()),
+        store.createReference(contentTypes['rq_011'].findNode()),
+        store.createReference(contentTypes['rq_012'].findNode()),
+        store.createReference(contentTypes['rq_013'].findNode()),
+        store.createReference(contentTypes['rq_014'].findNode()),
+        store.createReference(contentTypes['rq_015'].findNode()),
+        store.createReference(contentTypes['rq_016'].findNode()),
+        store.createReference(contentTypes['rq_021'].findNode()),
+        store.createReference(contentTypes['rq_035'].findNode()),
+        store.createReference(contentTypes['rq_037'].findNode()),
+        store.createReference(contentTypes['rq_067'].findNode()),
+        store.createReference(contentTypes['rq_090'].findNode()),
+        store.createReference(contentTypes['rq_091'].findNode()),
+        store.createReference(contentTypes['rq_092'].findNode()),
+        store.createReference(contentTypes['rq_093'].findNode()),
+        store.createReference(contentTypes['rq_094'].findNode()),
+        store.createReference(contentTypes['rq_095'].findNode()),
+        store.createReference(contentTypes['cardSlider'].findNode()),
+        store.createReference(contentTypes['divider'].findNode()),
+        store.createReference(contentTypes['contact'].findNode()),
+        store.createReference(contentTypes['profile_card'].findNode()),
+        store.createReference(contentTypes['map'].findNode())
       ]
-    })
-    store.createReference(contentTypes["rq_014"].findNodes()[0].lists.push(store.createReference(contentTypes["rq_090"].findNode())));
-
-    fs.readdirSync(pagesPath).forEach(function(file) {
-
-          let currentData = JSON.parse(fs.readFileSync(pagesPath + "/" + file));
-          let items = [];
-          currentData.contents.forEach(function(item) {
-            item["id"] = random_id();
-            if(item.hasOwnProperty('src')){
-              item.src = path.join(__dirname, 'static/' + item.src);
-            }
-            if(item.hasOwnProperty('textWithIcon')) {
-              for(i in item.textWithIcon) {
-                item.textWithIcon[i].icon = path.join(__dirname, 'static/' + item.textWithIcon[i].icon);
-              }
-            }
-            if(item.hasOwnProperty('contents')){
-              for(let i = 0; i < Object.values(item.contents).length; i++) {
-                if(Object.keys(Object.values(item.contents)[i]).includes("src")) {
-                  item.contents[i].src = path.join(__dirname, 'static/' + item.contents[i].src);
-                }
-              }
-            }
-            let node = store.createReference(contentTypes[item.type].addNode(item));
-            items.push(node);
-          });
-          pages.addNode({
-            path: currentData.url,
-            id: currentData.id,
-            title: currentData.title,
-            contents: items,
-            url: currentData.url,
-            map: data
-          })
     });
-    function random_id() {
+    store.createReference(contentTypes['rq_014'].findNodes()[0].lists.push(store.createReference(contentTypes['rq_090'].findNode())));
+
+    fs.readdirSync(pagesPath).forEach(function (file) {
+      const currentData = JSON.parse(fs.readFileSync(pagesPath + '/' + file));
+      let items = [];
+
+      currentData.contents.forEach(function (item) {
+        item['id'] = random_id();
+        if (item.hasOwnProperty('src')) {
+          item.src = path.join(__dirname, 'static/' + item.src);
+        }
+        if (item.hasOwnProperty('overlayImage')) {
+          item.overlayImage = path.join(__dirname, 'static/' + item.overlayImage);
+        }
+        if (item.hasOwnProperty('textWithIcon')) {
+          for (const i in item.textWithIcon) {
+            item.textWithIcon[i].icon = path.join(__dirname, 'static/' + item.textWithIcon[i].icon);
+          }
+        }
+        if (item.hasOwnProperty('contents')) {
+          for (let i = 0; i < Object.values(item.contents).length; i++) {
+            if (Object.keys(Object.values(item.contents)[i]).includes('src')) {
+              item.contents[i].src = path.join(__dirname, 'static/' + item.contents[i].src);
+            }
+            if (Object.keys(Object.values(item.contents)[i]).includes('overlayImage')) {
+              item.contents[i].overlayImage = path.join(__dirname, 'static/' + item.contents[i].src);
+            }
+          }
+        }
+
+        // check if contenttype exists
+        if (contentTypes[item.type]) {
+          const node = store.createReference(contentTypes[item.type].addNode(item));
+
+          items.push(node);
+        }
+      });
+
+      pages.addNode({
+        path: currentData.url,
+        id: currentData.id,
+        title: currentData.title,
+        contents: items,
+        url: currentData.url,
+        map: data
+      });
+    });
+
+    function random_id () {
       return '_' + (Number(String(Math.random()).slice(2)) + Date.now()).toString(36);
     }
-  })
+  });
 
-  api.createPages(async ({ graphql, createPage }) => {
+  api.createPages(async ({graphql, createPage}) => {
     const data = await graphql(`
       query pages {
         page: allPageStructure {
@@ -393,8 +408,6 @@ module.exports = function (api) {
       }
     `);
 
-
-
     data.data.page.edges.forEach(({node}) => {
       createPage({
         path: `/${node.url}`,
@@ -405,7 +418,7 @@ module.exports = function (api) {
           contents: node.contents,
           url: ('/' + node.url).replace('//', '')
         }
-      })
-    })
-  })
-}
+      });
+    });
+  });
+};

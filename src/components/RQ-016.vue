@@ -61,14 +61,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
   .rq-016-container {
     position: relative;
-    place-self: center;
+    // place-self: center; -> Working Draft ... nicht nutzen
     grid-column: 1 / 13;
     grid-row: span 45;
-    width: 1600px;
-    height: 720px;
+    xwidth: 1600px;
+    xheight: 720px;
   }
 
   .rq-016-container.contact {

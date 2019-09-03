@@ -1,0 +1,36 @@
+$grid-breakpoints: (
+        xs: 0,
+        s: 576px,
+        m: 768px,
+        l: 1024px,
+        xl: 1280px,
+        xxl: 1440px
+) !default;
+
+$content-breakpoints: (
+        xxs: 0,
+        xs: 380px,
+        s: 480px,
+        mmm: 600px,
+        mm: 800px,
+        m: 1080px,
+        l: 1400px,
+        xl: 1920px
+) !default;
+
+$gutter: (
+        small: 20px,
+        medium: 40px,
+        large: 60px
+) !default;
+
+$gridcolumns: 12;
+$responsivegutter: false;
+
+$color--midnight: #2D374B;
+$color--copper: #B08770;
+$color--gray: #A4A6A8;
+$color--dark: #4C4E56;
+$color--white: #fff;
+
+$header-height: 100px;

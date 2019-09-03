@@ -14,14 +14,26 @@
     "css-vars-ponyfill": "^2.1.1",
     "custom-event-polyfill": "^1.0.7",
     "event-source-polyfill": "^1.0.8",
-    "gridsome": "^0.6.0",
+    "gridsome": "^0.6.5",
     "gridsome-plugin-netlify-cms": "^1.0.8",
     "immutable": "^4.0.0-rc.12",
+    "node-sass": "^4.12.0",
     "isomorphic-fetch": "^2.2.1",
     "netlify-cms": "^2.9.5",
     "react": "^16.8.6",
     "react-redux": "^7.1.0",
+    "sass-loader": "^7.1.0",
     "rtf2html": "^1.0.0",
-    "styled-components": "^4.3.2"
-  }
+    "styled-components": "^4.3.2",
+    "style-resources-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "normalize.css": "^8.0.0",
+    "body-scroll-lock": "^2.6.4"
+  },
+  "browserslist": [
+    "last 4 versions",
+    "ie 11",
+    "ios 12"
+  ]
 }

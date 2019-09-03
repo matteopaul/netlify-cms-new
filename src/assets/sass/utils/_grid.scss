@@ -1,0 +1,70 @@
+@function -responsivegutter($_gutter: 10px) {
+  @return '(' + ($_gutter / 1.5) + ' + 2vw)';
+}
+
+// width in columns (e.g. 3 columns)
+@function -width($_columns : 1, $_gutter: 10px, $_totalGrid: 12) {
+  // edge17 needs a lower factor
+  @return calc((100% - (#{$_gutter} * (#{$_totalGrid} - 1))) / #{$_totalGrid} * #{$_columns} + ((#{$_columns} - 1) * (#{$_gutter} * 0.996))); // FIXED HALF PX PROBLEM (CUT OFF BORDER)
+}
+
+// width in columns (e.g. 3 columns)
+@function -width--responsivegutter($_columns : 1, $_gutter: 10px, $_totalGrid: 12) {
+  // edge17 needs a lower factor
+  @return -width($_columns, -responsivegutter($_gutter), $_totalGrid);
+}
+
+// width in columns (e.g. 3 columns)
+@function -widthForNegativeOffset($_columns : 1, $_gutter: 10px, $_totalGrid: 12) {
+  // edge17 needs a lower factor
+  @return calc(((100% - (#{$_gutter} * 1)) - (#{$_gutter} * (#{$_totalGrid} - 1))) / #{$_totalGrid} * #{$_columns} + ((#{$_gutter} - 1) * (#{$_gutter} * 0.996))); // FIXED HALF PX PROBLEM (CUT OFF BORDER)
+}
+
+// width in columns (e.g. 3 columns)
+@function -widthForNegativeOffset--responsivegutter($_columns : 1, $_gutter: 10px, $_totalGrid: 12) {
+  @return -widthForNegativeOffset($_columns, -responsivegutter($_gutter), $_totalGrid);
+}
+
+@mixin _grid($_grid: 1, $_gutter: 10px, $_gutter-vertical: 10px, $_selector: '*', $_responsivegutter: $responsivegutter) {
+  $totalGrid: 12;
+  $gridcolumns: $totalGrid / $_grid;
+  $nth-child-horizontal: '#{$_grid}n+1';
+  $nth-child-vertical: '-n+#{$_grid}';
+  display: flex;
+  flex-wrap: wrap;
+
+  //margin top instead of margin bottom
+  > #{$_selector} {
+    flex: 0 0 auto;
+
+    @if $_responsivegutter == true {
+      width: -width--responsivegutter($gridcolumns, $_gutter, $totalGrid);
+    } @else {
+      width: -width($gridcolumns, $_gutter, $totalGrid);
+    }
+  }
+
+  > #{$_selector} {
+    &:nth-child(n) {
+      margin-top: $_gutter-vertical;
+    }
+
+    &:nth-child(#{$nth-child-vertical}) {
+      margin-top: 0;
+    }
+  }
+
+  > #{$_selector} ~ #{$_selector} {
+    &:nth-child(n) {
+      @if $_responsivegutter == true {
+        margin-left: calc(#{-responsivegutter($_gutter)});
+      } @else {
+        margin-left: $_gutter;
+      }
+    }
+
+    &:nth-child(#{$nth-child-horizontal}) {
+      margin-left: 0;
+    }
+  }
+}

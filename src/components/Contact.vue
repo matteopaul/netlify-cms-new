@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-container" :style="style">
+  <div class="contact-container">
     <RQ_008 size="H3" title="Jetzt Kontaktieren" />
     <div class="contact-input">
       <p class="label">name *</p>
