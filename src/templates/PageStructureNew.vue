@@ -9,7 +9,7 @@
       <RQ_014 v-if="content.type == 'rq_014' && content.lists.length == 0" :src="content.src" :title="content.title" v-bind:textWithIcon="content.textWithIcon"/>
       <RQ_014 v-if="content.type == 'rq_014' && content.textWithIcon.length == 0" :src="content.src" :title="content.title" :linkText="content.linkText" :href="content.href" v-bind:options="content.lists"/>
       <RQ_015 v-if="content.type == 'rq_015'" :scale="content.scale" :title="content.title" :src="content.src" :size="content.size" :link="content.link" :linkText="content.linkText" :text="content.text" v-bind:attr="content.attr" v-bind:options="content.options" :label="content.label" :position="content.position"/>
-      <RQ_016 v-if="content.type == 'rq_016'" :overlayImage="content.overlayImage" :width="content.width" :path="$context.url" :src="content.src" :text="content.text" :title="content.title"/>
+      <RQ_016 v-if="content.type == 'rq_016'" :width="content.width" :path="$context.url" :src="content.src" :text="content.text" :title="content.title"/>
       <RQ_021 v-if="content.type == 'rq_021'" :title="content.title" :src="content.src" :text="content.text" :position="content.position" :size="content.size" />
       <RQ_035 v-if="content.type == 'rq_035'" :path="$context.url" />
       <RQ_037 v-if="content.type == 'rq_037'" :type="content.attrType" />

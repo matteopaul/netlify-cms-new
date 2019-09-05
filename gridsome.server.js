@@ -267,7 +267,6 @@ module.exports = function (api) {
         src
         text
         width
-        overlayImage
       }
 
       fragment image on rq_021 {

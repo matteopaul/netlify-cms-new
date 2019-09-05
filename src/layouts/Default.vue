@@ -2,13 +2,23 @@
     <div class="layout">
         <Header></Header>
         <main>
-            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/mockdata/stage.jpg" textPosition="topleft"></Stage>
-            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/mockdata/stage.jpg" textPosition="middleleft"></Stage>
-            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="light" backgroundImage="/mockdata/stage.jpg" textPosition="bottomleft"></Stage>
-            <Categorybanner headline="Headline" text="Text" imageType="background" image="/mockdata/stage.jpg"></Categorybanner>
-            <Categorybanner headline="Headline" text="Text" imageType="inline" image="/mockdata/stage.jpg"></Categorybanner>
+            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark"
+                   backgroundImage="/mockdata/stage.jpg" textPosition="topleft"></Stage>
+            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark"
+                   backgroundImage="/mockdata/stage.jpg" textPosition="middleleft"></Stage>
+            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="light"
+                   backgroundImage="/mockdata/stage.jpg" textPosition="bottomleft"></Stage>
+            <Categorybanner headline="Headline" text="Text" imageType="background"
+                            image="/mockdata/stage.jpg"></Categorybanner>
+            <Categorybanner headline="Headline" text="Text" imageType="inline"
+                            image="/mockdata/stage.jpg"></Categorybanner>
             <Categorybanner headline="Headline" text="Text" imageType="inline"></Categorybanner>
             <Quote text="Text" image="/mockdata/stage.jpg" name="Name" position="Position"></Quote>
+            <TextandiconList columns="4" align="vertical"></TextandiconList>
+            <TextandiconList columns="3" align="vertical"></TextandiconList>
+            <TextandiconList columns="2" align="vertical"></TextandiconList>
+            <TextandiconList columns="2" align="horizontal"></TextandiconList>
+
             <slot id="main-content"/>
         </main>
         <Footer></Footer>
@@ -29,6 +39,32 @@ import Footer from '~/components/layout/Footer.vue';
 import Categorybanner from '~/components/Categorybanner.vue';
 import Stage from '~/components/Stage.vue';
 import Quote from '~/components/Quote.vue';
+import TextandiconList from '~/components/TextandiconList.vue';
+import RQ_090 from '~/components/RQ-090.vue';
+
+window.onscroll = function (e) {
+  updateViewport();
+};
+
+function updateViewport () {
+  const elements = document.querySelectorAll('[data-srcset]');
+  // console.log(elements);
+  for (let i in elements) {
+    // let bounding = elements[i].getBoundingClientRect();
+    // console.log(bounding);
+    // console.log();
+    // console.log(window.scrollY + document.documentElement.clientHeight);
+    // if (bounding.y >= window.scrollY && bounding.y < (window.scrollY + document.documentElement.clientHeight)) {
+    //   console.log('inside');
+    // } else {
+    //   console.log('not inside');
+    // }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  var lazyImages = document.querySelectorAll('[data-src]');
+});
 
 export default {
   components: {
@@ -36,9 +72,25 @@ export default {
     Footer,
     Stage,
     Quote,
-    Categorybanner
+    Categorybanner,
+    TextandiconList,
+    RQ_090
   },
   mounted () {
+
+    document.getElementsByClassName('menu-nav-close')[0].addEventListener('click', function () {
+      document.getElementsByClassName('menu')[0].style.width = '0px';
+    });
+    document.getElementsByClassName('header-nav')[0].addEventListener('click', () => {
+      document.getElementsByClassName('menu')[0].style.width = '680px';
+
+    });
+    for (let i = 0; i < document.getElementsByClassName('menu-li').length; i++) {
+      document.getElementsByClassName('menu-li')[i].addEventListener('click', () => {
+        document.getElementsByClassName('menu')[0].style.width = '0px';
+        updateViewport();
+      });
+    }
   }
 };
 </script>
@@ -92,6 +144,9 @@ export default {
     /*################################################*/
 
     .layout > main {
+        > * + * {
+            margin-top: 100px;
+        }
         /*
         display: grid;
         grid-auto-rows: minmax(8px, auto);

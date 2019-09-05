@@ -1,7 +1,8 @@
 <template>
   <div class="rq-094-container">
     <g-image :src="src" class="rq-094-image" />
-    <g-image src="~/assets/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="rq-094-overlay"/>
+    <img :src="src.dataUri" alt="" :data-srcset="src.srcset" class="rq-094-image">
+    <img src="/uploads/svg/Kosmonaut-Blob-Midnight.svg" type="image/svg+xml" class="rq-094-overlay">
     <div class="rq-094-content">
       <h1 class="rq-094-title" v-html="title" />
       <p class="size--lg" v-html="text" />
