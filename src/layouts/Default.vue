@@ -14,10 +14,78 @@
                             image="/mockdata/stage.jpg"></Categorybanner>
             <Categorybanner headline="Headline" text="Text" imageType="inline"></Categorybanner>
             <Quote text="Text" image="/mockdata/stage.jpg" name="Name" position="Position"></Quote>
-            <TextandiconList columns="4" align="vertical"></TextandiconList>
-            <TextandiconList columns="3" align="vertical"></TextandiconList>
-            <TextandiconList columns="2" align="vertical"></TextandiconList>
-            <TextandiconList columns="2" align="horizontal"></TextandiconList>
+
+            <TextandiconList columns="4" align="center">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+
+            <TextandiconList columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+
+            <TextandiconList columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <Imagegallery>
+                <Imagegalleryitem image="/mockdata/stage-vertical.png"></Imagegalleryitem>
+            </Imagegallery>
+            <Imagegallery>
+                <Imagegalleryitem image="/mockdata/stage-vertical.png"></Imagegalleryitem>
+                <Imagegalleryitem image="/mockdata/stage-vertical.png"></Imagegalleryitem>
+            </Imagegallery>
+            <Contentteaserlist>
+                <Contentteaser image="/mockdata/stage-vertical.png" imageformat="landscape"></Contentteaser>
+                <Contentteaser image="/mockdata/stage-vertical.png" imageformat="portrait"></Contentteaser>
+                <Contentteaser image="/mockdata/stage-vertical.png" imageformat="square"></Contentteaser>
+            </Contentteaserlist>
+
+            <TextandimageList layout="vertical">
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+            </TextandimageList>
+
+            <TextandimageList layout="horizontal">
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+            </TextandimageList>
+
+            <TextandimageList layout="vertical">
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+            </TextandimageList>
+
+            <TextandimageList layout="horizontal">
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+            </TextandimageList>
 
             <slot id="main-content"/>
         </main>
@@ -40,6 +108,13 @@ import Categorybanner from '~/components/Categorybanner.vue';
 import Stage from '~/components/Stage.vue';
 import Quote from '~/components/Quote.vue';
 import TextandiconList from '~/components/TextandiconList.vue';
+import Textandicon from '~/components/Textandicon.vue';
+import Imagegallery from '~/components/Imagegallery.vue';
+import Imagegalleryitem from '~/components/Imagegalleryitem.vue';
+import Contentteaserlist from '~/components/Contentteaserlist.vue';
+import Contentteaser from '~/components/Contentteaser.vue';
+import TextandimageList from '~/components/TextandimageList.vue';
+import Textandimage from '~/components/Textandimage.vue';
 import RQ_090 from '~/components/RQ-090.vue';
 
 window.onscroll = function (e) {
@@ -74,6 +149,13 @@ export default {
     Quote,
     Categorybanner,
     TextandiconList,
+    Textandicon,
+    Imagegallery,
+    Imagegalleryitem,
+    Contentteaserlist,
+    Contentteaser,
+    TextandimageList,
+    Textandimage,
     RQ_090
   },
   mounted () {

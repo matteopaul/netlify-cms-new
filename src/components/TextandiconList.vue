@@ -1,15 +1,11 @@
 <template>
     <!-- RQ-011 List -->
-    <div class="kmt-textandiconlist" :class="columnsCSSClass">
-        <Textandicon image="/mockdata/stage.jpg" :align="align"></Textandicon>
-        <Textandicon image="/mockdata/stage-vertical.png" :align="align"></Textandicon>
-        <Textandicon image="/mockdata/stage-vertical.png" :align="align"></Textandicon>
+    <div class="kmt-textandiconlist" :class="[columnsCSSClass, alignCSSClass]">
+        <slot></slot>
     </div>
 </template>
 
 <script>
-import Textandicon from '~/components/Textandicon.vue';
-
 export default {
   name: 'Textandiconlist',
   props: {
@@ -19,9 +15,9 @@ export default {
     },
     align: {
       type: String,
-      default: 'vertical',
+      default: 'left',
       validator: function (value) {
-        return ['vertical', 'horizontal'].indexOf(value) !== -1;
+        return ['left', 'center'].indexOf(value) !== -1;
       }
     }
   },
@@ -29,25 +25,35 @@ export default {
     columnsCSSClass () {
       return `kmt-textandiconlist--columns-${this.columns}`;
     },
+    alignCSSClass () {
+      return `kmt-textandiconlist--align-${this.align}`;
+    },
   },
   components: {
-    Textandicon
   }
 };
 </script>
 
 <style lang="scss">
     .kmt-textandiconlist {
+        $textandiconlist: &;
+
         &--columns {
             &-4 {
                 @include _grid(4, 40px, 40px, '.kmt-textandicon');
             }
+
             &-3 {
                 @include _grid(3, 40px, 40px, '.kmt-textandicon');
             }
+
             &-2 {
                 @include _grid(2, 40px, 40px, '.kmt-textandicon');
             }
+        }
+
+        &#{$textandiconlist}--align-center {
+            justify-content: center;
         }
     }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <!-- RQ-011 -->
-    <div class="kmt-textandicon" :class="alignCSSClass">
+    <div class="kmt-textandicon" :class="layoutCSSClass">
         <div class="kmt-textandicon__icon">
             <img :src="image"/>
         </div>
@@ -22,7 +22,7 @@ export default {
     image: {
       type: String
     },
-    align: {
+    layout: {
       type: String,
       default: 'vertical',
       validator: function (value) {
@@ -31,8 +31,8 @@ export default {
     }
   },
   computed: {
-    alignCSSClass () {
-      return `kmt-textandicon--align-${this.align}`;
+    layoutCSSClass () {
+      return `kmt-textandicon--layout-${this.layout}`;
     }
   }
 };
@@ -92,7 +92,7 @@ export default {
             }
         }
 
-        &--align {
+        &--layout {
             &-vertical {
                 flex-direction: column;
                 align-items: center;
