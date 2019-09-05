@@ -2,12 +2,13 @@
     <div class="layout">
         <Header></Header>
         <main>
-            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="topleft"></Stage>
-            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="middleleft"></Stage>
-            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="light" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="bottomleft"></Stage>
-            <Categorybanner headline="Headline" text="Text" imageType="background" image="/assets/img/asset-teaser-tprojects-luckybike.jpg"></Categorybanner>
-            <Categorybanner headline="Headline" text="Text" imageType="inline" image="/assets/img/asset-teaser-tprojects-luckybike.jpg"></Categorybanner>
+            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/mockdata/stage.jpg" textPosition="topleft"></Stage>
+            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/mockdata/stage.jpg" textPosition="middleleft"></Stage>
+            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="light" backgroundImage="/mockdata/stage.jpg" textPosition="bottomleft"></Stage>
+            <Categorybanner headline="Headline" text="Text" imageType="background" image="/mockdata/stage.jpg"></Categorybanner>
+            <Categorybanner headline="Headline" text="Text" imageType="inline" image="/mockdata/stage.jpg"></Categorybanner>
             <Categorybanner headline="Headline" text="Text" imageType="inline"></Categorybanner>
+            <Quote text="Text" image="/mockdata/stage.jpg" name="Name" position="Position"></Quote>
             <slot id="main-content"/>
         </main>
         <Footer></Footer>
@@ -27,12 +28,14 @@ import Header from '~/components/layout/Header.vue';
 import Footer from '~/components/layout/Footer.vue';
 import Categorybanner from '~/components/Categorybanner.vue';
 import Stage from '~/components/Stage.vue';
+import Quote from '~/components/Quote.vue';
 
 export default {
   components: {
     Header,
     Footer,
     Stage,
+    Quote,
     Categorybanner
   },
   mounted () {
