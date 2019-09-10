@@ -2,12 +2,12 @@
     <div class="layout">
         <Header></Header>
         <main>
-            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="topleft"></Stage>
+            <!-- <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="topleft"></Stage>
             <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="middleleft"></Stage>
             <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="light" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="bottomleft"></Stage>
             <Categorybanner headline="Headline" text="Text" imageType="background" image="/assets/img/asset-teaser-tprojects-luckybike.jpg"></Categorybanner>
             <Categorybanner headline="Headline" text="Text" imageType="inline" image="/assets/img/asset-teaser-tprojects-luckybike.jpg"></Categorybanner>
-            <Categorybanner headline="Headline" text="Text" imageType="inline"></Categorybanner>
+            <Categorybanner headline="Headline" text="Text" imageType="inline"></Categorybanner> -->
             <slot id="main-content"/>
         </main>
         <Footer></Footer>
@@ -24,6 +24,9 @@
 
 <script type="text/javascript">
 import RQ_090 from '~/components/RQ-090.vue'
+import Header from '~/components/layout/Header.vue'
+import Footer from '~/components/layout/Footer.vue'
+
 
 window.onscroll = function(e) {
   updateViewport();
@@ -46,7 +49,7 @@ function updateViewport() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  var lazyImages = document.querySelectorAll("[data-src]");
+  let lazyImages = document.querySelectorAll("[data-src]");
 });
 
   export default {
