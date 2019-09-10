@@ -16,6 +16,7 @@ function addStyleResource (rule) {
         path.resolve(__dirname, './src/assets/sass/variables.scss'),
         path.resolve(__dirname, './src/assets/sass/utils/_breakpoints.scss'),
         path.resolve(__dirname, './src/assets/sass/utils/_grid.scss'),
+        path.resolve(__dirname, './src/assets/sass/utils/_image.scss'),
         path.resolve(__dirname, './src/assets/sass/utils/_layout.scss'),
         path.resolve(__dirname, './src/assets/sass/utils/_typo.scss'),
       ],

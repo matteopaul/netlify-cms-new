@@ -2,12 +2,100 @@
     <div class="layout">
         <Header></Header>
         <main>
+<<<<<<< HEAD
             <!-- <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="topleft"></Stage>
             <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="middleleft"></Stage>
             <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="light" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="bottomleft"></Stage>
             <Categorybanner headline="Headline" text="Text" imageType="background" image="/assets/img/asset-teaser-tprojects-luckybike.jpg"></Categorybanner>
             <Categorybanner headline="Headline" text="Text" imageType="inline" image="/assets/img/asset-teaser-tprojects-luckybike.jpg"></Categorybanner>
             <Categorybanner headline="Headline" text="Text" imageType="inline"></Categorybanner> -->
+=======
+            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark"
+                   backgroundImage="/mockdata/stage.jpg" textPosition="topleft"></Stage>
+            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark"
+                   backgroundImage="/mockdata/stage.jpg" textPosition="middleleft"></Stage>
+            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="light"
+                   backgroundImage="/mockdata/stage.jpg" textPosition="bottomleft"></Stage>
+            <Categorybanner headline="Headline" text="Text" imageType="background"
+                            image="/mockdata/stage.jpg"></Categorybanner>
+            <Categorybanner headline="Headline" text="Text" imageType="inline"
+                            image="/mockdata/stage.jpg"></Categorybanner>
+            <Categorybanner headline="Headline" text="Text" imageType="inline"></Categorybanner>
+            <Quote text="Text" image="/mockdata/stage.jpg" name="Name" position="Position"></Quote>
+
+            <TextandiconList columns="4" align="center">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+
+            <TextandiconList columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+
+            <TextandiconList columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+            <Imagegallery>
+                <Imagegalleryitem image="/mockdata/stage-vertical.png"></Imagegalleryitem>
+            </Imagegallery>
+            <Imagegallery>
+                <Imagegalleryitem image="/mockdata/stage-vertical.png"></Imagegalleryitem>
+                <Imagegalleryitem image="/mockdata/stage-vertical.png"></Imagegalleryitem>
+            </Imagegallery>
+            <Contentteaserlist>
+                <Contentteaser image="/mockdata/stage-vertical.png" imageformat="landscape"></Contentteaser>
+                <Contentteaser image="/mockdata/stage-vertical.png" imageformat="portrait"></Contentteaser>
+                <Contentteaser image="/mockdata/stage-vertical.png" imageformat="square"></Contentteaser>
+            </Contentteaserlist>
+
+            <TextandimageList layout="vertical">
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+            </TextandimageList>
+
+            <TextandimageList layout="horizontal">
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+            </TextandimageList>
+
+            <TextandimageList layout="vertical">
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+            </TextandimageList>
+
+            <TextandimageList layout="horizontal">
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
+            </TextandimageList>
+
+>>>>>>> 01c51c9244db2c13d85f7da20a4e227024a05dc9
             <slot id="main-content"/>
         </main>
         <Footer></Footer>
@@ -23,56 +111,91 @@
 </static-query>
 
 <script type="text/javascript">
+<<<<<<< HEAD
 import RQ_090 from '~/components/RQ-090.vue'
 import Header from '~/components/layout/Header.vue'
 import Footer from '~/components/layout/Footer.vue'
 
+=======
+import Header from '~/components/layout/Header.vue';
+import Footer from '~/components/layout/Footer.vue';
+import Categorybanner from '~/components/Categorybanner.vue';
+import Stage from '~/components/Stage.vue';
+import Quote from '~/components/Quote.vue';
+import TextandiconList from '~/components/TextandiconList.vue';
+import Textandicon from '~/components/Textandicon.vue';
+import Imagegallery from '~/components/Imagegallery.vue';
+import Imagegalleryitem from '~/components/Imagegalleryitem.vue';
+import Contentteaserlist from '~/components/Contentteaserlist.vue';
+import Contentteaser from '~/components/Contentteaser.vue';
+import TextandimageList from '~/components/TextandimageList.vue';
+import Textandimage from '~/components/Textandimage.vue';
+import RQ_090 from '~/components/RQ-090.vue';
+>>>>>>> 01c51c9244db2c13d85f7da20a4e227024a05dc9
 
-window.onscroll = function(e) {
+window.onscroll = function (e) {
   updateViewport();
-}
+};
 
-function updateViewport() {
+function updateViewport () {
   const elements = document.querySelectorAll('[data-srcset]');
-  console.log(elements);
-  for(let i in elements) {
-    let bounding = elements[i].getBoundingClientRect();
-    console.log(bounding);
-    console.log();
-    console.log(window.scrollY + document.documentElement.clientHeight);
-    if(bounding.y >= window.scrollY && bounding.y < (window.scrollY + document.documentElement.clientHeight)) {
-      console.log("inside");
-    } else {
-      console.log("not inside");
-    }
+  // console.log(elements);
+  for (let i in elements) {
+    // let bounding = elements[i].getBoundingClientRect();
+    // console.log(bounding);
+    // console.log();
+    // console.log(window.scrollY + document.documentElement.clientHeight);
+    // if (bounding.y >= window.scrollY && bounding.y < (window.scrollY + document.documentElement.clientHeight)) {
+    //   console.log('inside');
+    // } else {
+    //   console.log('not inside');
+    // }
   }
 }
 
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", function() {
   let lazyImages = document.querySelectorAll("[data-src]");
+=======
+document.addEventListener('DOMContentLoaded', function () {
+  var lazyImages = document.querySelectorAll('[data-src]');
+>>>>>>> 01c51c9244db2c13d85f7da20a4e227024a05dc9
 });
 
-  export default {
-    components: {
-      RQ_090
-    },
-    mounted() {
+export default {
+  components: {
+    Header,
+    Footer,
+    Stage,
+    Quote,
+    Categorybanner,
+    TextandiconList,
+    Textandicon,
+    Imagegallery,
+    Imagegalleryitem,
+    Contentteaserlist,
+    Contentteaser,
+    TextandimageList,
+    Textandimage,
+    RQ_090
+  },
+  mounted () {
 
-        document.getElementsByClassName('menu-nav-close')[0].addEventListener('click', function() {
-          document.getElementsByClassName('menu')[0].style.width = "0px";
-        });
-        document.getElementsByClassName('header-nav')[0].addEventListener('click', () => {
-          document.getElementsByClassName('menu')[0].style.width = "680px";
+    document.getElementsByClassName('menu-nav-close')[0].addEventListener('click', function () {
+      document.getElementsByClassName('menu')[0].style.width = '0px';
+    });
+    document.getElementsByClassName('header-nav')[0].addEventListener('click', () => {
+      document.getElementsByClassName('menu')[0].style.width = '680px';
 
-        })
-        for(let i = 0; i < document.getElementsByClassName('menu-li').length; i++) {
-          document.getElementsByClassName('menu-li')[i].addEventListener('click', () => {
-            document.getElementsByClassName('menu')[0].style.width = "0px";
-            updateViewport();
-          })
-        }
+    });
+    for (let i = 0; i < document.getElementsByClassName('menu-li').length; i++) {
+      document.getElementsByClassName('menu-li')[i].addEventListener('click', () => {
+        document.getElementsByClassName('menu')[0].style.width = '0px';
+        updateViewport();
+      });
     }
   }
+};
 </script>
 
 <style lang="scss">
@@ -124,6 +247,9 @@ document.addEventListener("DOMContentLoaded", function() {
     /*################################################*/
 
     .layout > main {
+        > * + * {
+            margin-top: 100px;
+        }
         /*
         display: grid;
         grid-auto-rows: minmax(8px, auto);
