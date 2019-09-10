@@ -25,11 +25,7 @@
     "react": "^16.8.6",
     "react-redux": "^7.1.0",
     "rtf2html": "^1.0.0",
-<<<<<<< HEAD
     "sass-loader": "^7.3.1",
-=======
-    "sass-loader": "^7.1.0",
->>>>>>> 01c51c9244db2c13d85f7da20a4e227024a05dc9
     "style-resources-loader": "^1.2.1",
     "styled-components": "^4.3.2"
   },

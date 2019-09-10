@@ -2,14 +2,6 @@
     <div class="layout">
         <Header></Header>
         <main>
-<<<<<<< HEAD
-            <!-- <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="topleft"></Stage>
-            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="middleleft"></Stage>
-            <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="light" backgroundImage="/assets/img/asset-teaser-tprojects-luckybike.jpg" textPosition="bottomleft"></Stage>
-            <Categorybanner headline="Headline" text="Text" imageType="background" image="/assets/img/asset-teaser-tprojects-luckybike.jpg"></Categorybanner>
-            <Categorybanner headline="Headline" text="Text" imageType="inline" image="/assets/img/asset-teaser-tprojects-luckybike.jpg"></Categorybanner>
-            <Categorybanner headline="Headline" text="Text" imageType="inline"></Categorybanner> -->
-=======
             <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark"
                    backgroundImage="/mockdata/stage.jpg" textPosition="topleft"></Stage>
             <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="dark"
@@ -95,7 +87,6 @@
                 <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
             </TextandimageList>
 
->>>>>>> 01c51c9244db2c13d85f7da20a4e227024a05dc9
             <slot id="main-content"/>
         </main>
         <Footer></Footer>
@@ -111,12 +102,6 @@
 </static-query>
 
 <script type="text/javascript">
-<<<<<<< HEAD
-import RQ_090 from '~/components/RQ-090.vue'
-import Header from '~/components/layout/Header.vue'
-import Footer from '~/components/layout/Footer.vue'
-
-=======
 import Header from '~/components/layout/Header.vue';
 import Footer from '~/components/layout/Footer.vue';
 import Categorybanner from '~/components/Categorybanner.vue';
@@ -131,7 +116,6 @@ import Contentteaser from '~/components/Contentteaser.vue';
 import TextandimageList from '~/components/TextandimageList.vue';
 import Textandimage from '~/components/Textandimage.vue';
 import RQ_090 from '~/components/RQ-090.vue';
->>>>>>> 01c51c9244db2c13d85f7da20a4e227024a05dc9
 
 window.onscroll = function (e) {
   updateViewport();
@@ -153,13 +137,8 @@ function updateViewport () {
   }
 }
 
-<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", function() {
   let lazyImages = document.querySelectorAll("[data-src]");
-=======
-document.addEventListener('DOMContentLoaded', function () {
-  var lazyImages = document.querySelectorAll('[data-src]');
->>>>>>> 01c51c9244db2c13d85f7da20a4e227024a05dc9
 });
 
 export default {
