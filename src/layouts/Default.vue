@@ -31,6 +31,22 @@
                 <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
             </TextandiconList>
 
+            <TextandiconList columns="4" align="center">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
+            </TextandiconList>
+
             <TextandiconList columns="3">
                 <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
             </TextandiconList>
@@ -42,6 +58,19 @@
                 <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
                 <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
                 <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+            </TextandiconList>
+
+            <TextandiconList columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
             </TextandiconList>
 
             <TextandiconList columns="2">
@@ -56,36 +85,175 @@
                 <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
                 <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
             </TextandiconList>
+
+            <TextandiconList columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
+            </TextandiconList>
+            <TextandiconList columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
+            </TextandiconList>
+
             <Imagegallery>
                 <Imagegalleryitem image="/mockdata/stage-vertical.png"></Imagegalleryitem>
             </Imagegallery>
+
             <Imagegallery>
                 <Imagegalleryitem image="/mockdata/stage-vertical.png"></Imagegalleryitem>
                 <Imagegalleryitem image="/mockdata/stage-vertical.png"></Imagegalleryitem>
             </Imagegallery>
+
             <Contentteaserlist>
                 <Contentteaser image="/mockdata/stage-vertical.png" imageformat="landscape"></Contentteaser>
                 <Contentteaser image="/mockdata/stage-vertical.png" imageformat="portrait"></Contentteaser>
                 <Contentteaser image="/mockdata/stage-vertical.png" imageformat="square"></Contentteaser>
             </Contentteaserlist>
 
-            <TextandimageList layout="vertical">
+            <TextandimageList>
                 <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
             </TextandimageList>
 
-            <TextandimageList layout="horizontal">
-                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
-            </TextandimageList>
-
-            <TextandimageList layout="vertical">
+            <TextandimageList>
                 <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
                 <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
             </TextandimageList>
 
-            <TextandimageList layout="horizontal">
+            <TextandimageList>
+                <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
                 <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
                 <Textandimage image="/mockdata/stage-vertical.png"></Textandimage>
             </TextandimageList>
+
+            <Richtext>
+                <h1>Headline H1</h1>
+                <h2>Headline H2</h2>
+                <h3>Headline H3</h3>
+                <p>Paragraph regular: Lorem <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="small">Paragraph small: <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="large">Paragraph large: <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="label">Paragraph label: <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <ul>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ul>
+                <ol>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ol>
+            </Richtext>
+
+            <Richtext columns="2">
+                <h1>Headline H1</h1>
+                <h2>Headline H2</h2>
+                <h3>Headline H3</h3>
+                <p>Paragraph regular: Lorem <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="small">Paragraph small: <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="large">Paragraph large: <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="label">Paragraph label: <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <ul>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ul>
+                <ol>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ol>
+            </Richtext>
+
+            <Richtext columns="3">
+                <h1>Headline H1</h1>
+                <h2>Headline H2</h2>
+                <h3>Headline H3</h3>
+                <p>Paragraph regular: Lorem <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="small">Paragraph small: <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="large">Paragraph large: <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="label">Paragraph label: <strong>ipsum</strong> <i>dolor</i> <del>sit</del> <u>amet</u>, <a href="#">consectetur</a> <sub>adipiscing</sub> <sup>elit</sup>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <ul>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ul>
+                <ol>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ol>
+            </Richtext>
+
+            <Cardlist>
+                <Quotecard text="Text" image="/mockdata/stage.jpg" name="Name" position="Position" theme="gray"></Quotecard>
+                <Quotecard text="Text" image="/mockdata/stage.jpg" name="Name" position="Position" theme="copper"></Quotecard>
+                <Quotecard text="Text" image="/mockdata/stage.jpg" name="Name" position="Position" theme="white"></Quotecard>
+            </Cardlist>
+
+            <Cardlist>
+                <Avatarcard image="/mockdata/stage.jpg" name="Name" position="Position" phone="123" theme="gray"></Avatarcard>
+                <Avatarcard image="/mockdata/stage.jpg" name="Name" position="Position" phone="123" theme="copper"></Avatarcard>
+                <Avatarcard image="/mockdata/stage.jpg" name="Name" position="Position" phone="123" theme="white"></Avatarcard>
+            </Cardlist>
+
+            <Cardlist>
+                <Imagecard image="/mockdata/stage.jpg" headline="Headline" subheadline="Subheadline" linktext="Link" linkurl="#" theme="gray"></Imagecard>
+                <Imagecard image="/mockdata/stage.jpg" headline="Headline" subheadline="Subheadline" linktext="Link" linkurl="#" theme="copper"></Imagecard>
+                <Imagecard image="/mockdata/stage.jpg" headline="Headline" subheadline="Subheadline" linktext="Link" linkurl="#" theme="white"></Imagecard>
+            </Cardlist>
+
+            <Cardlist>
+                <Textcard icon="/mockdata/stage.jpg" headline="Headline" subheadline="Subheadline" theme="gray">
+                    <p slot="text">1</p>
+                    <p slot="text">2</p>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                    </ul>
+                    <dl>
+                        <dt>Label</dt>
+                        <dd>Description</dd>
+                        <dd>Description</dd>
+                        <dt>Label</dt>
+                        <dd>Description</dd>
+                    </dl>
+                </Textcard>
+                <Textcard icon="/mockdata/stage.jpg" headline="Headline" subheadline="Subheadline" theme="copper">
+                    <p slot="text">1</p>
+                    <p slot="text">2</p>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                    </ul>
+                    <dl>
+                        <dt>Label</dt>
+                        <dd>Description</dd>
+                        <dd>Description</dd>
+                        <dt>Label</dt>
+                        <dd>Description</dd>
+                    </dl>
+                </Textcard>
+                <Textcard icon="/mockdata/stage.jpg" headline="Headline" subheadline="Subheadline" theme="white">
+                    <p slot="text">1</p>
+                    <p slot="text">2</p>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                    </ul>
+                    <dl>
+                        <dt>Label</dt>
+                        <dd>Description</dd>
+                        <dd>Description</dd>
+                        <dt>Label</dt>
+                        <dd>Description</dd>
+                    </dl>
+                </Textcard>
+            </Cardlist>
 
             <slot id="main-content"/>
         </main>
@@ -115,7 +283,15 @@ import Contentteaserlist from '~/components/Contentteaserlist.vue';
 import Contentteaser from '~/components/Contentteaser.vue';
 import TextandimageList from '~/components/TextandimageList.vue';
 import Textandimage from '~/components/Textandimage.vue';
+import Richtext from '~/components/Richtext.vue';
+import Card from '~/components/Card.vue';
+import Avatarcard from '~/components/Avatarcard.vue';
+import Quotecard from '~/components/Quotecard.vue';
+import Imagecard from '~/components/Imagecard.vue';
+import Textcard from '~/components/Textcard.vue';
+import Cardlist from '~/components/Cardlist.vue';
 import RQ_090 from '~/components/RQ-090.vue';
+import Avatar from '../components/Avatar';
 
 window.onscroll = function (e) {
   updateViewport();
@@ -143,6 +319,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 export default {
   components: {
+    Avatar,
     Header,
     Footer,
     Stage,
@@ -156,6 +333,13 @@ export default {
     Contentteaser,
     TextandimageList,
     Textandimage,
+    Richtext,
+    Cardlist,
+    Card,
+    Quotecard,
+    Avatarcard,
+    Imagecard,
+    Textcard,
     RQ_090
   },
   mounted () {

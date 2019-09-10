@@ -3,9 +3,9 @@
 }
 
 // width in columns (e.g. 3 columns)
-@function -width($_columns : 1, $_gutter: 10px, $_totalGrid: 12) {
+@function -width($_columns : 1, $_gutter: 10px, $_totalGrid: 12, $_factor: 1) {
   // edge17 needs a lower factor
-  @return calc((100% - (#{$_gutter} * (#{$_totalGrid} - 1))) / #{$_totalGrid} * #{$_columns} + ((#{$_columns} - 1) * (#{$_gutter} * 0.996))); // FIXED HALF PX PROBLEM (CUT OFF BORDER)
+  @return calc(((100% - (#{$_gutter} * (#{$_totalGrid} - 1))) / #{$_totalGrid} * #{$_columns} + ((#{$_columns} - 1) * (#{$_gutter} * 0.998))) * #{$_factor}); // FIXED HALF PX PROBLEM (CUT OFF BORDER)
 }
 
 // width in columns (e.g. 3 columns)
@@ -17,7 +17,7 @@
 // width in columns (e.g. 3 columns)
 @function -widthForNegativeOffset($_columns : 1, $_gutter: 10px, $_totalGrid: 12) {
   // edge17 needs a lower factor
-  @return calc(((100% - (#{$_gutter} * 1)) - (#{$_gutter} * (#{$_totalGrid} - 1))) / #{$_totalGrid} * #{$_columns} + ((#{$_gutter} - 1) * (#{$_gutter} * 0.996))); // FIXED HALF PX PROBLEM (CUT OFF BORDER)
+  @return calc(((100% - (#{$_gutter} * 1)) - (#{$_gutter} * (#{$_totalGrid} - 1))) / #{$_totalGrid} * #{$_columns} + ((#{$_gutter} - 1) * (#{$_gutter} * 0.998))); // FIXED HALF PX PROBLEM (CUT OFF BORDER)
 }
 
 // width in columns (e.g. 3 columns)

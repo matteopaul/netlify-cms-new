@@ -157,3 +157,45 @@
     line-height: 14px;
   }
 }
+
+%bulletlist {
+  list-style: none;
+  padding: 0;
+
+  li {
+    @extend %typo-p--regular;
+    position: relative;
+    padding-left: 50px;
+
+    + li {
+      margin-top: 10px;
+    }
+
+    &:before,
+    &:after {
+      position: absolute;
+      left: 0;
+      top: 0;
+      content: '';
+      display: block;
+      width: 34px;
+      height: 34px;
+    }
+    &:before {
+      background: $color--lightgray;
+      border-radius: 100%;
+      z-index: 1;
+    }
+    &:after {
+      background: url(~@/assets/svg/tick.svg);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      width: 16px;
+      height: 16px;
+      margin-left: (34px - 16px) / 2;
+      margin-top: (34px - 16px) / 2;
+      z-index: 2;
+    }
+  }
+}
