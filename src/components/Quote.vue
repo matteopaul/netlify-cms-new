@@ -37,6 +37,10 @@ export default {
     .kmt-quote {
         @include center-inner();
         @extend %padding;
+        // flex for usage in card
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
         blockquote {
             @extend %typo-h3;
@@ -51,7 +55,8 @@ export default {
         }
 
         .kmt-avatar {
-            margin-top: 20px;
+            margin-top: 40px;
+            margin-bottom: 10px;
         }
     }
 </style>

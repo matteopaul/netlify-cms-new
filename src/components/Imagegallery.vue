@@ -20,8 +20,8 @@ export default {
     }
   },
   mounted(){
-    this.imagecount = this.$children.filter(() => {
-      return this.$options.name === 'Imagegallery';
+    this.imagecount = this.$children.filter((el) => {
+      return el.$options.name === 'Imagegallery';
     }).length;
   }
 };
