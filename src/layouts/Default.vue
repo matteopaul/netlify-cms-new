@@ -314,7 +314,7 @@ function updateViewport () {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  var lazyImages = document.querySelectorAll('[data-src]');
+  let lazyImages = document.querySelectorAll("[data-src]");
 });
 
 export default {
