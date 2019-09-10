@@ -23,6 +23,14 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['to-string-loader', 'css-loader'],
+      }
+    ]
+  },
   siteName: 'Kosmonaut: Connected Commerce.',
   transformers: {
     remark: {
