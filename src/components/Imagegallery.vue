@@ -29,6 +29,7 @@ export default {
 
 <style lang="scss">
     .kmt-imagegallery {
+        @include center-inner-large();
         &--imagecount-2 {
             @include _grid(2, 20px, 20px);
         }

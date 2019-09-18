@@ -31,5 +31,6 @@ export default {
     .kmt-textandimagelist {
         display: flex;
         flex-wrap: wrap;
+        @include center-inner-large();
     }
 </style>

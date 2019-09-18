@@ -91,10 +91,7 @@ export default {
             }
 
             > a {
-                display: block;
-                color: $color--copper;
-                text-decoration: none;
-                margin-top: 20px;
+                @extend %typo-link;
             }
         }
     }

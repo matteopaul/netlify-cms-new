@@ -1,7 +1,9 @@
 <template>
     <!-- RQ-007 -->
-    <div class="kmt-richtext" :class="columnsCSSClass">
+    <div class="kmt-richtext" :class="[columnsCSSClass, backgroundCSSClass]">
+      <div class="kmt-richtext__inner">
         <slot></slot>
+      </div>
     </div>
 </template>
 
@@ -15,11 +17,18 @@ export default {
       validator: function (value) {
         return [1, 2, 3].indexOf(value) !== -1;
       }
+    },
+    background: {
+      type: Boolean,
+      default: false
     }
   },
   computed: {
     columnsCSSClass () {
       return `kmt-richtext--columns-${this.columns}`;
+    },
+    backgroundCSSClass() {
+      return `kmt-richtext--background-${this.background}`
     }
   }
 };
@@ -27,20 +36,44 @@ export default {
 
 <style lang="scss">
     .kmt-richtext {
-        &--columns {
-            &-1 {
-                column-count: 1;
-            }
+      $richtext: &;
+      @include center-inner-xl();
+      &--background-true {
+        background: $color--lightgray;
+      }
+      &__inner {
+        #{$richtext}--columns-1 {
+          column-count: 1;
+        }
 
-            &-2 {
-                column-count: 2;
-                column-gap: 20px;
-            }
+        #{$richtext}--columns-2 &{
+          column-count: 2;
+          column-gap: 20px;
+        }
 
-            &-3 {
-                column-count: 3;
-                column-gap: 20px;
-            }
+        #{$richtext}--columns-3 &{
+          column-count: 3;
+          column-gap: 20px;
+        }
+
+          /* &-1 & {
+              column-count: 1;
+          }
+
+          &-2 & {
+              column-count: 2;
+              column-gap: 20px;
+          }
+
+          &-3 & {
+              column-count: 3;
+              column-gap: 20px;
+          }
+        } */
+      }
+
+        &__inner {
+          @include center-inner-small();
         }
 
         a {

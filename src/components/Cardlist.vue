@@ -16,5 +16,6 @@ export default {
 <style lang="scss">
     .kmt-cardlist {
         @include _grid(3, 40px, 40px, '.kmt-card');
+        @include center-inner-large();
     }
 </style>

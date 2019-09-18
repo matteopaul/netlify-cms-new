@@ -16,88 +16,9 @@
             <Quote text="Text" image="/mockdata/stage.jpg" name="Name" position="Position"></Quote>
 
             <TextandiconList columns="4" align="center">
-                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="4">
-                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="4">
-                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="4">
-                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
             </TextandiconList>
 
-            <TextandiconList columns="4" align="center">
-                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="4">
-                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="4">
-                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="4">
-                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
-            </TextandiconList>
-
-            <TextandiconList columns="3">
-                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="3">
-                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="3">
-                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
-            </TextandiconList>
-
-            <TextandiconList columns="3">
-                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="3">
-                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="3">
-                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
-            </TextandiconList>
-
-            <TextandiconList columns="2">
-                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="2">
-                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="2">
-                <Textandicon image="/mockdata/stage.jpg" layout="vertical"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical"></Textandicon>
-            </TextandiconList>
-
-            <TextandiconList columns="2">
-                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="2">
-                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
-            </TextandiconList>
-            <TextandiconList columns="2">
-                <Textandicon image="/mockdata/stage.jpg" layout="horizontal"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
-                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal"></Textandicon>
-            </TextandiconList>
 
             <Imagegallery>
                 <Imagegalleryitem image="/mockdata/stage-vertical.png"></Imagegalleryitem>
@@ -110,8 +31,9 @@
 
             <Contentteaserlist>
                 <Contentteaser image="/mockdata/stage-vertical.png" imageformat="landscape"></Contentteaser>
-                <Contentteaser image="/mockdata/stage-vertical.png" imageformat="portrait"></Contentteaser>
                 <Contentteaser image="/mockdata/stage-vertical.png" imageformat="square"></Contentteaser>
+                <Contentteaser image="/mockdata/stage-vertical.png" imageformat="portrait"></Contentteaser>
+                <Contentteaser image="/mockdata/stage-vertical.png" imageformat="landscape"></Contentteaser>
             </Contentteaserlist>
 
             <TextandimageList>
@@ -149,7 +71,7 @@
                 </ol>
             </Richtext>
 
-            <Richtext columns="2">
+            <Richtext columns="2" background=true>
                 <h1>Headline H1</h1>
                 <h2>Headline H2</h2>
                 <h3>Headline H3</h3>
@@ -253,7 +175,139 @@
                         <dd>Description</dd>
                     </dl>
                 </Textcard>
-            </Cardlist>
+            </Cardlist> -->
+
+            <PromotionBanner title="Expertise" src="/mockdata/stage.jpg" background=true overlay=false align="left">
+              <div class="kmt-promotionbanner__list">
+                <p class="label">Liste 1</p>
+                <ul>
+                    <li>1asdasdasdadlakjdsalk</li>
+                    <li>2</li>
+                </ul>
+              </div>
+
+              <div class="kmt-promotionbanner__list">
+                <p class="label">Liste 2</p>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                </ul>
+              </div>
+              <g-link to="/">Mehr Details</g-link>
+            </PromotionBanner>
+
+            <PromotionBanner title="Expertise" src="/mockdata/stage.jpg" background=false overlay=false align="left">
+              <div class="kmt-promotionbanner__list">
+                <p class="label">Liste 1</p>
+                <ul>
+                    <li>1asdasdasdadlakjdsalk</li>
+                    <li>2</li>
+                </ul>
+              </div>
+
+              <div class="kmt-promotionbanner__list">
+                <p class="label">Liste 2</p>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                </ul>
+              </div>
+              <g-link to="/">Mehr Details</g-link>
+            </PromotionBanner>
+
+            <PromotionBanner title="Expertise" src="/mockdata/stage.jpg" background=false overlay=true align="left">
+              <div class="kmt-promotionbanner__list">
+                <p class="label">Liste 1</p>
+                <ul>
+                    <li>1asdasdasdadlakjdsalk</li>
+                    <li>2</li>
+                </ul>
+              </div>
+
+              <div class="kmt-promotionbanner__list">
+                <p class="label">Liste 2</p>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                </ul>
+              </div>
+              <g-link to="/">Mehr Details</g-link>
+            </PromotionBanner>
+
+            <PromotionBanner src="/mockdata/stage.jpg" title="Text mit Icon" background=false overlay=true align="left">
+              <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="text and icon" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+              <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="text and icon" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </PromotionBanner>
+
+            <Breadcrumb path="expertise/hallo"/>
+
+            <Attributefilter filterType="agency" />
+
+            <Contactbanner>
+              <h2 class="kmt-contactbanner__title">Title</h2>
+              <p class="kmt-contactbanner__text">Ich möchte gerne mehr Informationen zu.</p>
+              <input type="email" class="kmt-contactbanner__email">
+              <select>
+                <option value="">Fashion</option>
+                <option value="">1</option>
+                <option value="">Automotive</option>
+              </select>
+              <button type="button" name="button" class="kmt-contactbanner__button">Email</button>
+            </Contactbanner>
+
+            <Contactbanner>
+              <h2 class="kmt-contactbanner__title">Title</h2>
+              <p class="kmt-contactbanner__text">Ich möchte gerne mehr Informationen zu.</p>
+              <button type="button" class="kmt-contactbanner__phone">+49 5242 588 0124</button>
+              <button type="button" name="button" class="kmt-contactbanner__button">Email</button>
+            </Contactbanner>
+
+            <Projectlink title="Hallo" src="/mockdata/stage.jpg" blobColor="midnight" blobPosition="right">
+              <h2 class="kmt-projectlink__title">Modepark</h2>
+              <p>„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“</p>
+            </Projectlink>
+
+            <Projectlink title="Hallo" src="/mockdata/stage.jpg" blobColor="dark" blobPosition="middle">
+              <h2 class="kmt-projectlink__title">Modepark</h2>
+              <p>„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“</p>
+            </Projectlink>
+
+            <Projectlink title="Hallo" src="/mockdata/stage.jpg" blobColor="copper" blobPosition="left">
+              <h2 class="kmt-projectlink__title">Modepark</h2>
+              <p>„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“</p>
+            </Projectlink>
+
+            <Contentslider stagecount="3">
+              <Contentstage cardTheme="white" src="/mockdata/stage.jpg" headline="Dollar Sans">
+                <p slot="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                </ul>
+              </Contentstage>
+              <Contentstage cardTheme="white" src="/mockdata/stage.jpg" headline="Dollar Sans" position="bottom">
+                <p slot="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                </ul>
+              </Contentstage>
+              <Contentstage cardTheme="white" src="/mockdata/stage.jpg" headline="Dollar Sans" position="middle">
+                <p slot="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                </ul>
+              </Contentstage>
+            </Contentslider>
+
+            <Contentstage cardTheme="white" src="/mockdata/stage.jpg" headline="Dollar Sans" position="top">
+              <p slot="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+              <ul>
+                  <li>1</li>
+                  <li>2</li>
+              </ul>
+            </Contentstage>
 
             <slot id="main-content"/>
         </main>
@@ -292,6 +346,13 @@ import Textcard from '~/components/Textcard.vue';
 import Cardlist from '~/components/Cardlist.vue';
 import RQ_090 from '~/components/RQ-090.vue';
 import Avatar from '../components/Avatar';
+import PromotionBanner from '~/components/Promotionbanner.vue';
+import Breadcrumb from '~/components/Breadcrumb.vue';
+import Attributefilter from '~/components/Attributefilter.vue';
+import Contactbanner from '~/components/Contactbanner.vue';
+import Projectlink from '~/components/Projectlink.vue';
+import Contentslider from '~/components/Contentslider.vue';
+import Contentstage from '~/components/Contentstage.vue';
 
 window.onscroll = function (e) {
   updateViewport();
@@ -340,7 +401,14 @@ export default {
     Avatarcard,
     Imagecard,
     Textcard,
-    RQ_090
+    RQ_090,
+    PromotionBanner,
+    Breadcrumb,
+    Attributefilter,
+    Contactbanner,
+    Projectlink,
+    Contentslider,
+    Contentstage
   },
   mounted () {
 
@@ -378,28 +446,17 @@ export default {
         line-height: 1.5;
     }
 
+
+    .label {
+      @extend %typo-label;
+    }
+
     /*################################################*/
     /*###############------------#####################*/
     /*###############----FORMS----####################*/
     /*###############------------#####################*/
     /*################################################*/
     /*################################################*/
-
-    button {
-        width: 192px;
-        height: 48px;
-        grid-row: span 3;
-        grid-column: span 2;
-        background: var(--copper);
-        color: var(--white);
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-size: 14px;
-    }
-
-    button:focus {
-        outline: none;
-    }
 
 
     /*################################################*/

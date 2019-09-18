@@ -33,10 +33,12 @@ export default {
 
 <style lang="scss">
     .kmt-contentteaserlist {
+        @include center-inner-large();
+
         &__list {
             .kmt-contentteaser,
             &__grid {
-                width: _width(6, 20px);
+                width: _width(6, 30px);
             }
 
             .kmt-contentteaser {
@@ -44,7 +46,34 @@ export default {
             }
 
             &__gutter {
-                width: 20px;
+                width: 0;
+            }
+
+            .kmt-contentteaser--imageformat {
+              &-landscape {
+                &:nth-child(2n + 1) {
+                  padding-right: 0
+                }
+                &:nth-child(2n + 2) {
+                  padding-left: 0
+                }
+              }
+              &-portrait {
+                &:nth-child(2n + 1) {
+                  padding-right: 240px
+                }
+                &:nth-child(2n + 2) {
+                  padding-left: 240px
+                }
+              }
+              &-square {
+                &:nth-child(2n + 1) {
+                  padding-right: 120px
+                }
+                &:nth-child(2n + 2) {
+                  padding-left: 120px
+                }
+              }
             }
         }
     }

@@ -2,11 +2,11 @@ import React from 'react';
 import CMS from 'netlify-cms';
 // import styles from '/preview.css';
 
-const css = require('/preview.css').toString();
+const css = require('./preview.scss').toString();
 
 
 
-CMS.registerPreviewStyle(styles.toString(), {raw: true});
+CMS.registerPreviewStyle(css.toString(), {raw: true});
 
 var PagePreview = createClass({
   render: function() {

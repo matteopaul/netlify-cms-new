@@ -10,12 +10,19 @@ $grid-breakpoints: (
 $content-breakpoints: (
         xxs: 0,
         xs: 380px,
-        s: 480px,
-        mmm: 600px,
-        mm: 800px,
-        m: 1080px,
-        l: 1400px,
+        s: 928px,
+        mm: 1169px,
+        mmm: 1288px,
+        m: 1400px,
+        l: 1408px,
+        ll: 1600px,
         xl: 1920px
+) !default;
+
+$textandicon-breakpoints: (
+        s: 1080px,
+        m: 1288px,
+        l: 1408px
 ) !default;
 
 $gutter: (

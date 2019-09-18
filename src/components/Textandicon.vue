@@ -6,11 +6,11 @@
         </div>
         <div class="kmt-textandicon__text">
             <h4>
-                <small>Subheadline</small>
-                Headline
+                <small v-if="subtitle" v-html="subtitle" />
+                {{title}}
             </h4>
-            <p>Invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo.</p>
-            <a href="#">Mehr Details</a>
+            <p v-html="text" />
+            <g-link :to="link" v-if="link && linkText">{{linkText}}</g-link>
         </div>
     </div>
 </template>
@@ -21,6 +21,24 @@ export default {
   props: {
     image: {
       type: String
+    },
+    title: {
+      type: String
+    },
+    subtitle: {
+      type: String,
+      required: false
+    },
+    text: {
+      type: String
+    },
+    linkText: {
+      type: String,
+      required: false
+    },
+    link: {
+      type: String,
+      required: false
     },
     layout: {
       type: String,
@@ -85,10 +103,8 @@ export default {
             }
 
             > a {
-                display: block;
-                color: $color--copper;
-                text-decoration: none;
                 margin-top: 20px;
+                @extend %typo-link
             }
         }
 

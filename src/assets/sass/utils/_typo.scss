@@ -158,6 +158,37 @@
   }
 }
 
+%typo-link {
+  font-family: 'Gotham-Medium';
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  color: $color--copper;
+  font-size: 14px;
+  text-decoration: none;
+
+  &::after {
+    content: url('/uploads/arrow-button_link.svg');
+    width: 22px;
+    height: 12px;
+    margin-left: 12px;
+  }
+}
+
+%button {
+  width: 192px;
+  height: 48px;
+  background: $color--copper;
+  @extend %typo-label;
+  color: $color--white;
+  cursor: pointer;
+  border: none;
+
+  &:focus {
+      outline: none;
+  }
+}
+
 %bulletlist {
   list-style: none;
   padding: 0;

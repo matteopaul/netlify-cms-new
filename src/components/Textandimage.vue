@@ -2,24 +2,26 @@
     <!-- RQ-00? (eigentlich RQ-021) -->
     <div class="kmt-textandimage">
         <div class="kmt-textandimage__image">
-            <img :src="image"/>
+            <Responsiveimage :src="image"/>
         </div>
         <div class="kmt-textandimage__text">
-            <h4>
-                Headline
-            </h4>
+            <h3>Headline</h3>
             <p>Invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo.</p>
         </div>
     </div>
 </template>
 
 <script>
+import Responsiveimage from "~/components/Responsiveimage.vue";
 export default {
   name: 'Textandimage',
   props: {
     image: {
       type: String
     }
+  },
+  components: {
+    Responsiveimage
   }
 };
 </script>
@@ -40,19 +42,15 @@ export default {
                 display: block;
                 content: '';
             }
-
-            img {
-                position: absolute;
-                left: 0;
-                top: 0;
-                background-size: cover;
-                display: block;
-                width: 100%;
-                height: 100%;
-            }
         }
 
         &__text {
+          h3 {
+            @extend %typo-h3;
+          }
+          p {
+            @extend %typo-p--regular;
+          }
         }
 
         &:nth-child(even) {

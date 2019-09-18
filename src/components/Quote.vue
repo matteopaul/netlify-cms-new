@@ -35,7 +35,7 @@ export default {
 
 <style lang="scss">
     .kmt-quote {
-        @include center-inner();
+        @include center-inner-small();
         @extend %padding;
         // flex for usage in card
         display: flex;
