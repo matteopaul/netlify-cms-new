@@ -21,7 +21,7 @@ export default {
   },
   mounted(){
     this.imagecount = this.$children.filter((el) => {
-      return el.$options.name === 'Imagegallery';
+      return el.$options.name === 'Imagegalleryitem';
     }).length;
   }
 };
