@@ -65,12 +65,12 @@
 </template>
 
 <script>
-import RQ_090 from '~/components/RQ-090.vue';
+// import RQ_090 from '~/components/RQ-090.vue';
 
 export default {
   name: 'Footer',
   components: {
-    RQ_090
+    // RQ_090
   }
 };
 </script>

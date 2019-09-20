@@ -338,13 +338,13 @@ import Contentteaser from '~/components/Contentteaser.vue';
 import TextandimageList from '~/components/TextandimageList.vue';
 import Textandimage from '~/components/Textandimage.vue';
 import Richtext from '~/components/Richtext.vue';
-import Card from '~/components/Card.vue';
+// import Card from '~/components/Card.vue';
 import Avatarcard from '~/components/Avatarcard.vue';
 import Quotecard from '~/components/Quotecard.vue';
 import Imagecard from '~/components/Imagecard.vue';
 import Textcard from '~/components/Textcard.vue';
 import Cardlist from '~/components/Cardlist.vue';
-import RQ_090 from '~/components/RQ-090.vue';
+// import RQ_090 from '~/components/RQ-090.vue';
 import Avatar from '../components/Avatar';
 import PromotionBanner from '~/components/Promotionbanner.vue';
 import Breadcrumb from '~/components/Breadcrumb.vue';
@@ -396,12 +396,12 @@ export default {
     Textandimage,
     Richtext,
     Cardlist,
-    Card,
+    // Card,
     Quotecard,
     Avatarcard,
     Imagecard,
     Textcard,
-    RQ_090,
+    // RQ_090,
     PromotionBanner,
     Breadcrumb,
     Attributefilter,

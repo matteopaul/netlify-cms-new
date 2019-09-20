@@ -1,6 +1,6 @@
 <template>
   <div class="contact-container">
-    <RQ_008 size="H3" title="Jetzt Kontaktieren" />
+<!--    <RQ_008 size="H3" title="Jetzt Kontaktieren" />-->
     <div class="contact-input">
       <p class="label">name *</p>
       <input type="text" name="" value="">
@@ -36,13 +36,13 @@
 </template>
 
 <script>
-import RQ_092 from '~/components/RQ-092.vue'
-import RQ_008 from '~/components/RQ-008.vue'
+// import RQ_092 from '~/components/RQ-092.vue'
+// import RQ_008 from '~/components/RQ-008.vue'
 export default {
   name: 'contact',
   components: {
-    RQ_092,
-    RQ_008
+    // RQ_092,
+    // RQ_008
   }
 }
 </script>

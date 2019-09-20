@@ -2,7 +2,7 @@
   <div class="card-slider-container">
     <div class="card-slider-stage-container">
       <div class="card-slider-stage" v-for="card in content">
-        <RQ_092 :color="card.color" v-bind:contents="card.content" />
+<!--        <RQ_092 :color="card.color" v-bind:contents="card.content" />-->
       </div>
     </div>
           <!---#########-DOTS-########---->
@@ -15,7 +15,7 @@
 
 <script>
 //document.getElementsByClassName('card-slider-stage-container')[0].style.width = this.
-import RQ_092 from '~/components/RQ-092.vue'
+// import RQ_092 from '~/components/RQ-092.vue'
 
 let currentSlide = 1;
 
@@ -30,7 +30,7 @@ export default {
     }
   },
   components: {
-    RQ_092
+    // RQ_092
   },
   created () {
     setTimeout(() => {
