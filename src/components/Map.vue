@@ -1,19 +1,13 @@
 <template>
-  <div class="map-container" :class="classes">
-    <div id="map"/>
-  </div>
+    <div class="kmt-map" :class="sizeCSSClass">
+        <div class="kmt-map__inner">
+            <div ref="map"></div>
+        </div>
+    </div>
 </template>
 
 
 <script>
-var map;
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
-    zoom: 8
-  });
-}
-
 export default {
   name: 'Map',
   props: {
@@ -22,22 +16,49 @@ export default {
     }
   },
   computed: {
-    classes() {
-      return " " + this.size;
+    sizeCSSClass () {
+      return `kmt-map--size-${this.size}`;
     }
+  },
+  created () {
+    // TODO: make sure google has been loaded at this point
+
+    new google.maps.Map(this.$refs.map, {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+    });
   }
-}
+};
 </script>
 
-<style>
-  .map-container.large {
-    grid-column: span 6;
-    height: 688px;
-    grid-row: span 2;
-    background: var(--gray);
-  }
+<style lang="scss">
+    .kmt-map {
+        $map: &;
+        position: relative;
+        background: var(--gray);
 
-  .map-container.small {
-    grid-column: span 4;
-  }
+        &__inner {
+            &:before {
+                padding-top: 50%;
+                content: '';
+                display: block;
+            }
+
+            > div {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+            }
+
+            #{$map}--size-small & {
+                @include center-inner-mm();
+            }
+
+            #{$map}--size-large & {
+                @include center-inner-ll();
+            }
+        }
+    }
 </style>

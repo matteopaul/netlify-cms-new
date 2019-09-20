@@ -1,4 +1,5 @@
 <template>
+    <!-- RQ-091 -->
     <div class="kmt-quote">
         <blockquote v-html="text"></blockquote>
         <Avatar :name="name" :position="position" :image="image"></Avatar>
