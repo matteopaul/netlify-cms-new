@@ -30,7 +30,7 @@ export default {
       default: 'mehr erfahren'
     },
     src: {
-      type: Object,
+      type: String,
       default: function () {
         return {};
       }

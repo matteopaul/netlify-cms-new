@@ -1,9 +1,9 @@
 <template>
     <!-- RQ-007 -->
     <div class="kmt-richtext" :class="[columnsCSSClass, backgroundCSSClass]">
-      <div class="kmt-richtext__inner">
-        <slot></slot>
-      </div>
+        <div class="kmt-richtext__inner">
+            <slot></slot>
+        </div>
     </div>
 </template>
 
@@ -12,9 +12,9 @@ export default {
   name: 'Richtext',
   props: {
     columns: {
-      type: String,
+      type: Number,
       default: 1,
-      validator: function (value) {
+      validator: (value) => {
         return [1, 2, 3].indexOf(value) !== -1;
       }
     },
@@ -27,8 +27,8 @@ export default {
     columnsCSSClass () {
       return `kmt-richtext--columns-${this.columns}`;
     },
-    backgroundCSSClass() {
-      return `kmt-richtext--background-${this.background}`
+    backgroundCSSClass () {
+      return `kmt-richtext--background-${this.background}`;
     }
   }
 };
@@ -36,44 +36,46 @@ export default {
 
 <style lang="scss">
     .kmt-richtext {
-      $richtext: &;
-      @include center-inner-xl();
-      &--background-true {
-        background: $color--lightgray;
-      }
-      &__inner {
-        #{$richtext}--columns-1 {
-          column-count: 1;
+        $richtext: &;
+        @include center-inner-xl();
+
+        &--background-true {
+            background: $color--lightgray;
         }
-
-        #{$richtext}--columns-2 &{
-          column-count: 2;
-          column-gap: 20px;
-        }
-
-        #{$richtext}--columns-3 &{
-          column-count: 3;
-          column-gap: 20px;
-        }
-
-          /* &-1 & {
-              column-count: 1;
-          }
-
-          &-2 & {
-              column-count: 2;
-              column-gap: 20px;
-          }
-
-          &-3 & {
-              column-count: 3;
-              column-gap: 20px;
-          }
-        } */
-      }
 
         &__inner {
-          @include center-inner-small();
+            #{$richtext}--columns-1 {
+                column-count: 1;
+            }
+
+            #{$richtext}--columns-2 & {
+                column-count: 2;
+                column-gap: 20px;
+            }
+
+            #{$richtext}--columns-3 & {
+                column-count: 3;
+                column-gap: 20px;
+            }
+
+            /* &-1 & {
+                column-count: 1;
+            }
+
+            &-2 & {
+                column-count: 2;
+                column-gap: 20px;
+            }
+
+            &-3 & {
+                column-count: 3;
+                column-gap: 20px;
+            }
+          } */
+        }
+
+        &__inner {
+            @include center-inner-small();
         }
 
         a {
@@ -99,9 +101,11 @@ export default {
             &.small {
                 @extend %typo-p--small;
             }
+
             &.large {
                 @extend %typo-p--large;
             }
+
             &.label {
                 @extend %typo-label;
             }

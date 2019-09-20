@@ -10,7 +10,7 @@ export default {
   name: 'Responsiveimage',
   props: {
     src: {
-      type: Object
+      type: String
     },
     mode: {
       type: String,

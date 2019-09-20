@@ -40,7 +40,7 @@ export default {
       }
     },
     image: {
-      type: Object
+      type: String
     }
   },
   computed: {

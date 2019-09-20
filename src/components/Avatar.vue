@@ -14,9 +14,9 @@ export default {
   name: 'Avatar',
   props: {
     image: {
-      type: Object,
+      type: String,
       default () {
-        return {};
+        return '';
       }
     },
     name: {

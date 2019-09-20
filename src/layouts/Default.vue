@@ -8,17 +8,99 @@
                    backgroundImage="/mockdata/stage.jpg" textPosition="middleleft"></Stage>
             <Stage headline="Headline" buttonText="Button" buttonLink="#" text="Text" theme="light"
                    backgroundImage="/mockdata/stage.jpg" textPosition="bottomleft"></Stage>
+
             <Categorybanner headline="Headline" text="Text" imageType="background"
                             image="/mockdata/stage.jpg"></Categorybanner>
             <Categorybanner headline="Headline" text="Text" imageType="inline"
                             image="/mockdata/stage.jpg"></Categorybanner>
             <Categorybanner headline="Headline" text="Text" imageType="inline"></Categorybanner>
+
             <Quote text="Text" image="/mockdata/stage.jpg" name="Name" position="Position"></Quote>
 
-            <TextandiconList columns="4" align="center">
+            <TextandiconList :columns="4" align="center">
                 <Textandicon image="/mockdata/stage.jpg" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
             </TextandiconList>
 
+            <TextandiconList :columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+
+            <TextandiconList :columns="4" align="center">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="4">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+
+            <TextandiconList :columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+
+            <TextandiconList :columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="3">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+
+            <TextandiconList :columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="vertical" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+
+            <TextandiconList :columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
+            <TextandiconList :columns="2">
+                <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+                <Textandicon image="/mockdata/stage-vertical.png" layout="horizontal" title="t_a_i" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
+            </TextandiconList>
 
             <Imagegallery>
                 <Imagegalleryitem image="/mockdata/stage-vertical.png"></Imagegalleryitem>
@@ -71,7 +153,7 @@
                 </ol>
             </Richtext>
 
-            <Richtext columns="2" background=true>
+            <Richtext :columns="2" :background="true">
                 <h1>Headline H1</h1>
                 <h2>Headline H2</h2>
                 <h3>Headline H3</h3>
@@ -91,7 +173,7 @@
                 </ol>
             </Richtext>
 
-            <Richtext columns="3">
+            <Richtext :columns="3">
                 <h1>Headline H1</h1>
                 <h2>Headline H2</h2>
                 <h3>Headline H3</h3>
@@ -177,7 +259,7 @@
                 </Textcard>
             </Cardlist> -->
 
-            <PromotionBanner title="Expertise" src="/mockdata/stage.jpg" background=true overlay=false align="left">
+            <PromotionBanner title="Expertise" src="/mockdata/stage.jpg" :background="true" :overlay="false" align="left">
               <div class="kmt-promotionbanner__list">
                 <p class="label">Liste 1</p>
                 <ul>
@@ -196,7 +278,7 @@
               <g-link to="/">Mehr Details</g-link>
             </PromotionBanner>
 
-            <PromotionBanner title="Expertise" src="/mockdata/stage.jpg" background=false overlay=false align="left">
+            <PromotionBanner title="Expertise" src="/mockdata/stage.jpg" :background="false" :overlay="false" align="left">
               <div class="kmt-promotionbanner__list">
                 <p class="label">Liste 1</p>
                 <ul>
@@ -215,7 +297,7 @@
               <g-link to="/">Mehr Details</g-link>
             </PromotionBanner>
 
-            <PromotionBanner title="Expertise" src="/mockdata/stage.jpg" background=false overlay=true align="left">
+            <PromotionBanner title="Expertise" src="/mockdata/stage.jpg" :background="false" :overlay="true" align="left">
               <div class="kmt-promotionbanner__list">
                 <p class="label">Liste 1</p>
                 <ul>
@@ -234,7 +316,7 @@
               <g-link to="/">Mehr Details</g-link>
             </PromotionBanner>
 
-            <PromotionBanner src="/mockdata/stage.jpg" title="Text mit Icon" background=false overlay=true align="left">
+            <PromotionBanner src="/mockdata/stage.jpg" title="Text mit Icon" :background="false" :overlay="true" align="left">
               <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="text and icon" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
               <Textandicon image="/mockdata/stage.jpg" layout="horizontal" title="text and icon" text="textandicon" subtitle="description" linkText="hier entlang" link="/"></Textandicon>
             </PromotionBanner>
@@ -277,7 +359,7 @@
               <p>„Lorem ipsum dolor sit ameetur adipiscing elit. Aenean euismod bibendum laoreet.“</p>
             </Projectlink>
 
-            <Contentslider stagecount="3">
+            <Contentslider :stagecount="3">
               <Contentstage cardTheme="white" src="/mockdata/stage.jpg" headline="Dollar Sans">
                 <p slot="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
                 <ul>
@@ -411,20 +493,6 @@ export default {
     Contentstage
   },
   mounted () {
-
-    document.getElementsByClassName('menu-nav-close')[0].addEventListener('click', function () {
-      document.getElementsByClassName('menu')[0].style.width = '0px';
-    });
-    document.getElementsByClassName('header-nav')[0].addEventListener('click', () => {
-      document.getElementsByClassName('menu')[0].style.width = '680px';
-
-    });
-    for (let i = 0; i < document.getElementsByClassName('menu-li').length; i++) {
-      document.getElementsByClassName('menu-li')[i].addEventListener('click', () => {
-        document.getElementsByClassName('menu')[0].style.width = '0px';
-        updateViewport();
-      });
-    }
   }
 };
 </script>
@@ -446,52 +514,15 @@ export default {
         line-height: 1.5;
     }
 
-
     .label {
       @extend %typo-label;
     }
-
-    /*################################################*/
-    /*###############------------#####################*/
-    /*###############----FORMS----####################*/
-    /*###############------------#####################*/
-    /*################################################*/
-    /*################################################*/
-
-
-    /*################################################*/
-    /*###############------------#####################*/
-    /*###############----MAIN----#####################*/
-    /*###############------------#####################*/
-    /*################################################*/
-    /*################################################*/
 
     .layout > main {
         > * + * {
             margin-top: 100px;
         }
-        /*
-        display: grid;
-        grid-auto-rows: minmax(8px, auto);
-        grid-column-gap: 32px;
-        grid-row-gap: 8px;
-        padding: 0;
-
-        &:first-child::before {
-            content: '';
-            height: 96px;
-            grid-column: 1 / 13;
-            grid-row: span 6;
-        }
-         */
     }
-
-    /*################################################*/
-    /*###############------------#####################*/
-    /*###############----TYPO----#####################*/
-    /*###############------------#####################*/
-    /*################################################*/
-    /*################################################*/
 
 
     @font-face {
@@ -509,41 +540,4 @@ export default {
         src: url("../assets/Sentinel-Book.otf");
         font-weight: normal;
     }
-
-    /*############---------MOBILE VIEW----------#################*/
-    @media only screen and (max-width: 768px) {
-        .layout {
-            /*
-            width: 328px;
-            margin: 0 auto;
-            grid-template-columns: repeat(2, 88px);
-             */
-        }
-    }
-
-    /*############---------MOBILE AND TABLET VIEW----------#################*/
-    @media only screen and (max-width: 1024px) {
-    }
-
-    /*################-------------iPAD VIEW------------##############*/
-    @media only screen and (min-width: 768px) {
-        .layout {
-            /*
-            width: 720px;
-            margin: 0 auto;
-             */
-        }
-    }
-
-    /*###############-----------DESKTOP VIEW-----------###############*/
-    @media only screen and (min-width: 1024px) {
-        .layout {
-            /*
-            width: 1408px;
-            margin: 0 auto;
-            grid-template-columns: repeat(12, 88px);
-             */
-        }
-    }
-
 </style>

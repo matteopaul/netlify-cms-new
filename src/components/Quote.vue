@@ -19,9 +19,9 @@ export default {
       type: String
     },
     image: {
-      type: Object,
+      type: String,
       default () {
-        return {};
+        return '';
       }
     },
     name: {

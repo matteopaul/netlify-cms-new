@@ -22,7 +22,7 @@ export default {
       type: String
     },
     src: {
-      type: Object,
+      type: String,
       default: function() {
         return{};
       }

@@ -17,7 +17,7 @@ import Responsiveimage from '~/components/Responsiveimage.vue';
 import Button from '~/components/Button.vue';
 
 export default {
-  name: 'RQ-013',
+  name: 'Stage',
   components: {
     Responsiveimage,
     Button
@@ -33,7 +33,7 @@ export default {
       type: String
     },
     backgroundImage: {
-      type: Object,
+      type: String,
       default () {
         return {};
       }
