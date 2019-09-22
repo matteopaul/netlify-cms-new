@@ -436,9 +436,11 @@ import Projectlink from '~/components/Projectlink.vue';
 import Contentslider from '~/components/Contentslider.vue';
 import Contentstage from '~/components/Contentstage.vue';
 
+/*
 window.onscroll = function (e) {
   updateViewport();
 };
+ */
 
 function updateViewport () {
   const elements = document.querySelectorAll('[data-srcset]');
@@ -456,9 +458,11 @@ function updateViewport () {
   }
 }
 
+/*
 document.addEventListener('DOMContentLoaded', function () {
   let lazyImages = document.querySelectorAll("[data-src]");
 });
+ */
 
 export default {
   components: {

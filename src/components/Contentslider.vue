@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Flickity from 'flickity';
+//import Flickity from 'flickity';
 
 export default {
   name: 'Contentslider',
@@ -19,6 +19,7 @@ export default {
   },
   components: {},
   mounted () {
+    /*
     new Flickity(this.$refs.slider, {
       cellAlign: 'left',
       contain: true,
@@ -27,6 +28,8 @@ export default {
       autoPlay: 5000,
       pauseAutoPlayOnHover: true
     });
+
+     */
   }
 };
 </script>

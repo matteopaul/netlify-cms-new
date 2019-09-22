@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Masonry from 'masonry-layout';
+// import Masonry from 'masonry-layout';
 
 export default {
   name: 'Contentteaserlist',
@@ -21,12 +21,14 @@ export default {
   },
   computed: {},
   mounted () {
+    /*
     var msnry = new Masonry(this.$refs.list, {
       columnWidth: '.kmt-contentteaserlist__list__grid',
       gutter: '.kmt-contentteaserlist__list__gutter',
       itemSelector: '.kmt-contentteaser',
       percentPosition: true
     });
+     */
   }
 };
 </script>
